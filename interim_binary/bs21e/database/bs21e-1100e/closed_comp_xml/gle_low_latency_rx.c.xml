@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[low latency] rx_counter:%d, rx total packet:%d, loss counter:%d @gle_low_latency_rx.c(46),INFO" ID="0xd8280175" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general rx tog up callback memcpy fail @gle_low_latency_rx.c(102),ERROR" ID="0xd8280332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general rx tog up callback memset fail @gle_low_latency_rx.c(134),ERROR" ID="0xd8280432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="RX BUFF malloc fail!, size:%d @gle_low_latency_rx.c(150),ERROR" ID="0xd82804b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general rx enable! @gle_low_latency_rx.c(152),INFO" ID="0xd82804c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general rx disable! @gle_low_latency_rx.c(165),INFO" ID="0xd828052d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy low latency callback fail @gle_low_latency_rx.c(173),ERROR" ID="0xd828056a" />
+			</MSG_LOG>

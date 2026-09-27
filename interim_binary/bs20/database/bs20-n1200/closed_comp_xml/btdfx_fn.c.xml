@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_tx, freq=%d, mode=%d @btdfx_fn.c(105),INFO" ID="0x889e034d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop_tx @btdfx_fn.c(114),INFO" ID="0x889e0395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:start_rx : %d @btdfx_fn.c(122),INFO" ID="0x889e03d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO][DFX]dfx_bt_debug_cmd_callback:stop_rx @btdfx_fn.c(130),INFO" ID="0x889e0415" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="dfx_sp_samp, clkn=0x%x, sp_intv=%d, enable_mode=%d @btdfx_fn.c(305),INFO" ID="0x889e098d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="c_trim code write succ: XO_CORE_CTRIM_MAN = 0x%x @btdfx_fn.c(313),INFO" ID="0x889e09cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="c_trim code XO_CORE_CTRIM_MAN = 0x%x @btdfx_fn.c(320),INFO" ID="0x889e0a05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dfx_es_reduce flag = %d @btdfx_fn.c(333),INFO" ID="0x889e0a6d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="dfx_memory_monitor heap used: %d, max heap used: %d, heap size:%d @btdfx_fn.c(343),INFO" ID="0x889e0abd" />
+			</MSG_LOG>

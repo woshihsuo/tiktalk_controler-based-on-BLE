@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[PER SYNC][MGR]fsm exception! src_id=0x%x, dest_id=0x%x, msg_id=0x%x @lm_ble_per_sync_fsm.c(24),WARNING" ID="0x88e000c3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[PER SYNC]fsm exception! src_id=0x%x, dest_id=0x%x, msg_id=0x%x @lm_ble_per_sync_fsm.c(102),WARNING" ID="0x88e00333" />
+			</MSG_LOG>

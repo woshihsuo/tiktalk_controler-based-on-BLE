@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]em_free_gle_rx_desc_patch idx(0x%x)current_idx(%d)rxdatabuf_header_idx(%d)BT_GET_LR(0x%x)) @patch_gle_isr.c(63),ERROR" ID="0x899a01fa" />
+			</MSG_LOG>

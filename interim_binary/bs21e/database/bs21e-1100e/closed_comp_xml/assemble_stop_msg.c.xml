@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to stopMsg! @assemble_stop_msg.c(20),ERROR" ID="0xd72200a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendPowerOffMsg! @assemble_stop_msg.c(37),INFO" ID="0xd722012d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendSleepMsg! @assemble_stop_msg.c(44),INFO" ID="0xd7220165" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendStopRangingMsg! @assemble_stop_msg.c(51),INFO" ID="0xd722019d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendTaskStopMsg! @assemble_stop_msg.c(58),INFO" ID="0xd72201d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendPauseRangingMsg! @assemble_stop_msg.c(65),INFO" ID="0xd722020d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendContinueRangingMsg! @assemble_stop_msg.c(72),INFO" ID="0xd7220245" />
+			</MSG_LOG>

@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id %x @sle_srv_rf.c(92),INFO" ID="0xd8ca02e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle factory evt proc] param NULL. @sle_srv_rf.c(116),ERROR" ID="0xd8ca03a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle factory evt proc] type invalid. cmd/evt(%d) @sle_srv_rf.c(123),ERROR" ID="0xd8ca03da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle factory evt proc] malloc fail. cmd/evt(%d) @sle_srv_rf.c(129),ERROR" ID="0xd8ca040a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle factory evt proc] type invalid. cmd/evt(%d) @sle_srv_rf.c(152),ERROR" ID="0xd8ca04c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[gle factory evt proc] seng bt_service fail ret %d evt %d @sle_srv_rf.c(158),ERROR" ID="0xd8ca04f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="radio frequency tx start malloc failed @sle_srv_rf.c(179),ERROR" ID="0xd8ca059a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="radio frequency tx start failed, failed, ret = 0x%x @sle_srv_rf.c(202),ERROR" ID="0xd8ca0652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="radio frequency rx start malloc failed @sle_srv_rf.c(219),ERROR" ID="0xd8ca06da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="radio frequency rx start failed, ret = 0x%x @sle_srv_rf.c(237),ERROR" ID="0xd8ca076a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="radio frequency tx|rx end malloc failed @sle_srv_rf.c(253),ERROR" ID="0xd8ca07ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="radio frequency tx|rx end failed, failed, ret = 0x%x @sle_srv_rf.c(264),ERROR" ID="0xd8ca0842" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="radio frequency reset malloc failed @sle_srv_rf.c(279),ERROR" ID="0xd8ca08ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="radio frequency reset failed, failed, ret = 0x%x @sle_srv_rf.c(290),ERROR" ID="0xd8ca0912" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[sle factory]sle CFO report:%d, valid=%d @sle_srv_rf.c(338),INFO" ID="0xd8ca0a95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle factory]set CFO rssi limit:%d @sle_srv_rf.c(353),INFO" ID="0xd8ca0b0d" />
+			</MSG_LOG>

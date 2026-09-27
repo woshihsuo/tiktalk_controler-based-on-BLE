@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[GLE SM] timer repeated attempts, job: %u @gle_sm_timer.c(24),INFO" ID="0xde1800c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE SM] sm timer link restart malloc fail @gle_sm_timer.c(60),ERROR" ID="0xde1801e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE SM] sm timer restart fail @gle_sm_timer.c(67),ERROR" ID="0xde18021a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLE SM] timer rtx, event: 0x%x @gle_sm_timer.c(75),INFO" ID="0xde18025d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLE SM] gle sm timer rtx arg is NULL, event = 0x%x @gle_sm_timer.c(82),ERROR" ID="0xde180292" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE SM] sm timer rtx malloc fail @gle_sm_timer.c(98),ERROR" ID="0xde180312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE SM] sm timer rtx memcpy fail @gle_sm_timer.c(103),ERROR" ID="0xde18033a" />
+			</MSG_LOG>

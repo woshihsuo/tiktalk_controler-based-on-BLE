@@ -1,0 +1,43 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpRadarOnCommand, sysTime:%llums! @slp_radar.c(65),INFO" ID="0xd7a8020d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpRadarOffCommand! state is POWERING_OFF @slp_radar.c(79),ERROR" ID="0xd7a8027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpRadarOffCommand! state is POWERING_ON @slp_radar.c(83),ERROR" ID="0xd7a8029a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpRadarOffCommand! state &lt;= POWER_ON, status:%u @slp_radar.c(87),ERROR" ID="0xd7a802ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpRadarOffCommand! current state:%u @slp_radar.c(90),INFO" ID="0xd7a802d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] ValidateTxPowerIdxPara: tx_power_idx[%d] invalid:%u @slp_radar.c(104),ERROR" ID="0xd7a80342" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateChannelIdxPara: slpChIdx invalid:%u @slp_radar.c(114),ERROR" ID="0xd7a80392" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] ValidateAgcPara: lnaCode[%d] invalid:0x%x @slp_radar.c(148),ERROR" ID="0xd7a804a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] ValidateAgcPara: vgaCode[%d] invalid:0x%x @slp_radar.c(154),ERROR" ID="0xd7a804d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] ValidateAntCodePara: ant_code[%d] invalid:%u @slp_radar.c(165),ERROR" ID="0xd7a8052a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateSwCtrlEnPara: swCtrlEn invalid:%u @slp_radar.c(175),ERROR" ID="0xd7a8057a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] raw data para invalid: start_bin=%d &gt; max=%d @slp_radar.c(185),ERROR" ID="0xd7a805ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] raw data para invalid: end_bin=%d &gt; max=%d @slp_radar.c(190),ERROR" ID="0xd7a805f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] raw data para invalid: start_bin=%d &gt; end_bin=%d @slp_radar.c(195),ERROR" ID="0xd7a8061a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAntChNumPara: ant_ch_num invalid:%u @slp_radar.c(204),ERROR" ID="0xd7a80662" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateChannelIdxPara Error 0x%x @slp_radar.c(215),ERROR" ID="0xd7a806ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateTxPowerIdxPara Error 0x%x @slp_radar.c(220),ERROR" ID="0xd7a806e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAgcPara Error 0x%x @slp_radar.c(225),ERROR" ID="0xd7a8070a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAntChNumPara Error 0x%x @slp_radar.c(230),ERROR" ID="0xd7a80732" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAntCodePara Error 0x%x @slp_radar.c(235),ERROR" ID="0xd7a8075a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateSwCtrlEnPara Error 0x%x @slp_radar.c(240),ERROR" ID="0xd7a80782" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: waveLen invalid:%u @slp_radar.c(256),ERROR" ID="0xd7a80802" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: waveBit[%d]:%d invalid @slp_radar.c(262),ERROR" ID="0xd7a80832" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: spreadFactor invalid:%u @slp_radar.c(268),ERROR" ID="0xd7a80862" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: accRshiftBit invalid:%u @slp_radar.c(272),ERROR" ID="0xd7a80882" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: spreadFactor:%u, waveLen:%u, invalid @slp_radar.c(277),ERROR" ID="0xd7a808aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara: accNum invalid:%u @slp_radar.c(281),ERROR" ID="0xd7a808ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAgcPara Error 0x%x @slp_radar.c(293),ERROR" ID="0xd7a8092a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateTxPowerIdxPara Error 0x%x @slp_radar.c(305),ERROR" ID="0xd7a8098a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="txPowerIdx[%d] parameter has been set to %d @slp_radar.c(310),INFO" ID="0xd7a809b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateSwCtrlEnPara Error 0x%x @slp_radar.c(320),ERROR" ID="0xd7a80a02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="swCtrlEn has been set to %d @slp_radar.c(324),INFO" ID="0xd7a80a25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAntCodePara Error 0x%x @slp_radar.c(333),ERROR" ID="0xd7a80a6a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ant_code[%d] has been set to %d @slp_radar.c(338),INFO" ID="0xd7a80a95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateChannelIdxPara Error 0x%x @slp_radar.c(348),ERROR" ID="0xd7a80ae2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateAntChNumPara Error 0x%x @slp_radar.c(360),ERROR" ID="0xd7a80b42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR] antChNum has been set to %d @slp_radar.c(364),INFO" ID="0xd7a80b65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateFramePara Error 0x%x @slp_radar.c(377),ERROR" ID="0xd7a80bca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR] subframe_period has been set to %u, ant_switch_interval has been set to %u @slp_radar.c(383),INFO" ID="0xd7a80bfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateRawDataPara Error 0x%x @slp_radar.c(396),ERROR" ID="0xd7a80c62" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[SLP_RADAR] start_bin has been set to %u, end_bin has been set to %u @slp_radar.c(401),INFO" ID="0xd7a80c8d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SLP_RADAR] set vendor_info succ @slp_radar.c(410),INFO" ID="0xd7a80cd5" />
+			</MSG_LOG>

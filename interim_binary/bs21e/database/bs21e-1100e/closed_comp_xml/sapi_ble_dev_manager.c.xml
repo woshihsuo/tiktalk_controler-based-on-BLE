@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ENABLE BLE: sapi ble enable start @sapi_ble_dev_manager.c(25),INFO" ID="0xdea200cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ENABLE BLE: sapi ble enable end @sapi_ble_dev_manager.c(39),INFO" ID="0xdea2013d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ENABLE BLE: sapi ble disable start @sapi_ble_dev_manager.c(45),INFO" ID="0xdea2016d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ENABLE BLE: sapi ble disable end @sapi_ble_dev_manager.c(50),INFO" ID="0xdea20195" />
+			</MSG_LOG>

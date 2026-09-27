@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="not enough space, %d used, %d required @nb_payload_att.c(70),ERROR" ID="0xd76e0232" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[MEMCPY-ERR] Copy2Buf errno:%d @nb_payload_att.c(75),ERROR" ID="0xd76e025a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="not enough buf to be parse! total:%u, cur:%u, reqLen:%u @nb_payload_att.c(87),ERROR" ID="0xd76e02ba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(97),ERROR" ID="0xd76e030a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(110),ERROR" ID="0xd76e0372" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(122),ERROR" ID="0xd76e03d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(134),ERROR" ID="0xd76e0432" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(147),ERROR" ID="0xd76e049a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(159),ERROR" ID="0xd76e04fa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(172),ERROR" ID="0xd76e0562" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(185),ERROR" ID="0xd76e05ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="No additional information can be read! curr:%u, total:%u @nb_payload_att.c(197),ERROR" ID="0xd76e062a" />
+			</MSG_LOG>

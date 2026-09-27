@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[gle hadm cmd proc] param NULL. @gle_hadm_core.c(20),ERROR" ID="0xde7c00a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle hadm cmd proc] type invalid. cmd/evt(%d) @gle_hadm_core.c(38),ERROR" ID="0xde7c0132" />
+			</MSG_LOG>

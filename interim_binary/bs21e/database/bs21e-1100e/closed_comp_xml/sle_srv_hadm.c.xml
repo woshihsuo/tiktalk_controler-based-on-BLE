@@ -1,0 +1,21 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="read remote channel sounding malloc failed @sle_srv_hadm.c(63),ERROR" ID="0xd8c801fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote channel sounding failed, ret = 0x%x @sle_srv_hadm.c(101),ERROR" ID="0xd8c8032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote channel sounding malloc failed @sle_srv_hadm.c(128),ERROR" ID="0xd8c80402" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote channel sounding failed, ret = 0x%x @sle_srv_hadm.c(167),ERROR" ID="0xd8c8053a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote channel sounding malloc failed @sle_srv_hadm.c(181),ERROR" ID="0xd8c805aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote channel sounding failed, failed, ret = 0x%x @sle_srv_hadm.c(194),ERROR" ID="0xd8c80612" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote channel sounding malloc failed @sle_srv_hadm.c(209),ERROR" ID="0xd8c8068a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote channel sounding failed, failed, ret = 0x%x @sle_srv_hadm.c(232),ERROR" ID="0xd8c80742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read local channel sounding malloc failed @sle_srv_hadm.c(252),ERROR" ID="0xd8c807e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read local channel sounding failed, failed, ret = 0x%x @sle_srv_hadm.c(263),ERROR" ID="0xd8c8083a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote channel sounding malloc failed @sle_srv_hadm.c(283),ERROR" ID="0xd8c808da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote channel sounding failed, failed, ret = 0x%x @sle_srv_hadm.c(294),ERROR" ID="0xd8c80932" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="cs_interval %d less than 1 is an illegal value, set as the default value of 1 @sle_srv_hadm.c(318),ERROR" ID="0xd8c809f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy hadm callback fail @sle_srv_hadm.c(505),ERROR" ID="0xd8c80fca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id 0x%x @sle_srv_hadm.c(588),INFO" ID="0xd8c81265" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle hadm evt proc] param NULL. @sle_srv_hadm.c(613),ERROR" ID="0xd8c8132a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle hadm evt] type invalid. cmd/evt(%d) @sle_srv_hadm.c(619),ERROR" ID="0xd8c8135a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle hadm evt] malloc fail. cmd/evt(%d) @sle_srv_hadm.c(624),ERROR" ID="0xd8c81382" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle hadm evt proc] type invalid. cmd/evt(%d) @sle_srv_hadm.c(649),ERROR" ID="0xd8c8144a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[gle hadm evt proc] send bt_service fail ret %d evt(%d) @sle_srv_hadm.c(655),ERROR" ID="0xd8c8147a" />
+			</MSG_LOG>

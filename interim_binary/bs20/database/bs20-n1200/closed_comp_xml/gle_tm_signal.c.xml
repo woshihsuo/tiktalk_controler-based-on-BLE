@@ -1,0 +1,29 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="data_len:%u @gle_tm_signal.c(118),INFO" ID="0xde1c03b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="trans_mnode_capability memcpy failed @gle_tm_signal.c(133),ERROR" ID="0xde1c042a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="access_sle_capability memcpy failed @gle_tm_signal.c(148),ERROR" ID="0xde1c04a2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sle_addr:0x%02x:**:**:**:%02x:%02x @gle_tm_signal.c(154),INFO" ID="0xde1c04d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get_capability_info param is null @gle_tm_signal.c(188),ERROR" ID="0xde1c05e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability memcpy failed @gle_tm_signal.c(252),ERROR" ID="0xde1c07e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE SM] new sm sdu failed @gle_tm_signal.c(266),ERROR" ID="0xde1c0852" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE TM] new tm sdu failed @gle_tm_signal.c(275),ERROR" ID="0xde1c089a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability memcpy failed @gle_tm_signal.c(290),ERROR" ID="0xde1c0912" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle tm_signal_capability]param null @gle_tm_signal.c(307),ERROR" ID="0xde1c099a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability mem new failed @gle_tm_signal.c(313),ERROR" ID="0xde1c09ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability memcpy failed @gle_tm_signal.c(317),ERROR" ID="0xde1c09ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="capability:%u, data_len:%u @gle_tm_signal.c(332),INFO" ID="0xde1c0a65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE TM] new tm sdu failed @gle_tm_signal.c(336),ERROR" ID="0xde1c0a82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE TM] new tm sdu failed @gle_tm_signal.c(345),ERROR" ID="0xde1c0aca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability memcpy failed @gle_tm_signal.c(358),ERROR" ID="0xde1c0b32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[tm gle_tm_signal_capability_ind]len[%u] error @gle_tm_signal.c(385),ERROR" ID="0xde1c0c0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[tm gle_tm_signal_capability_ind]data len[%u] error @gle_tm_signal.c(394),ERROR" ID="0xde1c0c52" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="op_code[0x%02x], identifier[0x%02x], data_map[%u] @gle_tm_signal.c(400),INFO" ID="0xde1c0c85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle_tm_signal_capability_ind] remote device loss rsp for capability req, retry on lcid:[%d]. @gle_tm_signal.c(411),WARNING" ID="0xde1c0cdb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[tm gle_tm_signal_capability_cfm] reset signal_capability req by local @gle_tm_signal.c(441),INFO" ID="0xde1c0dcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[tm gle_tm_signal_capability_cfm] no signal_capability req by local @gle_tm_signal.c(445),ERROR" ID="0xde1c0dea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[tm gle_tm_signal_capability_cfm]len[%u] data_len[%u] cfm_data_len[%u] error @gle_tm_signal.c(453),ERROR" ID="0xde1c0e2a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="op_code[0x%02x], identifier[0x%02x], data_map[%u] @gle_tm_signal.c(458),INFO" ID="0xde1c0e55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="signal_capability memcpy failed @gle_tm_signal.c(463),ERROR" ID="0xde1c0e7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLE TM][trans init] trans new failed, trans id = %d @gle_tm_signal.c(627),WARNING" ID="0xde1c139b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE TM][trans init] RTX Timer new failed @gle_tm_signal.c(640),WARNING" ID="0xde1c1403" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE TM][trans init] add timer fail @gle_tm_signal.c(650),ERROR" ID="0xde1c1452" />
+			</MSG_LOG>

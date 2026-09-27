@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]lm_ble_adv_set_ext_param_check_intv:intv_min(0x%x)intv_max(0x%x) @patch_lm_ble_adv_ext_act.c(34),INFO" ID="0x89740115" />
+			</MSG_LOG>

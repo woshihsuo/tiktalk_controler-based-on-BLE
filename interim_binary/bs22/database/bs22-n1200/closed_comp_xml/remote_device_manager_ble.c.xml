@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="remove pair all devices not paired device @remote_device_manager_ble.c(34),ERROR" ID="0xd8980112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove pair all devices fail @remote_device_manager_ble.c(39),ERROR" ID="0xd898013a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set all devices pair status fail @remote_device_manager_ble.c(44),ERROR" ID="0xd8980162" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices num fail ret = %d @remote_device_manager_ble.c(90),ERROR" ID="0xd89802d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices fail ret = %d @remote_device_manager_ble.c(108),ERROR" ID="0xd8980362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove pair device fail @remote_device_manager_ble.c(132),ERROR" ID="0xd8980422" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="add white list fail @remote_device_manager_ble.c(153),ERROR" ID="0xd89804ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove white list fail @remote_device_manager_ble.c(168),ERROR" ID="0xd8980542" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="remove white list fail @remote_device_manager_ble.c(179),ERROR" ID="0xd898059a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get white list fail @remote_device_manager_ble.c(193),ERROR" ID="0xd898060a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="connect white list fail @remote_device_manager_ble.c(207),ERROR" ID="0xd898067a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get pair devices num fail ret = %d @remote_device_manager_ble.c(227),ERROR" ID="0xd898071a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get bonded devices fail ret = %d @remote_device_manager_ble.c(250),ERROR" ID="0xd89807d2" />
+			</MSG_LOG>

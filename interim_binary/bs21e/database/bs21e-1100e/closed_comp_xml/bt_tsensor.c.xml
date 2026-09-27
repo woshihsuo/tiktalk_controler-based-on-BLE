@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="tsensor isr start time = %d,end time = %d, consumed time = %d @bt_tsensor.c(110),INFO" ID="0x89820375" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Tsensor]First Time Fail to Get Temperature Code @bt_tsensor.c(195),WARNING" ID="0x8982061b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="Power On temperature %d @bt_tsensor.c(273),INFO" ID="0x8982088d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]bt_low_temperature_act enable! LSB cali value 0x%x, MSB cali value 0x%x @bt_tsensor.c(283),INFO" ID="0x898208dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ADPLL]Mod sen cali enable! temp:%d @bt_tsensor.c(301),INFO" ID="0x8982096d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ADPLL]Mod sen cali timeout! @bt_tsensor.c(314),INFO" ID="0x898209d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="low temperature status change, low_temperature_status = %d, temperature = %d @bt_tsensor.c(378),INFO" ID="0x89820bd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="The maximum temperature is %d @bt_tsensor.c(397),INFO" ID="0x89820c6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="The minimum temperature is %d @bt_tsensor.c(402),INFO" ID="0x89820c95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btc get reserved config fail, errcode: 0x%x @bt_tsensor.c(415),INFO" ID="0x89820cfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="btc get reserved config succ. @bt_tsensor.c(418),INFO" ID="0x89820d15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="The maximum temperature is %d, The minimum temperature is %d @bt_tsensor.c(429),INFO" ID="0x89820d6d" />
+			</MSG_LOG>

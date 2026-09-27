@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR][RXDC]bt_rf_calc_dc_before_vga_delta vga_gain=%d, OUT OF RANGE! @hal_bt_cali.c(159),ERROR" ID="0x88c004fa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[RXDC]bt_rf_calc_dc_before_vga_delta vgagain=%d, dc_offset=%d, dc_offset_before_vga=%d @hal_bt_cali.c(166),WARNING" ID="0x88c00533" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Rx IQ]DDC, yw_plus_real = %d, yw_plus_imag = %d @hal_bt_cali.c(287),INFO" ID="0x88c008fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[Rx IQ]Yw(real=%d imag=%d), Y-w=(real=%d imag=%d) @hal_bt_cali.c(304),INFO" ID="0x88c00985" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg11" NAME="[CTSC-ASSEM] CL:%u, SCI:%u, SSN:%u, CSN:%u, CSSN:%u, GBSN:%u, CCL:%u, SOCL:%u, SOCI:%u, SOSN:%u, CH:%u @assemble_ctsc_ie.c(19),DBG" ID="0xd736009e" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CTSC-ASSEM] SKI:%u, RRM:%u, SM:%u, SKM:%u @assemble_ctsc_ie.c(28),INFO" ID="0xd73600e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CTSC-ASSEM] EM:%u @assemble_ctsc_ie.c(29),INFO" ID="0xd73600ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CTSC-ASSEM] CtscIELen:%u @assemble_ctsc_ie.c(38),INFO" ID="0xd7360135" />
+			</MSG_LOG>

@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]write nv fail! ret:%x  @bt_customize.c(78),ERROR" ID="0x89340272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]read nv fail! @bt_customize.c(88),ERROR" ID="0x893402c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CALI]nv_cali_info:%x  @bt_customize.c(94),INFO" ID="0x893402f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO]Cali value write NV success! @bt_customize.c(98),INFO" ID="0x89340315" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]bt_write_nv_msg_handler fail! @bt_customize.c(124),ERROR" ID="0x893403e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CALI_NV]productline flag:%d @bt_customize.c(135),INFO" ID="0x8934043d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CALI]Aplly cali value from nv success! @bt_customize.c(155),INFO" ID="0x893404dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CALI]Cali when power on! @bt_customize.c(159),INFO" ID="0x893404fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]read nv fail! @bt_customize.c(175),ERROR" ID="0x8934057a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CALI]nv_cali_info:%x  @bt_customize.c(181),INFO" ID="0x893405ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]bt_cali_nv_msg_handler fail!! @bt_customize.c(186),ERROR" ID="0x893405d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[INFO]FEM enable. @bt_customize.c(220),INFO" ID="0x893406e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]read nv fail! @bt_customize.c(232),ERROR" ID="0x89340742" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CUSTOMIZE]ble_max_pwr:%d MODEM_CFG_GFSK_GAIN_CTRL_BR:%x @bt_customize.c(276),INFO" ID="0x893408a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CUSTOMIZE]gle_max_pwr:%d MODEM_CFG_PSK_MOD_GAIN_CTRL_QPSK_ROTATION:%x @bt_customize.c(294),INFO" ID="0x89340935" />
+			</MSG_LOG>

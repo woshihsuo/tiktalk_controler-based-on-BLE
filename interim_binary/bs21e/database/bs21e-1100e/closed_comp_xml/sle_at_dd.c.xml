@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to addr error! @sle_at_dd.c(175),ERROR" ID="0xd91a057a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] sle set local addr fail! ret = %d  @sle_at_dd.c(182),ERROR" ID="0xd91a05b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at cmd sdk get addr fail! @sle_at_dd.c(196),ERROR" ID="0xd91a0622" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at name len error @sle_at_dd.c(211),ERROR" ID="0xd91a069a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] sle set local name fail! ret = %d  @sle_at_dd.c(217),ERROR" ID="0xd91a06ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at cmd sdk get name malloc fail! @sle_at_dd.c(231),ERROR" ID="0xd91a073a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to addr error! @sle_at_dd.c(257),ERROR" ID="0xd91a080a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to addr error! @sle_at_dd.c(262),ERROR" ID="0xd91a0832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] announce tx power id is error -127~20, 127 @sle_at_dd.c(276),ERROR" ID="0xd91a08a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at cmd sdk set dd announce data new fail! @sle_at_dd.c(306),ERROR" ID="0xd91a0992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_dd.c(311),ERROR" ID="0xd91a09ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at cmd sdk set dd scan rsp data new fail! @sle_at_dd.c(319),ERROR" ID="0xd91a09fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_dd.c(324),ERROR" ID="0xd91a0a22" />
+			</MSG_LOG>

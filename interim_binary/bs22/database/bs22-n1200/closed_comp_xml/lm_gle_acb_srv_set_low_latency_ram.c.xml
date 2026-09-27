@@ -1,0 +1,10 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="lm_gle_hci_set_acb_low_latency_act, en=%d, rate=%d, hci_data_flag=0x%x, ifs=%d @lm_gle_acb_srv_set_low_latency_ram.c(286),INFO" ID="0x897e08f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_iob_set_low_latency, get_fsm_id fail! @lm_gle_acb_srv_set_low_latency_ram.c(396),WARNING" ID="0x897e0c63" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_iob_set_low_latency, msg alloc fail! @lm_gle_acb_srv_set_low_latency_ram.c(401),WARNING" ID="0x897e0c8b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lm_gle_acb_low_latency_instant_prog pre_clk=%d, instant_clk=%d @lm_gle_acb_srv_set_low_latency_ram.c(583),INFO" ID="0x897e123d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lm_gle_llcp_set_acb_low_latency_act, switch_type=%d, en=%d, rate=%d, hci_data_flag=0x%x @lm_gle_acb_srv_set_low_latency_ram.c(624),INFO" ID="0x897e1385" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lm_gle_acb_low_latency_ind_to_act, instant=%d @lm_gle_acb_srv_set_low_latency_ram.c(731),INFO" ID="0x897e16dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_acb_switch_rate_act fail @lm_gle_acb_srv_set_low_latency_ram.c(760),WARNING" ID="0x897e17c3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[AUTORATE]lm_gle_iob_switch_rate_act, target_rate:%d, low_latebcy_en @lm_gle_acb_srv_set_low_latency_ram.c(796),INFO" ID="0x897e18e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_acb_switch_rate_act fail @lm_gle_acb_srv_set_low_latency_ram.c(799),WARNING" ID="0x897e18fb" />
+			</MSG_LOG>

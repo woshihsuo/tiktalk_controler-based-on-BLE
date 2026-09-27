@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[API][FAC] slp set factory test mode, %u @slp_factory.c(37),INFO" ID="0xd774012d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] wrong factory test mode, %u @slp_factory.c(39),ERROR" ID="0xd774013a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp write phase cali para! @slp_factory.c(49),INFO" ID="0xd774018d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read phase cali para! @slp_factory.c(63),INFO" ID="0xd77401fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp write phase cali para for 3_ant_L! @slp_factory.c(79),INFO" ID="0xd774027d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read phase cali para for 3_ant_L! @slp_factory.c(89),INFO" ID="0xd77402cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp write tx power! @slp_factory.c(101),INFO" ID="0xd774032d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read tx power cali para! @slp_factory.c(115),INFO" ID="0xd774039d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][FAC] slp write board ant trx time delay, %u @slp_factory.c(129),INFO" ID="0xd774040d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read board and ant trx time delay cali para! @slp_factory.c(143),INFO" ID="0xd774047d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp write phase cali para to onb @slp_factory.c(157),INFO" ID="0xd77404ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req! @slp_factory.c(160),ERROR" ID="0xd7740502" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read phase cali para from onb @slp_factory.c(172),INFO" ID="0xd7740565" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp write trx delay to onb @slp_factory.c(181),INFO" ID="0xd77405ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req! @slp_factory.c(184),ERROR" ID="0xd77405c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][FAC] slp read trx delay from onb @slp_factory.c(197),INFO" ID="0xd774062d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[NV] slp write gyro zero offset, x, %d, y, %d, z, %d @slp_factory.c(209),INFO" ID="0xd774068d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV][ERR] slp write gyro zero offset fail! @slp_factory.c(211),ERROR" ID="0xd774069a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[NV] slp read gyro zero offset, x, %d, y, %d, z, %d @slp_factory.c(225),INFO" ID="0xd774070d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[NV][ERR] slp read gyro zero offset fail! @slp_factory.c(227),ERROR" ID="0xd774071a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][WARN] SlpEnableImuDetectionCommand! already start st:%u, mode:%u @slp_factory.c(243),INFO" ID="0xd774079d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][WARN] Reject SlpEnableImuDetectionCommand! st:%u, mode:%u @slp_factory.c(246),WARNING" ID="0xd77407b3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][OK] SlpEnableImuDetectionCommand! st:%u, mode:%u @slp_factory.c(250),INFO" ID="0xd77407d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][OK] SlpDisableImuDetectionCommand! state:%u, mode:%u @slp_factory.c(267),INFO" ID="0xd774085d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][WARN] SlpDisableImuDetectionCommand! already stop, state:%u, mode:%u @slp_factory.c(274),INFO" ID="0xd7740895" />
+			</MSG_LOG>

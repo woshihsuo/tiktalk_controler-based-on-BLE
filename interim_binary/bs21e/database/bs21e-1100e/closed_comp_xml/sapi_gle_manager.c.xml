@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="gle sapi gle general cmd deliver param invalid. @sapi_gle_manager.c(46),ERROR" ID="0xde5e0172" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle sapi general cmd deliver memcpy error @sapi_gle_manager.c(57),ERROR" ID="0xde5e01ca" />
+			</MSG_LOG>

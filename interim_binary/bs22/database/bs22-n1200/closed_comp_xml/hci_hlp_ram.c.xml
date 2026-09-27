@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[HCI] remote identity addr update malloc size %u fail  @hci_hlp_ram.c(446),ERROR" ID="0xdbac0df2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI] remove remote exceed upper limit %d addr:%02x:%02x:xx:xx:xx:%02x! @hci_hlp_ram.c(544),ERROR" ID="0xdbac1102" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]hci remote find create memcpy error @hci_hlp_ram.c(564),ERROR" ID="0xdbac11a2" />
+			</MSG_LOG>

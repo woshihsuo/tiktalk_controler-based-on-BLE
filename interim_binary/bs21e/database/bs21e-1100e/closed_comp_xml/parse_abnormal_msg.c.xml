@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERR] proc unsupported abnormal mode %u! @parse_abnormal_msg.c(50),ERROR" ID="0xd78a0192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] AbnormalMsg is NULL @parse_abnormal_msg.c(59),ERROR" ID="0xd78a01da" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] AbnormalMsg is not equal, dataLen, %u, size, %u @parse_abnormal_msg.c(64),ERROR" ID="0xd78a0202" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT][PARSE] AbnormalMsg, No, %u, errId, %u @parse_abnormal_msg.c(75),INFO" ID="0xd78a025d" />
+			</MSG_LOG>

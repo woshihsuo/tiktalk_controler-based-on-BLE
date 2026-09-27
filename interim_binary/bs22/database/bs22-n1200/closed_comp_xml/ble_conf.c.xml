@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="bth config set hci log status: [%d] @ble_conf.c(230),INFO" ID="0xddf00735" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bth config set le resolution enable:[%d] @ble_conf.c(237),INFO" ID="0xddf0076d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bth config get le resolution enable:[%d] @ble_conf.c(245),INFO" ID="0xddf007ad" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="lm_ble_scan_filter_adv_sol_uuid_insert:count=%d, len_cpy = %d, bit_type = 0x%x, len_tmp=%d @lm_ble_scan_filter.c(1163),INFO" ID="0x8914245d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="lm_ble_scan_filter_adv_insert_list:len_tmp=0x%x, adv_total_len=0x%x, position=%d @lm_ble_scan_filter.c(1308),WARNING" ID="0x891428e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_ble_scan_filter_scan_filter_report tx_evt = false @lm_ble_scan_filter.c(1991),WARNING" ID="0x89143e3b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lm_ble_scan_filter_scan_filter_report tx_evt = %d @lm_ble_scan_filter.c(2009),INFO" ID="0x89143ecd" />
+			</MSG_LOG>

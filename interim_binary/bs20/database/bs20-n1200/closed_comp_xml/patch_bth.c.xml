@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[HCI] identity addr invalid @patch_bth.c(361),INFO" ID="0xdd580b4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt tl timeout no cbk, op:%x @patch_bth.c(594),INFO" ID="0xdd581295" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP]smp require end reason cpy = 0x%x @patch_bth.c(772),ERROR" ID="0xdd581822" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ATT]att read rspond memcpy error @patch_bth.c(993),ERROR" ID="0xdd581f0a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gatt_tl_trans_init TL-&gt;Trans Collision @patch_bth.c(1016),ERROR" ID="0xdd581fc2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt_tl_trans_init TL-&gt;Timer:%p Collision @patch_bth.c(1024),ERROR" ID="0xdd582002" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]smp key distribute send memcpy error @patch_bth.c(1390),ERROR" ID="0xdd582b72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP][LongTermKeyRequest]link-&gt;hcihdl = %u @patch_bth.c(1436),INFO" ID="0xdd582ce5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][No LESC LTK SEND] @patch_bth.c(1450),INFO" ID="0xdd582d55" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][DIV mismatch, Unpaired] @patch_bth.c(1472),INFO" ID="0xdd582e05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][ECDH LTK unavailable, pair!=NULL] @patch_bth.c(1485),INFO" ID="0xdd582e6d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][LTK unavailable, pair=NULL] @patch_bth.c(1498),INFO" ID="0xdd582ed5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP][LongTermKeyRequest][send Negative Reply!] @patch_bth.c(1520),INFO" ID="0xdd582f85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]smpc token got memcpy error @patch_bth.c(1631),ERROR" ID="0xdd5832fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP]PAIRING_REQ_RECV remote authreq:%02x @patch_bth.c(1666),INFO" ID="0xdd583415" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP]PAIRING_REQ_RECV old link hcihdl:%x @patch_bth.c(1671),INFO" ID="0xdd58343d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SMP]PAIRING_REQ_RECV new node @patch_bth.c(1675),INFO" ID="0xdd58345d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SMP]PAIRING_REQ_RECV node-&gt;authreq:%02x @patch_bth.c(1680),INFO" ID="0xdd583485" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="start encryption link not found handle:%d @patch_bth.c(1735),ERROR" ID="0xdd58363a" />
+			</MSG_LOG>

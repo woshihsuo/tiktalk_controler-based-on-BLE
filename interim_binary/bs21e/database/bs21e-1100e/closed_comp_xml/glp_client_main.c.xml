@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT] send fail msg_id: %d ret: 0x%08x @glp_client_main.c(119),ERROR" ID="0xd76603ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT] QueueCreate! @glp_client_main.c(128),INFO" ID="0xd7660405" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT] QueueCreate fail ret:%08x @glp_client_main.c(145),ERROR" ID="0xd766048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT] QueueCreate Success! @glp_client_main.c(148),INFO" ID="0xd76604a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT] SendNarrowBandMsgDone buffer is NULL! @glp_client_main.c(156),ERROR" ID="0xd76604e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="plt send data done, msgId: %x, len: %d @glp_client_main.c(162),DBG" ID="0xd7660516" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] SendUartMsg2Mac, ret: 0x%08X @glp_client_main.c(171),ERROR" ID="0xd766055a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to ptr! @glp_client_main.c(195),INFO" ID="0xd766061d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="RecvWideBandMsg receive_len: %u, msgID: 0x%u, sequenceNo: %u @glp_client_main.c(202),DBG" ID="0xd7660656" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="receive an null event @glp_client_main.c(208),INFO" ID="0xd7660685" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT] Wrong msgID: %d! @glp_client_main.c(217),ERROR" ID="0xd76606ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SLPC Version: V000%d. Descriptions: SLP radar sample. @glp_client_main.c(246),INFO" ID="0xd76607b5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="SLP Narrow Band Version: %d.%d.%d @glp_client_main.c(251),INFO" ID="0xd76607dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][RX] queue read fail:0x%x @glp_client_main.c(283),ERROR" ID="0xd76608da" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GLP_CLIENT][RX]: %d, %d, %02d @glp_client_main.c(289),DBG" ID="0xd766090e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="GlpClientTaskQuit! @glp_client_main.c(297),INFO" ID="0xd766094d" />
+			</MSG_LOG>

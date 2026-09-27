@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="hlp link key req cbk no source addr:0x%x @sdk_hlp.c(904),INFO" ID="0xdb7e1c45" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="conn ev cbk, addr: %02x:xx:xx:xx:%02x:%02x, type: %d  @sdk_hlp.c(2078),INFO" ID="0xdb7e40f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="conn ev cbk, copy rmt addr: %02x:xx:xx:xx:%02x:%02x, type: %d  @sdk_hlp.c(2095),INFO" ID="0xdb7e417d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="identity_addr_update_ev rmt node not found @sdk_hlp.c(2123),ERROR" ID="0xdb7e425a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="identity_addr_update_ev identity addr memcpy faile ret %d  @sdk_hlp.c(2129),ERROR" ID="0xdb7e428a" />
+			</MSG_LOG>

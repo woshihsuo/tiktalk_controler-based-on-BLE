@@ -1,0 +1,37 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[bgtp][CS]evt_task_gle_cs_start_cbk, prog_num=%d @evt_task_gle_cs.c(116),WARNING" ID="0x897003a3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[slem] refresh anchor point error now_timestamp_625=%d, cur_time=%d @evt_task_gle_cs.c(177),ERROR" ID="0x8970058a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[cs_evt_cbk]timestamp error, now_time=%d, clk_off=%d, timestamp_sn=%d, count=%d @evt_task_gle_cs.c(212),ERROR" ID="0x897006a2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[cs_evt_cbk]cbk_param-&gt;timestamp=%d, timestamp_sn=%d, env_ptr-&gt;clk_off=%d, slem_conhdl=%d @evt_task_gle_cs.c(217),INFO" ID="0x897006cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp][CS]evt_task_gle_cs_evt_cbk, prog_num=%d @evt_task_gle_cs.c(236),INFO" ID="0x89700765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[evt_cbk]acb_env=NULL, acb disconnect @evt_task_gle_cs.c(245),INFO" ID="0x897007ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[cs_abnormal_cbk !!!] @evt_task_gle_cs.c(268),INFO" ID="0x89700865" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[abnormal_cbk]acb_env=NULL, acb disconnect @evt_task_gle_cs.c(273),INFO" ID="0x8970088d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp][CS]evt_task_gle_cs_abnormal_cbk, prog_num=%d @evt_task_gle_cs.c(293),INFO" ID="0x8970092d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[cs_cancel_cbk !!!] @evt_task_gle_cs.c(315),INFO" ID="0x897009dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[cancel_cbk]acb_env=NULL, acb disconnect @evt_task_gle_cs.c(320),INFO" ID="0x89700a05" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[T refl param]anchor_point=%d, sed-&gt;sed_usoffset=%d, delay=%d, diff_slot125=%d @evt_task_gle_cs.c(393),INFO" ID="0x89700c4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[T]Create slem task err, now_time_625=%d, anchor_point=%d @evt_task_gle_cs.c(401),ERROR" ID="0x89700c8a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[T] CS create sed_index 0x%x, interval %d, anchor point 0x%x, delay %d @evt_task_gle_cs.c(405),INFO" ID="0x89700cad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[T refl param]anchor_point=%d, sed-&gt;sed_usoffset=%d, delay=%d, diff_slot125=%d @evt_task_gle_cs.c(418),INFO" ID="0x89700d15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[T]Create slem task err, now_time_125=%d, anchor_point=%d @evt_task_gle_cs.c(425),ERROR" ID="0x89700d4a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[T] CS create sed_index 0x%x, interval %d, anchor point 0x%x, delay %d @evt_task_gle_cs.c(429),INFO" ID="0x89700d6d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[T refl param] instant passed, instant_t=%d, now_time_125=%d, Add %d interval, diff_slot125=%d @evt_task_gle_cs.c(457),INFO" ID="0x89700e4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[G]Create slem task err, now_time_625=%d, anchor_point=%d @evt_task_gle_cs.c(477),ERROR" ID="0x89700eea" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[G] CS create sed_index 0x%x, interval %d, anchor point 0x%x, delay %d @evt_task_gle_cs.c(480),INFO" ID="0x89700f05" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[G]Create slem task err, now_time_125=%d, anchor_point=%d @evt_task_gle_cs.c(491),ERROR" ID="0x89700f5a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[G] CS create sed_index 0x%x, interval %d, anchor point 0x%x, delay %d @evt_task_gle_cs.c(494),INFO" ID="0x89700f75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[G cs param] instant passed, instant_t=%d, now_time_125=%d, Add %d interval, diff_slot125=%d @evt_task_gle_cs.c(510),INFO" ID="0x89700ff5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="evt_task_gle_slem_create cs %d exist. @evt_task_gle_cs.c(588),ERROR" ID="0x89701262" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[cs_create]cs task_type = 0x%x @evt_task_gle_cs.c(622),INFO" ID="0x89701375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp] evt_task_gle_cs_destory con_hdl 0x%x @evt_task_gle_cs.c(631),INFO" ID="0x897013bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle_cs_destory]env_ptr == NULL !!! @evt_task_gle_cs.c(636),INFO" ID="0x897013e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[cs_offset_flag_done_set]cs_offset_num=%d, acb con_hdl=%d, cs con_hdl=%d @evt_task_gle_cs.c(667),INFO" ID="0x897014dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[slem en parm save]env ptr is NULL !!! @evt_task_gle_cs.c(706),INFO" ID="0x89701615" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_cs_en]slem_hdl=%d @evt_task_gle_cs.c(714),INFO" ID="0x89701655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[slem en]env ptr is NULL !!! @evt_task_gle_cs.c(718),INFO" ID="0x89701675" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[evt_task_gle_cs_idle_event_int] acb disconnect(%d) @evt_task_gle_cs.c(751),ERROR" ID="0x8970177a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="slem bypass buff get null !!! @evt_task_gle_cs.c(877),INFO" ID="0x89701b6d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="slem bypass remote iq, sn:%d, tx id:%d, rx id:%d @evt_task_gle_cs.c(886),INFO" ID="0x89701bb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="slem bypass buff get null !!! @evt_task_gle_cs.c(980),INFO" ID="0x89701ea5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[slem] bypass remote iq, sn:%d, tx id:%d, rx id:%d @evt_task_gle_cs.c(985),INFO" ID="0x89701ecd" />
+			</MSG_LOG>

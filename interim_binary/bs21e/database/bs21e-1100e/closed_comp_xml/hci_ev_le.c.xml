@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[HCI][LE_CONN_COMPLETE] STATUS=0x%x @hci_ev_le.c(451),INFO" ID="0xdad00e1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI][LE_META_ISO_EV] it is iso event @hci_ev_le.c(590),INFO" ID="0xdad01275" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI][bt_onetrack]hci le meta stream to struct memcpy error @hci_ev_le.c(602),ERROR" ID="0xdad012d2" />
+			</MSG_LOG>

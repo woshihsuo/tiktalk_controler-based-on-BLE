@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send radar on req cmd fail, ret: 0x%X @slp_radar_at.c(94),ERROR" ID="0xd7a602f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARON succ @slp_radar_at.c(98),WARNING" ID="0xd7a60313" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send radar off req cmd fail, ret: 0x%X @slp_radar_at.c(107),ERROR" ID="0xd7a6035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADAROFF succ @slp_radar_at.c(111),WARNING" ID="0xd7a6037b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARAGCCODE fail, ret: 0x%X @slp_radar_at.c(163),ERROR" ID="0xd7a6051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARAGCCODE succ @slp_radar_at.c(167),WARNING" ID="0xd7a6053b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARSETCHANNELIDX fail, ret: 0x%X @slp_radar_at.c(198),ERROR" ID="0xd7a60632" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARSETCHANNELIDX succ @slp_radar_at.c(202),WARNING" ID="0xd7a60653" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp at radar write txPowerIdx param req cmd fail, ret: 0x%X @slp_radar_at.c(272),ERROR" ID="0xd7a60882" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARWRITETXPOWERIDX succ @slp_radar_at.c(276),WARNING" ID="0xd7a608a3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARANTCHNUM fail, ret: 0x%X @slp_radar_at.c(296),ERROR" ID="0xd7a60942" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARANTCHNUM succ @slp_radar_at.c(300),WARNING" ID="0xd7a60963" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARSWCTRLEN fail, ret: 0x%X @slp_radar_at.c(320),ERROR" ID="0xd7a60a02" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARSWCTRLEN succ @slp_radar_at.c(324),WARNING" ID="0xd7a60a23" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARANTCODE fail, ret: 0x%X @slp_radar_at.c(395),ERROR" ID="0xd7a60c5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARANTCODE succ @slp_radar_at.c(399),WARNING" ID="0xd7a60c7b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARFRAMEPARA fail, ret: 0x%X @slp_radar_at.c(428),ERROR" ID="0xd7a60d62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARFRAMEPARA succ @slp_radar_at.c(432),WARNING" ID="0xd7a60d83" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARRAWDATABIN fail, ret: 0x%X @slp_radar_at.c(461),ERROR" ID="0xd7a60e6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARRAWDATABIN succ @slp_radar_at.c(465),WARNING" ID="0xd7a60e8b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="AT:SLPRADARVENDORINFO fail, ret: 0x%X @slp_radar_at.c(599),ERROR" ID="0xd7a612ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="AT:SLPRADARVENDORINFO succ @slp_radar_at.c(603),WARNING" ID="0xd7a612db" />
+			</MSG_LOG>

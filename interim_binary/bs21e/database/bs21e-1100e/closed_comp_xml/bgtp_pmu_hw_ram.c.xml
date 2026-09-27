@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[PWR CTRL]Buck is raise to 1P2. Buck1P1 = 0x%x @bgtp_pmu_hw_ram.c(305),INFO" ID="0x8976098d" />
+			</MSG_LOG>

@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libsoc_log.a  CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj

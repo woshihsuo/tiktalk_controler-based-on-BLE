@@ -1,0 +1,140 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt start service result service_info.service_handle:%d. @sapi_ble_gatt.c(60),INFO" ID="0xdea601e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt server call back func event_type:0x%x. @sapi_ble_gatt.c(69),INFO" ID="0xdea6022d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gatt server call back func ReadCharacteristicRequestEvent request_id:%d,&quot; &quot;parameter_size:%d. @sapi_ble_gatt.c(81),INFO" ID="0xdea6028d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ble_general_gatt] write characteristic request event request_id:%d, parameter_size:%d. @sapi_ble_gatt.c(89),INFO" ID="0xdea602cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gatt server call back func unknown request_id:%d, event_type:0x%x. @sapi_ble_gatt.c(96),INFO" ID="0xdea60305" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BCore] ble gatt client discovery service callback start:%d end:%d, short uuid:%x atype:%x @sapi_ble_gatt.c(121),INFO" ID="0xdea603cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt client discovery include service callback memcpy fail: %d @sapi_ble_gatt.c(140),ERROR" ID="0xdea60462" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt client discovery include service callback start:%d end:%d @sapi_ble_gatt.c(146),INFO" ID="0xdea60495" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt client discovery characteristic cbk declare_handle:%d value_handle:%d @sapi_ble_gatt.c(173),INFO" ID="0xdea6056d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt client discovery descriptor callback memcpy fail: %d @sapi_ble_gatt.c(200),ERROR" ID="0xdea60642" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt client discovery descriptor callback descriptor_hdl:%d properties:%x @sapi_ble_gatt.c(206),INFO" ID="0xdea60675" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client value callback fail @sapi_ble_gatt.c(217),ERROR" ID="0xdea606ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client value callback new fail @sapi_ble_gatt.c(222),ERROR" ID="0xdea606f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client value callback addr memcpy fail @sapi_ble_gatt.c(228),ERROR" ID="0xdea60722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client value callback val memcpy fail @sapi_ble_gatt.c(234),ERROR" ID="0xdea60752" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt client value callback handle:%d len:%x @sapi_ble_gatt.c(240),INFO" ID="0xdea60785" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt client characteristic value callback new fail @sapi_ble_gatt.c(256),ERROR" ID="0xdea60802" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client characteristic value callback memcpy fail: %d @sapi_ble_gatt.c(264),ERROR" ID="0xdea60842" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client characteristic value callback memcpy fail: %d @sapi_ble_gatt.c(273),ERROR" ID="0xdea6088a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt client characteristic value callback handle:%d len:%x @sapi_ble_gatt.c(282),INFO" ID="0xdea608d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BCore] gatt client write result addr memcpy fail @sapi_ble_gatt.c(302),ERROR" ID="0xdea60972" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] gatt client write result handle:%d len:%d @sapi_ble_gatt.c(309),INFO" ID="0xdea609ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble gatt client call back func type=%d @sapi_ble_gatt.c(363),INFO" ID="0xdea60b5d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble gatt read characteristic value respon new fail. @sapi_ble_gatt.c(378),ERROR" ID="0xdea60bd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read characteristic value respon memcpy fail: %d @sapi_ble_gatt.c(385),ERROR" ID="0xdea60c0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read characteristic value respon memcpy fail: %d @sapi_ble_gatt.c(395),ERROR" ID="0xdea60c5a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCoreBCore] ble gatt read characteristic value respon characteristic_handle:%d value len:%x @sapi_ble_gatt.c(403),INFO" ID="0xdea60c9d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt get gap ui attributes error:0x%x. @sapi_ble_gatt.c(417),ERROR" ID="0xdea60d0a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt get gap ui attributes name_len:%d @sapi_ble_gatt.c(422),INFO" ID="0xdea60d35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read descriptor value response memcpy fail: %d @sapi_ble_gatt.c(436),ERROR" ID="0xdea60da2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble gatt read descriptor value response memcpy fail: %d @sapi_ble_gatt.c(444),ERROR" ID="0xdea60de2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] ble gatt read descriptor value response descriptor_handle:%d descriptor_type:%x @sapi_ble_gatt.c(452),INFO" ID="0xdea60e25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc adapter gatt get hid report callback new fail @sapi_ble_gatt.c(471),ERROR" ID="0xdea60eba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc adapter gatt get hid report callback error_code = %x @sapi_ble_gatt.c(482),INFO" ID="0xdea60f15" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BCore] bt mpc adapter gatt get hid report callback total len:%d, report map handle:%d @sapi_ble_gatt.c(487),INFO" ID="0xdea60f3d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="bt mpc adapter gatt get hid report callback memcpy, dst len:%d, src len:%d, error:0x%x @sapi_ble_gatt.c(508),INFO" ID="0xdea60fe5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt mpc adapter gatt get hid report callback report len:%d @sapi_ble_gatt.c(516),INFO" ID="0xdea61025" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add server server_handle:0x%x. @sapi_ble_gatt.c(560),INFO" ID="0xdea61185" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt create service server_handle:0x%x. @sapi_ble_gatt.c(574),INFO" ID="0xdea611f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt start service error:0x%x. @sapi_ble_gatt.c(580),ERROR" ID="0xdea61222" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt create service service_handle:0x%x. @sapi_ble_gatt.c(584),INFO" ID="0xdea61245" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add server add service error:0x%x. @sapi_ble_gatt.c(598),ERROR" ID="0xdea612b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt start service OK! serviceId = 0x%x.  @sapi_ble_gatt.c(602),INFO" ID="0xdea612d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add server add service error:0x%x. @sapi_ble_gatt.c(614),ERROR" ID="0xdea61332" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gatt start service OK! serviceId = 0x%x. @sapi_ble_gatt.c(618),INFO" ID="0xdea61355" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add include service add include error:0x%x. @sapi_ble_gatt.c(630),ERROR" ID="0xdea613b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt add characteristic new fail @sapi_ble_gatt.c(646),ERROR" ID="0xdea61432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add characteristic len:0x%x. @sapi_ble_gatt.c(653),ERROR" ID="0xdea6146a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt add characteristic in service_handle:%x, crt_handle:%x. @sapi_ble_gatt.c(666),INFO" ID="0xdea614d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add characteristic error:0x%x. @sapi_ble_gatt.c(669),ERROR" ID="0xdea614ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt add descriptor new fail @sapi_ble_gatt.c(688),ERROR" ID="0xdea61582" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor memcpy fail: %d @sapi_ble_gatt.c(697),ERROR" ID="0xdea615ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor characteristic_handle:%x @sapi_ble_gatt.c(703),INFO" ID="0xdea615fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor error:0x%x. @sapi_ble_gatt.c(707),ERROR" ID="0xdea6161a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt add descriptor ok! crt_hdl:0x%x. @sapi_ble_gatt.c(713),INFO" ID="0xdea6164d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt send response new fail @sapi_ble_gatt.c(728),ERROR" ID="0xdea616c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt send response memcpy fail: %d @sapi_ble_gatt.c(735),ERROR" ID="0xdea616fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt send response addr error. @sapi_ble_gatt.c(741),ERROR" ID="0xdea6172a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt send response error:0x%x. @sapi_ble_gatt.c(750),ERROR" ID="0xdea61772" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt update descriptor value new fail @sapi_ble_gatt.c(766),ERROR" ID="0xdea617f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt update descriptor value memcpy fail: %d @sapi_ble_gatt.c(773),ERROR" ID="0xdea6182a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt update descriptor value descriptor_handle:0x%x data_size:%d. @sapi_ble_gatt.c(780),INFO" ID="0xdea61865" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt update descriptor value error:0x%x. @sapi_ble_gatt.c(784),ERROR" ID="0xdea61882" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed new NULL @sapi_ble_gatt.c(802),ERROR" ID="0xdea61912" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed fail when notify @sapi_ble_gatt.c(810),ERROR" ID="0xdea61952" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic changed when notify @sapi_ble_gatt.c(822),ERROR" ID="0xdea619b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic direct send new NULL @sapi_ble_gatt.c(840),ERROR" ID="0xdea61a42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic direct send fail when notify @sapi_ble_gatt.c(848),ERROR" ID="0xdea61a82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify characteristic direct send when notify @sapi_ble_gatt.c(860),ERROR" ID="0xdea61ae2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid data is NULL @sapi_ble_gatt.c(876),ERROR" ID="0xdea61b62" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="character changed by uuid can not find hdl, ret = %d @sapi_ble_gatt.c(883),ERROR" ID="0xdea61b9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="character changed by uuid att_hdl=%d @sapi_ble_gatt.c(886),INFO" ID="0xdea61bb5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid in is NULL @sapi_ble_gatt.c(889),ERROR" ID="0xdea61bca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid memcpy data fail @sapi_ble_gatt.c(894),ERROR" ID="0xdea61bf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="character changed by uuid memset addr error @sapi_ble_gatt.c(902),ERROR" ID="0xdea61c32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt notify character changed by uuid ok. @sapi_ble_gatt.c(908),INFO" ID="0xdea61c65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general gatt discovery service in flag:%x, atype:%x, disc type: %x. @sapi_ble_gatt.c(925),INFO" ID="0xdea61ced" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery service not found:0x%x. @sapi_ble_gatt.c(937),WARNING" ID="0xdea61d4b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery include service not found:0x%x. @sapi_ble_gatt.c(960),WARNING" ID="0xdea61e03" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic new fail. @sapi_ble_gatt.c(976),ERROR" ID="0xdea61e82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic memset fail. @sapi_ble_gatt.c(981),ERROR" ID="0xdea61eaa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic in atype:%x. @sapi_ble_gatt.c(988),INFO" ID="0xdea61ee5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic attribute_handle:0x%x. @sapi_ble_gatt.c(996),INFO" ID="0xdea61f25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic not found:0x%x. @sapi_ble_gatt.c(1002),WARNING" ID="0xdea61f53" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid new fail. @sapi_ble_gatt.c(1020),ERROR" ID="0xdea61fe2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid memset fail. @sapi_ble_gatt.c(1026),ERROR" ID="0xdea62012" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery characteristic by uuid memcpy fail. @sapi_ble_gatt.c(1040),ERROR" ID="0xdea62082" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general gatt discovery characteristic by uuid start_handle:%x end_handle:%x short_uuid:%x. @sapi_ble_gatt.c(1051),INFO" ID="0xdea620dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery characteristic by uuid not found:0x%x. @sapi_ble_gatt.c(1056),WARNING" ID="0xdea62103" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor by handle new fail. @sapi_ble_gatt.c(1072),ERROR" ID="0xdea62182" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt discovery descriptor by handle in cap:%x, atype:%x. @sapi_ble_gatt.c(1078),INFO" ID="0xdea621b5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general gatt discovery descriptor by handle  handle:%d, start_handle:%d end_handle:%d. @sapi_ble_gatt.c(1089),INFO" ID="0xdea6220d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor by handle not found:0x%x. @sapi_ble_gatt.c(1094),WARNING" ID="0xdea62233" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general gatt discovery descriptor by handle in cap:%x, atype:%x flag:%d. @sapi_ble_gatt.c(1114),INFO" ID="0xdea622d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor new fail. @sapi_ble_gatt.c(1116),ERROR" ID="0xdea622e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor memset fail. @sapi_ble_gatt.c(1121),ERROR" ID="0xdea6230a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt discovery descriptor memcpy fail. @sapi_ble_gatt.c(1127),ERROR" ID="0xdea6233a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general gatt discovery descriptor handle:%d, service_handle:%d, declare_handle:%d. @sapi_ble_gatt.c(1137),INFO" ID="0xdea6238d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor not found:0x%x. @sapi_ble_gatt.c(1141),WARNING" ID="0xdea623ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic value new fail. @sapi_ble_gatt.c(1159),ERROR" ID="0xdea6243a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read descriptor value error:0x%x. @sapi_ble_gatt.c(1173),ERROR" ID="0xdea624aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read value param new fail. @sapi_ble_gatt.c(1190),ERROR" ID="0xdea62532" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read value param memset fail. @sapi_ble_gatt.c(1195),ERROR" ID="0xdea6255a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read value handle:%d. @sapi_ble_gatt.c(1203),INFO" ID="0xdea6259d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read value error:0x%x. @sapi_ble_gatt.c(1206),ERROR" ID="0xdea625b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid new fail. @sapi_ble_gatt.c(1223),ERROR" ID="0xdea6263a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid memcpy fail. @sapi_ble_gatt.c(1236),ERROR" ID="0xdea626a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt read characteristic by uuid start_handle:%x end_handle:%x. @sapi_ble_gatt.c(1243),INFO" ID="0xdea626dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read characteristic by uuid short_uuid:%x. @sapi_ble_gatt.c(1245),INFO" ID="0xdea626ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read characteristic by uuid memcpy fail. @sapi_ble_gatt.c(1249),ERROR" ID="0xdea6270a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read characteristic by uuid error:0x%x. @sapi_ble_gatt.c(1256),WARNING" ID="0xdea62743" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read multiple characteristic new fail. @sapi_ble_gatt.c(1274),ERROR" ID="0xdea627d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt read multiple characteristic memset fail. @sapi_ble_gatt.c(1281),ERROR" ID="0xdea6280a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read multiple characteristic handle_count:%x. @sapi_ble_gatt.c(1296),INFO" ID="0xdea62885" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read multiple characteristic error:0x%x. @sapi_ble_gatt.c(1299),WARNING" ID="0xdea6289b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read multiple characteristic error:0x%x. @sapi_ble_gatt.c(1329),WARNING" ID="0xdea6298b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt mpc gatth notify multiple character value callback @sapi_ble_gatt.c(1348),INFO" ID="0xdea62a25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt multiple value notify handle_count:%x. @sapi_ble_gatt.c(1376),INFO" ID="0xdea62b05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic value memcpy failed @sapi_ble_gatt.c(1388),ERROR" ID="0xdea62b62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt write characteristic value param is NULL @sapi_ble_gatt.c(1411),ERROR" ID="0xdea62c1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write characteristic value malloc fail, size:0x%x. @sapi_ble_gatt.c(1419),ERROR" ID="0xdea62c5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt write characteristic value memcpy fail: %d @sapi_ble_gatt.c(1429),ERROR" ID="0xdea62caa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write characteristic value fail:0x%x. @sapi_ble_gatt.c(1443),WARNING" ID="0xdea62d1b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt reliable write characteristic value param is NULL @sapi_ble_gatt.c(1462),ERROR" ID="0xdea62db2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general gatt reliable write characteristic value malloc fail @sapi_ble_gatt.c(1469),ERROR" ID="0xdea62dea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt reliable write characteristic value&quot; &quot;write_characteristic_info-&gt;len: %d @sapi_ble_gatt.c(1475),INFO" ID="0xdea62e1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BCore] ble general gatt reliable write characteristic value memcpy fail @sapi_ble_gatt.c(1481),ERROR" ID="0xdea62e4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt reliable write characteristic value fail:0x%x. @sapi_ble_gatt.c(1500),WARNING" ID="0xdea62ee3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt write descriptor value malloc faile, size:0x%x. @sapi_ble_gatt.c(1517),ERROR" ID="0xdea62f6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BCore] ble general gatt write descriptor value memcpy fail: %d @sapi_ble_gatt.c(1526),ERROR" ID="0xdea62fb2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt discovery descriptor error:0x%x. @sapi_ble_gatt.c(1536),ERROR" ID="0xdea63002" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt read descriptor value error:0x%x. @sapi_ble_gatt.c(1561),ERROR" ID="0xdea630ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt mtu config error:0x%x. @sapi_ble_gatt.c(1576),ERROR" ID="0xdea63142" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt set gap ui attributes in, name_len:%d. @sapi_ble_gatt.c(1588),INFO" ID="0xdea631a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt set gap ui attributes error:0x%x. @sapi_ble_gatt.c(1592),ERROR" ID="0xdea631c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt mpc dapter gatt get hid report map req handle:%d, offset:%d. @sapi_ble_gatt.c(1604),INFO" ID="0xdea63225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general gatt set att key size value:%d! @sapi_ble_gatt.c(1618),INFO" ID="0xdea63295" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt set att config param auth_check:%d pend_flag:%d! @sapi_ble_gatt.c(1628),INFO" ID="0xdea632e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general gatt set att mtu mtu_le_default:%d, mtu_le_max:%d. @sapi_ble_gatt.c(1638),INFO" ID="0xdea63335" />
+			</MSG_LOG>

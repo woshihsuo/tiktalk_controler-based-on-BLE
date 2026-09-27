@@ -1,0 +1,31 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[FSM][WAR] check state is equal: %u -&gt; %u @glp_client_att.c(39),INFO" ID="0xd72c013d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FSM][ERR] check state is undefined: %u -&gt; %u @glp_client_att.c(64),INFO" ID="0xd72c0205" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FSM][OK] check state: %u -&gt; %u @glp_client_att.c(69),INFO" ID="0xd72c022d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FSM][ERR] check state: %u -&gt; %u @glp_client_att.c(71),INFO" ID="0xd72c023d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[FSM] SetSlpState:%u @glp_client_att.c(82),INFO" ID="0xd72c0295" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT] rangingCtrlRole:%u @glp_client_att.c(110),INFO" ID="0xd72c0375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT] nbRole:%u @glp_client_att.c(116),INFO" ID="0xd72c03a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] wrong cursor speed mode, %u @glp_client_att.c(128),ERROR" ID="0xd72c0402" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="set screen size, width:%u mm, height:%u mm @glp_client_att.c(141),INFO" ID="0xd72c046d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set dongle ant pose offset %d mm. @glp_client_att.c(149),INFO" ID="0xd72c04ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] SetRfSwParam struct size is not equal @glp_client_att.c(157),ERROR" ID="0xd72c04ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[RFSW] SetRfSwParam, pwrCtrl:%u, a0tx:%u, a0rx:%u @glp_client_att.c(163),INFO" ID="0xd72c051d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[RFSW] SetRfSwParam, a1tx:%u, a1rx:%u, a2tx:%u, a2rx:%u @glp_client_att.c(166),INFO" ID="0xd72c0535" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT] SlpFactoryTestMode:%u @glp_client_att.c(173),INFO" ID="0xd72c056d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT] SetCiTestMode:%u @glp_client_att.c(179),INFO" ID="0xd72c059d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GLP_CLIENT][ATT] SetTransformParam, front:%d, right:%d, down:%d @glp_client_att.c(187),INFO" ID="0xd72c05dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT][ERR] SetTransformParam, imuAxisIdx check fail, flag:%u @glp_client_att.c(195),ERROR" ID="0xd72c061a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT][ERR] SetTransformParam, direction check fail, product:%u @glp_client_att.c(202),ERROR" ID="0xd72c0652" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT][ERR] SetInstParam, downtilt:%d deg @glp_client_att.c(213),ERROR" ID="0xd72c06aa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GLP_CLIENT][ATT] SetInstParam, downtilt:%d deg, verDisSeat:%d verDisSreen:%d horDisSreen:%d mm @glp_client_att.c(219),INFO" ID="0xd72c06dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR]SetLocalCursorCorrectMode, invalid mode:%u @glp_client_att.c(237),ERROR" ID="0xd72c076a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SetLocalCursorCorrectMode, mode:%u; 0:AUTO, 1:POINTER, 2:MOUSE @glp_client_att.c(241),INFO" ID="0xd72c078d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SetLocalGyroUpdateFlag, flag:%u @glp_client_att.c(248),INFO" ID="0xd72c07c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ATT] mrSource:%u @glp_client_att.c(263),INFO" ID="0xd72c083d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] framePara-&gt;ctsSegNum is abnormal: %u @glp_client_att.c(318),ERROR" ID="0xd72c09f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] framePara-&gt;gapBaseSymNum is abnormal: %u @glp_client_att.c(322),ERROR" ID="0xd72c0a12" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR] sync para is abnormal, codeLen: %u, syncCodeIdx: %u, syncSymNum: %u @glp_client_att.c(330),ERROR" ID="0xd72c0a52" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ERR] syncOnly para is abnormal, syncOnlyCodeLen: %u, syncOnlyCodeIdx: %u, syncOnlySymNum: %u @glp_client_att.c(339),ERROR" ID="0xd72c0a9a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] secPara-&gt;rangingFreq is abnormal: %u @glp_client_att.c(349),ERROR" ID="0xd72c0aea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] LPLS ctsCpLen is abnormal: %u @glp_client_att.c(355),ERROR" ID="0xd72c0b1a" />
+			</MSG_LOG>

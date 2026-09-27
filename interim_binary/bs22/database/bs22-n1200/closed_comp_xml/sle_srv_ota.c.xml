@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ota service] sle ota receive data cbk in @sle_srv_ota.c(57),INFO" ID="0xd90601cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota service] ota receive data cbk is NULL @sle_srv_ota.c(68),ERROR" ID="0xd9060222" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota service] ota receive data, data_len:%x @sle_srv_ota.c(72),INFO" ID="0xd9060245" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota service] ota receive data rsp fail! @sle_srv_ota.c(78),ERROR" ID="0xd9060272" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota service] ota data ack param error @sle_srv_ota.c(86),ERROR" ID="0xd90602b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota service] ota send data, data_len:%x @sle_srv_ota.c(95),INFO" ID="0xd90602fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota service] ota data ack failed @sle_srv_ota.c(98),ERROR" ID="0xd9060312" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota server] sle ota add service fail, ret:%x @sle_srv_ota.c(117),ERROR" ID="0xd90603aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota server] sle property mem fail @sle_srv_ota.c(133),ERROR" ID="0xd906042a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota server] sle property mem cpy fail @sle_srv_ota.c(139),ERROR" ID="0xd906045a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota server] sle ota add property fail, ret:%x @sle_srv_ota.c(144),ERROR" ID="0xd9060482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota server] sle ota add descriptor fail, ret:%x @sle_srv_ota.c(158),ERROR" ID="0xd90604f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota server] sle uuid add service in @sle_srv_ota.c(170),INFO" ID="0xd9060555" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ota server] sle ota add service, server_id:%x, service_handle:%x, property_handle:%x @sle_srv_ota.c(181),INFO" ID="0xd90605ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ota server] sle ota add service fail, ret:%x @sle_srv_ota.c(184),ERROR" ID="0xd90605c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota server] sle ota add service out @sle_srv_ota.c(187),INFO" ID="0xd90605dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ota server] init ok @sle_srv_ota.c(196),INFO" ID="0xd9060625" />
+			</MSG_LOG>

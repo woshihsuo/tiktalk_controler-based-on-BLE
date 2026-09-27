@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] gle read nv config fail, errcode: 0x%x @gle_data_config.c(59),ERROR" ID="0xd90001da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] gle read nv config succ, real_len:%d. @gle_data_config.c(63),INFO" ID="0xd90001fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] gle set nv config fail, errcode: 0x%x @gle_data_config.c(84),ERROR" ID="0xd90002a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle set nv config succ. @gle_data_config.c(87),INFO" ID="0xd90002bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] gle get nv config data_len = %d. @gle_data_config.c(101),INFO" ID="0xd900032d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sync config err, malloc fail. @gle_data_config.c(127),ERROR" ID="0xd90003fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle config data write err! @gle_data_config.c(148),ERROR" ID="0xd90004a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore config data read memcpy err! @gle_data_config.c(159),ERROR" ID="0xd90004fa" />
+			</MSG_LOG>

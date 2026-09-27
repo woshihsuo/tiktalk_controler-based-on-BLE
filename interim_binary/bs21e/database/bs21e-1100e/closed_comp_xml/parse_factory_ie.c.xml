@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[FAC-PARSE] set test mode, len:%u, No:%u, mode, %u @parse_factory_ie.c(17),INFO" ID="0xd75c008d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] read phase cali para, len:%u, No:%u @parse_factory_ie.c(24),INFO" ID="0xd75c00c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] write phase cali para, len:%u, No:%u @parse_factory_ie.c(35),INFO" ID="0xd75c011d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] read trx delay, len:%u, No:%u @parse_factory_ie.c(52),INFO" ID="0xd75c01a5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] write trx delay, len:%u, No:%u @parse_factory_ie.c(67),INFO" ID="0xd75c021d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[FACORIDATA-PARSE][WAR] not ranging state, %u @parse_factory_ie.c(86),WARNING" ID="0xd75c02b3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FACORIDATA-PARSE] FacOriDataIELen:%u, No:%u @parse_factory_ie.c(93),DBG" ID="0xd75c02ee" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[FACORIDATA-PARSE][WAR] not ranging state, %u @parse_factory_ie.c(108),WARNING" ID="0xd75c0363" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FACORIDATA-PARSE] FacTriAntOriDataIELen:%u, No:%u @parse_factory_ie.c(115),DBG" ID="0xd75c039e" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] recv imu data, len:%u, No:%u @parse_factory_ie.c(127),INFO" ID="0xd75c03fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] recv phase cali para data, len:%u, No:%u @parse_factory_ie.c(138),INFO" ID="0xd75c0455" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-PARSE] recv trx delay data, len:%u, No:%u @parse_factory_ie.c(150),INFO" ID="0xd75c04b5" />
+			</MSG_LOG>

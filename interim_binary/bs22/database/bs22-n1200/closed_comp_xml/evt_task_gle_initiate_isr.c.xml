@@ -1,0 +1,27 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_start_cbk, prog_num=%d @evt_task_gle_initiate_isr.c(113),WARNING" ID="0x88ea038b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_abnormal_cbk, timestamp=0x%x, current time=0x%x, state=%d, task_id=0x%x @evt_task_gle_initiate_isr.c(136),INFO" ID="0x88ea0445" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_abnormal_cbk, prog_num=%d @evt_task_gle_initiate_isr.c(141),WARNING" ID="0x88ea046b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_single_task_start, unexpected task_type: %d @evt_task_gle_initiate_isr.c(277),WARNING" ID="0x88ea08ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[early version] evt_task_gle_initiate_start_aux_rx initiate with early version remote. @evt_task_gle_initiate_isr.c(316),INFO" ID="0x88ea09e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_start_rsp_rx, clock=0x%x, anchor_point=0x%x, us_offset=%d, rsp_offset=%d @evt_task_gle_initiate_isr.c(390),INFO" ID="0x88ea0c35" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp] initiate_phy_nego, frame_format %d, pilot_ratio %d @evt_task_gle_initiate_isr.c(648),INFO" ID="0x88ea1445" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_pack_con_ind, clkn=0x%x, con_intv=%d, delay=%d, offset=%d @evt_task_gle_initiate_isr.c(700),INFO" ID="0x88ea15e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_start_req_tx, req_offset(%d)req_max_len(%d)rsp_offset(%d)req_num(%d) @evt_task_gle_initiate_isr.c(811),WARNING" ID="0x88ea195b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_initiate_start_req_tx, Init gt_role_ind=%d, adv gt_role_ind=%d @evt_task_gle_initiate_isr.c(819),WARNING" ID="0x88ea199b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_rx_check, whitelist connect!, peer_addr_type=%d @evt_task_gle_initiate_isr.c(888),INFO" ID="0x88ea1bc5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_initiate_rx_check, state=%d, pdu_type=%d @evt_task_gle_initiate_isr.c(899),INFO" ID="0x88ea1c1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_initiate_rx_check, state=%d, pdu_type=%d @evt_task_gle_initiate_isr.c(906),INFO" ID="0x88ea1c55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_initiate_rx_check, state=%d, pdu_type=%d @evt_task_gle_initiate_isr.c(912),INFO" ID="0x88ea1c85" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_initiate_parse_con_rsp, con_rsp_offset=0! @evt_task_gle_initiate_isr.c(939),WARNING" ID="0x88ea1d5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_initiate_parse_con_rsp, rsp_num=0! @evt_task_gle_initiate_isr.c(946),WARNING" ID="0x88ea1d93" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_initiate_parse_con_ind, con_ind_offset=0 @evt_task_gle_initiate_isr.c(985),WARNING" ID="0x88ea1ecb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_initiate_rsp_rx_handle, parse_con_rsp fail! @evt_task_gle_initiate_isr.c(1028),WARNING" ID="0x88ea2023" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE][INITIATE]MSG_ALLOC_FAILED! @evt_task_gle_initiate_isr.c(1043),ERROR" ID="0x88ea209a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_rsp_rx_handle, rsp_type=%d @evt_task_gle_initiate_isr.c(1052),WARNING" ID="0x88ea20e3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_rsp_rx_handle, rsp_type=%d, con_role=%d, tx_addr=%d, rxpd_index=%d @evt_task_gle_initiate_isr.c(1069),INFO" ID="0x88ea216d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_initiate_rx_handle, unexpected behavior! @evt_task_gle_initiate_isr.c(1096),INFO" ID="0x88ea2245" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]evt_task_gle_initiate_recv_data, status=0x%x, state=%d, rxpd_index=%d @evt_task_gle_initiate_isr.c(1118),INFO" ID="0x88ea22f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_initiate_evt_cbk, prog_num=%d @evt_task_gle_initiate_isr.c(1150),WARNING" ID="0x88ea23f3" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_initiate_cancel_cbk, timestamp=0x%x, current time=0x%x, state=%d, task_id=0x%x @evt_task_gle_initiate_isr.c(1179),INFO" ID="0x88ea24dd" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp][initiate]stop_cbk, timestamp=0x%x, current time=0x%x, task_id=0x%x @evt_task_gle_initiate_isr.c(1203),INFO" ID="0x88ea259d" />
+			</MSG_LOG>

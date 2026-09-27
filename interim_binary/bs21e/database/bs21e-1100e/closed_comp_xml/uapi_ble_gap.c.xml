@@ -1,0 +1,47 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Core] ble general: mc ble conn state. @uapi_ble_gap.c(223),INFO" ID="0xd86e06fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble conn state fail. len = %u @uapi_ble_gap.c(226),ERROR" ID="0xd86e0712" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble conn state memcpy fail: %d @uapi_ble_gap.c(232),ERROR" ID="0xd86e0742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap general interface fail. len = %u @uapi_ble_gap.c(245),ERROR" ID="0xd86e07aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap general interface fail. len = %u @uapi_ble_gap.c(251),ERROR" ID="0xd86e07da" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[ACore] ble general: gap ext adv report. addr_type:0x%x addr:0x%02x:**:**:**:**:%02x data_len:0x%02x @uapi_ble_gap.c(256),INFO" ID="0xd86e0805" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap adv set terminated fail. len = %u @uapi_ble_gap.c(269),ERROR" ID="0xd86e086a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap adv set terminated status: %u @uapi_ble_gap.c(274),INFO" ID="0xd86e0895" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap enable adv set cbk error. len = %u @uapi_ble_gap.c(285),ERROR" ID="0xd86e08ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap enable adv status: %u @uapi_ble_gap.c(290),INFO" ID="0xd86e0915" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap disable adv set cbk error. len = %u @uapi_ble_gap.c(300),ERROR" ID="0xd86e0962" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: gap disable adv status: %u @uapi_ble_gap.c(305),INFO" ID="0xd86e098d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey req bta fail. len = %u @uapi_ble_gap.c(316),ERROR" ID="0xd86e09e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey req bta. conn_handle = 0x%x @uapi_ble_gap.c(322),INFO" ID="0xd86e0a15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp passkey notify bta fail. len = %u @uapi_ble_gap.c(333),ERROR" ID="0xd86e0a6a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble general:  mc ble smp passkey notify bta. co_handle = 0x%x, tk = %u @uapi_ble_gap.c(340),INFO" ID="0xd86e0aa5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble general: mc ble smp pair keys bta fail. param = NULL @uapi_ble_gap.c(350),ERROR" ID="0xd86e0af2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp pair keys bta fail. len = %u @uapi_ble_gap.c(355),ERROR" ID="0xd86e0b1a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] ble general: mc ble smp pair keys bta. addr:%02x:**:**:**:%02x:%02x @uapi_ble_gap.c(361),INFO" ID="0xd86e0b4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble smp pair complete bta fail. len = %u @uapi_ble_gap.c(372),ERROR" ID="0xd86e0ba2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble general: mc ble smp pair complete bta. rmt_dev_handle = 0x%x, result = 0x%x @uapi_ble_gap.c(379),INFO" ID="0xd86e0bdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble identity addr update bta fail. len = %u @uapi_ble_gap.c(388),ERROR" ID="0xd86e0c22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble identity addr update bta fail. len = %u @uapi_ble_gap.c(400),ERROR" ID="0xd86e0c82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble gap get apperance fail. len = %u @uapi_ble_gap.c(413),ERROR" ID="0xd86e0cea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble general: mc ble gap get apperance apperance = %u @uapi_ble_gap.c(418),ERROR" ID="0xd86e0d12" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="mc ble gap get white list: count = %d. @uapi_ble_gap.c(428),INFO" ID="0xd86e0d65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="mc ble gap get white list addr:0x%x:**:**:**:0x%x:0x%x. @uapi_ble_gap.c(432),INFO" ID="0xd86e0d85" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] ble conn general gap proc:cmdid:0x%02X pay_len:%d. @uapi_ble_gap.c(502),INFO" ID="0xd86e0fb5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] ble conn general gap proc no handle for command id:0x%02x.  @uapi_ble_gap.c(517),INFO" ID="0xd86e102d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ble passkey entry memcpy fail. @uapi_ble_gap.c(597),INFO" ID="0xd86e12ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update params NULL. @uapi_ble_gap.c(690),ERROR" ID="0xd86e1592" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update conn_node NULL. @uapi_ble_gap.c(696),WARNING" ID="0xd86e15c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update connect_params NULL. @uapi_ble_gap.c(703),WARNING" ID="0xd86e15fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi connect param update addr memcpy fail. @uapi_ble_gap.c(707),ERROR" ID="0xd86e161a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] uapi connect param update ret:%d. @uapi_ble_gap.c(716),INFO" ID="0xd86e1665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi reg data bypass cbk error. @uapi_ble_gap.c(752),WARNING" ID="0xd86e1783" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] uapi send data bypass params error len = %d. @uapi_ble_gap.c(764),ERROR" ID="0xd86e17e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] bt acore mpc send 2 bt bypass fail ret = %d. @uapi_ble_gap.c(770),ERROR" ID="0xd86e1812" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi set sec params error  @uapi_ble_gap.c(779),ERROR" ID="0xd86e185a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] mc sdk ble set sec params atb fail ret = %d. @uapi_ble_gap.c(785),ERROR" ID="0xd86e188a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi generate local oob data error  @uapi_ble_gap.c(795),ERROR" ID="0xd86e18da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] mc sdk ble generate local oob data fail ret = %d. @uapi_ble_gap.c(801),ERROR" ID="0xd86e190a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi set remote oob data error  @uapi_ble_gap.c(810),ERROR" ID="0xd86e1952" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error] mc sdk ble set remote oob data fail ret = %d. @uapi_ble_gap.c(816),ERROR" ID="0xd86e1982" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[error] uapi set user passkey tk error  @uapi_ble_gap.c(826),ERROR" ID="0xd86e19d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[error]  ble set user passkey tk fail ret = %d. @uapi_ble_gap.c(832),ERROR" ID="0xd86e1a02" />
+			</MSG_LOG>

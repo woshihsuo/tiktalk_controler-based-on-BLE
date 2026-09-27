@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_trng.a  CMakeFiles/hal_trng.dir/hal_trng.c.obj CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="BTH_VENDOR: bt vendor init start @bt_vendor.c(56),INFO" ID="0xdc9601c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="BTH_VENDOR: bt vendor init start-317 @bt_vendor.c(61),INFO" ID="0xdc9601ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt vendor init start @bt_vendor.c(101),INFO" ID="0xdc96032d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt vendor init end, power on finish @bt_vendor.c(130),INFO" ID="0xdc960415" />
+			</MSG_LOG>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../../drivers/chips/bs2x/include/chip_core_definition.h
+chip_definitions.h
+../../../../drivers/chips/bs2x/include/chip_definitions.h
+
+../../../../middleware/utils/common_headers/chip_definitions.h
+
+/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
+chip_core_definition.h
+/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/chip_core_definition.h
+

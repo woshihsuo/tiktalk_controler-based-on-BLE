@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="sapi gle send data lcid = 0x%04x, tcid = 0x%04x @gle_ahia_trans_manager.c(23),INFO" ID="0xd8f200bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia data send busy len = %d error @gle_ahia_trans_manager.c(52),ERROR" ID="0xd8f201a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_trans_manager.c(60),ERROR" ID="0xd8f201e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia transmission manager handler invalid param! @gle_ahia_trans_manager.c(71),ERROR" ID="0xd8f2023a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia transmission manager handler cmd:%02x! @gle_ahia_trans_manager.c(76),INFO" ID="0xd8f20265" />
+			</MSG_LOG>

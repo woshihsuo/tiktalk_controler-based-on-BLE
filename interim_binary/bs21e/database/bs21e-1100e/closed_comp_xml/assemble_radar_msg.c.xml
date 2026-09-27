@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="SendRadarMsgToWb: msg_buf == NULL @assemble_radar_msg.c(22),ERROR" ID="0xd77c00b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] hw_msg_buf! @assemble_radar_msg.c(37),ERROR" ID="0xd77c012a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] start_msg_buf! @assemble_radar_msg.c(55),ERROR" ID="0xd77c01ba" />
+			</MSG_LOG>

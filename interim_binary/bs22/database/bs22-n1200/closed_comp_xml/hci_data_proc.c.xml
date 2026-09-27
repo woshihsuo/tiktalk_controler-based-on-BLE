@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[HCI][QOS_BUFF_OVERFLOW_CLEAR] SLOT=%u, BUFF&gt;%u @hci_data_proc.c(137),ERROR" ID="0xdbde044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI] memcpy fail @hci_data_proc.c(235),ERROR" ID="0xdbde075a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]bth hci acl data recombination memcpy @hci_data_proc.c(284),ERROR" ID="0xdbde08e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HCI]bth hci acl data recombination memcpy @hci_data_proc.c(290),ERROR" ID="0xdbde0912" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][RECV_ACL_DATA] CONN_HANDLE=0x%x, link not found @hci_data_proc.c(371),INFO" ID="0xdbde0b9d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] OPCODE=0x%x, HANDLE=0x%x, LEN=%u @hci_data_proc.c(570),INFO" ID="0xdbde11d5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, disc_reason=0x%x, LEN=%u @hci_data_proc.c(580),INFO" ID="0xdbde1225" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, OCF=0x%x, LEN=%u @hci_data_proc.c(586),WARNING" ID="0xdbde1253" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] OPCODE=0x%x, HANDLE=0x%x, LEN=%u @hci_data_proc.c(608),INFO" ID="0xdbde1305" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] OPCODE=0x%x, OGF=0x%x, OCF=0x%x, LEN=%u @hci_data_proc.c(613),INFO" ID="0xdbde132d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] LEN=%u @hci_data_proc.c(628),INFO" ID="0xdbde13a5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][H--&gt;C] %02x %02x %02x %02x @hci_data_proc.c(634),INFO" ID="0xdbde13d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][H--&gt;C] %02x %02x %02x @hci_data_proc.c(639),INFO" ID="0xdbde13fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][H--&gt;C] %02x %02x @hci_data_proc.c(642),INFO" ID="0xdbde1415" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] %02x @hci_data_proc.c(644),INFO" ID="0xdbde1425" />
+			</MSG_LOG>

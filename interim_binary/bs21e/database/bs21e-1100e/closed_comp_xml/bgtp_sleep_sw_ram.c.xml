@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="bgtp_start_sleep last_freq:%d, cur_freq:%d @bgtp_sleep_sw_ram.c(165),ERROR" ID="0x8964052a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BGTP][SLEEP]bgtp_soc_wakeup_irq_handler cur_state:%d @bgtp_sleep_sw_ram.c(193),INFO" ID="0x8964060d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP][SLEEP]bgtp_bsub_wakeup_irq_handler curclk:0x%x, slpus:%d, 32k:%d, slpclk:0x%x @bgtp_sleep_sw_ram.c(256),INFO" ID="0x89640805" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP][SLEEP]bgtp_bsub_wakeup_irq_handler sleep_time:0x%x, dur_slot:%d, finecnt:%d, 32k:%d @bgtp_sleep_sw_ram.c(265),INFO" ID="0x8964084d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP][SLEEP]bgtp_bsub_wakeup_irq_handler wkup timeout, curclk:0x%x, slpus:%d, uscnt:%d @bgtp_sleep_sw_ram.c(268),ERROR" ID="0x89640862" />
+			</MSG_LOG>

@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="gle set addr: 0x%02x:**:**:**:%02x:%02x @gle_service_database.c(70),INFO" ID="0xd8de0235" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_service_database.c(73),ERROR" ID="0xd8de024a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="memcpy = %d failed @gle_service_database.c(92),INFO" ID="0xd8de02e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="gle set name[%d] = 0x%02x @gle_service_database.c(96),INFO" ID="0xd8de0305" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] data config write err. @gle_service_database.c(115),INFO" ID="0xd8de039d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] config sync data memcpy err. @gle_service_database.c(119),ERROR" ID="0xd8de03ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore get smp keys param err! @gle_service_database.c(131),ERROR" ID="0xd8de041a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore smp keys memcmp err, data all zero! @gle_service_database.c(147),WARNING" ID="0xd8de049b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore smp keys memcmp err, addr not match! @gle_service_database.c(152),WARNING" ID="0xd8de04c3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore get smp keys memcpy err! @gle_service_database.c(159),ERROR" ID="0xd8de04fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle acore smp get keys num:%x @gle_service_database.c(169),WARNING" ID="0xd8de054b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle acore save smp keys param err! @gle_service_database.c(175),ERROR" ID="0xd8de057a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore memset smp key err! @gle_service_database.c(213),ERROR" ID="0xd8de06aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle acore get bonded device memcpy err! @gle_service_database.c(239),ERROR" ID="0xd8de077a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle acore save sm key write_index:%02x! @gle_service_database.c(275),INFO" ID="0xd8de089d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle acore save sm full, write_index:%02x! @gle_service_database.c(309),INFO" ID="0xd8de09ad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle acore save sm key write_index:%02x! @gle_service_database.c(326),INFO" ID="0xd8de0a35" />
+			</MSG_LOG>

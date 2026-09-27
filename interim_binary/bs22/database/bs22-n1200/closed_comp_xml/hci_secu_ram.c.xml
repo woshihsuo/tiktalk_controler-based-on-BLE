@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[HCI][AUTH_FAIL] STATUS=PIN_OR_KEY_MISSING, REMOTE_ADDR=%02x:%02x:**:**:**:%02x @hci_secu_ram.c(146),WARNING" ID="0xdbce0493" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][ERROR] addr = **:**:**:**:%02x:%02x, remote not found  @hci_secu_ram.c(277),ERROR" ID="0xdbce08aa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HCI][ERROR] addr = **:**:**:**:%02x:%02x, memcpy free ret %d @hci_secu_ram.c(287),ERROR" ID="0xdbce08fa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[HCI][SAVE_LINK_KEY] LOCAL_MASK=0x%x, REMOTE_SEC_MASK=0x%x @hci_secu_ram.c(440),INFO" ID="0xdbce0dc5" />
+			</MSG_LOG>

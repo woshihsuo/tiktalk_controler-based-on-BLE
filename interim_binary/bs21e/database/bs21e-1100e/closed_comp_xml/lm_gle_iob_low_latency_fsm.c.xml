@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="lm_gle_iob_low_latency_fsm_exception_handler, msg_id:%d @lm_gle_iob_low_latency_fsm.c(29),WARNING" ID="0x896800eb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle][iob_low_latency]lm_gle_iob_low_latency_create_fsm SUCC! @lm_gle_iob_low_latency_fsm.c(61),INFO" ID="0x896801ed" />
+			</MSG_LOG>

@@ -1,0 +1,106 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="conn node count limit @sle_srv_cm.c(101),ERROR" ID="0xd8bc032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create conn node alloc failed @sle_srv_cm.c(106),ERROR" ID="0xd8bc0352" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="create conn node memcpy failed @sle_srv_cm.c(111),ERROR" ID="0xd8bc037a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="create conn node, addr %02x:%02x:xx:xx:xx:%02x @sle_srv_cm.c(116),INFO" ID="0xd8bc03a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle delete connect node is null. @sle_srv_cm.c(139),ERROR" ID="0xd8bc045a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="delete conn node, addr %02x:%02x:xx:xx:xx:%02x @sle_srv_cm.c(143),INFO" ID="0xd8bc047d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle set rssi param err @sle_srv_cm.c(152),ERROR" ID="0xd8bc04c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi sle set rssi fail ret = %x @sle_srv_cm.c(157),ERROR" ID="0xd8bc04ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle connect remote addr pointer is null. @sle_srv_cm.c(173),ERROR" ID="0xd8bc056a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x already connected. @sle_srv_cm.c(179),INFO" ID="0xd8bc059d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uapi sle connect remote 0x%x:**:**:**:0x%x:0x%x failed, ret = 0x%x @sle_srv_cm.c(192),ERROR" ID="0xd8bc0602" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle create connection cancel failed, ret = 0x%x @sle_srv_cm.c(206),ERROR" ID="0xd8bc0672" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle disconnect remote addr pointer is null. @sle_srv_cm.c(218),ERROR" ID="0xd8bc06d2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x not exit. @sle_srv_cm.c(224),ERROR" ID="0xd8bc0702" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x already disconnected. @sle_srv_cm.c(229),INFO" ID="0xd8bc072d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uapi sle disconnect remote 0x%x:**:**:**:0x%x:0x%x failed, ret = 0x%x @sle_srv_cm.c(243),ERROR" ID="0xd8bc079a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x already disconnected. @sle_srv_cm.c(258),INFO" ID="0xd8bc0815" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uapi sle disconnect remote 0x%x:**:**:**:0x%x:0x%x failed, ret = 0x%x @sle_srv_cm.c(272),ERROR" ID="0xd8bc0882" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle get connect role pointer is null. @sle_srv_cm.c(286),ERROR" ID="0xd8bc08f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle connect param update pointer is null. @sle_srv_cm.c(306),ERROR" ID="0xd8bc0992" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="connect param update failed, conn(%d) not exit. @sle_srv_cm.c(312),ERROR" ID="0xd8bc09c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn(%d) not connected. @sle_srv_cm.c(316),INFO" ID="0xd8bc09e5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="uapi sle conn(%d) update connection param failed, ret = 0x%x @sle_srv_cm.c(336),ERROR" ID="0xd8bc0a82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle pair remote addr pointer is null. @sle_srv_cm.c(348),ERROR" ID="0xd8bc0ae2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x not exit. @sle_srv_cm.c(354),ERROR" ID="0xd8bc0b12" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x not connected. please connect first. @sle_srv_cm.c(360),ERROR" ID="0xd8bc0b42" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x already paired, start encrypting @sle_srv_cm.c(366),INFO" ID="0xd8bc0b75" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uapi sle pair remote 0x%x:**:**:**:0x%x:0x%x failed, ret = 0x%x @sle_srv_cm.c(373),ERROR" ID="0xd8bc0baa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle remove pair remote addr pointer is null. @sle_srv_cm.c(386),ERROR" ID="0xd8bc0c12" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uapi sle remove pair remote 0x%x:**:**:**:0x%x:0x%x failed, ret = 0x%x @sle_srv_cm.c(394),ERROR" ID="0xd8bc0c52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle get paired device pointer is null. @sle_srv_cm.c(406),ERROR" ID="0xd8bc0cb2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle get paired device pointer is null. @sle_srv_cm.c(427),ERROR" ID="0xd8bc0d5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="get paired devices alloc failed, length:%d @sle_srv_cm.c(441),ERROR" ID="0xd8bc0dca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="the param space is less than the required space. input space is %d required %d @sle_srv_cm.c(456),ERROR" ID="0xd8bc0e42" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get paired devices memcpy failed. @sle_srv_cm.c(461),ERROR" ID="0xd8bc0e6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle get pair state pointer is null. @sle_srv_cm.c(476),ERROR" ID="0xd8bc0ee2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="remote 0x%x:**:**:**:0x%x:0x%x not exit. @sle_srv_cm.c(482),ERROR" ID="0xd8bc0f12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle set smp keys pointer is null. @sle_srv_cm.c(517),ERROR" ID="0xd8bc102a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle set smp keys memcpy addr fail. @sle_srv_cm.c(527),ERROR" ID="0xd8bc107a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle set smp keys memcpy addr fail. @sle_srv_cm.c(532),ERROR" ID="0xd8bc10a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get set devices memcpy failed. @sle_srv_cm.c(537),ERROR" ID="0xd8bc10ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle get bonded device pointer is null. @sle_srv_cm.c(556),ERROR" ID="0xd8bc1162" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get bonded devices memcpy failed. @sle_srv_cm.c(561),ERROR" ID="0xd8bc118a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote rssi failed, conn(%d) not exit. @sle_srv_cm.c(574),ERROR" ID="0xd8bc11f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote rssi failed, conn not establish state %d. @sle_srv_cm.c(579),ERROR" ID="0xd8bc121a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="read remote rssi failed, conn(%d) failed, ret = 0x%x @sle_srv_cm.c(587),ERROR" ID="0xd8bc125a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle read access filter list failed, size = NULL @sle_srv_cm.c(600),ERROR" ID="0xd8bc12c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle clear access filter list failed, ret = 0x%x @sle_srv_cm.c(615),ERROR" ID="0xd8bc133a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle add access filter list failed, addr is NULL. @sle_srv_cm.c(627),ERROR" ID="0xd8bc139a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle add to access filter list memcpy failed @sle_srv_cm.c(632),ERROR" ID="0xd8bc13c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle add access filter list failed, ret = 0x%x @sle_srv_cm.c(639),ERROR" ID="0xd8bc13fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle remove from access filter list failed, addr is NULL. @sle_srv_cm.c(652),ERROR" ID="0xd8bc1462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle remove from access filter list memcpy failed @sle_srv_cm.c(657),ERROR" ID="0xd8bc148a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle remove from access filter list failed, ret = 0x%x @sle_srv_cm.c(663),ERROR" ID="0xd8bc14ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_acb_evt_param]failed, conn(%d) not exit. @sle_srv_cm.c(676),ERROR" ID="0xd8bc1522" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_acb_evt_param]failed, conn not establish state %d. @sle_srv_cm.c(681),ERROR" ID="0xd8bc154a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[set_acb_evt_param]failed, conn(%d) failed, ret = 0x%x @sle_srv_cm.c(687),ERROR" ID="0xd8bc157a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[set_phy]failed, param is NULL. @sle_srv_cm.c(699),ERROR" ID="0xd8bc15da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_phy]failed, conn(%d) not exit. @sle_srv_cm.c(704),ERROR" ID="0xd8bc1602" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_phy]failed, conn not establish state %d. @sle_srv_cm.c(709),ERROR" ID="0xd8bc162a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[set_phy]failed, conn pair %d. @sle_srv_cm.c(715),ERROR" ID="0xd8bc165a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[set_phy]failed, conn(%d) failed, ret = 0x%x @sle_srv_cm.c(726),ERROR" ID="0xd8bc16b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_set_mcs]failed, conn(%d) not exit. @sle_srv_cm.c(739),ERROR" ID="0xd8bc171a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_set_mcs]failed, conn not establish state %d. @sle_srv_cm.c(744),ERROR" ID="0xd8bc1742" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[sle_set_mcs]failed, conn(%d) failed, ret = 0x%x @sle_srv_cm.c(753),ERROR" ID="0xd8bc178a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_set_data_len]failed, conn(%d) not exit. @sle_srv_cm.c(766),ERROR" ID="0xd8bc17f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_set_data_len]failed, conn not establish state %d. @sle_srv_cm.c(771),ERROR" ID="0xd8bc181a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[sle_set_data_len]failed, conn(%d) failed, ret = 0x%x @sle_srv_cm.c(780),ERROR" ID="0xd8bc1862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[sle private connection param set]failed, param is NULL. @sle_srv_cm.c(793),ERROR" ID="0xd8bc18ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle private connection param set]failed, ret = 0x%x @sle_srv_cm.c(810),ERROR" ID="0xd8bc1952" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle connect remote create conn node failed. @sle_srv_cm.c(823),ERROR" ID="0xd8bc19ba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="remote(0x%02x:**:**:**:%02x:%02x) conn_id(%d) @sle_srv_cm.c(837),INFO" ID="0xd8bc1a2d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="remote(0x%02x:**:**:**:%02x:%02x) state(%d) @sle_srv_cm.c(840),INFO" ID="0xd8bc1a45" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="remote(0x%02x:**:**:**:%02x:%02x) conn_id(%d) @sle_srv_cm.c(880),INFO" ID="0xd8bc1b85" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="remote(0x%02x:**:**:**:%02x:%02x) param update result(%d) @sle_srv_cm.c(883),INFO" ID="0xd8bc1b9d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="interval: %d, latency: %d, timeout: %d. @sle_srv_cm.c(885),INFO" ID="0xd8bc1bad" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle auth complete conn id(%d) invalid. @sle_srv_cm.c(905),ERROR" ID="0xd8bc1c4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle auth complete alloc failed. @sle_srv_cm.c(922),ERROR" ID="0xd8bc1cd2" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="remote(0x%x:**:**:**:0x%x:0x%x) conn_id(%d) @sle_srv_cm.c(937),INFO" ID="0xd8bc1d4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="auth status:%d, crypto algo:%d, key deriv algo:%d, integr chk ind:%d @sle_srv_cm.c(940),INFO" ID="0xd8bc1d65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle pair complete conn id(%d) invalid. @sle_srv_cm.c(957),ERROR" ID="0xd8bc1dea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="conn_id(%d) pair result:%d @sle_srv_cm.c(971),INFO" ID="0xd8bc1e5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle recover pair info, num: %d @sle_srv_cm.c(984),INFO" ID="0xd8bc1ec5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle recover pair info create conn node failed. @sle_srv_cm.c(991),ERROR" ID="0xd8bc1efa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle recover pair info memcpy failed. @sle_srv_cm.c(1004),ERROR" ID="0xd8bc1f62" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[sle_set_phy_cbk]:status:%u, con_hdl:%u, rx_phy:%u, tx_phy:%u @sle_srv_cm.c(1030),INFO" ID="0xd8bc2035" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle remote private feature memcpy failed. @sle_srv_cm.c(1093),ERROR" ID="0xd8bc222a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="unhandled msg id %x @sle_srv_cm.c(1150),INFO" ID="0xd8bc23f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn state alloc failed, length:%d @sle_srv_cm.c(1161),ERROR" ID="0xd8bc244a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn state memcpy failed. @sle_srv_cm.c(1166),ERROR" ID="0xd8bc2472" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn param update req alloc failed, length:%d @sle_srv_cm.c(1192),ERROR" ID="0xd8bc2542" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn param update req memcpy failed. @sle_srv_cm.c(1198),ERROR" ID="0xd8bc2572" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn param update alloc failed, length:%d @sle_srv_cm.c(1216),ERROR" ID="0xd8bc2602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn param update memcpy failed. @sle_srv_cm.c(1221),ERROR" ID="0xd8bc262a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[read remote rssi cbk] read remote rssi :conn id:%d, status:%d, rssi:%d @sle_srv_cm.c(1240),INFO" ID="0xd8bc26c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle read filter list size cbk, size: %d @sle_srv_cm.c(1249),INFO" ID="0xd8bc270d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[sle_set_acb_param_cbk]:status:%u, con_hdl:%u, evt_intv:%u, evt_num:%u @sle_srv_cm.c(1256),INFO" ID="0xd8bc2745" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn encrypt complete alloc failed, length:%d @sle_srv_cm.c(1265),ERROR" ID="0xd8bc278a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn encrypt complete memcpy failed. @sle_srv_cm.c(1270),ERROR" ID="0xd8bc27b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="pri feature alloc failed, length:%d @sle_srv_cm.c(1288),ERROR" ID="0xd8bc2842" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="pri feature complete memcpy failed. @sle_srv_cm.c(1293),ERROR" ID="0xd8bc286a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle connection manager init failed. @sle_srv_cm.c(1335),ERROR" ID="0xd8bc29ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle set channel map, ret = 0x%x @sle_srv_cm.c(1391),ERROR" ID="0xd8bc2b7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle set low latency, ret = 0x%x @sle_srv_cm.c(1417),ERROR" ID="0xd8bc2c4a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle cm evt proc] type invalid. cmd/evt(%d) @sle_srv_cm.c(1441),ERROR" ID="0xd8bc2d0a" />
+			</MSG_LOG>

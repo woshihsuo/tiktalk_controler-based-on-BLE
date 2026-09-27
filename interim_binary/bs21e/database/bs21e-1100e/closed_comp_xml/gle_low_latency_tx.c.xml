@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[low latency] tx_counter:%d, loss counter:%d, tx_drop:%d @gle_low_latency_tx.c(44),INFO" ID="0xd8260165" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle_set_low_latency_data memcpy fail @gle_low_latency_tx.c(95),ERROR" ID="0xd82602fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general tx tog up callback memcpy fail @gle_low_latency_tx.c(171),ERROR" ID="0xd826055a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general tx enable! @gle_low_latency_tx.c(193),INFO" ID="0xd826060d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="general tx disable! @gle_low_latency_tx.c(204),INFO" ID="0xd8260665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy low latency callback fail @gle_low_latency_tx.c(212),ERROR" ID="0xd82606a2" />
+			</MSG_LOG>

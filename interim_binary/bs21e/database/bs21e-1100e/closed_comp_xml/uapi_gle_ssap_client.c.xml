@@ -1,0 +1,33 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="uapi gle ssapc register cbks cbks null error @uapi_gle_ssap_client.c(24),ERROR" ID="0xd8ec00c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi gle ssapc find structure param error @uapi_gle_ssap_client.c(34),ERROR" ID="0xd8ec0112" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi gle ssapc find service by uuid param error @uapi_gle_ssap_client.c(44),ERROR" ID="0xd8ec0162" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi ssapc write cmd len = %u param error @uapi_gle_ssap_client.c(57),ERROR" ID="0xd8ec01ca" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="handle = 0x%02x, type = 0x%02x, len = %u @uapi_gle_ssap_client.c(61),INFO" ID="0xd8ec01ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write cmd mem new failed @uapi_gle_ssap_client.c(65),ERROR" ID="0xd8ec020a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write cmd mem cpy failed @uapi_gle_ssap_client.c(73),ERROR" ID="0xd8ec024a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="handle = 0x%02x, type = 0x%02x @uapi_gle_ssap_client.c(87),INFO" ID="0xd8ec02bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[uapi ssapc_read_by_uuid_req]uuid null error @uapi_gle_ssap_client.c(100),ERROR" ID="0xd8ec0322" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="uuid-&gt;len[%u], data_type[0x%02x], begin_hdl[0x%04x], end_hdl[0x%04x] @uapi_gle_ssap_client.c(105),INFO" ID="0xd8ec034d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="uuid[%u]:[0x%02x] @uapi_gle_ssap_client.c(108),INFO" ID="0xd8ec0365" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[uapi ssapc_read_by_uuid_req]uuid memcpy failed @uapi_gle_ssap_client.c(112),ERROR" ID="0xd8ec0382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[uapi ssapc_read_by_uuid_req]addr memcpy failed @uapi_gle_ssap_client.c(117),ERROR" ID="0xd8ec03aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi ssapc write req len = %u param error @uapi_gle_ssap_client.c(133),ERROR" ID="0xd8ec042a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="handle = 0x%02x, type = 0x%02x, len = %u @uapi_gle_ssap_client.c(137),INFO" ID="0xd8ec044d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write req mem new failed @uapi_gle_ssap_client.c(141),ERROR" ID="0xd8ec046a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write req mem cpy failed @uapi_gle_ssap_client.c(150),ERROR" ID="0xd8ec04b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[uapi ssapc_exchange_info_req]mtu = %u @uapi_gle_ssap_client.c(164),INFO" ID="0xd8ec0525" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[uapi ssapc_exchange_info_req]memcpy addr failed @uapi_gle_ssap_client.c(170),ERROR" ID="0xd8ec0552" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[uapi ssapc_value_ack_by_addr]memcpy addr failed @uapi_gle_ssap_client.c(185),ERROR" ID="0xd8ec05ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi ssapc write cmd len = %u param error @uapi_gle_ssap_client.c(201),ERROR" ID="0xd8ec064a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="handle = 0x%02x, type = 0x%02x, len = %u @uapi_gle_ssap_client.c(205),INFO" ID="0xd8ec066d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write cmd mem new failed @uapi_gle_ssap_client.c(209),ERROR" ID="0xd8ec068a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc read req mem cpy failed @uapi_gle_ssap_client.c(214),ERROR" ID="0xd8ec06b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write cmd mem cpy failed @uapi_gle_ssap_client.c(223),ERROR" ID="0xd8ec06fa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="handle = 0x%02x, type = 0x%02x @uapi_gle_ssap_client.c(237),INFO" ID="0xd8ec076d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc read req mem cpy failed @uapi_gle_ssap_client.c(241),ERROR" ID="0xd8ec078a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="uapi ssapc write req len = %u param error @uapi_gle_ssap_client.c(255),ERROR" ID="0xd8ec07fa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="handle = 0x%02x, type = 0x%02x, len = %u @uapi_gle_ssap_client.c(259),INFO" ID="0xd8ec081d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write req mem new failed @uapi_gle_ssap_client.c(263),ERROR" ID="0xd8ec083a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write req mem cpy failed @uapi_gle_ssap_client.c(268),ERROR" ID="0xd8ec0862" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="uapi ssapc write req mem cpy failed @uapi_gle_ssap_client.c(277),ERROR" ID="0xd8ec08aa" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]ACL RX DATA MIC ERROR! @patch_evt_task_ble_acl.c(141),ERROR" ID="0x8954046a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_acl_cancel_cbk con_hdl 0x%x, ts 0x%x, es_sn %d @patch_evt_task_ble_acl.c(238),INFO" ID="0x89540775" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_acl_save_sync_time_info sed_index(%d)es_sn(%d)next_counter(%d) @patch_evt_task_ble_acl.c(328),INFO" ID="0x89540a45" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]evt_task_ble_acl_update_param_with_instant sed_index(%d)timestamp(0x%x)us_offset(%d)rx_win(%d) @patch_evt_task_ble_acl.c(414),INFO" ID="0x89540cf5" />
+			</MSG_LOG>

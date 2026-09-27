@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarOnCommand Error 0x%x @slp_radar_service.c(20),ERROR" ID="0xd7aa00a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] SlpRadarOffCommand Error 0x%x @slp_radar_service.c(26),ERROR" ID="0xd7aa00d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SLP_RADAR][ERR] SlpRadarSetHardwarePara para is NULL @slp_radar_service.c(39),ERROR" ID="0xd7aa013a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateRfPara Error 0x%x @slp_radar_service.c(47),ERROR" ID="0xd7aa017a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateFramePara Error 0x%x @slp_radar_service.c(54),ERROR" ID="0xd7aa01b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateRawDataPara Error 0x%x @slp_radar_service.c(61),ERROR" ID="0xd7aa01ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP_RADAR][ERR] ValidateWavePara Error 0x%x @slp_radar_service.c(68),ERROR" ID="0xd7aa0222" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMCPY_FAILED]RecvDataBuff Memcpy fail @hci_recv_data.c(28),ERROR" ID="0xdec200e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMCPY_FAILED]RecvDataBuff Memcpy fail @hci_recv_data.c(47),ERROR" ID="0xdec2017a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NO GLE]Gle %d! @hci_recv_data.c(83),INFO" ID="0xdec2029d" />
+			</MSG_LOG>

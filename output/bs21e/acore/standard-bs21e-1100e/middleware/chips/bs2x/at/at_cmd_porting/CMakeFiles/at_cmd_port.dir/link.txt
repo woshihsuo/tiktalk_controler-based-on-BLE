@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libat_cmd_port.a  CMakeFiles/at_cmd_port.dir/at_porting.c.obj

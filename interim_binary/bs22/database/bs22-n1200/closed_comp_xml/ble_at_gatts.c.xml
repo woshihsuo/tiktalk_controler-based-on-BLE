@@ -1,0 +1,40 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts register at fail @ble_at_gatts.c(176),ERROR" ID="0xd9100582" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts register callback at fail @ble_at_gatts.c(184),ERROR" ID="0xd91005c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts register server param error @ble_at_gatts.c(199),ERROR" ID="0xd910063a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts register server at cmd fail @ble_at_gatts.c(208),ERROR" ID="0xd9100682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts register server failed,ret = %x @ble_at_gatts.c(215),ERROR" ID="0xd91006ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts unregister server param error @ble_at_gatts.c(225),ERROR" ID="0xd910070a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts unregister server failed,ret = %x @ble_at_gatts.c(231),ERROR" ID="0xd910073a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at gatts add_service_common param error type=%u @ble_at_gatts.c(241),ERROR" ID="0xd910078a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts add service common fail, uuid failed type:%u @ble_at_gatts.c(250),ERROR" ID="0xd91007d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Error] gatts add service failed,type:%u, ret = %x @ble_at_gatts.c(269),ERROR" ID="0xd910086a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at gatts add character common param error type=%u @ble_at_gatts.c(290),ERROR" ID="0xd9100912" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts add character par uuid fail, type:%u @ble_at_gatts.c(298),ERROR" ID="0xd9100952" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts add characteristic new failed, type:%u @ble_at_gatts.c(308),ERROR" ID="0xd91009a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts add characteristic str to data fail @ble_at_gatts.c(313),ERROR" ID="0xd91009ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Error] gatts add characteristic failed,type:%u, ret = %x @ble_at_gatts.c(337),ERROR" ID="0xd9100a8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at gatts add descriptor common param error type=%u @ble_at_gatts.c(357),ERROR" ID="0xd9100b2a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts add descriptor par uuid fail type:%u @ble_at_gatts.c(366),ERROR" ID="0xd9100b72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatt add descriptor at cmd val new fail type:%u @ble_at_gatts.c(375),ERROR" ID="0xd9100bba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt add descriptor str to data fail @ble_at_gatts.c(380),ERROR" ID="0xd9100be2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Error] gatts add descriptor failed,type:%u, ret = %x @ble_at_gatts.c(404),ERROR" ID="0xd9100ca2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts start service param error @ble_at_gatts.c(423),ERROR" ID="0xd9100d3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts start service failed,ret = %x @ble_at_gatts.c(429),ERROR" ID="0xd9100d6a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts send response param error @ble_at_gatts.c(438),ERROR" ID="0xd9100db2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt send response at cmd value new fail @ble_at_gatts.c(450),ERROR" ID="0xd9100e12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt send response str to data fail @ble_at_gatts.c(455),ERROR" ID="0xd9100e3a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts send response failed,ret = %x @ble_at_gatts.c(467),ERROR" ID="0xd9100e9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts delete all services param error @ble_at_gatts.c(476),ERROR" ID="0xd9100ee2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts delete all services failed,ret = %x @ble_at_gatts.c(482),ERROR" ID="0xd9100f12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts notify indicate param error @ble_at_gatts.c(492),ERROR" ID="0xd9100f62" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt send indication at cmd val new fail @ble_at_gatts.c(501),ERROR" ID="0xd9100faa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatt send indication str to data fail @ble_at_gatts.c(506),ERROR" ID="0xd9100fd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts notify indicate failed,ret = %x @ble_at_gatts.c(517),ERROR" ID="0xd910102a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts notify indicate by uuid param error @ble_at_gatts.c(526),ERROR" ID="0xd9101072" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts notify indicate by uuid par uuid error @ble_at_gatts.c(534),ERROR" ID="0xd91010b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts notify indicate by uuid new fail @ble_at_gatts.c(544),ERROR" ID="0xd9101102" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] gatts notify indicate str to data fail @ble_at_gatts.c(549),ERROR" ID="0xd910112a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts notify indicate by uuid failed,ret = %x @ble_at_gatts.c(560),ERROR" ID="0xd9101182" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gatts set mtu size param error @ble_at_gatts.c(569),ERROR" ID="0xd91011ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gatts set mtu size failed,ret = %x @ble_at_gatts.c(575),ERROR" ID="0xd91011fa" />
+			</MSG_LOG>

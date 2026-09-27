@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[BLE_ERR_INT]comm_errint1=0x%x, comm_errint2=0x%x, ble_errint=0x%x @ble_isr_ram.c(42),ERROR" ID="0x898c0152" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BLE_ERR_INT]clk=0x%x, fincnt=%d @ble_isr_ram.c(44),ERROR" ID="0x898c0162" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]ble_errorint_isr rbuf_rls0(0x%x)bitmap_prt0(0x%x)rxpd_ctrl(0x%x)rxbuf_error_info(0x%x) @ble_isr_ram.c(49),INFO" ID="0x898c018d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BGTP] ble_errorint_isr ADV_UNDERRUN abort linklabel=%d @ble_isr_ram.c(56),INFO" ID="0x898c01c5" />
+			</MSG_LOG>

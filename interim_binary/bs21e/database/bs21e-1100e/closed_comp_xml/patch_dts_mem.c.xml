@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="dts_malloc fail size(%d) @patch_dts_mem.c(36),ERROR" ID="0x897a0122" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dts_hci_malloc fail size(%d) @patch_dts_mem.c(48),ERROR" ID="0x897a0182" />
+			</MSG_LOG>

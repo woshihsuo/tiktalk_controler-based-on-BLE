@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_conn_management.c(111),ERROR" ID="0xdb74037a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_conn_management.c(183),ERROR" ID="0xdb7405ba" />
+			</MSG_LOG>

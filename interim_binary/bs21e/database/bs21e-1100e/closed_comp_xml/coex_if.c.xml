@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[COEX]coex_if_btstate_set, type[%d]val[%d] @coex_if.c(123),INFO" ID="0x88a603dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]coex_if_init @coex_if.c(185),INFO" ID="0x88a605cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]coex_if_deinit @coex_if.c(192),INFO" ID="0x88a60605" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[COEX]coex_if_reset @coex_if.c(199),INFO" ID="0x88a6063d" />
+			</MSG_LOG>

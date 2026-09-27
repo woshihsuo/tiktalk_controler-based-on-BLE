@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="evt_task_gle_acb_low_latency_init_tog_txdesc: prog_queue is not null @evt_task_gle_acb_low_latency.c(628),WARNING" ID="0x895213a3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="evt_task_gle_acb_low_latency_init_tog_txdesc:alloc txpd fail @evt_task_gle_acb_low_latency.c(637),WARNING" ID="0x895213eb" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="evt_task_gle_acb_check_switch_rate, switch_rate:%d, rx_per:%d, rx_total:%d, rx_err_total:%d @evt_task_gle_acb_low_latency.c(1188),WARNING" ID="0x89522523" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="evt_task_gle_acb_low_latency_map_init freq_idx(%d)instant(%d) @evt_task_gle_acb_low_latency.c(1214),INFO" ID="0x895225f5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="evt_task_gle_acb_recv_hci_data_isr rx_length(%d)data_len(%d)seg_type(%d)rx_mic_num(%d) @evt_task_gle_acb_low_latency.c(1411),WARNING" ID="0x89522c1b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]ACB RX DATA MIC ERROR rxccmpktcnt=0x%x, new ble_rxccmpktcnt0=0x%x, last_micerr=%d @evt_task_gle_acb_low_latency.c(1436),ERROR" ID="0x89522ce2" />
+			</MSG_LOG>

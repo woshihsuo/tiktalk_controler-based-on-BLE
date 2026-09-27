@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[low latency mouse] idx:%u, idx status:%u, current busy tx_index:%u @gle_low_latency_mouse.c(63),INFO" ID="0xd82201fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[low latency] tx_counter:%d, loss counter:%d, tx_all_zero:%d, tx_drop:%d @gle_low_latency_mouse.c(95),INFO" ID="0xd82202fd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="tx tog up memcpy error, index:%d, x:%x, y:%x, data_counter:%d @gle_low_latency_mouse.c(154),INFO" ID="0xd82204d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mouse tx enable! @gle_low_latency_mouse.c(166),INFO" ID="0xd8220535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="mouse tx disable! @gle_low_latency_mouse.c(175),INFO" ID="0xd822057d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="low latency evt cbk role:%x, enable:%x @gle_low_latency_mouse.c(182),INFO" ID="0xd82205b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Info] unknown_mode! @gle_low_latency_mouse.c(186),INFO" ID="0xd82205d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy low latency callback fail @gle_low_latency_mouse.c(211),ERROR" ID="0xd822069a" />
+			</MSG_LOG>

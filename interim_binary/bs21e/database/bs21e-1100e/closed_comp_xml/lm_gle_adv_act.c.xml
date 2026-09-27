@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[bgtp] lm_gle_adv_set_param_check, unsupported frame_type: %d @lm_gle_adv_act.c(90),INFO" ID="0x88fe02d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp] lm_gle_adv_hci_set_data_act, adv_handle:%d, adv_data_length %d @lm_gle_adv_act.c(233),INFO" ID="0x88fe074d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp] lm_gle_adv_hci_set_rsp_data_act, adv_handle:%d, rsp_data_length %d @lm_gle_adv_act.c(262),INFO" ID="0x88fe0835" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp] lm_gle_adv_hci_enable_act, adv_handle:%d, enable:%d, duration:%d, max_adv_evt:%d @lm_gle_adv_act.c(277),INFO" ID="0x88fe08ad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp] lm_gle_adv_hci_enable_act, adv_handle:%d, enable:%d, duration:%d, max_adv_evt:%d @lm_gle_adv_act.c(306),INFO" ID="0x88fe0995" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp] lm_gle_adv_hci_enable_act, adv_handle:%d, enable:%d, duration:%d, max_adv_evt:%d @lm_gle_adv_act.c(323),INFO" ID="0x88fe0a1d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp] lm_gle_adv_delay_conn reopen!, duration:%d, max_ext_adv_evt:%d @lm_gle_adv_act.c(374),INFO" ID="0x88fe0bb5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]lm_gle_adv_connect_req_received, clock:0x%x, us_offset:%d, clkn:0x%x, interval:%d @lm_gle_adv_act.c(415),INFO" ID="0x88fe0cfd" />
+			</MSG_LOG>

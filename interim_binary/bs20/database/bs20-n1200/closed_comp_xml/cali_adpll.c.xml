@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[BT CALI]DTC CALI value 0x%x @cali_adpll.c(179),INFO" ID="0x88bc059d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BT CALI]mode sense MSB cali value 0x%x, LSB cali value 0x%x @cali_adpll.c(290),INFO" ID="0x88bc0915" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="adpll_fresol_est_inv = 0x%x @cali_adpll.c(353),INFO" ID="0x88bc0b0d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Pulling]loop is %d, pull_sen_MSB 0x%x, pull_sen_LSB 0x%x @cali_adpll.c(426),INFO" ID="0x88bc0d55" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Pulling]rval_sum MSB is 0x%x, LSB is 0x%x @cali_adpll.c(435),INFO" ID="0x88bc0d9d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[Pulling]frq is %d, pull_sen1_MSB 0x%x, pull_sen1_high LSB 0x%x @cali_adpll.c(452),INFO" ID="0x88bc0e25" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[CAL][ADPLL PULLING][NORMAL POWER]band:%d, sen1_msb:0x%04x sen2_msb:0x%04x @cali_adpll.c(491),INFO" ID="0x88bc0f5d" />
+			</MSG_LOG>

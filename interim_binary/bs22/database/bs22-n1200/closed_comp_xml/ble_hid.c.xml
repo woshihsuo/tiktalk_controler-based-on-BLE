@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[HID]buffer count over! @ble_hid.c(100),WARNING" ID="0xdcce0323" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(124),WARNING" ID="0xdcce03e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]send fail! @ble_hid.c(130),ERROR" ID="0xdcce0412" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(145),WARNING" ID="0xdcce048b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]send fail! @ble_hid.c(151),ERROR" ID="0xdcce04ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(217),WARNING" ID="0xdcce06cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]ble hid call mute @ble_hid.c(220),INFO" ID="0xdcce06e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(233),WARNING" ID="0xdcce074b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]ble hid call reject @ble_hid.c(236),INFO" ID="0xdcce0765" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(260),WARNING" ID="0xdcce0823" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]The message length is incorrect! @ble_hid.c(265),WARNING" ID="0xdcce084b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HID]ble hid send keyboard key pkt_len:%d @ble_hid.c(268),INFO" ID="0xdcce0865" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Ble is disconnected! @ble_hid.c(287),WARNING" ID="0xdcce08fb" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[HID]The message length is incorrect! product_type:%d, pkt_len = %u, check_pkt_len = %d @ble_hid.c(296),WARNING" ID="0xdcce0943" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[HID]Init fail! @ble_hid.c(313),ERROR" ID="0xdcce09ca" />
+			</MSG_LOG>

@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg7" NAME="[RPRR-ASSEM] ROP:%u, RTT:%u, RRTT:%u, RAOX:%u, CT:%u, RAP:%u, PAP:%u @assemble_rprr_ie.c(49),DBG" ID="0xd74a018e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RPRR-ASSEM] RprrIELen:%u @assemble_rprr_ie.c(65),INFO" ID="0xd74a020d" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RPRR-ASSEM] RequestorAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @assemble_rprr_ie.c(94),DBG" ID="0xd74a02f6" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RPRR-ASSEM] ProviderAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @assemble_rprr_ie.c(100),DBG" ID="0xd74a0326" />
+			</MSG_LOG>

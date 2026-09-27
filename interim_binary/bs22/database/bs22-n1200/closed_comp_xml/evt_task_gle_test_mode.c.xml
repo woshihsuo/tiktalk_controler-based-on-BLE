@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[test mode]evt_task_gle_test_mode_tx_set_env, duration=%d, intv=%d @evt_task_gle_test_mode.c(237),INFO" ID="0x88f0076d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle_test_mode_tx alloc mem fail! @evt_task_gle_test_mode.c(287),WARNING" ID="0x88f008fb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle_test_mode_tx alloc mem fail! @evt_task_gle_test_mode.c(304),WARNING" ID="0x88f00983" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="payload type exceed : 0x%x! @evt_task_gle_test_mode.c(316),WARNING" ID="0x88f009e3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle_test_mode alloc txpd or txnode fail! @evt_task_gle_test_mode.c(361),WARNING" ID="0x88f00b4b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[test mode]ble_gle_txlen=%d, tx_rate =%d, tx_polar_r=%d, tx_pilot_ratio=%d @evt_task_gle_test_mode.c(397),INFO" ID="0x88f00c6d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[test mode]txllid=%d, txdataid=%d, txdatagrp=%d, txmif =%d @evt_task_gle_test_mode.c(399),INFO" ID="0x88f00c7d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[test mode]ble_format=%d, ble_ch_idx=%d, ble_cs_txphy =%d, ble_gle_tx_frame_format=%d @evt_task_gle_test_mode.c(515),INFO" ID="0x88f0101d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[test mode]ble_format=%d, ble_ch_idx=%d, ble_cs_txphy =%d, ble_gle_rx_frame_format=%d @evt_task_gle_test_mode.c(642),INFO" ID="0x88f01415" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="evt task create test mode env fail! @evt_task_gle_test_mode.c(737),INFO" ID="0x88f0170d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="evt_task_gle_test_mode_tx_start @evt_task_gle_test_mode.c(857),INFO" ID="0x88f01acd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]gle test mode rx restart fail @evt_task_gle_test_mode.c(944),WARNING" ID="0x88f01d83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]rx recv no ok, restart and open big window! @evt_task_gle_test_mode.c(948),INFO" ID="0x88f01da5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rx end, prog_num == 0 @evt_task_gle_test_mode.c(963),INFO" ID="0x88f01e1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="tx end. prog_num == 0 @evt_task_gle_test_mode.c(978),INFO" ID="0x88f01e95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="rx end prog_num != 0, mac_gle_udc_ctl_gle_udcmas_abort_setf @evt_task_gle_test_mode.c(1009),INFO" ID="0x88f01f8d" />
+			</MSG_LOG>

@@ -1,0 +1,61 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at gap register at fail @ble_at_gap.c(433),ERROR" ID="0xd90c0d8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble gap register callback at fail @ble_at_gap.c(442),ERROR" ID="0xd90c0dd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at link common error type:%u @ble_at_gap.c(474),ERROR" ID="0xd90c0ed2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at link common addr error type:%u @ble_at_gap.c(485),ERROR" ID="0xd90c0f2a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Error] ble at link common failed,ret = %x, type = %u @ble_at_gap.c(520),ERROR" ID="0xd90c1042" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble remove all pairs failed,ret = %x @ble_at_gap.c(532),ERROR" ID="0xd90c10a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at disconnect_remote_device_by_hdl error @ble_at_gap.c(551),ERROR" ID="0xd90c113a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble disconn peer by conn handle connection node NULL! @ble_at_gap.c(557),ERROR" ID="0xd90c116a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble disconnect remote device failed,ret = %x @ble_at_gap.c(563),ERROR" ID="0xd90c119a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gap ble get paired devices num ret:%x @ble_at_gap.c(575),INFO" ID="0xd90c11fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at cmd gap get pair device fail, ret = %x @ble_at_gap.c(590),INFO" ID="0xd90c1275" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble at cmd gap get bonded device fail, ret = %x @ble_at_gap.c(609),INFO" ID="0xd90c130d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at connect_param_update error @ble_at_gap.c(628),ERROR" ID="0xd90c13a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble connect param update failed,ret = %x @ble_at_gap.c(640),ERROR" ID="0xd90c1402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at read_remote_device_rssi error @ble_at_gap.c(649),ERROR" ID="0xd90c144a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble pair read remote rssi failed,ret = %x @ble_at_gap.c(655),ERROR" ID="0xd90c147a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble start scan failed,ret = %x @ble_at_gap.c(668),ERROR" ID="0xd90c14e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble stop scan failed,ret = %x @ble_at_gap.c(679),ERROR" ID="0xd90c153a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at scan_parameters error @ble_at_gap.c(688),ERROR" ID="0xd90c1582" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set scan parameters failed,ret = %x @ble_at_gap.c(701),ERROR" ID="0xd90c15ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble get local name new fail @ble_at_gap.c(720),ERROR" ID="0xd90c1682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble get local name failed,ret = %x @ble_at_gap.c(727),ERROR" ID="0xd90c16ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at set_local_name error @ble_at_gap.c(739),ERROR" ID="0xd90c171a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at name len error @ble_at_gap.c(744),ERROR" ID="0xd90c1742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set local name new fail @ble_at_gap.c(751),ERROR" ID="0xd90c177a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at cmd gap ble set local name data memcpy fail @ble_at_gap.c(757),ERROR" ID="0xd90c17aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set local name failed,ret = %x @ble_at_gap.c(765),ERROR" ID="0xd90c17ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at set local_appearance error @ble_at_gap.c(776),ERROR" ID="0xd90c1842" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set local appearance failed,ret = %x @ble_at_gap.c(782),ERROR" ID="0xd90c1872" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set start adv error @ble_at_gap.c(796),ERROR" ID="0xd90c18e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble start adv failed,ret = %x @ble_at_gap.c(801),ERROR" ID="0xd90c190a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at sec_param error @ble_at_gap.c(810),ERROR" ID="0xd90c1952" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set sec param failed ret = %x @ble_at_gap.c(822),ERROR" ID="0xd90c19b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv param error @ble_at_gap.c(831),ERROR" ID="0xd90c19fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv param peer addr error @ble_at_gap.c(846),ERROR" ID="0xd90c1a72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv param tx_power error -127~20, 127 @ble_at_gap.c(854),ERROR" ID="0xd90c1ab2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ble set adv param failed,ret = %x @ble_at_gap.c(861),ERROR" ID="0xd90c1aea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set stop adv error @ble_at_gap.c(870),ERROR" ID="0xd90c1b32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble stop adv failed,ret = %x @ble_at_gap.c(875),ERROR" ID="0xd90c1b5a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv data error @ble_at_gap.c(884),ERROR" ID="0xd90c1ba2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv data new adv data error @ble_at_gap.c(894),ERROR" ID="0xd90c1bf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv data adv data fail @ble_at_gap.c(900),ERROR" ID="0xd90c1c22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv data new scan rsp data error @ble_at_gap.c(910),ERROR" ID="0xd90c1c72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble set adv data rsp data fail @ble_at_gap.c(916),ERROR" ID="0xd90c1ca2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[INFO] gap ble set adv data ret = %x @ble_at_gap.c(923),INFO" ID="0xd90c1cdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble clear whilt list addr failed,ret = %x @ble_at_gap.c(942),ERROR" ID="0xd90c1d72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble connect whilt list addr failed,ret = %x @ble_at_gap.c(953),ERROR" ID="0xd90c1dca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble get whilt list addr failed,ret = %x @ble_at_gap.c(964),ERROR" ID="0xd90c1e22" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble get local addr failed,ret = %x @ble_at_gap.c(987),ERROR" ID="0xd90c1eda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at set phy error @ble_at_gap.c(1008),ERROR" ID="0xd90c1f82" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set phy failed,ret = %x @ble_at_gap.c(1020),ERROR" ID="0xd90c1fe2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at data len error @ble_at_gap.c(1030),ERROR" ID="0xd90c2032" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set data length failed,ret = %x @ble_at_gap.c(1040),ERROR" ID="0xd90c2082" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at set passkey tk error @ble_at_gap.c(1049),ERROR" ID="0xd90c20ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set passkey tk failed,ret = %x @ble_at_gap.c(1056),ERROR" ID="0xd90c2102" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at passkey entry error @ble_at_gap.c(1065),ERROR" ID="0xd90c214a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble passkey entry failed,ret = %x @ble_at_gap.c(1072),ERROR" ID="0xd90c2182" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="l2cap bth ota init failed =%x @ble_at_gap.c(1083),ERROR" ID="0xd90c21da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ble at set pair info available error @ble_at_gap.c(1119),ERROR" ID="0xd90c22fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] gap ble set pair info available failed,ret = %x @ble_at_gap.c(1125),ERROR" ID="0xd90c232a" />
+			</MSG_LOG>

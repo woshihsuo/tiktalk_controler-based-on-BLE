@@ -1,0 +1,73 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ble general : HciEvConnUpdate, ev NULL @ble_general.c(144),ERROR" ID="0xdde00482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : conn result status = 0x%02x @ble_general.c(152),INFO" ID="0xdde004c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general : handle&amp;interval&amp;latency&amp;timeout, 0x%04x &amp; 0x%04x &amp; 0x%04x &amp; 0x%04x @ble_general.c(155),INFO" ID="0xdde004dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : HciEvEncryptionChange, ev NULL @ble_general.c(172),ERROR" ID="0xdde00562" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general : ENCRYPTION, status&amp;handle&amp;result = 0x%02x &amp; 0x%04x &amp; 0x%02x @ble_general.c(183),INFO" ID="0xdde005bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : HciEncryptionNegativeReply, ev NULL @ble_general.c(201),ERROR" ID="0xdde0064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : BLE GENERAL KEY MISS, handle = 0x%04x @ble_general.c(205),ERROR" ID="0xdde0066a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : ble general pair cfm callback, result = 0x%04x @ble_general.c(214),INFO" ID="0xdde006b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general start pair ble addr null @ble_general.c(232),ERROR" ID="0xdde00742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : memcpy addr fail when start pair @ble_general.c(238),ERROR" ID="0xdde00772" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : set bondle fail = %d @ble_general.c(246),ERROR" ID="0xdde007b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general conn update param is NULL @ble_general.c(269),ERROR" ID="0xdde0086a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general conn update in is NULL @ble_general.c(276),ERROR" ID="0xdde008a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general conn update, ble remote addr NULL @ble_general.c(282),ERROR" ID="0xdde008d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general conn update, memcpy fail @ble_general.c(289),ERROR" ID="0xdde0090a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general : ConnUpdate cap&amp;atype = 0x%02x &amp; 0x%02x @ble_general.c(302),INFO" ID="0xdde00975" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="ble general : min&amp;max&amp;latency&amp;timeout, 0x%04x &amp; 0x%04x &amp; 0x%04x &amp; 0x%04x @ble_general.c(305),INFO" ID="0xdde0098d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : ble general conn update fail: %d @ble_general.c(311),ERROR" ID="0xdde009ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general disconnect, bleRemoteAddr_cpy NULL @ble_general.c(329),ERROR" ID="0xdde00a4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general disconnect, memcpy fail @ble_general.c(335),ERROR" ID="0xdde00a7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general connect memcpy fail @ble_general.c(356),ERROR" ID="0xdde00b22" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general set sec params bondable &amp; io_capability 0x%02x%02x @ble_general.c(379),INFO" ID="0xdde00bdd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general set sec params set bondable failed @ble_general.c(384),INFO" ID="0xdde00c05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general set sec params set io capability failed @ble_general.c(391),INFO" ID="0xdde00c3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general set sec params failed @ble_general.c(404),INFO" ID="0xdde00ca5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general set sec params ok! g_config_smp_lesc = %u, g_config_smp_mode = %u @ble_general.c(409),INFO" ID="0xdde00ccd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general ble notification param is NULL @ble_general.c(430),ERROR" ID="0xdde00d72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : notify len_cpy error: %d @ble_general.c(436),ERROR" ID="0xdde00da2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general ble start pair new in is NULL @ble_general.c(445),ERROR" ID="0xdde00dea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : memcpy ble_value fail when notify @ble_general.c(452),ERROR" ID="0xdde00e22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : memset addr error when notify @ble_general.c(463),ERROR" ID="0xdde00e7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : sais service cb arg is NULL @ble_general.c(478),ERROR" ID="0xdde00ef2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general : GattsSaisServiceCbk, event len = %d, %d @ble_general.c(485),INFO" ID="0xdde00f2d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : register sais service @ble_general.c(520),INFO" ID="0xdde01045" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg sais service service is NULL @ble_general.c(528),ERROR" ID="0xdde01082" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg sais service character is NULL @ble_general.c(539),ERROR" ID="0xdde010da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : alipay service cb arg is NULL @ble_general.c(562),ERROR" ID="0xdde01192" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general : GattsAlipayServiceCbk, uuid = 0x%x, event = %d, len = %d @ble_general.c(570),INFO" ID="0xdde011d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : GattsAlipayServiceCbk, pend uuid = 0x%04x @ble_general.c(591),DBG" ID="0xdde0127e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : register alipay service @ble_general.c(617),INFO" ID="0xdde0134d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg alipay service service is NULL @ble_general.c(621),ERROR" ID="0xdde0136a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg alipay service character is NULL @ble_general.c(632),ERROR" ID="0xdde013c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : BleGeneralGattCallback_arg NULL @ble_general.c(648),ERROR" ID="0xdde01442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ANCS]Get Notification data, len=%d @ble_general.c(671),INFO" ID="0xdde014fd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble core: get key from btc fail: %d @ble_general.c(735),ERROR" ID="0xdde016fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general read local public key from controller @ble_general.c(742),INFO" ID="0xdde01735" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : gap general conn cb para is NULL @ble_general.c(756),ERROR" ID="0xdde017a2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble general : ble general connection event &amp; cap: 0x%02x, 0x%02x, 0x%02x @ble_general.c(764),INFO" ID="0xdde017e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : gap general identity addr update cb para is NULL @ble_general.c(801),ERROR" ID="0xdde0190a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : gap general clean key cb para is NULL @ble_general.c(813),ERROR" ID="0xdde0196a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : gap general smp succeed cb para is NULL @ble_general.c(825),ERROR" ID="0xdde019ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : GAP_IND_SMP_EV_KEY_NOTIFICATION, cap = 0x%02x @ble_general.c(831),INFO" ID="0xdde019fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : can not find remote node by addr @ble_general.c(835),ERROR" ID="0xdde01a1a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : local == NULL @ble_general.c(841),ERROR" ID="0xdde01a4a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : hci_link == NULL @ble_general.c(847),ERROR" ID="0xdde01a7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : memcpy smp key store value fail: %d @ble_general.c(855),ERROR" ID="0xdde01aba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : authentication failure cb para is NULL @ble_general.c(874),ERROR" ID="0xdde01b52" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble general : BLE GENERAL SMP REQUEST FAIL, cap = 0x%02x status: %x @ble_general.c(881),ERROR" ID="0xdde01b8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : other branch @ble_general.c(899),INFO" ID="0xdde01c1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : gap cb event: 0x%02x @ble_general.c(935),INFO" ID="0xdde01d3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : batery service cb arg_cpy is NULL @ble_general.c(977),ERROR" ID="0xdde01e8a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg battery service is NULL @ble_general.c(1010),ERROR" ID="0xdde01f92" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : reg battery service character is NULL @ble_general.c(1025),ERROR" ID="0xdde0200a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="product type:%x @ble_general.c(1039),INFO" ID="0xdde0207d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="ble_check_ll_privacy_enable_rpa in, %02x:%02x:xx:xx:xx:%02x @ble_general.c(1111),INFO" ID="0xdde022bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : App_RecoverSMPKeys data_len err, %d @ble_general.c(1124),ERROR" ID="0xdde02322" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : NEW key_list fail, %d @ble_general.c(1130),ERROR" ID="0xdde02352" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : List NEW key fail, %d @ble_general.c(1145),ERROR" ID="0xdde023ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ble general : List NEW key fail, %d @ble_general.c(1152),ERROR" ID="0xdde02402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general ble init cBacks is NULL @ble_general.c(1187),ERROR" ID="0xdde0251a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : ble general ble init @ble_general.c(1191),INFO" ID="0xdde0253d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble general : memcpy cBacks fail when ble general ble init @ble_general.c(1195),ERROR" ID="0xdde0255a" />
+			</MSG_LOG>

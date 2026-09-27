@@ -1,0 +1,41 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle connection request send fail @gle_ahia_con_manager.c(40),ERROR" ID="0xd8f60142" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle connection cancel fail @gle_ahia_con_manager.c(50),ERROR" ID="0xd8f60192" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle connection release send fail @gle_ahia_con_manager.c(67),ERROR" ID="0xd8f6021a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle private connection param set request send fail @gle_ahia_con_manager.c(79),ERROR" ID="0xd8f6027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle connection param update request fail @gle_ahia_con_manager.c(91),ERROR" ID="0xd8f602da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle set acb low latency request fail @gle_ahia_con_manager.c(102),ERROR" ID="0xd8f60332" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle read low latency param fail @gle_ahia_con_manager.c(112),ERROR" ID="0xd8f60382" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle set acb low latency request fail @gle_ahia_con_manager.c(124),ERROR" ID="0xd8f603e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle read accept filter list size fail @gle_ahia_con_manager.c(137),ERROR" ID="0xd8f6044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle clear accept filter list fail @gle_ahia_con_manager.c(149),ERROR" ID="0xd8f604aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle add device to accept filter list fail @gle_ahia_con_manager.c(161),ERROR" ID="0xd8f6050a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle remove device from accept filter list fail @gle_ahia_con_manager.c(173),ERROR" ID="0xd8f6056a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle read remote feature fail @gle_ahia_con_manager.c(185),ERROR" ID="0xd8f605ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle set data len fail @gle_ahia_con_manager.c(197),ERROR" ID="0xd8f6062a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle set phy fail @gle_ahia_con_manager.c(209),ERROR" ID="0xd8f6068a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle set mcs fail @gle_ahia_con_manager.c(221),ERROR" ID="0xd8f606ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] set acb evt param fail @gle_ahia_con_manager.c(233),ERROR" ID="0xd8f6074a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_con_manager.c(247),ERROR" ID="0xd8f607ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect state param invalid @gle_ahia_con_manager.c(260),ERROR" ID="0xd8f60822" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect memcpy error @gle_ahia_con_manager.c(267),ERROR" ID="0xd8f6085a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] gle ahia connect handle:%02x, state:%02x @gle_ahia_con_manager.c(271),INFO" ID="0xd8f6087d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect update param req invalid @gle_ahia_con_manager.c(282),ERROR" ID="0xd8f608d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect update req memcpy error @gle_ahia_con_manager.c(289),ERROR" ID="0xd8f6090a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect update param invalid @gle_ahia_con_manager.c(302),ERROR" ID="0xd8f60972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect update memcpy error @gle_ahia_con_manager.c(309),ERROR" ID="0xd8f609aa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] gle ahia connect update handle:%02x, state:%02x @gle_ahia_con_manager.c(313),INFO" ID="0xd8f609cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle low latency set invalid @gle_ahia_con_manager.c(325),ERROR" ID="0xd8f60a2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle low latency set memcpy error @gle_ahia_con_manager.c(330),ERROR" ID="0xd8f60a52" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] gle low latency set enable:%02x, state:%02x, role:%x @gle_ahia_con_manager.c(335),INFO" ID="0xd8f60a7d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle read low latency param invalid @gle_ahia_con_manager.c(347),ERROR" ID="0xd8f60ada" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle read low latency param memcpy error @gle_ahia_con_manager.c(352),ERROR" ID="0xd8f60b02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] gle read low latency param, state:%02x @gle_ahia_con_manager.c(356),INFO" ID="0xd8f60b25" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle read remote rssi invalid @gle_ahia_con_manager.c(368),ERROR" ID="0xd8f60b82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle read remote rssi memcpy_s error @gle_ahia_con_manager.c(373),ERROR" ID="0xd8f60baa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] gle read remote rssi :conn id:%d, status:%d, rssi:%d @gle_ahia_con_manager.c(380),INFO" ID="0xd8f60be5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read remote feature handle param len = %d error @gle_ahia_con_manager.c(392),ERROR" ID="0xd8f60c42" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set phy handle param len = %d error @gle_ahia_con_manager.c(407),ERROR" ID="0xd8f60cba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ahia_set_acb_evt_param_handle]len:%d err @gle_ahia_con_manager.c(422),ERROR" ID="0xd8f60d32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia connect handler invalid param! @gle_ahia_con_manager.c(433),ERROR" ID="0xd8f60d8a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia connect handler cmd:%02x! @gle_ahia_con_manager.c(437),INFO" ID="0xd8f60dad" />
+			</MSG_LOG>

@@ -1,0 +1,39 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="send payload cbk is NULL @glp_interface.c(74),ERROR" ID="0xd7760252" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send payload cbk is NULL @glp_interface.c(89),ERROR" ID="0xd77602ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SlpRecvPayload, slpSt: 0x%x @glp_interface.c(104),WARNING" ID="0xd7760343" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SlpRecvPayload: payloadLen: %u @glp_interface.c(107),DBG" ID="0xd776035e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SlpRecvPayload payloadLen: %u @glp_interface.c(109),ERROR" ID="0xd776036a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SlpRecvPayload, factoryTestMode:%u @glp_interface.c(114),WARNING" ID="0xd7760393" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="SlpRecvPayload, ciTestmode is true @glp_interface.c(119),WARNING" ID="0xd77603bb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req! @glp_interface.c(125),ERROR" ID="0xd77603ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req-&gt;addr! @glp_interface.c(131),ERROR" ID="0xd776041a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] SendHadmEnMsg2GlpClient @glp_interface.c(146),INFO" ID="0xd7760495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WAR] HadmEnMsg, state is not in ranging @glp_interface.c(158),WARNING" ID="0xd77604f3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] HadmEnMsg, ret:0x%08x @glp_interface.c(166),INFO" ID="0xd7760535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT] init hadm enable timer @glp_interface.c(183),INFO" ID="0xd77605bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] hadm timer init fail, ret:0x%08x @glp_interface.c(189),ERROR" ID="0xd77605ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] hadm set param failed, ret = %d @glp_interface.c(210),ERROR" ID="0xd7760692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT] hadm set param finish. @glp_interface.c(212),INFO" ID="0xd77606a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] hadm timer start fail, ret:0x%08x @glp_interface.c(220),ERROR" ID="0xd77606e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT]hadm disable. @glp_interface.c(232),INFO" ID="0xd7760745" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Enable Glp Clk! @glp_interface.c(251),INFO" ID="0xd77607dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cursor report cbk is NULL @glp_interface.c(265),WARNING" ID="0xd776084b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ci test mode, send cursor report to usr, key:0x%x @glp_interface.c(269),INFO" ID="0xd776086d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WAR] SendCursorReport2Usr, buffer len &lt; 2 @glp_interface.c(276),WARNING" ID="0xd77608a3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="send errcode 0x%x to usr cbk is NULL @glp_interface.c(286),WARNING" ID="0xd77608f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send ranging rslt to usr cbk is NULL @glp_interface.c(295),WARNING" ID="0xd776093b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cir report cbk is NULL @glp_interface.c(304),WARNING" ID="0xd7760983" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="version report cbk is NULL @glp_interface.c(313),WARNING" ID="0xd77609cb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="die id report cbk is NULL @glp_interface.c(322),WARNING" ID="0xd7760a13" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="version report cbk is NULL @glp_interface.c(331),WARNING" ID="0xd7760a5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="reg value report cbk is NULL @glp_interface.c(340),WARNING" ID="0xd7760aa3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="tsensor report cbk is NULL @glp_interface.c(349),WARNING" ID="0xd7760aeb" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="imuRawData report cbk is NULL @glp_interface.c(358),WARNING" ID="0xd7760b33" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="air mouse mode report cbk is NULL @glp_interface.c(367),WARNING" ID="0xd7760b7b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send factory imu data to usr cbk is NULL @glp_interface.c(376),WARNING" ID="0xd7760bc3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send factory origin data to usr cbk is NULL @glp_interface.c(389),WARNING" ID="0xd7760c2b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send factory origin data to usr cbk is NULL @glp_interface.c(400),WARNING" ID="0xd7760c83" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send factory phase cali para to usr cbk is NULL @glp_interface.c(412),WARNING" ID="0xd7760ce3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send factory trx delay to usr cbk is NULL @glp_interface.c(422),WARNING" ID="0xd7760d33" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send gyro zero offset to usr cbk is NULL @glp_interface.c(432),WARNING" ID="0xd7760d83" />
+			</MSG_LOG>

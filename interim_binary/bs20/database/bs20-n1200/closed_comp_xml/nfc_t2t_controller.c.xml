@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="NFC_T2T_DefaultUserHandle::event[0x%x] @nfc_t2t_controller.c(68),INFO" ID="0xb0040225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[T2T] invalid uid len = %d @nfc_t2t_controller.c(182),ERROR" ID="0xb00405b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NFC_T2T_Init @nfc_t2t_controller.c(240),INFO" ID="0xb0040785" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="NFC_T2T_SetConfig::id[%d], len[%d] @nfc_t2t_controller.c(258),INFO" ID="0xb0040815" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NFC_T2T_SetConfig invalid param id [%#x] @nfc_t2t_controller.c(266),ERROR" ID="0xb0040852" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NFC_T2T_StartEmulation @nfc_t2t_controller.c(338),INFO" ID="0xb0040a95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NFC_T2T_StopEmulation @nfc_t2t_controller.c(345),INFO" ID="0xb0040acd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NFC_T2T_ClearNdef @nfc_t2t_controller.c(378),INFO" ID="0xb0040bd5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NFC_T2T_SetNdef::len[%d] @nfc_t2t_controller.c(392),INFO" ID="0xb0040c45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NFC_T2T_WriteMem::len[%d] @nfc_t2t_controller.c(439),INFO" ID="0xb0040dbd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="NFC_T2T_ReadMem::rdlen[%d], buffLen[%d] @nfc_t2t_controller.c(466),INFO" ID="0xb0040e95" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[T2T] frame handle error[%d],  Cbb back to idle @nfc_t2t_controller.c(527),ERROR" ID="0xb004107a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NFC_T2T_SetTagArea::len[%d] @nfc_t2t_controller.c(566),INFO" ID="0xb00411b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="NFC_T2T_TimeOutProc @nfc_t2t_controller.c(583),INFO" ID="0xb004123d" />
+			</MSG_LOG>

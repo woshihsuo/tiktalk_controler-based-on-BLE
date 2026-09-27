@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP]gaph le manager advertising terminate multi adv addr memcpy failed @gap_reserv.c(100),ERROR" ID="0xddf80322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET MULTI ADV PARAM @gap_reserv.c(570),INFO" ID="0xddf811d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_PARAM, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(605),INFO" ID="0xddf812ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]gaph le manager cmd send set multi adv data memcpy failed @gap_reserv.c(628),ERROR" ID="0xddf813a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_ADV_DATA, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(638),INFO" ID="0xddf813f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_DATA, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(645),INFO" ID="0xddf8142d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_RANDOM_ADDR @gap_reserv.c(664),INFO" ID="0xddf814c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_RANDOM_ADDR, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(677),INFO" ID="0xddf8152d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_ADV_ENABLE @gap_reserv.c(696),INFO" ID="0xddf815c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_ENABLE, SUB_CODE=%d, HANDLE=0x%x, ENABLE=%d @gap_reserv.c(716),INFO" ID="0xddf81665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC support HCI_OPC_BLE_VENDOR_CAP_OCF:0xFD53 @gap_reserv.c(729),ERROR" ID="0xddf816ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP] set random mempcpy fail @gap_reserv.c(926),ERROR" ID="0xddf81cf2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP] gaph identity addr update link not found  @gap_reserv.c(956),ERROR" ID="0xddf81de2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP] gaph identity addr update link id addr fail ret %d @gap_reserv.c(964),ERROR" ID="0xddf81e22" />
+			</MSG_LOG>

@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[sle_passkey_entry]failed, conn(%d) not exist. @sle_srv_sm.c(50),ERROR" ID="0xd8c00192" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_passkey_entry]failed, conn(%d) not connected. @sle_srv_sm.c(56),ERROR" ID="0xd8c001c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_passkey_entry]failed,passkey invalid:%u. @sle_srv_sm.c(62),ERROR" ID="0xd8c001f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[sle_passkey_entry]failed,stack proc fail:0x%x. @sle_srv_sm.c(69),ERROR" ID="0xd8c0022a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle sm,unhandled msg id 0x%x @sle_srv_sm.c(129),INFO" ID="0xd8c0040d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle remove pair fail ret:%x @sle_srv_sm.c(137),WARNING" ID="0xd8c0044b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sle remove pair complete conn id(%d) invalid. @sle_srv_sm.c(146),ERROR" ID="0xd8c00492" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="sle remove pair conn id(%d) pair status:%d. @sle_srv_sm.c(152),INFO" ID="0xd8c004c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn authentication complete alloc failed, length:%d @sle_srv_sm.c(162),ERROR" ID="0xd8c00512" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn authentication complete memcpy failed. @sle_srv_sm.c(167),ERROR" ID="0xd8c0053a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn authentication complete send bt_service msg failed. ret %d @sle_srv_sm.c(190),ERROR" ID="0xd8c005f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn encrypt complete alloc failed, length:%d @sle_srv_sm.c(203),ERROR" ID="0xd8c0065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn encrypt complete memcpy failed. @sle_srv_sm.c(208),ERROR" ID="0xd8c00682" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn encrypt complete send bt_service msg failed. ret %d @sle_srv_sm.c(216),ERROR" ID="0xd8c006c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="conn recover pair info alloc failed, length:%u @sle_srv_sm.c(230),ERROR" ID="0xd8c00732" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="conn recover pair info memcpy failed. @sle_srv_sm.c(235),ERROR" ID="0xd8c0075a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle security manager init failed. @sle_srv_sm.c(262),ERROR" ID="0xd8c00832" />
+			</MSG_LOG>

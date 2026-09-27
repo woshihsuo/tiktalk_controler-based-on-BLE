@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ssaps reg tree param null @gle_ssap_server_ui.c(35),ERROR" ID="0xde80011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssaps update item value param null @gle_ssap_server_ui.c(48),ERROR" ID="0xde800182" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="property_value mem new failed @gle_ssap_server_ui.c(53),ERROR" ID="0xde8001aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="property_value mem cpy failed @gle_ssap_server_ui.c(58),ERROR" ID="0xde8001d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle ssaps update item value by uuid param null @gle_ssap_server_ui.c(72),ERROR" ID="0xde800242" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="property_value mem new failed @gle_ssap_server_ui.c(77),ERROR" ID="0xde80026a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="property_value mem cpy failed @gle_ssap_server_ui.c(82),ERROR" ID="0xde800292" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssaps find hdl by uuid param null @gle_ssap_server_ui.c(99),ERROR" ID="0xde80031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="find_handl mem new failed @gle_ssap_server_ui.c(104),ERROR" ID="0xde800342" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="target uuid mem cpy failed @gle_ssap_server_ui.c(115),ERROR" ID="0xde80039a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssaps mtu param null @gle_ssap_server_ui.c(131),ERROR" ID="0xde80041a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sssaps mtu mem new failed @gle_ssap_server_ui.c(136),ERROR" ID="0xde800442" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssap mtu size:%d @gle_ssap_server_ui.c(140),ERROR" ID="0xde800462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssaps find hdl by uuid param null @gle_ssap_server_ui.c(154),ERROR" ID="0xde8004d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send_rsp mem new failed @gle_ssap_server_ui.c(159),ERROR" ID="0xde8004fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="send_rsp mem mem cpy failed @gle_ssap_server_ui.c(165),ERROR" ID="0xde80052a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssaps delete service param null @gle_ssap_server_ui.c(178),ERROR" ID="0xde800592" />
+			</MSG_LOG>

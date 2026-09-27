@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]bt_common_msg_except_process src_id(0x%x) dst_id(0x%x) msg_id(0x%x) @bt_main_ram.c(32),WARNING" ID="0x89780103" />
+			</MSG_LOG>

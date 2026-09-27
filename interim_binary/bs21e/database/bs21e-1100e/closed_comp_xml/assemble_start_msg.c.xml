@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to startMsg! @assemble_start_msg.c(24),ERROR" ID="0xd72000c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] StartMsg, No, %u @assemble_start_msg.c(34),INFO" ID="0xd7200115" />
+			</MSG_LOG>

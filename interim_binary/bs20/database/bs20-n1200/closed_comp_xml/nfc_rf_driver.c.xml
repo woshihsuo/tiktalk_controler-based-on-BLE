@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[NFC][TAG] Version 1.0, EvtDispatch eventId [%d]  @nfc_rf_driver.c(61),INFO" ID="0xb00801ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[NFC][TAG] intr handle fail[%d], check intr @nfc_rf_driver.c(81),ERROR" ID="0xb008028a" />
+			</MSG_LOG>

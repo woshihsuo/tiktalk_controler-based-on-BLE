@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_gle_iob_off_set_low_latency_act, disable in off state! @lm_gle_iob_low_latency.c(107),WARNING" ID="0x8966035b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_gle_iob_off_set_low_latency_act, init fail! @lm_gle_iob_low_latency.c(117),WARNING" ID="0x896603ab" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_gle_iob_active_set_low_latency_act, set same rate! @lm_gle_iob_low_latency.c(171),WARNING" ID="0x8966055b" />
+			</MSG_LOG>

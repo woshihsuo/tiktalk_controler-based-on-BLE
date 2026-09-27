@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[INFO]ble_set_conn_rssi_act, rssi:%d, status:%x @dm_ble_ram.c(130),INFO" ID="0x89900415" />
+			</MSG_LOG>

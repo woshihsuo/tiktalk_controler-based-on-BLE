@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] NbParseMeasMsg is NULL @nb_parse_meas_msg.c(22),ERROR" ID="0xd71400b2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] NbParseMeasMsg is not equal, dataLen, %u, size, %u @nb_parse_meas_msg.c(27),ERROR" ID="0xd71400da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] MeasMsg, No, %u @nb_parse_meas_msg.c(36),INFO" ID="0xd7140125" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="NbParseMeasMsg, SLP state: %u! @nb_parse_meas_msg.c(49),WARNING" ID="0xd714018b" />
+			</MSG_LOG>

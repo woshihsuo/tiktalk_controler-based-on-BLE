@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[bgtp][AE]syncinfo copy fail! @evt_task_ble_ext_adv_ram.c(49),WARNING" ID="0x893e018b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp][AE] per adv is not supportted @evt_task_ble_ext_adv_ram.c(52),WARNING" ID="0x893e01a3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp][AE] per adv is not supportted @evt_task_ble_ext_adv_ram.c(110),WARNING" ID="0x893e0373" />
+			</MSG_LOG>

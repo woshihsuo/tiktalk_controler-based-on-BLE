@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg7" NAME="[RDM-PARSE] deviceIdx:%u, deviceAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @parse_rdm_ie.c(23),DBG" ID="0xd75000be" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RDM-PARSE] RdmIELen:%u @parse_rdm_ie.c(35),INFO" ID="0xd750011d" />
+			</MSG_LOG>

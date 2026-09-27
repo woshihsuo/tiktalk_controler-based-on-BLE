@@ -1,0 +1,20 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg6" NAME="[GLP_CLIENT] tof: %d, distance: %d mm, localAoxAzi: %d, fom: %u, peerAoxAzi: %d, fom: %u @nb_parse_rslt_msg.c(78),INFO" ID="0xd71a0275" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] RsltMsg is NULL @nb_parse_rslt_msg.c(90),ERROR" ID="0xd71a02d2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] RsltMsg is not equal, dataLen, %u, size, %u @nb_parse_rslt_msg.c(94),ERROR" ID="0xd71a02f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] RsltMsg tof: %d @nb_parse_rslt_msg.c(101),DBG" ID="0xd71a032e" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GLP_CLIENT] SlpCursorRslt No, %u, x, %d, y, %d, freq, %u/s(x10) @nb_parse_rslt_msg.c(123),INFO" ID="0xd71a03dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] CursorRsltMsg is NULL @nb_parse_rslt_msg.c(133),ERROR" ID="0xd71a042a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] CursorRsltMsg is not equal, dataLen, %u, size, %u @nb_parse_rslt_msg.c(138),ERROR" ID="0xd71a0452" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] AttitudeRsltMsg is NULL @nb_parse_rslt_msg.c(158),ERROR" ID="0xd71a04f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] AttitudeRsltMsg is not equal, dataLen, %u, size, %u @nb_parse_rslt_msg.c(163),ERROR" ID="0xd71a051a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] AttitudeRsltMsg! No, %u @nb_parse_rslt_msg.c(173),DBG" ID="0xd71a056e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] GyroZeroOffsetRsltMsg is NULL @nb_parse_rslt_msg.c(188),ERROR" ID="0xd71a05e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] GyroZeroOffsetRsltMsg is not equal, dataLen %u, size should be %u @nb_parse_rslt_msg.c(193),ERROR" ID="0xd71a060a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GLP_CLIENT][PARSE] ParseGyroZeroOffRsltMsg! updateNV:%u, x, %d, y, %d, z, %d @nb_parse_rslt_msg.c(199),INFO" ID="0xd71a063d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] ImuRawDataRsltMsg is NULL @nb_parse_rslt_msg.c(211),ERROR" ID="0xd71a069a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] ImuRawDataRsltMsg is not equal, dataLen %u, size should be %u @nb_parse_rslt_msg.c(216),ERROR" ID="0xd71a06c2" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[GLP_CLIENT][PARSE] ImuRawDataRsltMsg! acc:%5d,%5d,%5d, gyro:%5d,%5d,%5d @nb_parse_rslt_msg.c(222),INFO" ID="0xd71a06f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] AirMouseModeRsltMsg is NULL @nb_parse_rslt_msg.c(231),ERROR" ID="0xd71a073a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] AirMouseModeRsltMsg is not equal, dataLen %u, size should be %u @nb_parse_rslt_msg.c(236),ERROR" ID="0xd71a0762" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] AirMouseModeRsltMsg! mode:%u @nb_parse_rslt_msg.c(241),INFO" ID="0xd71a078d" />
+			</MSG_LOG>

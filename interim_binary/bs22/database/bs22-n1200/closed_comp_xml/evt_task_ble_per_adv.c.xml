@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[PER ADV]evt_task_ble_per_adv_init_es: task_id=0x%x type=%d, intv=0x%x, duration_min_us=%d @evt_task_ble_per_adv.c(320),INFO" ID="0x88dc0a05" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PER ADV]evt_task_ble_per_adv_get_or_create_env: create env fail! @evt_task_ble_per_adv.c(461),WARNING" ID="0x88dc0e6b" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[PER ADV]interval is zero! adv_slot=0x%x, adv_us=0x%x, per_adv_slot=0x%x @evt_task_ble_per_adv.c(480),INFO" ID="0x88dc0f05" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[PER ADV]adv_ts_slot=%d, per_adv_ts=%d, intv=%d, event_counter=%d @evt_task_ble_per_adv.c(513),INFO" ID="0x88dc100d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[PER ADV]offset_base=%d, offset_unit=%d, offset_adjust=%d @evt_task_ble_per_adv.c(535),INFO" ID="0x88dc10bd" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[PER ADV]evt_task_ble_per_adv_set_params: adv_handle=0x%x intv_min=%d intv_max=%d prop=0x%x @evt_task_ble_per_adv.c(571),INFO" ID="0x88dc11dd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[PER ADV]copy data failed. remain_len=%d, new_data_len=%d @evt_task_ble_per_adv.c(590),INFO" ID="0x88dc1275" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[PER ADV]evt_task_ble_per_adv_set_data: adv_handle=0x%x op=%d len=%d @evt_task_ble_per_adv.c(646),INFO" ID="0x88dc1435" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[PER ADV]evt_task_ble_per_adv_start: adv_handle=0x%x sed_id=0x%x @evt_task_ble_per_adv.c(683),INFO" ID="0x88dc155d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PER ADV]evt_task_ble_per_adv_start: schedule failed! @evt_task_ble_per_adv.c(710),WARNING" ID="0x88dc1633" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[PER ADV]evt_task_ble_per_adv_stop: adv_handle=0x%x sed_id=0x%x @evt_task_ble_per_adv.c(733),INFO" ID="0x88dc16ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[PER ADV]evt_task_ble_per_adv_common_cbk: prog_num is 0! @evt_task_ble_per_adv.c(763),ERROR" ID="0x88dc17da" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[PER ADV]next_ts=0x%x, isr_ts=0x%x @evt_task_ble_per_adv.c(785),INFO" ID="0x88dc188d" />
+			</MSG_LOG>

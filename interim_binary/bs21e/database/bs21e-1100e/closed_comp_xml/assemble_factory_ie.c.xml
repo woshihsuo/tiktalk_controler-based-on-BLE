@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] fac set mode, IELen:%u, No:%u @assemble_factory_ie.c(15),INFO" ID="0xd75a007d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] read phase cali para, IELen:%u, No:%u @assemble_factory_ie.c(32),INFO" ID="0xd75a0105" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] write phase cali para, IELen:%u, No:%u @assemble_factory_ie.c(47),INFO" ID="0xd75a017d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] read trx delay, IELen:%u, No:%u @assemble_factory_ie.c(64),INFO" ID="0xd75a0205" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] write trx delay, IELen:%u, No:%u @assemble_factory_ie.c(79),INFO" ID="0xd75a027d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] orig data, IELen:%u, No:%u @assemble_factory_ie.c(97),INFO" ID="0xd75a030d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] tri ant orig data, IELen:%u, No:%u @assemble_factory_ie.c(115),INFO" ID="0xd75a039d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] imu data, IELen:%u, No:%u @assemble_factory_ie.c(133),INFO" ID="0xd75a042d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] phase cali para data, IELen:%u, No:%u @assemble_factory_ie.c(151),INFO" ID="0xd75a04bd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[FAC-ASSEM] trx delay data, IELen:%u, No:%u @assemble_factory_ie.c(169),INFO" ID="0xd75a054d" />
+			</MSG_LOG>

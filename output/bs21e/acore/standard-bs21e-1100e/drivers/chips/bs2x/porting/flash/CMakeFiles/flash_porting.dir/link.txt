@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libflash_porting.a  CMakeFiles/flash_porting.dir/flash_porting.c.obj

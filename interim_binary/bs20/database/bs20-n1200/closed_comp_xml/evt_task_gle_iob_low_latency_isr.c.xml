@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[IOB]evt_task_gle_iob_check_switch_rate, target_rate:%d, max_rate:%d, cur_rate:%d @evt_task_gle_iob_low_latency_isr.c(341),INFO" ID="0x896c0aad" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP] gle_iob_statistics: rx_cnt=%d, per=%d, rx_noerr_cnt=%d, rx_err_cnt=%d @evt_task_gle_iob_low_latency_isr.c(403),ERROR" ID="0x896c0c9a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]gle_iob_statistics:rx_valid_cnt=%d,rx_sync_err=%d,report_loss_cnt=%d,tx_valid_cnt=%d @evt_task_gle_iob_low_latency_isr.c(407),ERROR" ID="0x896c0cba" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]gle_iob_statistics: mouse_inter_cnt=%d, inter_loss_cnt=%d, inter_delay_cnt=%d, rssi=%d @evt_task_gle_iob_low_latency_isr.c(410),ERROR" ID="0x896c0cd2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]evt_task_gle_iob_low_latency_abnormal_cbk, timestamp=0x%x, current time=0x%x, task_id=0x%x @evt_task_gle_iob_low_latency_isr.c(456),INFO" ID="0x896c0e45" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]evt_task_gle_iob_low_latency_cancel_cbk, timestamp=0x%x, current time=0x%x, task_id=0x%x @evt_task_gle_iob_low_latency_isr.c(730),INFO" ID="0x896c16d5" />
+			</MSG_LOG>

@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[BGTP]lm_gle_acb_srv_host_suggest_data_length tx_octets(%d), local_max_tx_octets(%d) @lm_gle_acb_srv_data_length_ram.c(38),INFO" ID="0x89600135" />
+			</MSG_LOG>

@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_pinctrl.a  CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj

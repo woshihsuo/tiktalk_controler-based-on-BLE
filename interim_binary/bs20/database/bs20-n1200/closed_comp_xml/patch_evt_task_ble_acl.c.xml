@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_acl_cancel_cbk con_hdl 0x%x, ts 0x%x, es_sn %d @patch_evt_task_ble_acl.c(86),INFO" ID="0x895402b5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_acl_save_sync_time_info sed_index(%d)es_sn(%d)next_counter(%d) @patch_evt_task_ble_acl.c(252),INFO" ID="0x895407e5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="evt_task_ble_acl_statistics: sed_index(%d)acl_rx_ok(%d)acl_sync_err(%d)acl_rx_err(%d) @patch_evt_task_ble_acl.c(285),ERROR" ID="0x895408ea" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="evt_task_ble_acl_statistics: acl_start_cnt(%d)acl_end_cnt(%d)rssi(%d) @patch_evt_task_ble_acl.c(288),ERROR" ID="0x89540902" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]ACL RX DATA MIC ERROR! @patch_evt_task_ble_acl.c(351),ERROR" ID="0x89540afa" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]evt_task_ble_acl_update_param_with_instant sed_index(%d)timestamp(0x%x)us_offset(%d)rx_win(%d) @patch_evt_task_ble_acl.c(470),INFO" ID="0x89540eb5" />
+			</MSG_LOG>

@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="rx tog up rx_tog_times:%d, rx total packet:%d, loss counter:%d, rx_all_zero:%d @gle_low_latency_dongle.c(92),INFO" ID="0xd82402e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[low latency dongle] idx:%d, idx status:%d, current busy rx_free:%d @gle_low_latency_dongle.c(112),INFO" ID="0xd8240385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dongle rx enable! @gle_low_latency_dongle.c(158),INFO" ID="0xd82404f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="dongle rx disable! @gle_low_latency_dongle.c(167),INFO" ID="0xd824053d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="low latency evt cbk role:%x, enable:%x @gle_low_latency_dongle.c(174),INFO" ID="0xd8240575" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Info] unknown_mode! @gle_low_latency_dongle.c(178),INFO" ID="0xd8240595" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy low latency callback fail @gle_low_latency_dongle.c(203),ERROR" ID="0xd824065a" />
+			</MSG_LOG>

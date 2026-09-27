@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to facMsg! @nb_assemble_factory_msg.c(20),ERROR" ID="0xd79600a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT][ASSEM] FacSetModeMsg, No, %u, mode, %u @nb_assemble_factory_msg.c(28),INFO" ID="0xd79600e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to FactoryOriDataMsg! @nb_assemble_factory_msg.c(42),ERROR" ID="0xd7960152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to FactoryTriAntOriDataMsg! @nb_assemble_factory_msg.c(60),ERROR" ID="0xd79601e2" />
+			</MSG_LOG>

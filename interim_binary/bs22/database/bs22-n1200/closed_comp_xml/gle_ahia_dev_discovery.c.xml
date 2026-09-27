@@ -1,0 +1,28 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="adv_params_len = %d new fail! @gle_ahia_dev_discovery.c(35),ERROR" ID="0xd8f0011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_ahia_dev_discovery.c(42),ERROR" ID="0xd8f00152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_ahia_dev_discovery.c(49),ERROR" ID="0xd8f0018a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_ahia_dev_discovery.c(56),ERROR" ID="0xd8f001c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_ahia_dev_discovery.c(63),ERROR" ID="0xd8f001fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy failed @gle_ahia_dev_discovery.c(73),ERROR" ID="0xd8f0024a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia adv_params_len = %d @gle_ahia_dev_discovery.c(97),INFO" ID="0xd8f0030d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="adv_enable is null @gle_ahia_dev_discovery.c(107),ERROR" ID="0xd8f0035a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="adv_handle = %d, adv enable = %d @gle_ahia_dev_discovery.c(111),INFO" ID="0xd8f0037d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="remove adv_handle = %d @gle_ahia_dev_discovery.c(118),INFO" ID="0xd8f003b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="scan_params_len = %d @gle_ahia_dev_discovery.c(131),INFO" ID="0xd8f0041d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="scan_enable = %d @gle_ahia_dev_discovery.c(138),INFO" ID="0xd8f00455" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ACore] gle ahia adv report param invalid, expect size: %d, real size: %d @gle_ahia_dev_discovery.c(187),ERROR" ID="0xd8f005da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_dev_discovery.c(193),ERROR" ID="0xd8f0060a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="find mpc_opcode = %d failed @gle_ahia_dev_discovery.c(230),ERROR" ID="0xd8f00732" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dd adv handle param len =%d error @gle_ahia_dev_discovery.c(243),ERROR" ID="0xd8f0079a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get event by mpc opcode failed @gle_ahia_dev_discovery.c(248),ERROR" ID="0xd8f007c2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="gle ahia cbk_event: %02x, adv_handle: %02x, result: %02x @gle_ahia_dev_discovery.c(254),INFO" ID="0xd8f007f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_dev_discovery.c(258),ERROR" ID="0xd8f00812" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dd scan handle param len =%d error @gle_ahia_dev_discovery.c(274),ERROR" ID="0xd8f00892" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="get event by mpc opcode failed @gle_ahia_dev_discovery.c(279),ERROR" ID="0xd8f008ba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="cbk_event: %02x, result: %d @gle_ahia_dev_discovery.c(283),INFO" ID="0xd8f008dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_dev_discovery.c(287),ERROR" ID="0xd8f008fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="dd get public addr handle param len = %d error @gle_ahia_dev_discovery.c(302),ERROR" ID="0xd8f00972" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_dev_discovery.c(309),ERROR" ID="0xd8f009aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia device discovery handler invalid param! @gle_ahia_dev_discovery.c(320),ERROR" ID="0xd8f00a02" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia device discovery handler cmd:%02x! @gle_ahia_dev_discovery.c(324),INFO" ID="0xd8f00a25" />
+			</MSG_LOG>

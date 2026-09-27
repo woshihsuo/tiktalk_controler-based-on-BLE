@@ -1,0 +1,19 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERR] rmdHeader-&gt;multiNodeMode is abnormal: %u @parse_rmd_ie.c(23),ERROR" ID="0xd74800ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] rmdHeader-&gt;rangingRoundUsage is abnormal: %u @parse_rmd_ie.c(27),ERROR" ID="0xd74800da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] rmdHeader-&gt;aoxMethodSel is abnormal: %u @parse_rmd_ie.c(31),ERROR" ID="0xd74800fa" />
+			<MSG STRUCTURE="diag_log_msg12" NAME="[RMD-PARSE] MNM:%u, RRU:%u, AOX:%u, VRN:%u, RIS:%u, SN:%u, NSM:%u, SM:%u,AD:%u, AAA:%u, AAM:%u, S:%u. @parse_rmd_ie.c(73),DBG" ID="0xd748024e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] RangingBlockDuration:%u @parse_rmd_ie.c(81),DBG" ID="0xd748028e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] RangingRoundDuration:%u @parse_rmd_ie.c(82),DBG" ID="0xd7480296" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] TxMode:%u @parse_rmd_ie.c(83),DBG" ID="0xd748029e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] SyncSlotDuration:%u @parse_rmd_ie.c(84),DBG" ID="0xd74802a6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] RangingSlotDuration:%u @parse_rmd_ie.c(85),DBG" ID="0xd74802ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] AoxSlotDuration:%u @parse_rmd_ie.c(86),DBG" ID="0xd74802b6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] FisrtAoxAntDis:%u @parse_rmd_ie.c(87),DBG" ID="0xd74802be" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] SyncOnlyOffset:%u @parse_rmd_ie.c(88),DBG" ID="0xd74802c6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] SleepDuration:%u @parse_rmd_ie.c(89),DBG" ID="0xd74802ce" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] SessionID:0x%x @parse_rmd_ie.c(90),DBG" ID="0xd74802d6" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="[RMD-PARSE] rbdp:%u, rrdp:%u, ssdp:%u, rsdp:%u, asdp:%u, cap:%u, sip:%u, soop:%u, sdp:%u @parse_rmd_ie.c(99),DBG" ID="0xd748031e" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RMD-PARSE] ControllerAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @parse_rmd_ie.c(135),DBG" ID="0xd748043e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-PARSE] RmdIELen:%u @parse_rmd_ie.c(146),INFO" ID="0xd7480495" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RMD-PARSE] ParseRmdIEHeader failed @parse_rmd_ie.c(153),ERROR" ID="0xd74804ca" />
+			</MSG_LOG>

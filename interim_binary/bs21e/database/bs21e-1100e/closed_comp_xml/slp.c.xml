@@ -1,0 +1,54 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPowerOnCommand! state is POWERING_OFF @slp.c(37),WARNING" ID="0xd772012b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPowerOnCommand! state is POWERING_ON @slp.c(41),WARNING" ID="0xd772014b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpPowerOnCommand! state &gt;= POWER_ON, status:%u @slp.c(45),WARNING" ID="0xd772016b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpPowerOnCommand! current state:%u @slp.c(48),INFO" ID="0xd7720185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPowerOffCommand! state is POWERING_OFF @slp.c(65),WARNING" ID="0xd772020b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPowerOffCommand! state is POWERING_ON @slp.c(69),WARNING" ID="0xd772022b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPowerOffCommand! state is POWER_OFF @slp.c(73),WARNING" ID="0xd772024b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpPowerOffCommand! current state:%u @slp.c(76),INFO" ID="0xd7720265" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpEnCirReportCommand! state &lt; POWER_ON, status:%u @slp.c(91),WARNING" ID="0xd77202db" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] SlpEnCirReportCommand, uart buffer length is too small, %u &lt; %u @slp.c(98),INFO" ID="0xd7720315" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][OK] SlpEnCirReportCommand! @slp.c(102),INFO" ID="0xd7720335" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpDisCirReportCommand! state &lt; POWER_ON, status:%u @slp.c(113),WARNING" ID="0xd772038b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][OK] SlpDisCirReportCommand! @slp.c(117),INFO" ID="0xd77203ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSleepCommand! state is POWERING_OFF @slp.c(128),WARNING" ID="0xd7720403" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSleepCommand! state is POWERING_ON @slp.c(132),WARNING" ID="0xd7720423" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSleepCommand! state is POWER_OFF @slp.c(136),WARNING" ID="0xd7720443" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSleepCommand! state is SLEEP @slp.c(140),WARNING" ID="0xd7720463" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpSleepCommand! current state:%u @slp.c(143),INFO" ID="0xd772047d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpStopRangingCommand! st &lt; RANGING, status:%u @slp.c(156),WARNING" ID="0xd77204e3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpStopRangingCommand! status:%u @slp.c(159),INFO" ID="0xd77204fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpStartRangingCommand! state is POWERING_OFF @slp.c(171),WARNING" ID="0xd772055b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpStartRangingCommand! state is POWERING_ON @slp.c(175),WARNING" ID="0xd772057b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpStartRangingCommand! state &lt; POWER_ON, status:%u @slp.c(179),WARNING" ID="0xd772059b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpStartRangingCommand! state &gt;= RANGING, status:%u @slp.c(186),WARNING" ID="0xd77205d3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpStartRangingCommand! status:%u @slp.c(190),INFO" ID="0xd77205f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req! @slp.c(194),ERROR" ID="0xd7720612" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][OK] SlpSetLocalAttCommand! @slp.c(207),INFO" ID="0xd772067d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to req! @slp.c(210),ERROR" ID="0xd7720692" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpSetCursorSpeedCommand! mode is not support, mode:%u @slp.c(228),WARNING" ID="0xd7720723" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpSetCursorSpeedCommand! status:%u @slp.c(233),INFO" ID="0xd772074d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpSetCursorSpeedCommand! st &lt; RANGING, status:%u @slp.c(237),WARNING" ID="0xd772076b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPauseRangingCommand! state is POWERING_OFF @slp.c(246),WARNING" ID="0xd77207b3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPauseRangingCommand! state is POWERING_ON @slp.c(250),WARNING" ID="0xd77207d3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpPauseRangingCommand! state is PAUSE @slp.c(254),WARNING" ID="0xd77207f3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpPauseRangingCommand! st &lt; RANGING, st:%u @slp.c(258),WARNING" ID="0xd7720813" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpPauseRangingCommand! status:%u @slp.c(261),INFO" ID="0xd772082d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpContinueRangingCommand! state is POWERING_OFF @slp.c(286),WARNING" ID="0xd77208f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpContinueRangingCommand! state is POWERING_ON @slp.c(290),WARNING" ID="0xd7720913" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpContinueRangingCommand! st &lt; RANGING, st:%u @slp.c(294),WARNING" ID="0xd7720933" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpContinueRangingCommand! st != RANGING_PAUSE, st:%u @slp.c(298),WARNING" ID="0xd7720953" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][OK] SlpContinueRangingCommand! status:%u @slp.c(301),INFO" ID="0xd772096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpPauseRangingCommand! st &lt; RANGING, st:%u @slp.c(325),WARNING" ID="0xd7720a2b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] SlpReadVersionCommand! st &lt; POWER_ON, st:%u @slp.c(335),WARNING" ID="0xd7720a7b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] SlpReadVersionCommand can not allocate heap to req! @slp.c(338),ERROR" ID="0xd7720a92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] Reject SlpReadTsensorCommand! st &lt; POWER_ON, st:%u @slp.c(366),WARNING" ID="0xd7720b73" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSetTransformParam! state is SLP_STATE_RANGING @slp.c(376),WARNING" ID="0xd7720bc3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSetInstParam! state is SLP_STATE_RANGING @slp.c(391),WARNING" ID="0xd7720c3b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][WARN] SlpSetLogLevel, nb:%u, wb:%u @slp.c(410),WARNING" ID="0xd7720cd3" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[API][OK] SlpSetLogLevel, st:%u, nb:%u, wb:%u @slp.c(418),INFO" ID="0xd7720d15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][WARN] SlpSetImuReportFreq set fail! freq:%u Hz @slp.c(430),WARNING" ID="0xd7720d73" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][WARN] SlpSetImuReportFreq, st:%u, freq:%u Hz @slp.c(436),WARNING" ID="0xd7720da3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][OK] SlpSetImuReportFreq, st:%u, freq:%u Hz @slp.c(441),INFO" ID="0xd7720dcd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][WARN] Reject SlpSetAirMosueMode! state is SLP_STATE_RANGING @slp.c(449),WARNING" ID="0xd7720e0b" />
+			</MSG_LOG>

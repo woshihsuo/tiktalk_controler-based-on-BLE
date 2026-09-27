@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]hci_write_fail, type=%d, ret=0x%x @dts_hci.c(176),WARNING" ID="0x88880583" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp][dts_hci_fake_write]hci_write_fail, type=%d, ret=0x%x @dts_hci.c(207),WARNING" ID="0x8888067b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]Error in Opening LiteOS Message Channel! @dts_hci.c(248),ERROR" ID="0x888807c2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]dts_thread_set_sem_fail, ret=0x%x @dts_hci.c(282),WARNING" ID="0x888808d3" />
+			</MSG_LOG>

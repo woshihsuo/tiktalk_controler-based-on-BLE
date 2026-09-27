@@ -1,0 +1,2 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="SetLogLevel:%u. 0:NONE; 1:ERR; 2:WAR; 3:INFO; 4:DBG. @log_utils.c(13),INFO" ID="0xd7a2006d" />
+			</MSG_LOG>

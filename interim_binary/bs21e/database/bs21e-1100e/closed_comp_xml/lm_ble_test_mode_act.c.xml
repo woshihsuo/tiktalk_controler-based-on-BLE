@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="test_mode_tx_v2_param_check, freq = %d, payload_type = %d, phy = %d, len = %d @lm_ble_test_mode_act.c(42),INFO" ID="0x88460155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble_hci_le_tx_test_v1_enable_act @lm_ble_test_mode_act.c(122),INFO" ID="0x884603d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble_hci_le_tx_test_v2_enable_act @lm_ble_test_mode_act.c(206),INFO" ID="0x88460675" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ble_hci_le_test_end_act @lm_ble_test_mode_act.c(393),INFO" ID="0x88460c4d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble_msg_le_test_mode_stopping_act num packets = %d, mode_type = %d @lm_ble_test_mode_act.c(419),INFO" ID="0x88460d1d" />
+			</MSG_LOG>

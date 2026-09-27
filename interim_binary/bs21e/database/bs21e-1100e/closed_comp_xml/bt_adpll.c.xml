@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][bt_adpll_start_tx_if]freq=%d mode=%d @bt_adpll.c(560),ERROR" ID="0x88901182" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][bt_adpll_start_tx_if]freq=%d mode=%d @bt_adpll.c(567),ERROR" ID="0x889011ba" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERROR][bt_adpll_start_tx]freq=%d mode=%d @bt_adpll.c(584),ERROR" ID="0x88901242" />
+			</MSG_LOG>

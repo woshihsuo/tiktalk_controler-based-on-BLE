@@ -1,0 +1,13 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[RAR-PARSE] replyTime:%u %u @parse_rar_ie.c(25),DBG" ID="0xd74400ce" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] replyTimeFom:%u @parse_rar_ie.c(26),DBG" ID="0xd74400d6" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[RAR-PARSE] roundTripTime:%u %u @parse_rar_ie.c(32),DBG" ID="0xd7440106" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] roundTripTimeFom:%u @parse_rar_ie.c(33),DBG" ID="0xd744010e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] aoxAzi:%d @parse_rar_ie.c(39),DBG" ID="0xd744013e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] aoxAziFom:%u @parse_rar_ie.c(40),DBG" ID="0xd7440146" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] aoxElev:%d @parse_rar_ie.c(45),DBG" ID="0xd744016e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] aoxElevFom:%u @parse_rar_ie.c(46),DBG" ID="0xd7440176" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RAR-PARSE] address: [%02x:%02x:%02x:%02x:%02x:%02x] @parse_rar_ie.c(54),DBG" ID="0xd74401b6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WAR] bypass ParseRarIE, SLP state: %u! @parse_rar_ie.c(65),WARNING" ID="0xd744020b" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-PARSE] RarIELen:%u @parse_rar_ie.c(74),DBG" ID="0xd7440256" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="[RAR-PARSE] RTP:%u, RTFP:%u, RTTP:%u, RTTFP:%u, AAP:%u, AAFP:%u, AEP:%u, AEFP:%u, RCN:%u @parse_rar_ie.c(81),DBG" ID="0xd744028e" />
+			</MSG_LOG>

@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] FactoryRsltMsg is NULL @nb_parse_factory_msg.c(37),ERROR" ID="0xd7a4012a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] FactoryRsltMsg is not equal, dataLen, %u, size, %u @nb_parse_factory_msg.c(41),ERROR" ID="0xd7a4014a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] FactoryRsltMsg! No, %u @nb_parse_factory_msg.c(51),INFO" ID="0xd7a4019d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] FactoryTriAntRsltMsg is NULL @nb_parse_factory_msg.c(60),ERROR" ID="0xd7a401e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] FactoryTriAntRsltMsg is not equal, dataLen, %u, size, %u @nb_parse_factory_msg.c(65),ERROR" ID="0xd7a4020a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] FactoryTriAntRsltMsg! No, %u @nb_parse_factory_msg.c(75),INFO" ID="0xd7a4025d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] FactoryOriDataMsg is NULL @nb_parse_factory_msg.c(85),ERROR" ID="0xd7a402aa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] FactoryOriDataMsg is not equal, dataLen, %u, size, %u @nb_parse_factory_msg.c(90),ERROR" ID="0xd7a402d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] FactoryOriDataMsg! No, %u @nb_parse_factory_msg.c(100),INFO" ID="0xd7a40325" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] FactoryImuRsltMsg is NULL @nb_parse_factory_msg.c(108),ERROR" ID="0xd7a40362" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] FactoryImuRsltMsg is not equal, dataLen %u, size should be %u @nb_parse_factory_msg.c(113),ERROR" ID="0xd7a4038a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT][PARSE] FactoryImuRsltMsg No: %u, accNorm: %u @nb_parse_factory_msg.c(119),DBG" ID="0xd7a403be" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] ParseFactoryImuRsltMsg, recv unexpected mode:%u @nb_parse_factory_msg.c(133),ERROR" ID="0xd7a4042a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] FactoryTriAntOriDataMsg is NULL @nb_parse_factory_msg.c(142),ERROR" ID="0xd7a40472" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] FactoryTriAntOriDataMsg is not equal, dataLen, %u, size, %u @nb_parse_factory_msg.c(147),ERROR" ID="0xd7a4049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] FactoryTriAntOriDataMsg! No, %u @nb_parse_factory_msg.c(157),INFO" ID="0xd7a404ed" />
+			</MSG_LOG>

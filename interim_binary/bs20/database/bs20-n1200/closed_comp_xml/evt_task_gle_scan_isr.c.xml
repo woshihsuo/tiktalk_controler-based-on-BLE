@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_scan_start_cbk, prog_num=%d @evt_task_gle_scan_isr.c(137),WARNING" ID="0x88e8044b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_scan_abnormal_cbk, timestamp=0x%x, current time=0x%x, state=%d, task_id=0x%x @evt_task_gle_scan_isr.c(163),INFO" ID="0x88e8051d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_scan_abnormal_cbk, prog_num=%d @evt_task_gle_scan_isr.c(168),WARNING" ID="0x88e80543" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle][scan]MSG_ALLOC_FAILED! @evt_task_gle_scan_isr.c(310),ERROR" ID="0x88e809b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_scan_single_task_start, unexpected task_type: %d @evt_task_gle_scan_isr.c(337),WARNING" ID="0x88e80a8b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_scan_start_aux_rx, no AP in prim adv! @evt_task_gle_scan_isr.c(362),WARNING" ID="0x88e80b53" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_scan_start_req_tx, req_offset(%d)req_max_len(%d)rsp_offset(%d)req_num(%d) @evt_task_gle_scan_isr.c(553),WARNING" ID="0x88e8114b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_scan_rx_check, local_addr:%d, txadd:%d @evt_task_gle_scan_isr.c(603),WARNING" ID="0x88e812db" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_scan_rx_check, state=%d, pdu_type=%d @evt_task_gle_scan_isr.c(613),INFO" ID="0x88e8132d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_scan_rx_check, state=%d, pdu_type=%d @evt_task_gle_scan_isr.c(619),INFO" ID="0x88e8135d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_scan_rx_check, state=%d, pdu_type=%d @evt_task_gle_scan_isr.c(624),INFO" ID="0x88e81385" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_scan_rx_handle, unexpected behavior! @evt_task_gle_scan_isr.c(698),INFO" ID="0x88e815d5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[bgtp]evt_task_gle_scan_recv_data, status=0x%x, state=%d, sw_rxpd_idx=%d, hw_rxpd_idx=%d @evt_task_gle_scan_isr.c(721),INFO" ID="0x88e8168d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_scan_evt_cbk, prog_num=%d @evt_task_gle_scan_isr.c(741),WARNING" ID="0x88e8172b" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]evt_task_gle_scan_stop_cbk, timestamp=0x%x, current time=0x%x @evt_task_gle_scan_isr.c(809),INFO" ID="0x88e8194d" />
+			</MSG_LOG>

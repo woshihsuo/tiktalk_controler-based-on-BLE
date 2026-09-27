@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to buffer! @assemble_test_msg.c(23),ERROR" ID="0xd79e00ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] memcpy_s failed! @assemble_test_msg.c(32),ERROR" ID="0xd79e0102" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] CiTestdataMsg, No:%u @assemble_test_msg.c(36),INFO" ID="0xd79e0125" />
+			</MSG_LOG>

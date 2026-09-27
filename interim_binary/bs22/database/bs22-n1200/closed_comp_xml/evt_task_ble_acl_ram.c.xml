@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]evt_task_ble_acl_get_em_data oversize, len:%d @evt_task_ble_acl_ram.c(197),ERROR" ID="0x8940062a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_ble_acl_set_em_data_env, em_size:%d @evt_task_ble_acl_ram.c(211),INFO" ID="0x8940069d" />
+			</MSG_LOG>

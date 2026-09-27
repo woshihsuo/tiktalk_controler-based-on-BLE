@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to readVersionMsg! @assemble_version_msg.c(19),ERROR" ID="0xd7a0009a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] readVersionMsg, No, %u @assemble_version_msg.c(29),INFO" ID="0xd7a000ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to readDieIdMsg! @assemble_version_msg.c(40),ERROR" ID="0xd7a00142" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] readDieIdMsg, No, %u @assemble_version_msg.c(50),INFO" ID="0xd7a00195" />
+			</MSG_LOG>

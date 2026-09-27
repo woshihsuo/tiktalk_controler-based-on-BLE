@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[IE-PARSE] Wrong subIdx: %d! @parse_nb_payload.c(83),ERROR" ID="0xd770029a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] ProcNbPayload is NULL @parse_nb_payload.c(94),ERROR" ID="0xd77002f2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] ProcNbPayload is not equal, dataLen, %u, NbPayloadReq size, %u @parse_nb_payload.c(99),ERROR" ID="0xd770031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="CopyMsgData2LocalBuf @parse_nb_payload.c(110),DBG" ID="0xd7700376" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[2ND_HARMONIC_CALI][NMOS]code = %x, s_cur_abs_val = %d, vdcc_value = %d,ef = %d @cali_tx.c(111),INFO" ID="0x88ba037d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[2ND_HARMONIC_CALI][PMOS]code = %x, s_cur_abs_val = %d, vdcc_value = %d,ef = %d @cali_tx.c(134),INFO" ID="0x88ba0435" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[2ND_HARMONIC_CALI][NMOS]code = %x, s_cur_abs_val = %d, vdcc_value = %d,ef = %d @cali_tx.c(172),INFO" ID="0x88ba0565" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[2ND_HARMONIC_CALI][PMOS]code = %x, s_cur_abs_val = %d, vdcc_value = %d,ef = %d @cali_tx.c(194),INFO" ID="0x88ba0615" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BT CALI][TX 2ND] index = %d n_mos = 0x%x, p_mos = 0x%x @cali_tx.c(289),INFO" ID="0x88ba090d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BT CALI][TX 2ND] val = 0x%x @cali_tx.c(292),INFO" ID="0x88ba0925" />
+			</MSG_LOG>

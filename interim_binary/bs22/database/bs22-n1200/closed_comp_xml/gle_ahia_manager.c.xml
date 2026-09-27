@@ -1,0 +1,26 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="sapi gle_init @gle_ahia_manager.c(30),INFO" ID="0xd8f800f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sapi gle_enable @gle_ahia_manager.c(39),INFO" ID="0xd8f8013d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sapi gle_disable @gle_ahia_manager.c(48),INFO" ID="0xd8f80185" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sapi gle_cleanup @gle_ahia_manager.c(57),INFO" ID="0xd8f801cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia general cmd param null @gle_ahia_manager.c(66),ERROR" ID="0xd8f80212" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle general command deliver fail @gle_ahia_manager.c(72),ERROR" ID="0xd8f80242" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia stack power on param invalid @gle_ahia_manager.c(100),ERROR" ID="0xd8f80322" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_manager.c(107),ERROR" ID="0xd8f8035a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia stack enable finish param invalid @gle_ahia_manager.c(121),ERROR" ID="0xd8f803ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_manager.c(128),ERROR" ID="0xd8f80402" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia stack disable finish param invalid @gle_ahia_manager.c(142),ERROR" ID="0xd8f80472" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_manager.c(149),ERROR" ID="0xd8f804aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia stack dfr param error @gle_ahia_manager.c(163),ERROR" ID="0xd8f8051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia stack dfr module_id not found @gle_ahia_manager.c(170),ERROR" ID="0xd8f80552" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia general evt param null @gle_ahia_manager.c(185),ERROR" ID="0xd8f805ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia general evt param invalid @gle_ahia_manager.c(191),ERROR" ID="0xd8f805fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle ahia general evt  new memory failed. @gle_ahia_manager.c(197),ERROR" ID="0xd8f8062a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia general evt param memcpy error @gle_ahia_manager.c(202),ERROR" ID="0xd8f80652" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_manager.c(208),INFO" ID="0xd8f80685" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="read filter list size handle param len = %d error @gle_ahia_manager.c(226),ERROR" ID="0xd8f80712" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_manager.c(233),ERROR" ID="0xd8f8074a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia manager handler invalid param! @gle_ahia_manager.c(243),ERROR" ID="0xd8f8079a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia manager handler cmd:%02x! @gle_ahia_manager.c(248),INFO" ID="0xd8f807c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle manager svr proc param null @gle_ahia_manager.c(278),ERROR" ID="0xd8f808b2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[ACore] cmdid:0x%02x, srvid:0x%02X pay_len:%d @gle_ahia_manager.c(283),INFO" ID="0xd8f808dd" />
+			</MSG_LOG>

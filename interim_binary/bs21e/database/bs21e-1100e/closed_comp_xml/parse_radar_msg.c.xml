@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="radar_data_report, g_radarUartWriteCb = NULL @parse_radar_msg.c(200),ERROR" ID="0xd7980642" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="radar_data_report, g_radarUsbSerialWriteCb = NULL @parse_radar_msg.c(207),ERROR" ID="0xd798067a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO] radar status is RADAR_ON: %u, sysTime:%llums! @parse_radar_msg.c(337),INFO" ID="0xd7980a8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO] radar status is RADAR_OFF: %u, sysTime:%llums! @parse_radar_msg.c(342),INFO" ID="0xd7980ab5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] Unknown RadarStatus, message id: %u! @parse_radar_msg.c(345),ERROR" ID="0xd7980aca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] Unknown RadarMsg ID: %u, dataLen: %u @parse_radar_msg.c(389),ERROR" ID="0xd7980c2a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[radar_start_info]hwPara:: boardID:%u channel:%u antChNum:%u rfSwBit:%u @parse_radar_msg.c(431),INFO" ID="0xd7980d7d" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[radar_start_info]Ant%u:: Code:%u TPC:%u LNA:0x%x VGA:0x%x @parse_radar_msg.c(438),INFO" ID="0xd7980db5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[radar_start_info]subFrPeriod:%u antSwichInterval:%u startBin:%u endBin:%u @parse_radar_msg.c(445),INFO" ID="0xd7980ded" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[radar_start_info]waveLen:%u sf:%u rshif:%u acc:%u corrdiv:%u @parse_radar_msg.c(451),INFO" ID="0xd7980e1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[radar_start_info]waveCode: @parse_radar_msg.c(454),INFO" ID="0xd7980e35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="%d  @parse_radar_msg.c(457),INFO" ID="0xd7980e4d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME=" @parse_radar_msg.c(460),INFO" ID="0xd7980e65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] Radar not support! @parse_radar_msg.c(479),ERROR" ID="0xd7980efa" />
+			</MSG_LOG>

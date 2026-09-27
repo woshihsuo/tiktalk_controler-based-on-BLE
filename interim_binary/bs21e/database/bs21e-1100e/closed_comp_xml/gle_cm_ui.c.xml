@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="gle cm init enter @gle_cm_ui.c(15),INFO" ID="0xde48007d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle cm cleanup enter @gle_cm_ui.c(23),INFO" ID="0xde4800bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set connect rssi param new fail @gle_cm_ui.c(32),ERROR" ID="0xde480102" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote feature param new fail @gle_cm_ui.c(125),ERROR" ID="0xde4803ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="read remote version param new fail @gle_cm_ui.c(137),ERROR" ID="0xde48044a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set data len new fail @gle_cm_ui.c(149),ERROR" ID="0xde4804aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[cm_set_acb_evt_param]null @gle_cm_ui.c(176),ERROR" ID="0xde480582" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[cm_set_acb_evt_param]con_hdl:%u, evt_intv:%u, evt_num:%u @gle_cm_ui.c(180),INFO" ID="0xde4805a5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="new acb_evt_param failed @gle_cm_ui.c(183),ERROR" ID="0xde4805ba" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="memcpy acb_evt_param failed @gle_cm_ui.c(189),ERROR" ID="0xde4805ea" />
+			</MSG_LOG>

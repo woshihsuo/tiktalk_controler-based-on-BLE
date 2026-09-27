@@ -1,0 +1,27 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) HiSilicon (Shanghai) Technologies Co., Ltd. 2025-2025. All rights reserved.
+#===============================================================================
+config CMP_REFERENCE_VOLTAGE
+    int
+    prompt "Comparator reference voltage(mv)."
+    default 250
+    depends on SAMPLE_SUPPORT_CMP
+
+config CMP_CHANNEL
+    int
+    prompt "Choose CMP channel(S_MGPIO2, S_MGPIO3, S_MGPIO4, S_MGPIO5, S_MGPIO28, S_MGPIO29, S_MGPIO30, S_MGPIO31)."
+    default 4
+    depends on SAMPLE_SUPPORT_CMP
+
+config POLE_SEL
+    int
+    prompt "Polarity Select(0 HIGH, 1 LOW)."
+    default 0
+    depends on SAMPLE_SUPPORT_CMP
+
+config CMP_SUPPORT_INT_MODE
+    bool
+    prompt "CMP support interrupt mode."
+    depends on SAMPLE_SUPPORT_CMP
+    default n

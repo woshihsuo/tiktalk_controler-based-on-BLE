@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[ABNORMAL-PARSE] abnormalIELen:%u, code:%u @parse_abnormal_ie.c(18),INFO" ID="0xd73c0095" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="state %u, not send stopMsg @parse_abnormal_ie.c(27),INFO" ID="0xd73c00dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR][ABNORMAL-IE-PARSE] unexpected code:%u @parse_abnormal_ie.c(36),ERROR" ID="0xd73c0122" />
+			</MSG_LOG>

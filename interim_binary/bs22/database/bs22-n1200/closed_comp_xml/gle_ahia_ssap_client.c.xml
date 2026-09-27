@@ -1,0 +1,22 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi gle ssapc discovery services fail @gle_ahia_ssap_client.c(31),ERROR" ID="0xd8fc00fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi_gle_ssapc_value ack fail @gle_ahia_ssap_client.c(45),ERROR" ID="0xd8fc016a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc discovery service param len = %d error @gle_ahia_ssap_client.c(121),ERROR" ID="0xd8fc03ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc discovery service handle hdl = %d @gle_ahia_ssap_client.c(127),INFO" ID="0xd8fc03fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(131),ERROR" ID="0xd8fc041a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc discovery character handle hdl = 0x%x @gle_ahia_ssap_client.c(146),INFO" ID="0xd8fc0495" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="payload_length = %d, descriptors_count = %d error @gle_ahia_ssap_client.c(150),ERROR" ID="0xd8fc04b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(156),ERROR" ID="0xd8fc04e2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc discovery service len = %d error @gle_ahia_ssap_client.c(171),ERROR" ID="0xd8fc055a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc discovery services complete handle err_code = 0x%02x @gle_ahia_ssap_client.c(176),INFO" ID="0xd8fc0585" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(179),ERROR" ID="0xd8fc059a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc value handle param len = %d error @gle_ahia_ssap_client.c(196),ERROR" ID="0xd8fc0622" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="ssapc module_id not found @gle_ahia_ssap_client.c(201),ERROR" ID="0xd8fc064a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc value handle param len = %u error @gle_ahia_ssap_client.c(218),ERROR" ID="0xd8fc06d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(223),ERROR" ID="0xd8fc06fa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssapc value handle param len = %u error @gle_ahia_ssap_client.c(240),ERROR" ID="0xd8fc0782" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(245),ERROR" ID="0xd8fc07aa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ahia_ssapc_write_req_complete]param len = %u error @gle_ahia_ssap_client.c(262),ERROR" ID="0xd8fc0832" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_client.c(267),ERROR" ID="0xd8fc085a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia ssapc handler invalid param! @gle_ahia_ssap_client.c(278),ERROR" ID="0xd8fc08b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia ssapc handler cmd:%02x! @gle_ahia_ssap_client.c(283),INFO" ID="0xd8fc08dd" />
+			</MSG_LOG>

@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="evt_task_gle_iob_low_latency_set_phy, tx_format(%d)rx_format(%d)tx_pilot_ratio(%d)rx_pilot_ratio(%d) @evt_task_gle_iob_low_latency_ram.c(219),INFO" ID="0x898006dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]evt_task_gle_iob_low_latency_create, env_ptr create fail! @evt_task_gle_iob_low_latency_ram.c(491),WARNING" ID="0x89800f5b" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="task_list_size:%d, normal_list:%d, urent_list:%d, cancel_list:%d @evt_task_gle_iob_low_latency_ram.c(547),INFO" ID="0x8980111d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="normal eeq size:%d, urgent_eeq_size:%d @evt_task_gle_iob_low_latency_ram.c(549),INFO" ID="0x8980112d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_gle_iob_low_latency_update_config, invalid cur_rate:%d @evt_task_gle_iob_low_latency_ram.c(632),INFO" ID="0x898013c5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP]evt_task_gle_iob_low_latency_start SUCC, sed_id:0x%x,max_rate:%d,anchor_point:0x%x,delay:%d @evt_task_gle_iob_low_latency_ram.c(727),INFO" ID="0x898016bd" />
+			</MSG_LOG>

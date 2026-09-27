@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]hci_gle_cmd_reject: opcode = 0x%x, err_code = 0x%x @hci_gle.c(131),INFO" ID="0x8880041d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]hci_gle_send_hw_err: error code(0x%x) @hci_gle.c(151),WARNING" ID="0x888004bb" />
+			</MSG_LOG>

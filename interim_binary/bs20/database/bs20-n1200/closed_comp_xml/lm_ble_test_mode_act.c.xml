@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="test_mode_tx_v2_param_check, freq = %d, payload_type = %d, phy = %d, len = %d @lm_ble_test_mode_act.c(42),INFO" ID="0x88460155" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="ble_msg_le_test_mode_stopping_act num packets = %d, mode_type = %d @lm_ble_test_mode_act.c(416),INFO" ID="0x88460d05" />
+			</MSG_LOG>

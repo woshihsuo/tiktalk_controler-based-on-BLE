@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] CmdMsg is NULL @nb_parse_cmd_msg.c(17),ERROR" ID="0xd786008a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] CmdMsg is not equal, dataLen, %u, size, %u @nb_parse_cmd_msg.c(21),ERROR" ID="0xd78600aa" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT][PARSE] CmdMsg, addr 0x%x, value 0%x @nb_parse_cmd_msg.c(33),INFO" ID="0xd786010d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR][GLP_CLIENT][PARSE] CmdMsg, addr 0x%x, value 0%x @nb_parse_cmd_msg.c(36),ERROR" ID="0xd7860122" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][PARSE] CmdMsg, temp %d @nb_parse_cmd_msg.c(39),INFO" ID="0xd786013d" />
+			</MSG_LOG>

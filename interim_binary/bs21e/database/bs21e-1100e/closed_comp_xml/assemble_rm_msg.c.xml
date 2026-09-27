@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SetNbSessionKey] keyLen error: %u @assemble_rm_msg.c(41),ERROR" ID="0xd716014a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="assemble cali para, rangingCtrlRole:%u. CONTROLLEE:0; CONTROLLER:1. @assemble_rm_msg.c(67),INFO" ID="0xd716021d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] deviceAddr error! @assemble_rm_msg.c(145),ERROR" ID="0xd716048a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLP_CLIENT][ASSEM] GetNbSessionKey failed! @assemble_rm_msg.c(155),ERROR" ID="0xd71604da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to rmMsg! @assemble_rm_msg.c(162),ERROR" ID="0xd7160512" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] RmMsg, No, %u @assemble_rm_msg.c(168),INFO" ID="0xd7160545" />
+			</MSG_LOG>

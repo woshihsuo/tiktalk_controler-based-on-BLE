@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_local_settings.c(1487),ERROR" ID="0xdb702e7a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_local_settings.c(1493),ERROR" ID="0xdb702eaa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]btsdk set remote device name memcpy error @sdk_gap_local_settings.c(1843),ERROR" ID="0xdb70399a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]btsdk get remote link key memcpy error @sdk_gap_local_settings.c(1887),ERROR" ID="0xdb703afa" />
+			</MSG_LOG>

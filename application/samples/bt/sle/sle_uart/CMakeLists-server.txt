@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.16) 
+project("sle-sample-server")
+set(CMAKE_C_COMPILER arm-himix100-linux-gcc) 
+set(CMAKE_CXX_COMPILER arm-himix100-linux-g++) 
+add_definitions(-D CONFIG_SAMPLE_SUPPORT_SLE_UART_SERVER=1)
+set( 
+ SOURCES 
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/application/sample/bt/sle/sle_uart/sle_uart_server/sle_uart_server.c
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/application/sample/bt/sle/sle_uart/sle_uart_server/sle_uart_server_adv.c
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/application/sample/bt/sle/sle_uart/sle_uart.c
+) 
+
+set( 
+ HEADER 
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/application/sample/bt/sle/include 
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/application/sample/bt/sle/sle_uart/sle_uart_server
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/driver/platform/libc_sec/include/ 
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/include/bsle/sle 
+ ${CMAKE_CURRENT_SOURCE_DIR}/sdk/include/bsle/common 
+) 
+link_directories(lib) 
+add_executable(sle-sample-server ${CMAKE_CURRENT_SOURCE_DIR}/main.c ${SOURCES}) 
+target_include_directories(sle-sample-server PRIVATE ${HEADER}) 
+target_link_libraries(sle-sample-server pthread sle_host)
+

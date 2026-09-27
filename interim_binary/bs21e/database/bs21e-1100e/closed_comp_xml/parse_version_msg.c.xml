@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] VersionMsg is NULL @parse_version_msg.c(16),ERROR" ID="0xd71e0082" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] VersionMsg is not equal, dataLen %u, size should be %u @parse_version_msg.c(21),ERROR" ID="0xd71e00aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] ParseVersionMsg memcpy_s failed @parse_version_msg.c(35),ERROR" ID="0xd71e011a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] DieIdMsg is NULL @parse_version_msg.c(56),ERROR" ID="0xd71e01c2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] DieIdMsg is not equal, dataLen %u, size should be %u @parse_version_msg.c(61),ERROR" ID="0xd71e01ea" />
+			</MSG_LOG>

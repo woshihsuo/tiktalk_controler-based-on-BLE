@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_spi.a  CMakeFiles/hal_spi.dir/hal_spi.c.obj CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj

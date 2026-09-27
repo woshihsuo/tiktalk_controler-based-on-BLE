@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg9" NAME="[RAR-ASSEM] RTP:%u, RTFP:%u, RTTP:%u, RTTFP:%u, AAP:%u, AAFP:%u, AEP:%u, AEFP:%u, RCN:%u @assemble_rar_ie.c(80),DBG" ID="0xd7420286" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[RAR-ASSEM] replyTime:%u %u @assemble_rar_ie.c(92),DBG" ID="0xd74202e6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] replyTimeFom:%u @assemble_rar_ie.c(94),DBG" ID="0xd74202f6" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[RAR-ASSEM] roundTripTime:%u %u @assemble_rar_ie.c(99),DBG" ID="0xd742031e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] roundTripTimeFom:%u @assemble_rar_ie.c(101),DBG" ID="0xd742032e" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] aoxAzi:%d @assemble_rar_ie.c(106),DBG" ID="0xd7420356" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] aoxAziFom:%u @assemble_rar_ie.c(108),DBG" ID="0xd7420366" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] aoxElev:%d @assemble_rar_ie.c(112),DBG" ID="0xd7420386" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] aoxElevFom:%u @assemble_rar_ie.c(114),DBG" ID="0xd7420396" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RAR-ASSEM] address: [%02x:%02x:%02x:%02x:%02x:%02x] @assemble_rar_ie.c(122),DBG" ID="0xd74203d6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RAR-ASSEM] RarIELen:%u @assemble_rar_ie.c(133),DBG" ID="0xd742042e" />
+			</MSG_LOG>

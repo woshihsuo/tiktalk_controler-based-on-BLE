@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_ble_sniffer_conn_info_pack failed. @lm_ble_sniffer.c(79),ERROR" ID="0x8988027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_ble_acl_fsm_create failed. @lm_ble_sniffer.c(84),ERROR" ID="0x898802a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]evt_task_ble_sniffer_create failed. @lm_ble_sniffer.c(101),ERROR" ID="0x8988032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[BGTP]lm_ble_acl_start evt create failed. @lm_ble_sniffer.c(111),ERROR" ID="0x8988037a" />
+			</MSG_LOG>

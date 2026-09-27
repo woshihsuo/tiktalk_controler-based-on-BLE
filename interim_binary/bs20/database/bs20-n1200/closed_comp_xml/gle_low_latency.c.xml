@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="low latency mcu_int_reset! @gle_low_latency.c(89),INFO" ID="0xd82002cd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="low latency mode enable! @gle_low_latency.c(137),INFO" ID="0xd820044d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="low latency evt handle addr:%02x:**:**:**:%02x:%02x @gle_low_latency.c(145),INFO" ID="0xd820048d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="low latency evt cbk role:%x, enable:%x, rate: %d @gle_low_latency.c(147),INFO" ID="0xd820049d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Info] unknown_mode, mode: %d, status: %d! @gle_low_latency.c(170),INFO" ID="0xd8200555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set low latency evt rate error. @gle_low_latency.c(173),ERROR" ID="0xd820056a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set low latency evt malloc fail. @gle_low_latency.c(180),ERROR" ID="0xd82005a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="set low latency evt memcpy fail. @gle_low_latency.c(185),ERROR" ID="0xd82005ca" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="set low latency evt send bt_service fail, ret %d @gle_low_latency.c(191),ERROR" ID="0xd82005fa" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LL] tx_addr: 0x%08x, num: %d, size: %d @gle_low_latency.c(200),INFO" ID="0xd8200645" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[LL] rx_addr: 0x%08x, num: %d, size: %d @gle_low_latency.c(202),INFO" ID="0xd8200655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle low latency set failed @gle_low_latency.c(288),ERROR" ID="0xd8200902" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="sle low latency conn_id:%x, enable:%x, rate:%d @gle_low_latency.c(298),INFO" ID="0xd8200955" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="sle low latency set wrong report rate. @gle_low_latency.c(303),ERROR" ID="0xd820097a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="need toggle = %d, rate = %d @gle_low_latency.c(348),INFO" ID="0xd8200ae5" />
+			</MSG_LOG>

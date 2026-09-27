@@ -1,0 +1,16 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="gle adapter init fail @gle_manager_ui.c(45),ERROR" ID="0xde40016a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle manger enable]enter @gle_manager_ui.c(68),INFO" ID="0xde400225" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle manger enable]result = 0x%02x @gle_manager_ui.c(75),INFO" ID="0xde40025d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle manger disable] enter reset @gle_manager_ui.c(88),INFO" ID="0xde4002c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle manger disable] done @gle_manager_ui.c(104),INFO" ID="0xde400345" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle adapter deinit fail @gle_manager_ui.c(108),ERROR" ID="0xde400362" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle ind cbks table new fail @gle_manager_ui.c(182),ERROR" ID="0xde4005b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle manager exter_cbks will be overlaped @gle_manager_ui.c(190),WARNING" ID="0xde4005f3" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle manager exter_cbks mem new failed @gle_manager_ui.c(195),ERROR" ID="0xde40061a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle manager exter_cbks memcpy failed @gle_manager_ui.c(200),ERROR" ID="0xde400642" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle execute command cmd_node is NULL @gle_manager_ui.c(219),ERROR" ID="0xde4006da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="cmd_node-&gt;param alloc fail @gle_manager_ui.c(232),ERROR" ID="0xde400742" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[gle general cmd evt proc] param err. @gle_manager_ui.c(282),ERROR" ID="0xde4008d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[gle general cmd evt proc] find node error, module id(%d). @gle_manager_ui.c(288),ERROR" ID="0xde400902" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle gerneral cmd evt dispatch func new fail @gle_manager_ui.c(309),ERROR" ID="0xde4009aa" />
+			</MSG_LOG>

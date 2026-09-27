@@ -1,0 +1,7 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg7" NAME="[RPRR-PARSE] ROP:%u, RTT:%u, RRTT:%u, RAOX:%u, CT:%u, RAP:%u, PAP:%u @parse_rprr_ie.c(25),DBG" ID="0xd74c00ce" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RPRR-PARSE] RprrIELen:%u @parse_rprr_ie.c(34),INFO" ID="0xd74c0115" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RPRR-PARSE] RequestorAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @parse_rprr_ie.c(44),DBG" ID="0xd74c0166" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RPRR-PARSE] RequestorAddr: [%02x] @parse_rprr_ie.c(45),DBG" ID="0xd74c016e" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RPRR-PARSE] ProviderAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @parse_rprr_ie.c(53),DBG" ID="0xd74c01ae" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RPRR-PARSE] ProviderAddr: [%02x] @parse_rprr_ie.c(54),DBG" ID="0xd74c01b6" />
+			</MSG_LOG>

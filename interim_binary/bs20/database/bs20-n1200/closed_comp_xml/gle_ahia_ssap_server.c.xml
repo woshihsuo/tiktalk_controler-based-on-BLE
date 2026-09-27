@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Acore]ahia ssaps add server send mpc @gle_ahia_ssap_server.c(28),INFO" ID="0xd8fa00e5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ahia ssaps add server send mpc @gle_ahia_ssap_server.c(42),INFO" ID="0xd8fa0155" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] ahia ssaps add service. @gle_ahia_ssap_server.c(56),INFO" ID="0xd8fa01c5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi ssaps add property. @gle_ahia_ssap_server.c(69),INFO" ID="0xd8fa022d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi ssaps start service. @gle_ahia_ssap_server.c(95),INFO" ID="0xd8fa02fd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sapi ssaps start service memcpy error @gle_ahia_ssap_server.c(101),ERROR" ID="0xd8fa032a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ahia ssaps handle param len = %d error @gle_ahia_ssap_server.c(180),ERROR" ID="0xd8fa05a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_ssap_server.c(185),ERROR" ID="0xd8fa05ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle mpc ssaps manager handler invalid param! @gle_ahia_ssap_server.c(289),ERROR" ID="0xd8fa090a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle mpc ssaps manager handler cmd:%02x! @gle_ahia_ssap_server.c(295),INFO" ID="0xd8fa093d" />
+			</MSG_LOG>

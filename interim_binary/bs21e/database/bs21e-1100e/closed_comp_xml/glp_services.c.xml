@@ -1,0 +1,97 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] SlpSetUartBuffer, info is NULL @glp_services.c(178),INFO" ID="0xd72e0595" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] SlpSetUartBuffer, buffer is NULL @glp_services.c(183),INFO" ID="0xd72e05bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] SlpSetUartBuffer, length is too small: %u @glp_services.c(188),INFO" ID="0xd72e05e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="SlpSetUartBuffer, length: %u @glp_services.c(193),INFO" ID="0xd72e060d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="Switch 64M Clk! @glp_services.c(200),INFO" ID="0xd72e0645" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] uapi clock control error, 0x%x! @glp_services.c(203),ERROR" ID="0xd72e065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] PowerOnMsg! @glp_services.c(218),INFO" ID="0xd72e06d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] g_tiotHandle is %u, is not 0 @glp_services.c(222),ERROR" ID="0xd72e06f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] tiot service init failed, ret is 0x%x @glp_services.c(236),ERROR" ID="0xd72e0762" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] tiot service open failed @glp_services.c(253),ERROR" ID="0xd72e07ea" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[API][OK] EnableImuDetectionService! state:%u, mode:%u @glp_services.c(271),INFO" ID="0xd72e087d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] PowerOffMsg! @glp_services.c(300),INFO" ID="0xd72e0965" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] SleepMsg! Cur state %u @glp_services.c(327),INFO" ID="0xd72e0a3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] EnCirReportMsg! @glp_services.c(342),INFO" ID="0xd72e0ab5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] DisCirReportMsg! @glp_services.c(350),INFO" ID="0xd72e0af5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[WAR][RX] StopRangingMsg! ranging is stop, state:%u @glp_services.c(360),WARNING" ID="0xd72e0b43" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] StopRangingMsg! state:%u @glp_services.c(364),INFO" ID="0xd72e0b65" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] PauseRangingMsg! @glp_services.c(387),INFO" ID="0xd72e0c1d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] ContinueRangingMsg! @glp_services.c(415),INFO" ID="0xd72e0cfd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="  [FrameContent]: @glp_services.c(444),DBG" ID="0xd72e0de6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    codeLen:              %u @glp_services.c(445),INFO" ID="0xd72e0ded" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    syncCodeIdx:          %u @glp_services.c(446),INFO" ID="0xd72e0df5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    syncSymNum:           %u @glp_services.c(447),INFO" ID="0xd72e0dfd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    ctsSegNum:            %u @glp_services.c(448),INFO" ID="0xd72e0e05" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    ctsSegSymNum:         %u @glp_services.c(449),INFO" ID="0xd72e0e0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    gapBaseSymNum:        %u @glp_services.c(450),INFO" ID="0xd72e0e15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    ctsCpLen:             %u @glp_services.c(451),INFO" ID="0xd72e0e1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    syncOnlyCodeLen:      %u @glp_services.c(452),INFO" ID="0xd72e0e25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    synOnlyCodeIdx:       %u @glp_services.c(453),INFO" ID="0xd72e0e2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    synOnlySymNum:        %u @glp_services.c(454),INFO" ID="0xd72e0e35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    chIdx:                %u @glp_services.c(455),INFO" ID="0xd72e0e3d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="  [SlpSecurityParam]: @glp_services.c(461),INFO" ID="0xd72e0e6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    secMode:              %u @glp_services.c(462),INFO" ID="0xd72e0e75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    encryptMode:          %u @glp_services.c(463),INFO" ID="0xd72e0e7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    sessionKeyMode:       %u @glp_services.c(464),INFO" ID="0xd72e0e85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    sessionKeyIdx:        %u @glp_services.c(465),INFO" ID="0xd72e0e8d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    rangingFreq:          %u @glp_services.c(466),INFO" ID="0xd72e0e95" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="  [TimeSyncContent]: @glp_services.c(472),DBG" ID="0xd72e0ec6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    tsSyncNum:            %u @glp_services.c(473),DBG" ID="0xd72e0ece" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    syncOnlyOffset:       %u @glp_services.c(474),DBG" ID="0xd72e0ed6" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    nbSyncMode:           %u @glp_services.c(475),DBG" ID="0xd72e0ede" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="  [RangingPara]: @glp_services.c(481),INFO" ID="0xd72e0f0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    multiNodeMode:        %u @glp_services.c(482),INFO" ID="0xd72e0f15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    rangingRoundUsage:    %u @glp_services.c(483),INFO" ID="0xd72e0f1d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    mrSource:             %u @glp_services.c(484),INFO" ID="0xd72e0f25" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    glpModeCfg:           %u @glp_services.c(485),INFO" ID="0xd72e0f2d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    aoxDirection:         %u @glp_services.c(486),INFO" ID="0xd72e0f35" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    aoxAntArray:          %u @glp_services.c(487),INFO" ID="0xd72e0f3d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    aoxAgcMode:           %u @glp_services.c(488),INFO" ID="0xd72e0f45" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    scene:                %u @glp_services.c(489),INFO" ID="0xd72e0f4d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    sessionID:            0x%x @glp_services.c(490),INFO" ID="0xd72e0f55" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    validityRoundsNum:    %u @glp_services.c(491),INFO" ID="0xd72e0f5d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    sleepMode:            %u @glp_services.c(492),INFO" ID="0xd72e0f65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    deviceNum:            %u @glp_services.c(493),INFO" ID="0xd72e0f6d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    sleepDuration:        %u @glp_services.c(494),INFO" ID="0xd72e0f75" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    txMode:               %u @glp_services.c(495),INFO" ID="0xd72e0f7d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    txPower:              %u @glp_services.c(496),INFO" ID="0xd72e0f85" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="    firstAoxAntDis:       %u @glp_services.c(497),INFO" ID="0xd72e0f8d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="    addr[%u]:              [%02x:%02x:*:*:*:%02x] @glp_services.c(501),INFO" ID="0xd72e0fad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] RangingCtrlMsg! @glp_services.c(507),DBG" ID="0xd72e0fde" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CFO] calc threshold, frameLen, %u @glp_services.c(518),INFO" ID="0xd72e1035" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CFO] calc threshold, baseSymLen, %u, syncSymNum, %u, ctsSegSymNum, %u, gapBaseSymNum, %u @glp_services.c(520),INFO" ID="0xd72e1045" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CFO] calc threshold, unit: 0.01ppm, thr0, %u, thr1, %u, thr2, %u, thr3, %u @glp_services.c(556),INFO" ID="0xd72e1165" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CFO] calc threshold, min threshold, %u * 0.01ppm @glp_services.c(557),INFO" ID="0xd72e116d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] tsPara-&gt;tsSyncNum(%u) error! @glp_services.c(744),ERROR" ID="0xd72e1742" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] tsPara-&gt;nbSyncMode(%d) error! @glp_services.c(748),ERROR" ID="0xd72e1762" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] Warning! deviceNum is abnormal:%u @glp_services.c(758),WARNING" ID="0xd72e17b3" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] StartRangingControl! scene:%u @glp_services.c(780),INFO" ID="0xd72e1865" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[WARN] RCU ranging para invalid @glp_services.c(907),WARNING" ID="0xd72e1c5b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] Warning! RangingCtrl is abnormal @glp_services.c(914),WARNING" ID="0xd72e1c93" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] Ranging ctrl msg is abnormal! @glp_services.c(942),ERROR" ID="0xd72e1d72" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] Ranging ctrl msg is abnormal! %u @glp_services.c(947),ERROR" ID="0xd72e1d9a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] RangingService! @glp_services.c(957),INFO" ID="0xd72e1ded" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] StartRangingControl fail! ret:0x%08X @glp_services.c(997),ERROR" ID="0xd72e1f2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] CfgLocalAttMsg! @glp_services.c(1029),INFO" ID="0xd72e202d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] CfgLocalAttMsg is abnormal! msg-&gt;dataPtr NULL @glp_services.c(1032),ERROR" ID="0xd72e2042" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] CfgLocalAttMsg is abnormal! %u @glp_services.c(1038),ERROR" ID="0xd72e2072" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX] SetNbSessionKeyService! @glp_services.c(1056),INFO" ID="0xd72e2105" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] invalid SetNbSessionKeyService msg! @glp_services.c(1060),ERROR" ID="0xd72e2122" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] invalid SetNbSessionKeyService msg! %u @glp_services.c(1064),ERROR" ID="0xd72e2142" />
+			<MSG STRUCTURE="diag_log_msg8" NAME="[API][RX] nb session key[0-7] is [ 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x ] @glp_services.c(1082),DBG" ID="0xd72e21d6" />
+			<MSG STRUCTURE="diag_log_msg8" NAME="[API][RX] nb session key[8-15] is [ 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x 0x%02x ] @glp_services.c(1089),DBG" ID="0xd72e220e" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] invalid SetNbCfoService msg! @glp_services.c(1100),ERROR" ID="0xd72e2262" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] invalid SetNbCfoService msg! %u @glp_services.c(1104),ERROR" ID="0xd72e2282" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[API][RX] SetNbCfoService, cfo is [%d]! @glp_services.c(1113),INFO" ID="0xd72e22cd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="GlpRecvCfo %d @glp_services.c(1127),INFO" ID="0xd72e233d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GlpRecvCfo] nb cfo is 0, do not send Ts Msg to Glp! @glp_services.c(1137),WARNING" ID="0xd72e238b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to measMsg! @glp_services.c(1144),ERROR" ID="0xd72e23c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX][FAC] read phase cali para from onb msg! @glp_services.c(1190),INFO" ID="0xd72e2535" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] invalid write phase cali para to onb msg! @glp_services.c(1199),ERROR" ID="0xd72e257a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] invalid write phase cali para to onb msg! %u @glp_services.c(1203),ERROR" ID="0xd72e259a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX][FAC] write phase cali para to onb msg! @glp_services.c(1213),INFO" ID="0xd72e25ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX][FAC] read trx delay from onb msg! @glp_services.c(1221),INFO" ID="0xd72e262d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] invalid write trx delay to onb msg! @glp_services.c(1230),ERROR" ID="0xd72e2672" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERR] invalid write trx delay to onb msg! %u @glp_services.c(1234),ERROR" ID="0xd72e2692" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[API][RX][FAC] write trx delay to onb msg! @glp_services.c(1244),INFO" ID="0xd72e26e5" />
+			</MSG_LOG>

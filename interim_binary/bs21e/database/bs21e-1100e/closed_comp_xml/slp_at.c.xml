@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send power on req cmd fail, ret: 0x%X @slp_at.c(130),ERROR" ID="0xd78c0412" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send power off req cmd fail, ret: 0x%X @slp_at.c(144),ERROR" ID="0xd78c0482" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send sleep req cmd fail, ret: 0x%X @slp_at.c(158),ERROR" ID="0xd78c04f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send stop ranging cmd fail, ret:%d @slp_at.c(172),ERROR" ID="0xd78c0562" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send pause ranging cmd fail, ret:%d @slp_at.c(186),ERROR" ID="0xd78c05d2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send continue ranging cmd fail, ret:%d @slp_at.c(200),ERROR" ID="0xd78c0642" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp write phase cali para, ret: 0x%X @slp_at.c(272),ERROR" ID="0xd78c0882" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read phase cali para, ret:0x%X @slp_at.c(285),ERROR" ID="0xd78c08ea" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] read gyro zero offset, ret:0x%X @slp_at.c(300),ERROR" ID="0xd78c0962" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp write tx power, ret:0x%X @slp_at.c(333),ERROR" ID="0xd78c0a6a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read tx power, ret:0x%X @slp_at.c(346),ERROR" ID="0xd78c0ad2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send ranging ctrl req cmd fail, ret: 0x%X @slp_at.c(463),ERROR" ID="0xd78c0e7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp write phase cali para, ret: 0x%X @slp_at.c(483),ERROR" ID="0xd78c0f1a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read trx time delay, ret: 0x%X @slp_at.c(495),ERROR" ID="0xd78c0f7a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send disable imu detection cmd fail, ret: 0x%X @slp_at.c(532),ERROR" ID="0xd78c10a2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="errcode:0x%x @slp_at.c(603),ERROR" ID="0xd78c12da" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp cursor speed, ret:0x%x @slp_at.c(624),ERROR" ID="0xd78c1382" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp send enable imu detection cmd fail, ret: 0x%X @slp_at.c(646),ERROR" ID="0xd78c1432" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read version, ret:0x%X @slp_at.c(658),ERROR" ID="0xd78c1492" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read die id, ret:0x%X @slp_at.c(926),ERROR" ID="0xd78c1cf2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp write phase cali para, ret: 0x%X @slp_at.c(1068),ERROR" ID="0xd78c2162" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[SLP][AT] slp read tri-ant aox cali para, ret:0x%x @slp_at.c(1080),ERROR" ID="0xd78c21c2" />
+			</MSG_LOG>

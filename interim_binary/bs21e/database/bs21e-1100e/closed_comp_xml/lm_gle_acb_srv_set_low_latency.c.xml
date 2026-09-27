@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="ACB LOW LATENCY CANNOT START @lm_gle_acb_srv_set_low_latency.c(128),INFO" ID="0x893c0405" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lm_gle_hci_set_acb_low_latency_act, en=%d, rate=%d, hci_data_flag=0x%x, ifs=%d @lm_gle_acb_srv_set_low_latency.c(215),INFO" ID="0x893c06bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_iob_set_low_latency, get_fsm_id fail! @lm_gle_acb_srv_set_low_latency.c(357),WARNING" ID="0x893c0b2b" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_iob_set_low_latency, msg alloc fail! @lm_gle_acb_srv_set_low_latency.c(362),WARNING" ID="0x893c0b53" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="lm_gle_acb_low_latency_instant_prog pre_clk=%d, instant_clk=%d @lm_gle_acb_srv_set_low_latency.c(457),INFO" ID="0x893c0e4d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="lm_gle_llcp_set_acb_low_latency_act, switch_type=%d, en=%d, rate=%d, hci_data_flag=0x%x @lm_gle_acb_srv_set_low_latency.c(507),INFO" ID="0x893c0fdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lm_gle_acb_low_latency_ind_to_act, instant=%d @lm_gle_acb_srv_set_low_latency.c(611),INFO" ID="0x893c131d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="lm_gle_acb_switch_rate_act fail @lm_gle_acb_srv_set_low_latency.c(640),WARNING" ID="0x893c1403" />
+			</MSG_LOG>

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GLE DM][DM init] security management module init @gle_dm_secu_ui.c(22),INFO" ID="0xde6400b5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle dm secu mgt init new fail @gle_dm_secu_ui.c(25),ERROR" ID="0xde6400ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE DM][DM done] security management module done @gle_dm_secu_ui.c(37),INFO" ID="0xde64012d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE DM] sm malloc fail. @gle_dm_secu_ui.c(163),ERROR" ID="0xde64051a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GLE DM] sm memcpy fail. @gle_dm_secu_ui.c(167),ERROR" ID="0xde64053a" />
+			</MSG_LOG>

@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERROR]read nv fail! @em_mgr_ram.c(32),ERROR" ID="0x89940102" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="em_acl_txbuff_nb:%d @em_mgr_ram.c(57),INFO" ID="0x899401cd" />
+			</MSG_LOG>

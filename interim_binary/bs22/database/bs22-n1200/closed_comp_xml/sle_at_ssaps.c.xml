@@ -1,0 +1,25 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at uuid cpy fail!. @sle_at_ssaps.c(183),ERROR" ID="0xd91e05ba" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps register server fail ret = 0x%x @sle_at_ssaps.c(190),ERROR" ID="0xd91e05f2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps unregister server fail ret = 0x%x @sle_at_ssaps.c(203),ERROR" ID="0xd91e065a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at uuid cpy fail!. @sle_at_ssaps.c(214),ERROR" ID="0xd91e06b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps add service fail ret = 0x%x @sle_at_ssaps.c(228),ERROR" ID="0xd91e0722" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at uuid cpy fail!. @sle_at_ssaps.c(251),ERROR" ID="0xd91e07da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ssaps add property fail @sle_at_ssaps.c(260),ERROR" ID="0xd91e0822" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_ssaps.c(266),ERROR" ID="0xd91e0852" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps add property fail ret = 0x%x @sle_at_ssaps.c(284),ERROR" ID="0xd91e08e2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at uuid cpy fail!. @sle_at_ssaps.c(307),ERROR" ID="0xd91e099a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ssaps add property fail @sle_at_ssaps.c(317),ERROR" ID="0xd91e09ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_ssaps.c(322),ERROR" ID="0xd91e0a12" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps add description fail ret = 0x%x @sle_at_ssaps.c(341),ERROR" ID="0xd91e0aaa" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps start service fail ret = 0x%x @sle_at_ssaps.c(366),ERROR" ID="0xd91e0b72" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ssaps notify indicate fail @sle_at_ssaps.c(383),ERROR" ID="0xd91e0bfa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_ssaps.c(388),ERROR" ID="0xd91e0c22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] sle at uuid cpy fail!. @sle_at_ssaps.c(411),ERROR" ID="0xd91e0cda" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ssaps notify indicate fail @sle_at_ssaps.c(421),ERROR" ID="0xd91e0d2a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_ssaps.c(426),ERROR" ID="0xd91e0d52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error] ssaps send response fail @sle_at_ssaps.c(454),ERROR" ID="0xd91e0e32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[Error][AT] string to data error! @sle_at_ssaps.c(459),ERROR" ID="0xd91e0e5a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssaps set mtu size ret = 0x%x @sle_at_ssaps.c(486),ERROR" ID="0xd91e0f32" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="ssapc register cbks fail, ret:%d @sle_at_ssaps.c(498),ERROR" ID="0xd91e0f92" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Error] ssaps delete all services failed,ret = %x @sle_at_ssaps.c(509),ERROR" ID="0xd91e0fea" />
+			</MSG_LOG>

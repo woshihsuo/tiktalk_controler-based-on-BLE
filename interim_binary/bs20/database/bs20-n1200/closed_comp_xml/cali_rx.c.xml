@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="dc_dig_i is %d, dc_dig_q is %d, @cali_rx.c(319),INFO" ID="0x88b809fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rxdc lna = %d, val = 0x%x @cali_rx.c(332),INFO" ID="0x88b80a65" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="rxdc lna4 CH0 = 0x%x, rxdc lna4 CH39 = 0x%x, rxdc lna4 CH78 = 0x%x @cali_rx.c(347),INFO" ID="0x88b80add" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="dc_dig_i is %d, dc_dig_q is %d, @cali_rx.c(369),INFO" ID="0x88b80b8d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Rx DC][Digital]I=0x%x Q=0x%x @cali_rx.c(433),INFO" ID="0x88b80d8d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[Rx DC][Analog][DLNA]lvl.0=0x%x lvl.1=0x%x lvl.2=0x%x lvl.3=0x%x @cali_rx.c(436),INFO" ID="0x88b80da5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Rx DC][Analog][DLNA]lvl.4=0x%x @cali_rx.c(437),INFO" ID="0x88b80dad" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="LPF pwr_1m = %d, pwr_2_5m = %d, opt_i_q_lpf_cal = 0x%x @cali_rx.c(552),INFO" ID="0x88b81145" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="LPF pwr_1m = %d, pwr_2_5m = %d, opt_i_q_lpf_cal = 0x%x @cali_rx.c(612),INFO" ID="0x88b81325" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Rx LPF BW]code=0x%x @cali_rx.c(651),INFO" ID="0x88b8145d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="RF Cali LNA SAT DC Cali voffset is %d, vdet is %d @cali_rx.c(742),INFO" ID="0x88b81735" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="RF Cali LNA SAT DC Cali voffset is %d, vdet is %d @cali_rx.c(766),INFO" ID="0x88b817f5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="LNA Saturation cali result is 0x%x @cali_rx.c(799),INFO" ID="0x88b818fd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[Rx IQ][DLNA]P=0x%x, E=0x%x @cali_rx.c(909),INFO" ID="0x88b81c6d" />
+			</MSG_LOG>

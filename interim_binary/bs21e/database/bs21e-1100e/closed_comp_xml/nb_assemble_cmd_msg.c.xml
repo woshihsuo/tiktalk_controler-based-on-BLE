@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to cmdMsg! @nb_assemble_cmd_msg.c(17),ERROR" ID="0xd784008a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GLP_CLIENT][ASSEM] CmdMsg, type %u regAddr 0x%x regValue 0x%x @nb_assemble_cmd_msg.c(27),INFO" ID="0xd78400dd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to cmdMsg! @nb_assemble_cmd_msg.c(41),ERROR" ID="0xd784014a" />
+			</MSG_LOG>

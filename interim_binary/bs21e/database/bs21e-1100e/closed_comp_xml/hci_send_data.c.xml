@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="hci command encode send tl memcpy error! len = %02x @hci_send_data.c(327),ERROR" ID="0xde9a0a3a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="hci command encode send tl memcpy fail! @hci_send_data.c(396),INFO" ID="0xde9a0c65" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="hci command encode send tl [len] %02x @hci_send_data.c(411),INFO" ID="0xde9a0cdd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[HCI][H--&gt;C] %02x @hci_send_data.c(414),INFO" ID="0xde9a0cf5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[HCI][SEND_ACL_DATA] SLOT=%u, LEN=%u, Remaining Packet NUM=%u, HANDLE=0x%x @hci_send_data.c(535),INFO" ID="0xde9a10bd" />
+			</MSG_LOG>

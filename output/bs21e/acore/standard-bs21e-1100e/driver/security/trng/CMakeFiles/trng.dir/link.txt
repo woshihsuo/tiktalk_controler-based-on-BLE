@@ -1,0 +1,1 @@
+/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libtrng.a  CMakeFiles/trng.dir/drv_trng.c.obj CMakeFiles/trng.dir/trng.c.obj

@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[BGTP]evt_task_gle_set_syncword, invalid frame_format:%d @evt_task_gle_comm.c(507),WARNING" ID="0x893a0fdb" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample dont need, rate = %d @evt_task_gle_comm.c(516),INFO" ID="0x893a1025" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sample config, enable = %d, rate = %d, clkn:0x%x, delay:%d @evt_task_gle_comm.c(539),INFO" ID="0x893a10dd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="sample dont need, rate = %d @evt_task_gle_comm.c(583),INFO" ID="0x893a123d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="sample config, enable = %d, rate = %d, clkn:0x%x, delay:%d @evt_task_gle_comm.c(598),INFO" ID="0x893a12b5" />
+			</MSG_LOG>

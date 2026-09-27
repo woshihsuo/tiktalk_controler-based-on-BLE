@@ -1,0 +1,17 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]evt_task_gle_acb_update_es_param update fail @evt_task_gle_acb_isr.c(182),WARNING" ID="0x893205b3" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP] evt_task_gle_acb_send_unknown_rsp src_id 0x%x, opcode 0x%x @evt_task_gle_acb_isr.c(223),WARNING" ID="0x893206fb" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP] evt_task_gle_acb_recv_llcp_isr: sed_index 0x%x, opcode 0x%x, len %d @evt_task_gle_acb_isr.c(250),INFO" ID="0x893207d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACB][RX]RX LEN ERR! @evt_task_gle_acb_isr.c(306),ERROR" ID="0x89320992" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACB][RX]MSG_ALLOC_FAILED! @evt_task_gle_acb_isr.c(326),ERROR" ID="0x89320a32" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[bgtp]ACB RX DATA MIC ERROR! @evt_task_gle_acb_isr.c(427),ERROR" ID="0x89320d5a" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP] evt_task_gle_acb_process_rx_desc_isr status %x, %d, 0x%x, 0x%x @evt_task_gle_acb_isr.c(461),INFO" ID="0x89320e6d" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[data trans]tx_data_len=%d, ble_txdone=%d, acb_conhdl=%d, cs_retran_count=%d @evt_task_gle_acb_isr.c(572),INFO" ID="0x893211e5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP] evt_task_gle_acb_statistics: valid_data_cnt=%d, dongle_rx_cnt=%d, report_loss_cnt=%d @evt_task_gle_acb_isr.c(672),INFO" ID="0x89321505" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]gle_iob_statistics: mouse_inter_cnt=%d, inter_loss_cnt=%d, inter_delay_cnt=%d @evt_task_gle_acb_isr.c(674),INFO" ID="0x89321515" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP] evt_task_gle_acb_statistics: sed_idx=%d, per=%d, rssi=%d, othererr=%d @evt_task_gle_acb_isr.c(710),INFO" ID="0x89321635" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[BGTP] evt_task_gle_acb_statistics: start_cnt=%d, endcnt=%d, syncerr=%d, crcerr=%d @evt_task_gle_acb_isr.c(712),INFO" ID="0x89321645" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP] evt_task_gle_acb_statistics: rx_data_cnt=%d, tx_data_cnt=%d @evt_task_gle_acb_isr.c(719),INFO" ID="0x8932167d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]ACB RX DATA MIC ERROR rxccmpktcnt=0x%x, new ble_rxccmpktcnt0=0x%x! @evt_task_gle_acb_isr.c(905),ERROR" ID="0x89321c4a" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]g_rxpd_is_used[%d]=%d, ble_rxdone=%d @evt_task_gle_acb_isr.c(955),WARNING" ID="0x89321ddb" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]ble_linklbl=%d, ble_rxlinklbl=%d @evt_task_gle_acb_isr.c(956),WARNING" ID="0x89321de3" />
+			</MSG_LOG>

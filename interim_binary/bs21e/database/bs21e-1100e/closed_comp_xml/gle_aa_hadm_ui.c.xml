@@ -1,0 +1,15 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="gle aa read local channel sounding caps @gle_aa_hadm_ui.c(29),INFO" ID="0xde5200ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle aa read remote channel sounding caps, conn id(%d) @gle_aa_hadm_ui.c(43),INFO" ID="0xde52015d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle aa set channel sounding param, conn id(%d) @gle_aa_hadm_ui.c(84),INFO" ID="0xde5202a5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle aa set channel sounding enable state(%d) @gle_aa_hadm_ui.c(98),INFO" ID="0xde520315" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle read local cs caps malloc fail @gle_aa_hadm_ui.c(114),INFO" ID="0xde520395" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle read local cs caps status(%d) @gle_aa_hadm_ui.c(126),INFO" ID="0xde5203f5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle read remote cs caps malloc fail @gle_aa_hadm_ui.c(136),INFO" ID="0xde520445" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle read remote cs caps status(%d) @gle_aa_hadm_ui.c(149),INFO" ID="0xde5204ad" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle set cs config malloc fail @gle_aa_hadm_ui.c(160),INFO" ID="0xde520505" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle set cs config status(%d) @gle_aa_hadm_ui.c(170),INFO" ID="0xde520555" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle set cs enable malloc fail @gle_aa_hadm_ui.c(179),INFO" ID="0xde52059d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle set cs enable status(%d) @gle_aa_hadm_ui.c(189),INFO" ID="0xde5205ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="gle cs iq report malloc fail @gle_aa_hadm_ui.c(198),INFO" ID="0xde520635" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle cs iq report status(%d) @gle_aa_hadm_ui.c(209),INFO" ID="0xde52068d" />
+			</MSG_LOG>

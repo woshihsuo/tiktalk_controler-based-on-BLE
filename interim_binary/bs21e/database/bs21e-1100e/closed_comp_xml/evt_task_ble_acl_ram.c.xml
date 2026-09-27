@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="[BGTP] evt_task_ble_acl_update_active_tx_octets tx_phy %d, active_tx_octets %d @evt_task_ble_acl_ram.c(64),INFO" ID="0x89400205" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]evt_task_ble_acl_get_em_data oversize, len:%d @evt_task_ble_acl_ram.c(411),ERROR" ID="0x89400cda" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[bgtp]evt_task_ble_acl_set_em_data_env, em_size:%d @evt_task_ble_acl_ram.c(425),INFO" ID="0x89400d4d" />
+			</MSG_LOG>

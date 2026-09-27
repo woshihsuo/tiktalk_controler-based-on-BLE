@@ -1,0 +1,12 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][ERROR] btsrv_init: create msg queue fail @btsrv_task.c(40),ERROR" ID="0xd88a0142" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] btsrv_init: message queue create success @btsrv_task.c(44),INFO" ID="0xd88a0165" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] thread message memset fail @btsrv_task.c(58),INFO" ID="0xd88a01d5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[btsrv][ERROR] btsrv send simple message send fail msg_id: %d param0: %x ret: %08x @btsrv_task.c(92),ERROR" ID="0xd88a02e2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[btsrv send msg] msg_id:%d ret:%d @btsrv_task.c(96),INFO" ID="0xd88a0305" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv task] msg_id:%d @btsrv_task.c(104),INFO" ID="0xd88a0345" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv task] msg_hdl-&gt;msg_id:%d @btsrv_task.c(110),INFO" ID="0xd88a0375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv task] add msg_id:%d @btsrv_task.c(122),INFO" ID="0xd88a03d5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[btsrv task] add msg_id:%d failed @btsrv_task.c(139),INFO" ID="0xd88a045d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="btsrv handle task msg msg-&gt;msg_id:%d @btsrv_task.c(147),INFO" ID="0xd88a049d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[btsrv][INFO] handle funcs is null @btsrv_task.c(151),INFO" ID="0xd88a04bd" />
+			</MSG_LOG>

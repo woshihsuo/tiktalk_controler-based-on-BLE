@@ -1,0 +1,14 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[GAP]gaph le manager advertising terminate multi adv addr memcpy failed @gap_reserv.c(98),ERROR" ID="0xddf00312" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET MULTI ADV PARAM @gap_reserv.c(570),INFO" ID="0xddf011d5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_PARAM, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(605),INFO" ID="0xddf012ed" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP]gaph le manager cmd send set multi adv data memcpy failed @gap_reserv.c(628),ERROR" ID="0xddf013a2" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_ADV_DATA, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(638),INFO" ID="0xddf013f5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_DATA, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(645),INFO" ID="0xddf0142d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_RANDOM_ADDR @gap_reserv.c(664),INFO" ID="0xddf014c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_RANDOM_ADDR, SUB_CODE=%d, HANDLE=0x%x @gap_reserv.c(677),INFO" ID="0xddf0152d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC not support SET_MULTI_ADV_ENABLE @gap_reserv.c(696),INFO" ID="0xddf015c5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[GAP][LE_MULTI_ADV] ACTION=SET_MULTI_ADV_ENABLE, SUB_CODE=%d, HANDLE=0x%x, ENABLE=%d @gap_reserv.c(716),INFO" ID="0xddf01665" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP][bt_onetrack] BTC support HCI_OPC_BLE_VENDOR_CAP_OCF:0xFD53 @gap_reserv.c(729),ERROR" ID="0xddf016ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[GAP] gaph identity addr update link not found  @gap_reserv.c(954),ERROR" ID="0xddf01dd2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[GAP] gaph identity addr update link id addr fail ret %d @gap_reserv.c(962),ERROR" ID="0xddf01e12" />
+			</MSG_LOG>

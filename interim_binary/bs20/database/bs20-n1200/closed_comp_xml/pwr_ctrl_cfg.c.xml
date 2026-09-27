@@ -1,0 +1,3 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[PWR CTRL]Buck is raise to 1P2. Buck1P1 = 0x%x @pwr_ctrl_cfg.c(248),INFO" ID="0x898e07c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[PWR CTRL]Buck is reduce to 1P1. Buck1P1 = 0x%x @pwr_ctrl_cfg.c(262),INFO" ID="0x898e0835" />
+			</MSG_LOG>

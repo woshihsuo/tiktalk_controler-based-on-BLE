@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_device_discovery.c(898),ERROR" ID="0xdb701c12" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK] btsdk memcpy error @sdk_gap_device_discovery.c(906),ERROR" ID="0xdb701c52" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[SDK]btsdk is device paired ext memcpy error @sdk_gap_device_discovery.c(1121),ERROR" ID="0xdb70230a" />
+			</MSG_LOG>

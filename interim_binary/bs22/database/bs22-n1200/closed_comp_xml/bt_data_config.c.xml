@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv config fail, errcode: 0x%x @bt_data_config.c(66),ERROR" ID="0xd82e0212" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv config succ, real_len:%d. @bt_data_config.c(70),INFO" ID="0xd82e0235" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt set nv config fail, errcode: 0x%x @bt_data_config.c(90),ERROR" ID="0xd82e02d2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt set nv config succ. @bt_data_config.c(93),INFO" ID="0xd82e02ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] product_type = %x @bt_data_config.c(110),INFO" ID="0xd82e0375" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt set nv config data_len = %d. @bt_data_config.c(122),INFO" ID="0xd82e03d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sync config err, malloc fail. @bt_data_config.c(141),ERROR" ID="0xd82e046a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] sync own addr config err, malloc fail. @bt_data_config.c(146),ERROR" ID="0xd82e0492" />
+			</MSG_LOG>

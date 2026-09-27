@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg11" NAME="[CTSC-PARSE] CL:%u, SCI:%u, SSN:%u, CSN:%u, CSSN:%u, GBSN:%u, CCL:%u, SOCL:%u, SOCI:%u, SOSN:%u, CH:%u @parse_ctsc_ie.c(37),DBG" ID="0xd740012e" />
+			<MSG STRUCTURE="diag_log_msg5" NAME="[CTSC-PARSE] SKI:%u, RRM:%u, SM:%u, SKM:%u, EM:%u @parse_ctsc_ie.c(61),INFO" ID="0xd74001ed" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[CTSC-PARSE] CtscIELen:%u @parse_ctsc_ie.c(73),INFO" ID="0xd740024d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CTSC-PARSE] ParseCtscIEFrameContent failed @parse_ctsc_ie.c(79),ERROR" ID="0xd740027a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[CTSC-PARSE] ParseCtscIESecContent failed @parse_ctsc_ie.c(85),ERROR" ID="0xd74002aa" />
+			</MSG_LOG>

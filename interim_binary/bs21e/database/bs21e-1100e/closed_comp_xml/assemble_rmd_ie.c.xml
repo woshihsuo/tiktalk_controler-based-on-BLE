@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg12" NAME="[RMD-ASSEM] MNM:%u, RRU:%u, AOX:%u, VRN:%u, RIS:%u, SN:%u, NSM:%u, SM:%u, AD:%u, AAA:%u, AAM:%u, S:%u. @assemble_rmd_ie.c(47),DBG" ID="0xd746017e" />
+			<MSG STRUCTURE="diag_log_msg9" NAME="[RMD-ASSEM] rbdp:%u, rrdp:%u, ssdp:%u, rsdp:%u, asdp:%u, cap:%u, sip:%u, soop:%u, sdp:%u @assemble_rmd_ie.c(57),DBG" ID="0xd74601ce" />
+			<MSG STRUCTURE="diag_log_msg6" NAME="[RMD-ASSEM] ControllerAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @assemble_rmd_ie.c(104),DBG" ID="0xd7460346" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RMD-ASSEM] RmdIELen:%u @assemble_rmd_ie.c(116),INFO" ID="0xd74603a5" />
+			</MSG_LOG>

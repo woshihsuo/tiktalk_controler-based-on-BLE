@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to AttitudeRsltMsg! @nb_assemble_rslt_msg.c(18),ERROR" ID="0xd7180092" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to AssembleStatusMsg! @nb_assemble_rslt_msg.c(37),ERROR" ID="0xd718012a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[MAC][PARSE] AssembleKeyscanMsg! No, %u, value, %u @nb_assemble_rslt_msg.c(45),INFO" ID="0xd718016d" />
+			</MSG_LOG>

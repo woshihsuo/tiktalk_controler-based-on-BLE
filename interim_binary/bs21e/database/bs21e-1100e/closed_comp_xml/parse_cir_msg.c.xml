@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="[ERR] ReportCirMsg is NULL @parse_cir_msg.c(19),ERROR" ID="0xd788009a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[ERR] ReportCirMsg is not equal, dataLen %u, size should be %u @parse_cir_msg.c(24),ERROR" ID="0xd78800c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ERR] ReportCirMsg memcpy_s error @parse_cir_msg.c(33),ERROR" ID="0xd788010a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[GLP_CLIENT][PARSE] ReportCirMsg, role %u, roundNum, %u @parse_cir_msg.c(36),INFO" ID="0xd7880125" />
+			</MSG_LOG>

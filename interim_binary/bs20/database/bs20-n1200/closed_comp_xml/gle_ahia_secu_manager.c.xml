@@ -1,0 +1,23 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="params is null @gle_ahia_secu_manager.c(21),ERROR" ID="0xd8f400aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(57),ERROR" ID="0xd8f401ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu pairing start param invalid @gle_ahia_secu_manager.c(86),ERROR" ID="0xd8f402b2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu pairing start memcpy error @gle_ahia_secu_manager.c(93),ERROR" ID="0xd8f402ea" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(99),ERROR" ID="0xd8f4031a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu pairing remove param invalid @gle_ahia_secu_manager.c(113),ERROR" ID="0xd8f4038a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu pairing remove memcpy error @gle_ahia_secu_manager.c(120),ERROR" ID="0xd8f403c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(126),ERROR" ID="0xd8f403f2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu authentication complete param invalid @gle_ahia_secu_manager.c(140),ERROR" ID="0xd8f40462" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu authentication complete memcpy error @gle_ahia_secu_manager.c(147),ERROR" ID="0xd8f4049a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(153),ERROR" ID="0xd8f404ca" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt complete param invalid @gle_ahia_secu_manager.c(167),ERROR" ID="0xd8f4053a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt complete memcpy error @gle_ahia_secu_manager.c(174),ERROR" ID="0xd8f40572" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(180),ERROR" ID="0xd8f405a2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt passket_req param invalid @gle_ahia_secu_manager.c(192),ERROR" ID="0xd8f40602" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt passket_req memcpy error @gle_ahia_secu_manager.c(199),ERROR" ID="0xd8f4063a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(205),ERROR" ID="0xd8f4066a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt passket_notify param invalid @gle_ahia_secu_manager.c(216),ERROR" ID="0xd8f406c2" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu encrypt passket_notify memcpy error @gle_ahia_secu_manager.c(223),ERROR" ID="0xd8f406fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="module_id not found @gle_ahia_secu_manager.c(229),ERROR" ID="0xd8f4072a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] gle ahia secu manager handler invalid param! @gle_ahia_secu_manager.c(240),ERROR" ID="0xd8f40782" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="gle ahia secu manager handler cmd:%02x! @gle_ahia_secu_manager.c(244),INFO" ID="0xd8f407a5" />
+			</MSG_LOG>

@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[RDM-ASSEM] deviceNum:%u @assemble_rdm_ie.c(23),INFO" ID="0xd74e00bd" />
+			<MSG STRUCTURE="diag_log_msg7" NAME="[RDM-ASSEM] deviceIdx:%u, deviceAddr: [%02x:%02x:%02x:%02x:%02x:%02x] @assemble_rdm_ie.c(32),DBG" ID="0xd74e0106" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RDM-ASSEM] RdmIELen:%u @assemble_rdm_ie.c(46),INFO" ID="0xd74e0175" />
+			</MSG_LOG>

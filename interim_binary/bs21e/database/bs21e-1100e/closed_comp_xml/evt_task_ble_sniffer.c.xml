@@ -1,0 +1,9 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[BGTP]evt_task_ble_sniffer_evt_cbk new next_counter(%d) @evt_task_ble_sniffer.c(116),INFO" ID="0x898a03a5" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP] ble_ch_idx(%d)es_sn(%d)sync_counter_p(%d) @evt_task_ble_sniffer.c(141),INFO" ID="0x898a046d" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_sniffer_cancel_cbk con_hdl 0x%x, ts 0x%x, es_sn %d @evt_task_ble_sniffer.c(175),INFO" ID="0x898a057d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP]evt_task_ble_sniffer_process_rx_desc_isr rxsyncerr:%d, chnl_id:%d! @evt_task_ble_sniffer.c(242),WARNING" ID="0x898a0793" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP]evt_task_ble_sniffer_recv_data_isr sed_id(%d) rxstat(0x%x) @evt_task_ble_sniffer.c(274),INFO" ID="0x898a0895" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[BGTP]evt_task_ble_sniffer_save_sync_time_info sed_index(%d)es_sn(%d)next_counter(%d) @evt_task_ble_sniffer.c(303),INFO" ID="0x898a097d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[BGTP]evt_task_ble_sniffer_create env exist, sed_index %d @evt_task_ble_sniffer.c(426),ERROR" ID="0x898a0d52" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP]evt_task_ble_sniffer_update_counter con_hdl(%d) is_established(0x%x) @evt_task_ble_sniffer.c(466),INFO" ID="0x898a0e95" />
+			</MSG_LOG>

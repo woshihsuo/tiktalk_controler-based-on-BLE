@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="[CHNL]cls host map:0x%x, 0x%x, 0x%x, 0x%x @dm_gle.c(310),INFO" ID="0x899209b5" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[CHNL]cls host map:0x%x, 0x%x, 0x%x, 0x%x @dm_gle.c(312),INFO" ID="0x899209c5" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[CHNL]cls host map:0x%x, 0x%x @dm_gle.c(313),INFO" ID="0x899209cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[INFO]gle_set_conn_rssi_act, rssi:%d, status:%x @dm_gle.c(601),INFO" ID="0x899212cd" />
+			</MSG_LOG>

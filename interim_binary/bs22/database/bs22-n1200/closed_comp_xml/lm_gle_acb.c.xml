@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="lm_gle_acb_sed_init: 0x%4x 0x%4x 0x%4x 0x%4x  @lm_gle_acb.c(216),INFO" ID="0x885206c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="lm_gle_acb_sed_init: 0x%4x @lm_gle_acb.c(217),INFO" ID="0x885206cd" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[BGTP]lm_gle_acb_start con_hdl 0x%x, role %d @lm_gle_acb.c(343),INFO" ID="0x88520abd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="low latency trans active, dont accept update @lm_gle_acb.c(647),INFO" ID="0x8852143d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="already start to EVT_TASK_GLE_ACB_LATENCY_RESCHED @lm_gle_acb.c(668),INFO" ID="0x885214e5" />
+			</MSG_LOG>

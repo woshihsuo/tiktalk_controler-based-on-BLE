@@ -1,0 +1,6 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[RF] RF_Ioctl::ioctl fun is null, cmd = %#x  @nfc_rf_ioctl.c(362),ERROR" ID="0xb00e0b52" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RF] RF_Ioctl::ioctl para is invalid, cmd = %#x  @nfc_rf_ioctl.c(368),ERROR" ID="0xb00e0b82" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DIAG] RF_Ioctl::bad address parameters @nfc_rf_ioctl.c(420),ERROR" ID="0xb00e0d22" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[DIAG] RF_Ioctl::data samp started @nfc_rf_ioctl.c(444),INFO" ID="0xb00e0de5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[DIAG] RF_Ioctl::data samp status is %#x @nfc_rf_ioctl.c(460),INFO" ID="0xb00e0e65" />
+			</MSG_LOG>

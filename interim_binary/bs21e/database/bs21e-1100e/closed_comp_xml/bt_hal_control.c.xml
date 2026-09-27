@@ -1,0 +1,8 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]bt_hal_get_full_addr: INVALID reg 0x%x @bt_hal_control.c(37),ERROR" ID="0x8894012a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ERROR]bt_ssi_read_reg: Read fail! Addr 0x%x @bt_hal_control.c(52),ERROR" ID="0x889401a2" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="[bgtp]write to:0x%x = 0x%x, read back value:0x%x @bt_hal_control.c(64),INFO" ID="0x88940205" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[bgtp]bt_write_rf_reg error address 0x%x, value 0x%x @bt_hal_control.c(102),INFO" ID="0x88940335" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt_cali_result_apply_rf_init_table fail, base_addr:0x%x, reg_offset:0x%x @bt_hal_control.c(182),ERROR" ID="0x889405b2" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt_cali_result_apply_macc_init_table fail, reg_addr:0x%x @bt_hal_control.c(202),ERROR" ID="0x88940652" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="bt_reg_value_restore_by_table fail, base_addr:0x%x, reg_offset:0x%x @bt_hal_control.c(225),ERROR" ID="0x8894070a" />
+			</MSG_LOG>

@@ -1,0 +1,11 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg2" NAME="NFC_RF_TxOtIntrHandle:: rx2tx sta = 0x%x, rx2tx end = 0x%x @nfc_rf_isr.c(57),ERROR" ID="0xb01001ca" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="rxInfo0w = 0x%x, rxInfo1w = 0x%x @nfc_rf_isr.c(134),INFO" ID="0xb0100435" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="NFC_RF_RxOtIntrHandle:: tx2rx sta = 0x%x, tx2rx end = 0x%x @nfc_rf_isr.c(167),ERROR" ID="0xb010053a" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[NFC][RF] aftcSense = 0x%x, aftcCode = 0x%x @nfc_rf_isr.c(195),INFO" ID="0xb010061d" />
+			<MSG STRUCTURE="diag_log_msg2" NAME="[NFC][RF] aftcSense = 0x%x, aftcCode = 0x%x @nfc_rf_isr.c(211),INFO" ID="0xb010069d" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RF] TAG ON @nfc_rf_isr.c(282),INFO" ID="0xb01008d5" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[RF] TAG OFF @nfc_rf_isr.c(301),INFO" ID="0xb010096d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[Soc] SocInterruptDispatch, status = 0x%x @nfc_rf_isr.c(322),INFO" ID="0xb0100a15" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RF] MacInterruptDispatch, status = 0x%x @nfc_rf_isr.c(353),INFO" ID="0xb0100b0d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[RF] MacInterruptDispatch, ret = 0x%x @nfc_rf_isr.c(394),ERROR" ID="0xb0100c52" />
+			</MSG_LOG>

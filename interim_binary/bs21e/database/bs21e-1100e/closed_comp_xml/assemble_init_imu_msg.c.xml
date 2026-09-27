@@ -1,0 +1,5 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg1" NAME="[GLP_CLIENT][ASSEM] Imu Init Msg, No, %u @assemble_init_imu_msg.c(23),INFO" ID="0xd76c00bd" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to initImuMsg! @assemble_init_imu_msg.c(27),ERROR" ID="0xd76c00da" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[MEMALLOC-ERR] can not allocate heap to imuDetectMsg! @assemble_init_imu_msg.c(57),ERROR" ID="0xd76c01ca" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="[GLP_CLIENT][ASSEM] IMU detect start msg, No:%u, isEnable:%u, freq:%u Hz, gyroUpdateFlag:%u @assemble_init_imu_msg.c(68),INFO" ID="0xd76c0225" />
+			</MSG_LOG>

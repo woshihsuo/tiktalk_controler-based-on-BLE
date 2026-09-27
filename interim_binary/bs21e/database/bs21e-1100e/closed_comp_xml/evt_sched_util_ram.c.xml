@@ -1,0 +1,4 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg4" NAME="es_finetimer_refresh: task_id=0x%x timestamp=0x%x es_sn=%d not enough for cur_time=0x%x @evt_sched_util_ram.c(144),WARNING" ID="0x894e0483" />
+			<MSG STRUCTURE="diag_log_msg4" NAME="es_finetimer_refresh: tmp_ts=0x%x, tmp_clkn=0x%x, gle_cur_clk=0x%x, finetarget_time=0x%x @evt_sched_util_ram.c(146),INFO" ID="0x894e0495" />
+			<MSG STRUCTURE="diag_log_msg3" NAME="es_finetimer_refresh: finetarget_msk=%d, last_update_time=0x%x, last_finetarget_time=0x%x @evt_sched_util_ram.c(148),INFO" ID="0x894e04a5" />
+			</MSG_LOG>

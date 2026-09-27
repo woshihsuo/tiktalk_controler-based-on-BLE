@@ -1,0 +1,18 @@
+<MSG_LOG><MSG STRUCTURE="diag_log_msg0" NAME="bt acore smp keys write err! @nv_common.c(42),ERROR" ID="0xd8320152" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore smp keys write memcpy err! @nv_common.c(48),ERROR" ID="0xd8320182" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt acore set product type smp_index:0x:%x! @nv_common.c(60),INFO" ID="0xd83201e5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="bt acore set smp index 0x:%x! @nv_common.c(69),INFO" ID="0xd832022d" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv smp keys fail, errcode: 0x%x @nv_common.c(101),ERROR" ID="0xd832032a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt read nv smp keys succ. @nv_common.c(104),INFO" ID="0xd8320345" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt set own addr config fail, errcode: 0x%x @nv_common.c(115),ERROR" ID="0xd832039a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt set own addr config succ. @nv_common.c(118),INFO" ID="0xd83203b5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv smp keys fail, errcode: 0x%x @nv_common.c(147),ERROR" ID="0xd832049a" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt read nv smp keys succ, real_len:%d. @nv_common.c(151),INFO" ID="0xd83204bd" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt rewrite encrypted nv smp keys fail, errcode: 0x%x @nv_common.c(159),ERROR" ID="0xd83204fa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt rewrite encrypted nv smp keys succ. @nv_common.c(162),INFO" ID="0xd8320515" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt set reserved config fail, errcode: 0x%x @nv_common.c(181),ERROR" ID="0xd83205aa" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt set reserved config succ. @nv_common.c(184),INFO" ID="0xd83205c5" />
+			<MSG STRUCTURE="diag_log_msg1" NAME="[ACore] bt get max customize pwr config fail, errcode: 0x%x @nv_common.c(199),ERROR" ID="0xd832063a" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="[ACore] bt get max customize pwr config succ. @nv_common.c(202),INFO" ID="0xd8320655" />
+			<MSG STRUCTURE="diag_log_msg0" NAME="bt acore config data read memcpy err! @nv_common.c(255),ERROR" ID="0xd83207fa" />
+			</MSG_LOG>
