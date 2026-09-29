@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/rule
 .PHONY : kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ targets: kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/tar
 
 # fast build rule for target.
 targets/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build
 .PHONY : targets/fast
 
 aiot/bs21/board.obj: aiot/bs21/board.c.obj
@@ -131,7 +131,7 @@ aiot/bs21/board.obj: aiot/bs21/board.c.obj
 
 # target to build an object file
 aiot/bs21/board.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.obj
 .PHONY : aiot/bs21/board.c.obj
 
 aiot/bs21/board.i: aiot/bs21/board.c.i
@@ -140,7 +140,7 @@ aiot/bs21/board.i: aiot/bs21/board.c.i
 
 # target to preprocess a source file
 aiot/bs21/board.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.i
 .PHONY : aiot/bs21/board.c.i
 
 aiot/bs21/board.s: aiot/bs21/board.c.s
@@ -149,7 +149,7 @@ aiot/bs21/board.s: aiot/bs21/board.c.s
 
 # target to generate assembly for a file
 aiot/bs21/board.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.s
 .PHONY : aiot/bs21/board.c.s
 
 aiot/bs21/los_irmalloc.obj: aiot/bs21/los_irmalloc.c.obj
@@ -158,7 +158,7 @@ aiot/bs21/los_irmalloc.obj: aiot/bs21/los_irmalloc.c.obj
 
 # target to build an object file
 aiot/bs21/los_irmalloc.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.obj
 .PHONY : aiot/bs21/los_irmalloc.c.obj
 
 aiot/bs21/los_irmalloc.i: aiot/bs21/los_irmalloc.c.i
@@ -167,7 +167,7 @@ aiot/bs21/los_irmalloc.i: aiot/bs21/los_irmalloc.c.i
 
 # target to preprocess a source file
 aiot/bs21/los_irmalloc.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.i
 .PHONY : aiot/bs21/los_irmalloc.c.i
 
 aiot/bs21/los_irmalloc.s: aiot/bs21/los_irmalloc.c.s
@@ -176,7 +176,7 @@ aiot/bs21/los_irmalloc.s: aiot/bs21/los_irmalloc.c.s
 
 # target to generate assembly for a file
 aiot/bs21/los_irmalloc.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.s
 .PHONY : aiot/bs21/los_irmalloc.c.s
 
 aiot/bs21/msg_chl.obj: aiot/bs21/msg_chl.c.obj
@@ -185,7 +185,7 @@ aiot/bs21/msg_chl.obj: aiot/bs21/msg_chl.c.obj
 
 # target to build an object file
 aiot/bs21/msg_chl.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.obj
 .PHONY : aiot/bs21/msg_chl.c.obj
 
 aiot/bs21/msg_chl.i: aiot/bs21/msg_chl.c.i
@@ -194,7 +194,7 @@ aiot/bs21/msg_chl.i: aiot/bs21/msg_chl.c.i
 
 # target to preprocess a source file
 aiot/bs21/msg_chl.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.i
 .PHONY : aiot/bs21/msg_chl.c.i
 
 aiot/bs21/msg_chl.s: aiot/bs21/msg_chl.c.s
@@ -203,7 +203,7 @@ aiot/bs21/msg_chl.s: aiot/bs21/msg_chl.c.s
 
 # target to generate assembly for a file
 aiot/bs21/msg_chl.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.s
 .PHONY : aiot/bs21/msg_chl.c.s
 
 aiot/bs21/os_adapt/os_adapt.obj: aiot/bs21/os_adapt/os_adapt.c.obj
@@ -212,7 +212,7 @@ aiot/bs21/os_adapt/os_adapt.obj: aiot/bs21/os_adapt/os_adapt.c.obj
 
 # target to build an object file
 aiot/bs21/os_adapt/os_adapt.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.obj
 .PHONY : aiot/bs21/os_adapt/os_adapt.c.obj
 
 aiot/bs21/os_adapt/os_adapt.i: aiot/bs21/os_adapt/os_adapt.c.i
@@ -221,7 +221,7 @@ aiot/bs21/os_adapt/os_adapt.i: aiot/bs21/os_adapt/os_adapt.c.i
 
 # target to preprocess a source file
 aiot/bs21/os_adapt/os_adapt.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.i
 .PHONY : aiot/bs21/os_adapt/os_adapt.c.i
 
 aiot/bs21/os_adapt/os_adapt.s: aiot/bs21/os_adapt/os_adapt.c.s
@@ -230,7 +230,7 @@ aiot/bs21/os_adapt/os_adapt.s: aiot/bs21/os_adapt/os_adapt.c.s
 
 # target to generate assembly for a file
 aiot/bs21/os_adapt/os_adapt.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.s
 .PHONY : aiot/bs21/os_adapt/os_adapt.c.s
 
 aiot/bs21/uart.obj: aiot/bs21/uart.c.obj
@@ -239,7 +239,7 @@ aiot/bs21/uart.obj: aiot/bs21/uart.c.obj
 
 # target to build an object file
 aiot/bs21/uart.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.obj
 .PHONY : aiot/bs21/uart.c.obj
 
 aiot/bs21/uart.i: aiot/bs21/uart.c.i
@@ -248,7 +248,7 @@ aiot/bs21/uart.i: aiot/bs21/uart.c.i
 
 # target to preprocess a source file
 aiot/bs21/uart.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.i
 .PHONY : aiot/bs21/uart.c.i
 
 aiot/bs21/uart.s: aiot/bs21/uart.c.s
@@ -257,7 +257,7 @@ aiot/bs21/uart.s: aiot/bs21/uart.c.s
 
 # target to generate assembly for a file
 aiot/bs21/uart.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.s
 .PHONY : aiot/bs21/uart.c.s
 
 aiot/common/los_mem_check.obj: aiot/common/los_mem_check.c.obj
@@ -266,7 +266,7 @@ aiot/common/los_mem_check.obj: aiot/common/los_mem_check.c.obj
 
 # target to build an object file
 aiot/common/los_mem_check.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.obj
 .PHONY : aiot/common/los_mem_check.c.obj
 
 aiot/common/los_mem_check.i: aiot/common/los_mem_check.c.i
@@ -275,7 +275,7 @@ aiot/common/los_mem_check.i: aiot/common/los_mem_check.c.i
 
 # target to preprocess a source file
 aiot/common/los_mem_check.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.i
 .PHONY : aiot/common/los_mem_check.c.i
 
 aiot/common/los_mem_check.s: aiot/common/los_mem_check.c.s
@@ -284,7 +284,7 @@ aiot/common/los_mem_check.s: aiot/common/los_mem_check.c.s
 
 # target to generate assembly for a file
 aiot/common/los_mem_check.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.s
 .PHONY : aiot/common/los_mem_check.c.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

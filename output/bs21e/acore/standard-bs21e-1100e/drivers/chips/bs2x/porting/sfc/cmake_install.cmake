@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/sfc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

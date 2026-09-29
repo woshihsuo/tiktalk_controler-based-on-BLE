@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_flash.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_flash.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/timer/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/timer/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/timer/CMakeFiles/hal_timer.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/CMakeFiles/hal_timer.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/timer/CMakeFiles/hal_timer.dir/rule
 .PHONY : hal/timer/CMakeFiles/hal_timer.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_timer: hal/timer/CMakeFiles/hal_timer.dir/rule
 
 # fast build rule for target.
 hal_timer/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/build
 .PHONY : hal_timer/fast
 
 hal_drv_timer.obj: hal_drv_timer.c.obj
@@ -131,7 +131,7 @@ hal_drv_timer.obj: hal_drv_timer.c.obj
 
 # target to build an object file
 hal_drv_timer.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj
 .PHONY : hal_drv_timer.c.obj
 
 hal_drv_timer.i: hal_drv_timer.c.i
@@ -140,7 +140,7 @@ hal_drv_timer.i: hal_drv_timer.c.i
 
 # target to preprocess a source file
 hal_drv_timer.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.i
 .PHONY : hal_drv_timer.c.i
 
 hal_drv_timer.s: hal_drv_timer.c.s
@@ -149,7 +149,7 @@ hal_drv_timer.s: hal_drv_timer.c.s
 
 # target to generate assembly for a file
 hal_drv_timer.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.s
 .PHONY : hal_drv_timer.c.s
 
 v150/hal_timer_v150.obj: v150/hal_timer_v150.c.obj
@@ -158,7 +158,7 @@ v150/hal_timer_v150.obj: v150/hal_timer_v150.c.obj
 
 # target to build an object file
 v150/hal_timer_v150.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj
 .PHONY : v150/hal_timer_v150.c.obj
 
 v150/hal_timer_v150.i: v150/hal_timer_v150.c.i
@@ -167,7 +167,7 @@ v150/hal_timer_v150.i: v150/hal_timer_v150.c.i
 
 # target to preprocess a source file
 v150/hal_timer_v150.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.i
 .PHONY : v150/hal_timer_v150.c.i
 
 v150/hal_timer_v150.s: v150/hal_timer_v150.c.s
@@ -176,7 +176,7 @@ v150/hal_timer_v150.s: v150/hal_timer_v150.c.s
 
 # target to generate assembly for a file
 v150/hal_timer_v150.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.s
 .PHONY : v150/hal_timer_v150.c.s
 
 v150/hal_timer_v150_regs_op.obj: v150/hal_timer_v150_regs_op.c.obj
@@ -185,7 +185,7 @@ v150/hal_timer_v150_regs_op.obj: v150/hal_timer_v150_regs_op.c.obj
 
 # target to build an object file
 v150/hal_timer_v150_regs_op.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj
 .PHONY : v150/hal_timer_v150_regs_op.c.obj
 
 v150/hal_timer_v150_regs_op.i: v150/hal_timer_v150_regs_op.c.i
@@ -194,7 +194,7 @@ v150/hal_timer_v150_regs_op.i: v150/hal_timer_v150_regs_op.c.i
 
 # target to preprocess a source file
 v150/hal_timer_v150_regs_op.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.i
 .PHONY : v150/hal_timer_v150_regs_op.c.i
 
 v150/hal_timer_v150_regs_op.s: v150/hal_timer_v150_regs_op.c.s
@@ -203,7 +203,7 @@ v150/hal_timer_v150_regs_op.s: v150/hal_timer_v150_regs_op.c.s
 
 # target to generate assembly for a file
 v150/hal_timer_v150_regs_op.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/timer/CMakeFiles/hal_timer.dir/build.make hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.s
 .PHONY : v150/hal_timer_v150_regs_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/security/trng/CMakeFiles/trng.dir/depend.make
@@ -59,29 +59,29 @@ include driver/security/trng/CMakeFiles/trng.dir/flags.make
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/flags.make
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj: ../../../../drivers/drivers/driver/security/trng/drv_trng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/drv_trng.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/drv_trng.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/drv_trng.c
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/trng.dir/drv_trng.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.c > CMakeFiles/trng.dir/drv_trng.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/drv_trng.c > CMakeFiles/trng.dir/drv_trng.c.i
 
 driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/trng.dir/drv_trng.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.c -o CMakeFiles/trng.dir/drv_trng.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DRV_TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/drv_trng.c -o CMakeFiles/trng.dir/drv_trng.c.s
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.obj: driver/security/trng/CMakeFiles/trng.dir/flags.make
 driver/security/trng/CMakeFiles/trng.dir/trng.c.obj: ../../../../drivers/drivers/driver/security/trng/trng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object driver/security/trng/CMakeFiles/trng.dir/trng.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/trng.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/trng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object driver/security/trng/CMakeFiles/trng.dir/trng.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/trng.dir/trng.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/trng.c
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/trng.dir/trng.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/trng.c > CMakeFiles/trng.dir/trng.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/trng.c > CMakeFiles/trng.dir/trng.c.i
 
 driver/security/trng/CMakeFiles/trng.dir/trng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/trng.dir/trng.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/trng.c -o CMakeFiles/trng.dir/trng.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=TRNG_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng/trng.c -o CMakeFiles/trng.dir/trng.c.s
 
 # Object files for target trng
 trng_OBJECTS = \
@@ -95,9 +95,9 @@ driver/security/trng/libtrng.a: driver/security/trng/CMakeFiles/trng.dir/drv_trn
 driver/security/trng/libtrng.a: driver/security/trng/CMakeFiles/trng.dir/trng.c.obj
 driver/security/trng/libtrng.a: driver/security/trng/CMakeFiles/trng.dir/build.make
 driver/security/trng/libtrng.a: driver/security/trng/CMakeFiles/trng.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libtrng.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -P CMakeFiles/trng.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trng.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libtrng.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -P CMakeFiles/trng.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trng.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/security/trng/CMakeFiles/trng.dir/build: driver/security/trng/libtrng.a
@@ -105,10 +105,10 @@ driver/security/trng/CMakeFiles/trng.dir/build: driver/security/trng/libtrng.a
 .PHONY : driver/security/trng/CMakeFiles/trng.dir/build
 
 driver/security/trng/CMakeFiles/trng.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -P CMakeFiles/trng.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng && $(CMAKE_COMMAND) -P CMakeFiles/trng.dir/cmake_clean.cmake
 .PHONY : driver/security/trng/CMakeFiles/trng.dir/clean
 
 driver/security/trng/CMakeFiles/trng.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng/CMakeFiles/trng.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/driver/security/trng /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng/CMakeFiles/trng.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/security/trng/CMakeFiles/trng.dir/depend
 

@@ -70,7 +70,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -120,7 +120,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/irmalloc_private.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -176,7 +176,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/msg_chl.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -245,7 +245,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_builddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_toolchain.h
@@ -256,7 +256,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/uart.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -320,4 +320,4 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c
+ /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c

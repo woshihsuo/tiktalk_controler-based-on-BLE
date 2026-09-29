@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/tcxo/CMakeFiles/hal_tcxo.dir/depend.make
@@ -59,42 +59,42 @@ include hal/tcxo/CMakeFiles/hal_tcxo.dir/flags.make
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj: hal/tcxo/CMakeFiles/hal_tcxo.dir/flags.make
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj: ../../../../drivers/drivers/hal/tcxo/hal_tcxo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.c
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_tcxo.dir/hal_tcxo.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.c > CMakeFiles/hal_tcxo.dir/hal_tcxo.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.c > CMakeFiles/hal_tcxo.dir/hal_tcxo.c.i
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_tcxo.dir/hal_tcxo.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo.c.s
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj: hal/tcxo/CMakeFiles/hal_tcxo.dir/flags.make
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj: ../../../../drivers/drivers/hal/tcxo/hal_tcxo_v150.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150.c
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150.c > CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150.c > CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.i
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.s
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj: hal/tcxo/CMakeFiles/hal_tcxo.dir/flags.make
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c > CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c > CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.i
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_TCXO_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c -o CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.s
 
 # Object files for target hal_tcxo
 hal_tcxo_OBJECTS = \
@@ -110,9 +110,9 @@ hal/tcxo/libhal_tcxo.a: hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj
 hal/tcxo/libhal_tcxo.a: hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj
 hal/tcxo/libhal_tcxo.a: hal/tcxo/CMakeFiles/hal_tcxo.dir/build.make
 hal/tcxo/libhal_tcxo.a: hal/tcxo/CMakeFiles/hal_tcxo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_tcxo.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -P CMakeFiles/hal_tcxo.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_tcxo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_tcxo.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -P CMakeFiles/hal_tcxo.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_tcxo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/tcxo/CMakeFiles/hal_tcxo.dir/build: hal/tcxo/libhal_tcxo.a
@@ -120,10 +120,10 @@ hal/tcxo/CMakeFiles/hal_tcxo.dir/build: hal/tcxo/libhal_tcxo.a
 .PHONY : hal/tcxo/CMakeFiles/hal_tcxo.dir/build
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -P CMakeFiles/hal_tcxo.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo && $(CMAKE_COMMAND) -P CMakeFiles/hal_tcxo.dir/cmake_clean.cmake
 .PHONY : hal/tcxo/CMakeFiles/hal_tcxo.dir/clean
 
 hal/tcxo/CMakeFiles/hal_tcxo.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo/CMakeFiles/hal_tcxo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/tcxo/CMakeFiles/hal_tcxo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/tcxo/CMakeFiles/hal_tcxo.dir/depend
 

@@ -139,5 +139,5 @@ utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.h

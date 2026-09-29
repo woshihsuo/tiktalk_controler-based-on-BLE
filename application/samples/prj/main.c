@@ -1,57 +1,60 @@
 #include "main.h"
 #include "securec.h"
 
-#define BLE_KEYBOARD_MAX_KEY_LENTH              6
-#define BLE_KEYBOARD_REPORT_LENTH               7
-#define USB_HID_SPECIAL_KEY_MIN                 0xE0
-#define USB_HID_SPECIAL_KEY_MAX                 0xE7
+/* Mouse HID report, wire format:
+ * [report id=1][buttons][dx][dy][wheel] = 5 bytes
+ * dx/dy: relative movement, -127~127; dy>0 = pointer moves down
+ * (matches the Report Map declared in ble_hid.c, which has Report Id 1)
+ */
+#define HID_MOUSE_REPORT_LEN            5
+#define HID_MOUSE_REPORT_ID             1
+#define HID_MOUSE_BTN_LEFT              0x01
 
-/* HID keyboard keycode: Keyboard DownArrow */
-#define HID_KEY_DOWN_ARROW                      0x51
+/* one swipe = press left button + SWIPE_STEPS moves of SWIPE_STEP + release.
+ * total drag distance = SWIPE_STEPS * SWIPE_STEP (pointer units), tune to taste
+ */
+#define SWIPE_STEPS                     6
+#define SWIPE_STEP                      30
 
-typedef struct usb_hid_keyboard_report {
-    uint8_t special_key;                         /*!< 8bit special key(Lctrl Lshift Lalt Lgui Rctrl Rshift Ralt Rgui) */
-    uint8_t key[BLE_KEYBOARD_MAX_KEY_LENTH];     /*!< Normal key */
-} usb_hid_keyboard_report_t;
+static uint8_t g_mouse_report[HID_MOUSE_REPORT_LEN];
 
-static usb_hid_keyboard_report_t g_send_key_msg;
-
-static void ble_keyboard_fill_report(uint8_t key_num, uint8_t key_value[])
+static void ble_mouse_send(uint8_t buttons, int8_t dx, int8_t dy)
 {
-    uint8_t normal_key_num = BLE_KEYBOARD_MAX_KEY_LENTH - 1;
+    g_mouse_report[0] = HID_MOUSE_REPORT_ID;
+    g_mouse_report[1] = buttons;
+    g_mouse_report[2] = (uint8_t)dx;
+    g_mouse_report[3] = (uint8_t)dy;
+    g_mouse_report[4] = 0x00; /* wheel */
+    errcode_t ret = ble_hiddev_keyboard_server_send_input_report_by_uuid(g_mouse_report, HID_MOUSE_REPORT_LEN);
+    printf("mouse btn=0x%02x dy=%d ret=%d\r\n", buttons, dy, ret);
+}
 
-    (void)memset_s(&g_send_key_msg, sizeof(g_send_key_msg), 0, sizeof(g_send_key_msg));
-    for (uint8_t i = 0; i < key_num; i++) {
-        if (key_value[i] >= USB_HID_SPECIAL_KEY_MIN && key_value[i] <= USB_HID_SPECIAL_KEY_MAX) {
-            g_send_key_msg.special_key |= (1 << (key_value[i] - USB_HID_SPECIAL_KEY_MIN));
-        } else {
-            g_send_key_msg.key[normal_key_num] = key_value[i];
-            normal_key_num--;
-        }
+/* one swipe gesture via left-button drag (iOS AssistiveTouch pointer) */
+static void ble_swipe(bool move_up)
+{
+    int8_t dy = move_up ? -(int8_t)SWIPE_STEP : (int8_t)SWIPE_STEP;
+
+    ble_mouse_send(HID_MOUSE_BTN_LEFT, 0, 0); /* press left button */
+    osDelay(20);
+    for (uint8_t i = 0; i < SWIPE_STEPS; i++) { /* drag */
+        ble_mouse_send(HID_MOUSE_BTN_LEFT, 0, dy);
+        osDelay(10);
     }
+    ble_mouse_send(0, 0, 0); /* release */
+    osDelay(20);
 }
 
 static void hid_task(void *arg)
 {
     unused(arg);
-    uint8_t press_key[1] = {HID_KEY_DOWN_ARROW};
+    bool swipe_up = false; /* alternate swipe up / down each cycle */
 
     while (1) {
         ble_t *ble = get_Blefam();
-        if ((ble->conn_state == GAP_BLE_STATE_CONNECTED)&&(uapi_gpio_get_val(S_MGPIO8)==GPIO_LEVEL_LOW)) {
-            /* press DownArrow */
-            ble_keyboard_fill_report(sizeof(press_key), press_key);
-            errcode_t ret1 = ble_hiddev_keyboard_server_send_input_report_by_uuid(
-                (uint8_t *)(uintptr_t)&g_send_key_msg, BLE_KEYBOARD_REPORT_LENTH);
-            osDelay(20);
-            /* release: argc = 0 in the keyscan sample means an all-zero report */
-            ble_keyboard_fill_report(0, NULL);
-            errcode_t ret2 = ble_hiddev_keyboard_server_send_input_report_by_uuid(
-                (uint8_t *)(uintptr_t)&g_send_key_msg, BLE_KEYBOARD_REPORT_LENTH);
-            printf("down ret=%d, up ret=%d\r\n", ret1, ret2);
+        if ((uapi_gpio_get_val(S_MGPIO8)==0)&(ble->conn_state == GAP_BLE_STATE_CONNECTED)) {
+            ble_swipe(swipe_up);
             uapi_gpio_toggle(LED_PIN);
         }
-        
         osDelay(1000);
     }
 }
@@ -60,12 +63,7 @@ static void task_entry(void)
 {
 
     led_init();
-
-    uapi_pin_set_mode(S_MGPIO8, HAL_PIO_FUNC_GPIO);
-
-    uapi_gpio_set_dir(S_MGPIO8, GPIO_DIRECTION_INPUT);
-    uapi_pin_set_pull(S_MGPIO8,PIN_PULL_UP);
-
+    key_init();
     ble_hid_server_init();
     osThreadAttr_t attr;
 

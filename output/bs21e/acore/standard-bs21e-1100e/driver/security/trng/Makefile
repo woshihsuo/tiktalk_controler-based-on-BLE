@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/trng/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 driver/security/trng/CMakeFiles/trng.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/CMakeFiles/trng.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/security/trng/CMakeFiles/trng.dir/rule
 .PHONY : driver/security/trng/CMakeFiles/trng.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ trng: driver/security/trng/CMakeFiles/trng.dir/rule
 
 # fast build rule for target.
 trng/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/build
 .PHONY : trng/fast
 
 drv_trng.obj: drv_trng.c.obj
@@ -131,7 +131,7 @@ drv_trng.obj: drv_trng.c.obj
 
 # target to build an object file
 drv_trng.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj
 .PHONY : drv_trng.c.obj
 
 drv_trng.i: drv_trng.c.i
@@ -140,7 +140,7 @@ drv_trng.i: drv_trng.c.i
 
 # target to preprocess a source file
 drv_trng.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.i
 .PHONY : drv_trng.c.i
 
 drv_trng.s: drv_trng.c.s
@@ -149,7 +149,7 @@ drv_trng.s: drv_trng.c.s
 
 # target to generate assembly for a file
 drv_trng.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.s
 .PHONY : drv_trng.c.s
 
 trng.obj: trng.c.obj
@@ -158,7 +158,7 @@ trng.obj: trng.c.obj
 
 # target to build an object file
 trng.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.obj
 .PHONY : trng.c.obj
 
 trng.i: trng.c.i
@@ -167,7 +167,7 @@ trng.i: trng.c.i
 
 # target to preprocess a source file
 trng.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.i
 .PHONY : trng.c.i
 
 trng.s: trng.c.s
@@ -176,7 +176,7 @@ trng.s: trng.c.s
 
 # target to generate assembly for a file
 trng.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/security/trng/CMakeFiles/trng.dir/build.make driver/security/trng/CMakeFiles/trng.dir/trng.c.s
 .PHONY : trng.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

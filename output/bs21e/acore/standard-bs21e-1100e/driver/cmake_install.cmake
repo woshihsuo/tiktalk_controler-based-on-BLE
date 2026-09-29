@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,156 +34,156 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/adc/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/adc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/cpu_trace/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/cpu_trace/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/dma/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/dma/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/flash/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/gpio/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/i2c/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/i2s/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/i2s/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/ir/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ir/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/keyscan/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/keyscan/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/lpm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/lpm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/memory_core/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/memory_core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pmp/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pmp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pwm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pwm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/qdec/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/qdec/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/security/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/spi/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/systick/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/systick/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/tcxo/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/timer/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/touch/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/touch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/uart/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/watchdog/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/watchdog/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pdm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pdm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/sfc/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/sfc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/efuse/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse/cmake_install.cmake")
 endif()
 

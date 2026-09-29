@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/depend.make
@@ -59,16 +59,16 @@ include hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/flags.make
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/flags.make
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj: ../../../../drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c > CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c > CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.i
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_CPU_TRACE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c -o CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.s
 
 # Object files for target hal_cpu_trace
 hal_cpu_trace_OBJECTS = \
@@ -80,9 +80,9 @@ hal_cpu_trace_EXTERNAL_OBJECTS =
 hal/cpu_trace/libhal_cpu_trace.a: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj
 hal/cpu_trace/libhal_cpu_trace.a: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build.make
 hal/cpu_trace/libhal_cpu_trace.a: hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhal_cpu_trace.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -P CMakeFiles/hal_cpu_trace.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_cpu_trace.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libhal_cpu_trace.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -P CMakeFiles/hal_cpu_trace.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_cpu_trace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build: hal/cpu_trace/libhal_cpu_trace.a
@@ -90,10 +90,10 @@ hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build: hal/cpu_trace/libhal_cpu_trace
 .PHONY : hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/build
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -P CMakeFiles/hal_cpu_trace.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace && $(CMAKE_COMMAND) -P CMakeFiles/hal_cpu_trace.dir/cmake_clean.cmake
 .PHONY : hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/clean
 
 hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_trace /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/depend
 

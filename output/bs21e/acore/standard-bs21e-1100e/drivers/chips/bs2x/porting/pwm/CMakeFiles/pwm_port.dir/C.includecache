@@ -376,35 +376,35 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/pwm_porting.c
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/pwm_porting.c
 soc_osal.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/soc_osal.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/soc_osal.h
 common_def.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/common_def.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/common_def.h
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/chip_io.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/chip_io.h
 arch_port.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/arch_port.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/arch_port.h
 hal_pwm_v151.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/hal_pwm_v151.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/hal_pwm_v151.h
 chip_core_irq.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/chip_core_irq.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/chip_core_irq.h
 lpm_dev_ops.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/lpm_dev_ops.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/lpm_dev_ops.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/platform_core.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/platform_core.h
 pm_clock.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/pm_clock.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/pm_clock.h
 pwm_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/pwm_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/pwm_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/pwm_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/pwm_porting.h
 stdint.h
 -
 stdbool.h
 -
 pwm.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/pwm.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/pwm.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pwm/platform_core.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pwm/platform_core.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

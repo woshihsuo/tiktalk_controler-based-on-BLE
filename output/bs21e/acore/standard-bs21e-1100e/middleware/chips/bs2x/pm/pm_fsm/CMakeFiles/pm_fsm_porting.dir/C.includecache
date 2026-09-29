@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.c
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.c
 pm_fsm_porting.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
 

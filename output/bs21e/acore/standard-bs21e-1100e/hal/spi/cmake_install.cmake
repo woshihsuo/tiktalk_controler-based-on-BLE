@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/spi
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/spi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

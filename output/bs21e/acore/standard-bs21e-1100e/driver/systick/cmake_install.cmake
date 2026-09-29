@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/systick
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/systick
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

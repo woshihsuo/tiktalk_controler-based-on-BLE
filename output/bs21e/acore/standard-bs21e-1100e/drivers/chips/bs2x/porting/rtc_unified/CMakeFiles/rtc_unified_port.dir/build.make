@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/depend.make
@@ -59,16 +59,16 @@ include drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/f
 
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj: drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/flags.make
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj: ../../../../drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c
 
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtc_unified_port.dir/rtc_porting.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c > CMakeFiles/rtc_unified_port.dir/rtc_porting.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c > CMakeFiles/rtc_unified_port.dir/rtc_porting.c.i
 
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtc_unified_port.dir/rtc_porting.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c -o CMakeFiles/rtc_unified_port.dir/rtc_porting.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c -o CMakeFiles/rtc_unified_port.dir/rtc_porting.c.s
 
 # Object files for target rtc_unified_port
 rtc_unified_port_OBJECTS = \
@@ -80,9 +80,9 @@ rtc_unified_port_EXTERNAL_OBJECTS =
 drivers/chips/bs2x/porting/rtc_unified/librtc_unified_port.a: drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj
 drivers/chips/bs2x/porting/rtc_unified/librtc_unified_port.a: drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/build.make
 drivers/chips/bs2x/porting/rtc_unified/librtc_unified_port.a: drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librtc_unified_port.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified_port.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtc_unified_port.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librtc_unified_port.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified_port.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtc_unified_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/build: drivers/chips/bs2x/porting/rtc_unified/librtc_unified_port.a
@@ -90,10 +90,10 @@ drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/build: dr
 .PHONY : drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/build
 
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified_port.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified_port.dir/cmake_clean.cmake
 .PHONY : drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/clean
 
 drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/depend
 

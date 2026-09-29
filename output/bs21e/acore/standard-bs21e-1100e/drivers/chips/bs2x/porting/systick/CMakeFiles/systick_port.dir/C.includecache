@@ -68,15 +68,15 @@ bits/stdint.h
 
 ../../../../middleware/utils/common_headers/chip_definitions.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/systick/systick_porting.c
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/systick_porting.c
 hal_systick_v150.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/systick/hal_systick_v150.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/hal_systick_v150.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/systick/platform_core.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/platform_core.h
 systick_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/systick/systick_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/systick_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/systick/systick_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/systick_porting.h
 stdint.h
 -
 

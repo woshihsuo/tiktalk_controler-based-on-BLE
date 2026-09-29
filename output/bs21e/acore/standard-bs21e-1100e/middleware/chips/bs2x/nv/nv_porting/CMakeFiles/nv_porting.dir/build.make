@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/depend.make
@@ -59,29 +59,29 @@ include middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj: ../../../../middleware/chips/bs2x/nv/nv_porting/nv_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_flash.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_flash.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_flash.c
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv_porting.dir/nv_flash.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_flash.c > CMakeFiles/nv_porting.dir/nv_flash.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_flash.c > CMakeFiles/nv_porting.dir/nv_flash.c.i
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv_porting.dir/nv_flash.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_flash.c -o CMakeFiles/nv_porting.dir/nv_flash.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_flash.c -o CMakeFiles/nv_porting.dir/nv_flash.c.s
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/flags.make
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj: ../../../../middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_crypto.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nv_porting.dir/nv_crypto.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nv_porting.dir/nv_crypto.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c > CMakeFiles/nv_porting.dir/nv_crypto.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c > CMakeFiles/nv_porting.dir/nv_crypto.c.i
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nv_porting.dir/nv_crypto.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c -o CMakeFiles/nv_porting.dir/nv_crypto.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=NV_CRYPTO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c -o CMakeFiles/nv_porting.dir/nv_crypto.c.s
 
 # Object files for target nv_porting
 nv_porting_OBJECTS = \
@@ -95,9 +95,9 @@ middleware/chips/bs2x/nv/nv_porting/libnv_porting.a: middleware/chips/bs2x/nv/nv
 middleware/chips/bs2x/nv/nv_porting/libnv_porting.a: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj
 middleware/chips/bs2x/nv/nv_porting/libnv_porting.a: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make
 middleware/chips/bs2x/nv/nv_porting/libnv_porting.a: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libnv_porting.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -P CMakeFiles/nv_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nv_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libnv_porting.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -P CMakeFiles/nv_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nv_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build: middleware/chips/bs2x/nv/nv_porting/libnv_porting.a
@@ -105,10 +105,10 @@ middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build: middleware/
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -P CMakeFiles/nv_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting && $(CMAKE_COMMAND) -P CMakeFiles/nv_porting.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/clean
 
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/depend
 

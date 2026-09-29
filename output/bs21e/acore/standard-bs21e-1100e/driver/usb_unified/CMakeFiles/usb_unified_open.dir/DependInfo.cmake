@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/driver/usb_unified/adapt_liteos/implementation/usb_init.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/driver/usb_unified/implementation/_intr_ref.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/driver/usb_unified/implementation/usb_dma_cache.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/driver/usb_unified/implementation/usb_version.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/driver/usb_unified/adapt_liteos/implementation/usb_init.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/driver/usb_unified/implementation/_intr_ref.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/driver/usb_unified/implementation/usb_dma_cache.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/driver/usb_unified/implementation/usb_version.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/cmsis_v1_liteos_kernel.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/CMakeFiles/cmsis_kernel.dir/cmsis_v1_liteos_kernel.c.obj"
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/cmsis_v2_liteos_kernel.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/CMakeFiles/cmsis_kernel.dir/cmsis_v2_liteos_kernel.c.obj"
+  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/cmsis_v1_liteos_kernel.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/CMakeFiles/cmsis_kernel.dir/cmsis_v1_liteos_kernel.c.obj"
+  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/cmsis_v2_liteos_kernel.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/kernel/CMakeFiles/cmsis_kernel.dir/cmsis_v2_liteos_kernel.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

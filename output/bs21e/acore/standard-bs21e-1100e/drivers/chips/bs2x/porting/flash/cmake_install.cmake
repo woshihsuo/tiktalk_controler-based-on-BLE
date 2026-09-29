@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/flash
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/flash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

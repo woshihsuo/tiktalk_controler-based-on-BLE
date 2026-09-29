@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/update/storage
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/update/storage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

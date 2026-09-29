@@ -384,27 +384,27 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/i2c_porting.c
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/i2c_porting.c
 i2c_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/i2c_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/i2c_porting.h
 hal_i2c_v151_comm.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/hal_i2c_v151_comm.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/hal_i2c_v151_comm.h
 chip_core_irq.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/chip_core_irq.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/chip_core_irq.h
 pm_clock.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/pm_clock.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/pm_clock.h
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/chip_io.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/chip_io.h
 arch_port.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/arch_port.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/arch_port.h
 dma_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/dma_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/dma_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/i2c_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/i2c_porting.h
 stdint.h
 -
 stdbool.h
 -
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/i2c/platform_core.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/i2c/platform_core.h
 

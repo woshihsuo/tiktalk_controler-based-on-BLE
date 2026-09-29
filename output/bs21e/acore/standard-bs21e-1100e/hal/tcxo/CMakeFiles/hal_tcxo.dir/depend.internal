@@ -6,8 +6,8 @@ hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.h
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -23,11 +23,11 @@ hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_def.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.h
 hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -42,6 +42,6 @@ hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_def.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/tcxo/hal_tcxo_v150_regs_op.h

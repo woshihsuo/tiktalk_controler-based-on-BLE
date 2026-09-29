@@ -159,8 +159,8 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/dfx_channel.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/dfx_channel.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_channel.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_channel.h
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -365,10 +365,10 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../middleware/utils/update/ota/ota_upgrade.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/dfx_channel.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/dfx_system_init.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_sdt.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/sample_data_adapt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_channel.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_system_init.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_sdt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/sample_data_adapt.h
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -379,7 +379,7 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/bs2x/dfx/include/dfx_resource_id.h
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/include/diag_cmd_mem_read_write.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_cmd_mem.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_cmd_mem.c
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -549,8 +549,8 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj
  ../../../../middleware/utils/dfx/log_file/include/log_file.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_flash.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_flash.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_flash.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_flash.h
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -733,9 +733,9 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_sdt.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/diag_adapt_sdt.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/sample_data_adapt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_sdt.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_sdt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/sample_data_adapt.h
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -755,8 +755,8 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/dfx_include/last_dump_st.h
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/include/last_dump.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/last_dump_adapt.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/last_dump_adapt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/last_dump_adapt.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/last_dump_adapt.h
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -801,7 +801,7 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.ob
  ../../../../middleware/utils/dfx/log/include/log_oam_logger.h
  ../../../../middleware/utils/dfx/log/include/log_printf.h
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/log_oam_logger_porting.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/log_oam_logger_porting.c
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -970,5 +970,5 @@ middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/sample_data_adapt.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/dfx/sample_data_adapt.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/sample_data_adapt.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/sample_data_adapt.h

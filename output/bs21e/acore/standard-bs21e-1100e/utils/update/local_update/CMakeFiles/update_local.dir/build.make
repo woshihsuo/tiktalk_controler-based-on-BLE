@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/update/local_update/CMakeFiles/update_local.dir/depend.make
@@ -59,81 +59,81 @@ include utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.obj: ../../../../middleware/utils/update/local_update/upg_encry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_encry.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_encry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_encry.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_encry.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_encry.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_encry.c > CMakeFiles/update_local.dir/upg_encry.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_encry.c > CMakeFiles/update_local.dir/upg_encry.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_encry.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_encry.c -o CMakeFiles/update_local.dir/upg_encry.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_ENCRY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_encry.c -o CMakeFiles/update_local.dir/upg_encry.c.s
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.obj: ../../../../middleware/utils/update/local_update/upg_lzmadec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_lzmadec.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_lzmadec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_lzmadec.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_lzmadec.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_lzmadec.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_lzmadec.c > CMakeFiles/update_local.dir/upg_lzmadec.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_lzmadec.c > CMakeFiles/update_local.dir/upg_lzmadec.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_lzmadec.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_lzmadec.c -o CMakeFiles/update_local.dir/upg_lzmadec.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_lzmadec.c -o CMakeFiles/update_local.dir/upg_lzmadec.c.s
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.obj: ../../../../middleware/utils/update/local_update/upg_patch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_patch.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_patch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_patch.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_patch.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_patch.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_patch.c > CMakeFiles/update_local.dir/upg_patch.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_patch.c > CMakeFiles/update_local.dir/upg_patch.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_patch.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_patch.c -o CMakeFiles/update_local.dir/upg_patch.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PATCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_patch.c -o CMakeFiles/update_local.dir/upg_patch.c.s
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.obj: ../../../../middleware/utils/update/local_update/upg_process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_process.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_process.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_process.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_process.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_process.c > CMakeFiles/update_local.dir/upg_process.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_process.c > CMakeFiles/update_local.dir/upg_process.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_process.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_process.c -o CMakeFiles/update_local.dir/upg_process.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_PROCESS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_process.c -o CMakeFiles/update_local.dir/upg_process.c.s
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.obj: ../../../../middleware/utils/update/local_update/upg_resource.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_resource.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_resource.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_resource.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_resource.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_resource.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_resource.c > CMakeFiles/update_local.dir/upg_resource.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_resource.c > CMakeFiles/update_local.dir/upg_resource.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_resource.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_resource.c -o CMakeFiles/update_local.dir/upg_resource.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_RESOURCE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_resource.c -o CMakeFiles/update_local.dir/upg_resource.c.s
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj: utils/update/local_update/CMakeFiles/update_local.dir/flags.make
 utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj: ../../../../middleware/utils/update/local_update/upg_upgrade.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_upgrade.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_upgrade.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_local.dir/upg_upgrade.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_upgrade.c
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_local.dir/upg_upgrade.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_upgrade.c > CMakeFiles/update_local.dir/upg_upgrade.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_upgrade.c > CMakeFiles/update_local.dir/upg_upgrade.c.i
 
 utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_local.dir/upg_upgrade.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/local_update/upg_upgrade.c -o CMakeFiles/update_local.dir/upg_upgrade.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/local_update/upg_upgrade.c -o CMakeFiles/update_local.dir/upg_upgrade.c.s
 
 # Object files for target update_local
 update_local_OBJECTS = \
@@ -155,9 +155,9 @@ utils/update/local_update/libupdate_local.a: utils/update/local_update/CMakeFile
 utils/update/local_update/libupdate_local.a: utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj
 utils/update/local_update/libupdate_local.a: utils/update/local_update/CMakeFiles/update_local.dir/build.make
 utils/update/local_update/libupdate_local.a: utils/update/local_update/CMakeFiles/update_local.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libupdate_local.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -P CMakeFiles/update_local.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_local.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libupdate_local.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -P CMakeFiles/update_local.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_local.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/update/local_update/CMakeFiles/update_local.dir/build: utils/update/local_update/libupdate_local.a
@@ -165,10 +165,10 @@ utils/update/local_update/CMakeFiles/update_local.dir/build: utils/update/local_
 .PHONY : utils/update/local_update/CMakeFiles/update_local.dir/build
 
 utils/update/local_update/CMakeFiles/update_local.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -P CMakeFiles/update_local.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update && $(CMAKE_COMMAND) -P CMakeFiles/update_local.dir/cmake_clean.cmake
 .PHONY : utils/update/local_update/CMakeFiles/update_local.dir/clean
 
 utils/update/local_update/CMakeFiles/update_local.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/update/local_update /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update/CMakeFiles/update_local.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/update/local_update /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/local_update/CMakeFiles/update_local.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/update/local_update/CMakeFiles/update_local.dir/depend
 

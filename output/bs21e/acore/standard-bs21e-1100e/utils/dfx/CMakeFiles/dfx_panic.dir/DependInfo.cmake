@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/panic/private/panic.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/panic/private/panic_rom.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic_rom.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -56,5 +56,5 @@ drivers/chips/bs2x/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porti
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/rtc_unified/rtc_porting.h

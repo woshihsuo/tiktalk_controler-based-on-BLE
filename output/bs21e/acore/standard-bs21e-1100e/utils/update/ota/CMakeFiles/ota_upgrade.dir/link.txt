@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libota_upgrade.a  CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
+/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libota_upgrade.a  CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj

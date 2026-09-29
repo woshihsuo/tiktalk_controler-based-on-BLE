@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid_adv.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj"
-  "/home/bearpi/Desktop/hid/application/samples/prj/main.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/main.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid_adv.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/key.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/led.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/bsp/src/sle_measure_dis.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/driver/src/uhal_spi.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj"
+  "/home/bearpi/Desktop/tp/application/samples/prj/main.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/prj/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

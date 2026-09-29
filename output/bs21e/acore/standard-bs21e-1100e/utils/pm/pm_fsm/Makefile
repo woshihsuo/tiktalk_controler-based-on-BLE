@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ pm_fsm: utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/rule
 
 # fast build rule for target.
 pm_fsm/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build
 .PHONY : pm_fsm/fast
 
 pm_fsm.obj: pm_fsm.c.obj
@@ -131,7 +131,7 @@ pm_fsm.obj: pm_fsm.c.obj
 
 # target to build an object file
 pm_fsm.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj
 .PHONY : pm_fsm.c.obj
 
 pm_fsm.i: pm_fsm.c.i
@@ -140,7 +140,7 @@ pm_fsm.i: pm_fsm.c.i
 
 # target to preprocess a source file
 pm_fsm.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.i
 .PHONY : pm_fsm.c.i
 
 pm_fsm.s: pm_fsm.c.s
@@ -149,7 +149,7 @@ pm_fsm.s: pm_fsm.c.s
 
 # target to generate assembly for a file
 pm_fsm.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.s
 .PHONY : pm_fsm.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

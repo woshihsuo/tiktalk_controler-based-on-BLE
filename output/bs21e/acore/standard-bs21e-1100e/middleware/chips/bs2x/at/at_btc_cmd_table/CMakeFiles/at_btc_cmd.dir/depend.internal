@@ -125,9 +125,9 @@ middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_ta
  ../../../../middleware/utils/common_headers/native/td_base.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.h
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -279,5 +279,5 @@ middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_produ
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c

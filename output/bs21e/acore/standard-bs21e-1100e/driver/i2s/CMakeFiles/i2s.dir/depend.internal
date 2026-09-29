@@ -58,4 +58,4 @@ driver/i2s/CMakeFiles/i2s.dir/i2s.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/i2s/i2s.c
+ /home/bearpi/Desktop/tp/drivers/drivers/driver/i2s/i2s.c

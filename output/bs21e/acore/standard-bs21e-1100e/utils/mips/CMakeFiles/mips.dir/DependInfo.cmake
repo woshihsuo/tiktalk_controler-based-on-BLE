@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/mips/private/mips.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/mips/CMakeFiles/mips.dir/private/mips.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/mips/private/mips.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/mips/CMakeFiles/mips.dir/private/mips.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

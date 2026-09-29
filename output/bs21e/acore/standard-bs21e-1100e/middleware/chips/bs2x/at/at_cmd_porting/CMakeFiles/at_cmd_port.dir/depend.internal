@@ -135,6 +135,6 @@ middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h

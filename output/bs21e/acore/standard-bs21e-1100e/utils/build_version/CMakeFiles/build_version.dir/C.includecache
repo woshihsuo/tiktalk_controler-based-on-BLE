@@ -76,17 +76,17 @@ chip_definitions.h
 
 ../../../../middleware/utils/common_headers/chip_definitions.h
 
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.c
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.c
 build_version.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.h
 sdk_version.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/sdk_version.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/sdk_version.h
 build_version_info.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version_info.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version_info.h
 chip_core_definition.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/chip_core_definition.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/chip_core_definition.h
 memory_config.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/memory_config.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/memory_config.h
 stdlib.h
-/home/bearpi/Desktop/hid/middleware/utils/build_version/private/stdlib.h
+/home/bearpi/Desktop/tp/middleware/utils/build_version/private/stdlib.h
 

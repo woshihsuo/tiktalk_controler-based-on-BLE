@@ -622,19 +622,19 @@ asm/register_config.h
 
 ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_v1_liteos_user.c
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_v1_liteos_user.c
 cmsis_os_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_os_pri.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_os_pri.h
 los_membox.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_membox.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_membox.h
 los_hwi.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_hwi.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_hwi.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_v2_liteos_user.c
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_v2_liteos_user.c
 cmsis_os_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_os_pri.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/cmsis_os_pri.h
 los_task_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_task_pri.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_task_pri.h
 los_hwi.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_hwi.h
+/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/user/los_hwi.h
 

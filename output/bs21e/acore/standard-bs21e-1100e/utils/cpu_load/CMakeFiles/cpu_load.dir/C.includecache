@@ -278,23 +278,23 @@ core.h
 core.h
 ../../../../middleware/utils/dfx/log/include/core.h
 
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/cpu_load.c
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.c
 cpu_load.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/cpu_load.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.h
 stdint.h
 -
 debug_print.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/debug_print.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/debug_print.h
 chip_io.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/chip_io.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/chip_io.h
 tcxo.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/tcxo.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/tcxo.h
 memory_config_common.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/memory_config_common.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/memory_config_common.h
 log_oam_logger.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/log_oam_logger.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/log_oam_logger.h
 log_def.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/log_def.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/log_def.h
 log_printf.h
-/home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/log_printf.h
+/home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/log_printf.h
 

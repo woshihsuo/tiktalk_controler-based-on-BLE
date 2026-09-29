@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/reg_config
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/reg_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

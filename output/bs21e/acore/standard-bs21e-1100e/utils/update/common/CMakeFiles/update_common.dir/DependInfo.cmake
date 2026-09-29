@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/update/common/upg_alloc.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/update/common/upg_common.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/update/common/upg_verify.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/update/common/upg_alloc.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/update/common/upg_common.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/update/common/upg_verify.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

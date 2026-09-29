@@ -1,5 +1,5 @@
 type: 0
-cfg : /home/bearpi/Desktop/hid/build/config/target_config/bs21e/sign_config/standard_bs21e_1100e.cfg
+cfg : /home/bearpi/Desktop/tp/build/config/target_config/bs21e/sign_config/standard_bs21e_1100e.cfg
 
 read file
 open key file failed.

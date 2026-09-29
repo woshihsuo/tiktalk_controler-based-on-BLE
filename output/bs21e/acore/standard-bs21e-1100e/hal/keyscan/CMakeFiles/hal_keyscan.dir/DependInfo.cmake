@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/keyscan/hal_keyscan.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/keyscan/hal_keyscan_v150.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

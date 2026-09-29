@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/app_version/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/app_version/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/app_version/CMakeFiles/app_version.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/CMakeFiles/app_version.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/app_version/CMakeFiles/app_version.dir/rule
 .PHONY : utils/app_version/CMakeFiles/app_version.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ app_version: utils/app_version/CMakeFiles/app_version.dir/rule
 
 # fast build rule for target.
 app_version/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/build
 .PHONY : app_version/fast
 
 private/application_version.obj: private/application_version.c.obj
@@ -131,7 +131,7 @@ private/application_version.obj: private/application_version.c.obj
 
 # target to build an object file
 private/application_version.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.obj
 .PHONY : private/application_version.c.obj
 
 private/application_version.i: private/application_version.c.i
@@ -140,7 +140,7 @@ private/application_version.i: private/application_version.c.i
 
 # target to preprocess a source file
 private/application_version.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.i
 .PHONY : private/application_version.c.i
 
 private/application_version.s: private/application_version.c.s
@@ -149,7 +149,7 @@ private/application_version.s: private/application_version.c.s
 
 # target to generate assembly for a file
 private/application_version.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/app_version/CMakeFiles/app_version.dir/build.make utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.s
 .PHONY : private/application_version.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

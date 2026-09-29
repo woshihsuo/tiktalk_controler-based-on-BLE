@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/open_source/libboundscheck
+# Install script for directory: /home/bearpi/Desktop/tp/open_source/libboundscheck
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

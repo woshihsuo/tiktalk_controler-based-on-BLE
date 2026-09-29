@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/sfc/CMakeFiles/hal_sfc.dir/depend.make
@@ -59,42 +59,42 @@ include hal/sfc/CMakeFiles/hal_sfc.dir/flags.make
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj: hal/sfc/CMakeFiles/hal_sfc.dir/flags.make
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj: ../../../../drivers/drivers/hal/sfc/hal_sfc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc.c
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_sfc.dir/hal_sfc.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.c > CMakeFiles/hal_sfc.dir/hal_sfc.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc.c > CMakeFiles/hal_sfc.dir/hal_sfc.c.i
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_sfc.dir/hal_sfc.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.c -o CMakeFiles/hal_sfc.dir/hal_sfc.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc.c -o CMakeFiles/hal_sfc.dir/hal_sfc.c.s
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj: hal/sfc/CMakeFiles/hal_sfc.dir/flags.make
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj: ../../../../drivers/drivers/hal/sfc/hal_sfc_v150.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150.c
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150.c > CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150.c > CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.i
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150.c -o CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150.c -o CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.s
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj: hal/sfc/CMakeFiles/hal_sfc.dir/flags.make
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c > CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c > CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.i
 
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c -o CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_SFC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c -o CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.s
 
 # Object files for target hal_sfc
 hal_sfc_OBJECTS = \
@@ -110,9 +110,9 @@ hal/sfc/libhal_sfc.a: hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj
 hal/sfc/libhal_sfc.a: hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj
 hal/sfc/libhal_sfc.a: hal/sfc/CMakeFiles/hal_sfc.dir/build.make
 hal/sfc/libhal_sfc.a: hal/sfc/CMakeFiles/hal_sfc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_sfc.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -P CMakeFiles/hal_sfc.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_sfc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_sfc.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -P CMakeFiles/hal_sfc.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_sfc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/sfc/CMakeFiles/hal_sfc.dir/build: hal/sfc/libhal_sfc.a
@@ -120,10 +120,10 @@ hal/sfc/CMakeFiles/hal_sfc.dir/build: hal/sfc/libhal_sfc.a
 .PHONY : hal/sfc/CMakeFiles/hal_sfc.dir/build
 
 hal/sfc/CMakeFiles/hal_sfc.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -P CMakeFiles/hal_sfc.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc && $(CMAKE_COMMAND) -P CMakeFiles/hal_sfc.dir/cmake_clean.cmake
 .PHONY : hal/sfc/CMakeFiles/hal_sfc.dir/clean
 
 hal/sfc/CMakeFiles/hal_sfc.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sfc/CMakeFiles/hal_sfc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/hal/sfc /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sfc/CMakeFiles/hal_sfc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/sfc/CMakeFiles/hal_sfc.dir/depend
 

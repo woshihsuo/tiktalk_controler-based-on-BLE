@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/open_source
+# Install script for directory: /home/bearpi/Desktop/tp/open_source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/open_source/libboundscheck/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/libboundscheck/cmake_install.cmake")
 endif()
 

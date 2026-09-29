@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/rom/porting
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/rom/porting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/efuse/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/efuse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/tcxo/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/tcxo/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/sfc/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/sfc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/watchdog/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/watchdog/cmake_install.cmake")
 endif()
 

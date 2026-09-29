@@ -9,5 +9,5 @@ middleware/chips/bs2x/partition/CMakeFiles/partition_porting.dir/partition_porti
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/bs21e/partition/include/partition_resource_id.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/partition/partition_porting.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/partition/partition_porting.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_porting.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_porting.h

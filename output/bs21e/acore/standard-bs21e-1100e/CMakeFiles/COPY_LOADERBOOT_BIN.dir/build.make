@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for COPY_LOADERBOOT_BIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/COPY_LOADERBOOT_BIN.dir/progress.make
 
 CMakeFiles/COPY_LOADERBOOT_BIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "copy bin file"
-	cp /home/bearpi/Desktop/hid/interim_binary/bs21e/bin/boot_bin/loaderboot-bs21e-1100e/loaderboot_sign.bin /home/bearpi/Desktop/hid/interim_binary/bs21e/bin/boot_bin/loaderboot_sign.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "copy bin file"
+	cp /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/loaderboot-bs21e-1100e/loaderboot_sign.bin /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/loaderboot_sign.bin
 
 COPY_LOADERBOOT_BIN: CMakeFiles/COPY_LOADERBOOT_BIN
 COPY_LOADERBOOT_BIN: CMakeFiles/COPY_LOADERBOOT_BIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/COPY_LOADERBOOT_BIN.dir/clean:
 .PHONY : CMakeFiles/COPY_LOADERBOOT_BIN.dir/clean
 
 CMakeFiles/COPY_LOADERBOOT_BIN.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/COPY_LOADERBOOT_BIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/COPY_LOADERBOOT_BIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/COPY_LOADERBOOT_BIN.dir/depend
 

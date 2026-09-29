@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs21e/board/memory_config
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs21e/board/memory_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

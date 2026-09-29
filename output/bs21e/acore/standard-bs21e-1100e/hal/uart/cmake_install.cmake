@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/uart
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/uart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

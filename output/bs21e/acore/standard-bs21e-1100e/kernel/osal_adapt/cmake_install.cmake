@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/kernel/osal_adapt
+# Install script for directory: /home/bearpi/Desktop/tp/kernel/osal_adapt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

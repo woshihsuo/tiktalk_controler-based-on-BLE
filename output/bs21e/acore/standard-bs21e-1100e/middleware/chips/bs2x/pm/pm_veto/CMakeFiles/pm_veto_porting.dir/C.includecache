@@ -192,13 +192,13 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.c
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.c
 uart.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/uart.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_veto/uart.h
 pm_veto_porting.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h
 non_os.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/non_os.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_veto/non_os.h
 

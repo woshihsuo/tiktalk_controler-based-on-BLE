@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/lowpower.S" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/lowpower.S" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -444,7 +444,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../open_source/libboundscheck/src"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

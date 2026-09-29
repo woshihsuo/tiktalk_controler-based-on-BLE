@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_PARTITION.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/GENERAT_PARTITION.dir/progress.make
 
 CMakeFiles/GENERAT_PARTITION:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update partition bin"
-	cd /home/bearpi/Desktop/hid && /usr/bin/python3 /home/bearpi/Desktop/hid/build/script/param_packet.py /home/bearpi/Desktop/hid/build/config/target_config/bs21e/flash_sector_config/bs21e-standard.json /home/bearpi/Desktop/hid/interim_binary/bs21e/bin/partition/standard-bs21e-1100e/partition.bin && cp /home/bearpi/Desktop/hid/interim_binary/bs21e/bin/partition/standard-bs21e-1100e/partition.bin /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/partition.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update partition bin"
+	cd /home/bearpi/Desktop/tp && /usr/bin/python3 /home/bearpi/Desktop/tp/build/script/param_packet.py /home/bearpi/Desktop/tp/build/config/target_config/bs21e/flash_sector_config/bs21e-standard.json /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/partition/standard-bs21e-1100e/partition.bin && cp /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/partition/standard-bs21e-1100e/partition.bin /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/partition.bin
 
 GENERAT_PARTITION: CMakeFiles/GENERAT_PARTITION
 GENERAT_PARTITION: CMakeFiles/GENERAT_PARTITION.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_PARTITION.dir/clean:
 .PHONY : CMakeFiles/GENERAT_PARTITION.dir/clean
 
 CMakeFiles/GENERAT_PARTITION.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_PARTITION.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_PARTITION.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_PARTITION.dir/depend
 

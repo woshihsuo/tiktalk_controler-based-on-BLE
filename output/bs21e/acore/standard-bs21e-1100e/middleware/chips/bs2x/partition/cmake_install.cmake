@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/partition
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/partition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

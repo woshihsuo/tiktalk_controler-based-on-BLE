@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/pinmux/CMakeFiles/hal_pinctrl.dir/depend.make
@@ -59,29 +59,29 @@ include hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj: ../../../../drivers/drivers/hal/pinmux/common/hal_pinctrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/common/hal_pinctrl.c > CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.c > CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/common/hal_pinctrl.c -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.c -o CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj: hal/pinmux/CMakeFiles/hal_pinctrl.dir/flags.make
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj: ../../../../drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c > CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c > CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PINCTRL_BS2X_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c -o CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s
 
 # Object files for target hal_pinctrl
 hal_pinctrl_OBJECTS = \
@@ -95,9 +95,9 @@ hal/pinmux/libhal_pinctrl.a: hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pi
 hal/pinmux/libhal_pinctrl.a: hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj
 hal/pinmux/libhal_pinctrl.a: hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make
 hal/pinmux/libhal_pinctrl.a: hal/pinmux/CMakeFiles/hal_pinctrl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libhal_pinctrl.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/hal_pinctrl.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_pinctrl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libhal_pinctrl.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/hal_pinctrl.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_pinctrl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/build: hal/pinmux/libhal_pinctrl.a
@@ -105,10 +105,10 @@ hal/pinmux/CMakeFiles/hal_pinctrl.dir/build: hal/pinmux/libhal_pinctrl.a
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/build
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/hal_pinctrl.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/hal_pinctrl.dir/cmake_clean.cmake
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/clean
 
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/depend
 

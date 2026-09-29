@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/cpu_load/CMakeFiles/cpu_load.dir/depend.make
@@ -59,16 +59,16 @@ include utils/cpu_load/CMakeFiles/cpu_load.dir/flags.make
 
 utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj: utils/cpu_load/CMakeFiles/cpu_load.dir/flags.make
 utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj: ../../../../middleware/utils/cpu_load/private/cpu_load.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpu_load.dir/private/cpu_load.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/cpu_load.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpu_load.dir/private/cpu_load.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.c
 
 utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpu_load.dir/private/cpu_load.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/cpu_load.c > CMakeFiles/cpu_load.dir/private/cpu_load.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.c > CMakeFiles/cpu_load.dir/private/cpu_load.c.i
 
 utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpu_load.dir/private/cpu_load.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/cpu_load/private/cpu_load.c -o CMakeFiles/cpu_load.dir/private/cpu_load.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CPU_LOAD_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.c -o CMakeFiles/cpu_load.dir/private/cpu_load.c.s
 
 # Object files for target cpu_load
 cpu_load_OBJECTS = \
@@ -80,9 +80,9 @@ cpu_load_EXTERNAL_OBJECTS =
 utils/cpu_load/libcpu_load.a: utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj
 utils/cpu_load/libcpu_load.a: utils/cpu_load/CMakeFiles/cpu_load.dir/build.make
 utils/cpu_load/libcpu_load.a: utils/cpu_load/CMakeFiles/cpu_load.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcpu_load.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -P CMakeFiles/cpu_load.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpu_load.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcpu_load.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -P CMakeFiles/cpu_load.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpu_load.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/cpu_load/CMakeFiles/cpu_load.dir/build: utils/cpu_load/libcpu_load.a
@@ -90,10 +90,10 @@ utils/cpu_load/CMakeFiles/cpu_load.dir/build: utils/cpu_load/libcpu_load.a
 .PHONY : utils/cpu_load/CMakeFiles/cpu_load.dir/build
 
 utils/cpu_load/CMakeFiles/cpu_load.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -P CMakeFiles/cpu_load.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load && $(CMAKE_COMMAND) -P CMakeFiles/cpu_load.dir/cmake_clean.cmake
 .PHONY : utils/cpu_load/CMakeFiles/cpu_load.dir/clean
 
 utils/cpu_load/CMakeFiles/cpu_load.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/cpu_load /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/CMakeFiles/cpu_load.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/cpu_load /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/CMakeFiles/cpu_load.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/cpu_load/CMakeFiles/cpu_load.dir/depend
 

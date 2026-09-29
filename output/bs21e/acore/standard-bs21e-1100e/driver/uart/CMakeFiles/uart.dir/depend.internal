@@ -131,7 +131,7 @@ driver/uart/CMakeFiles/uart.dir/uart.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/uart/uart.c
+ /home/bearpi/Desktop/tp/drivers/drivers/driver/uart/uart.c
 driver/uart/CMakeFiles/uart.dir/uart_lli.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -263,4 +263,4 @@ driver/uart/CMakeFiles/uart.dir/uart_lli.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/uart/uart_lli.c
+ /home/bearpi/Desktop/tp/drivers/drivers/driver/uart/uart_lli.c

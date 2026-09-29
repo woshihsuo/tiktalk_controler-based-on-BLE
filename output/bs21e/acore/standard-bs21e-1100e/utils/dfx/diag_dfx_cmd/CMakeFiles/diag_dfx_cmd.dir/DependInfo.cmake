@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/utils/dfx/diag_dfx_cmd/diag_dfx_cmd_init.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

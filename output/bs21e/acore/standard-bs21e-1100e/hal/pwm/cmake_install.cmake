@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/pwm
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/pwm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

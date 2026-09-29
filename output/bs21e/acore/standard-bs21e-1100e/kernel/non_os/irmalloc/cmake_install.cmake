@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/kernel/non_os/irmalloc
+# Install script for directory: /home/bearpi/Desktop/tp/kernel/non_os/irmalloc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

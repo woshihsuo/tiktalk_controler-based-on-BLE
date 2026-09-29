@@ -4,7 +4,7 @@
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj
  ../../../../drivers/chips/bs2x/include/chip_core_definition.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -150,5 +150,5 @@ middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porti
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.h

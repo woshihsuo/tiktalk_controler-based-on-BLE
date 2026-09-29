@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/boot/exception
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/boot/exception
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

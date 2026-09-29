@@ -584,7 +584,7 @@ asm/register_config.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/sfc/sfc.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/sfc/sfc.c
 stdbool.h
 -
 securec.h
@@ -596,7 +596,7 @@ sfc_porting.h
 hal_sfc.h
 -
 osal_interrupt.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/sfc/osal_interrupt.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/sfc/osal_interrupt.h
 sfc.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/sfc/sfc.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/sfc/sfc.h
 

@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libpm_sleep_porting.a  CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj
+/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libpm_sleep_porting.a  CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj

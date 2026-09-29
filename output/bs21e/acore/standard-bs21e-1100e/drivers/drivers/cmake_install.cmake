@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/cmake_install.cmake")
 endif()
 

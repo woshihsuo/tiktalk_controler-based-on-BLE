@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/hal_i2c.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/hal_i2c.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/v151/hal_i2c_v151.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/v151/hal_i2c_v151_comm.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_comm.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/v151/hal_i2c_v151_master.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_master.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/v151/hal_i2c_v151_regs_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_regs_op.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/i2c/v151/hal_i2c_v151_slave.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/i2c/CMakeFiles/hal_i2c.dir/v151/hal_i2c_v151_slave.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

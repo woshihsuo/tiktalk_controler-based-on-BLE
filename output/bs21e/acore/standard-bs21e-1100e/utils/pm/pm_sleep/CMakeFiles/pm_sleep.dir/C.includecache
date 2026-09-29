@@ -958,27 +958,27 @@ pm_veto_porting.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep.c
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_sleep.c
 securec.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/securec.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/securec.h
 soc_osal.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/soc_osal.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/soc_osal.h
 pm_veto.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_veto.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_veto.h
 pm_dev.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_dev.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_dev.h
 pm_fsm.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_fsm.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_fsm.h
 pm_sleep.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_sleep.h
 
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_sleep.h
 stdbool.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/common_def.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/common_def.h
 errcode.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/errcode.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/errcode.h
 pm_sleep_porting.h
-/home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep_porting.h
+/home/bearpi/Desktop/tp/middleware/utils/pm/pm_sleep/pm_sleep_porting.h
 

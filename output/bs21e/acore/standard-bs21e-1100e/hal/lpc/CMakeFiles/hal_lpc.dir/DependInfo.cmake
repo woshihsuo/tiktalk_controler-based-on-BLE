@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/hal_lpc.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/hal_lpc.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/lpc/CMakeFiles/hal_lpc.dir/hal_lpc.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -99,8 +99,8 @@ hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.h
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -198,5 +198,5 @@ hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/pinmux/common/hal_pinctrl.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.h

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_config_info_porting.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_porting.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_porting.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_config_info_porting.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/sfc/sfc_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

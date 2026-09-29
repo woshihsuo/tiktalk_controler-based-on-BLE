@@ -13,5 +13,5 @@ drivers/chips/bs2x/porting/pdm/CMakeFiles/pdm_porting.dir/pdm_porting.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/osal/include/debug/osal_debug.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/pdm_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/pdm_porting.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/pdm_porting.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/pdm_porting.h

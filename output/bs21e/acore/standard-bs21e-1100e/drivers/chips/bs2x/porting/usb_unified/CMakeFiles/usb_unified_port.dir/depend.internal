@@ -35,30 +35,30 @@ drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.
  ../../../../middleware/utils/common_headers/debug_print.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb2.0_phy_app.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb2.0_phy_app.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.h
 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.h
 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.obj
  ../../../../include/common_def.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.h
 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.obj
  ../../../../include/common_def.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.h
 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.obj
  ../../../../include/common_def.h
  ../../../../include/middleware/utils/usb_class/gadget/f_hid.h
@@ -150,5 +150,5 @@ drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porti
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/usb_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/usb_porting.h
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/usb_porting.c
+ /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/usb_porting.h

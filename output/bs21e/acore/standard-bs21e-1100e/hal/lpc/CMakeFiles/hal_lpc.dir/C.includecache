@@ -128,15 +128,15 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/hal_lpc.c
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/hal_lpc.c
 hal_lpc.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/hal_lpc.h
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/hal_lpc.h
 core.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/core.h
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/core.h
 arch_barrier.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/arch_barrier.h
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/arch_barrier.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/hal_lpc.h
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/hal_lpc.h
 std_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/lpc/std_def.h
+/home/bearpi/Desktop/tp/drivers/drivers/hal/lpc/std_def.h
 

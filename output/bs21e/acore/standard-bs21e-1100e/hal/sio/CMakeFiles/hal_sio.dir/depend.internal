@@ -18,8 +18,8 @@ hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio.h
 hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -149,10 +149,10 @@ hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_def.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.h
 hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -168,6 +168,6 @@ hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_def.h
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.c
+ /home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/depend.make
@@ -59,21 +59,21 @@ include middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/flags.make
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/flags.make
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj: ../../../../middleware/chips/bs2x/exception/exception_riscv.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dfx_exception.dir/exception_riscv.s.obj -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/dfx_exception.dir/exception_riscv.s.obj -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/exception/exception_riscv.s
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/flags.make
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj: ../../../../middleware/chips/bs2x/exception/exception_riscv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_exception.dir/exception_riscv.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_exception.dir/exception_riscv.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/exception/exception_riscv.c
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dfx_exception.dir/exception_riscv.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.c > CMakeFiles/dfx_exception.dir/exception_riscv.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/exception/exception_riscv.c > CMakeFiles/dfx_exception.dir/exception_riscv.c.i
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dfx_exception.dir/exception_riscv.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.c -o CMakeFiles/dfx_exception.dir/exception_riscv.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EXCEPTION_RISCV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/exception/exception_riscv.c -o CMakeFiles/dfx_exception.dir/exception_riscv.c.s
 
 # Object files for target dfx_exception
 dfx_exception_OBJECTS = \
@@ -87,9 +87,9 @@ middleware/chips/bs2x/exception/libdfx_exception.a: middleware/chips/bs2x/except
 middleware/chips/bs2x/exception/libdfx_exception.a: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj
 middleware/chips/bs2x/exception/libdfx_exception.a: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/build.make
 middleware/chips/bs2x/exception/libdfx_exception.a: middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdfx_exception.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -P CMakeFiles/dfx_exception.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_exception.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdfx_exception.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -P CMakeFiles/dfx_exception.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_exception.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/build: middleware/chips/bs2x/exception/libdfx_exception.a
@@ -97,10 +97,10 @@ middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/build: middleware/c
 .PHONY : middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/build
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -P CMakeFiles/dfx_exception.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception && $(CMAKE_COMMAND) -P CMakeFiles/dfx_exception.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/clean
 
 middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/exception /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/exception /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/depend
 

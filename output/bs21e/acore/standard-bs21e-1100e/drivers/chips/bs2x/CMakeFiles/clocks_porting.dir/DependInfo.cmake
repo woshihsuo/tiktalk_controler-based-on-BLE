@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clock_calibration.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks_switch.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/hal_32k_clock.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clock_calibration.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks_switch.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/hal_32k_clock.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

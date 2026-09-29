@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libwatchdog_port.a  CMakeFiles/watchdog_port.dir/watchdog_porting.c.obj
+/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libwatchdog_port.a  CMakeFiles/watchdog_port.dir/watchdog_porting.c.obj

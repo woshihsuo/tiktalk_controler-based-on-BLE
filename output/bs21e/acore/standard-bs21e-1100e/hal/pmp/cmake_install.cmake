@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/pmp
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

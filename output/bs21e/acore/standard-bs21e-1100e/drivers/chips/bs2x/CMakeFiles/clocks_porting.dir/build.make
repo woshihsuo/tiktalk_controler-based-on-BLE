@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/depend.make
@@ -59,55 +59,55 @@ include drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj: ../../../../drivers/chips/bs2x/clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clocks.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks.c > CMakeFiles/clocks_porting.dir/clocks/clocks.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks.c > CMakeFiles/clocks_porting.dir/clocks/clocks.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clocks.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks.c -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks.c -o CMakeFiles/clocks_porting.dir/clocks/clocks.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj: ../../../../drivers/chips/bs2x/clocks/clock_calibration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clock_calibration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clock_calibration.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clock_calibration.c > CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clock_calibration.c > CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clock_calibration.c -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCK_CALIBRATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clock_calibration.c -o CMakeFiles/clocks_porting.dir/clocks/clock_calibration.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj: ../../../../drivers/chips/bs2x/clocks/hal_32k_clock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/hal_32k_clock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/hal_32k_clock.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/hal_32k_clock.c > CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/hal_32k_clock.c > CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/hal_32k_clock.c -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_32K_CLOCK_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/hal_32k_clock.c -o CMakeFiles/clocks_porting.dir/clocks/hal_32k_clock.c.s
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj: ../../../../drivers/chips/bs2x/clocks/clocks_switch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks_switch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks_switch.c
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks_switch.c > CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks_switch.c > CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.i
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/clocks/clocks_switch.c -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=CLOCKS_SWITCH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/clocks/clocks_switch.c -o CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.s
 
 # Object files for target clocks_porting
 clocks_porting_OBJECTS = \
@@ -125,9 +125,9 @@ drivers/chips/bs2x/libclocks_porting.a: drivers/chips/bs2x/CMakeFiles/clocks_por
 drivers/chips/bs2x/libclocks_porting.a: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clocks/clocks_switch.c.obj
 drivers/chips/bs2x/libclocks_porting.a: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/build.make
 drivers/chips/bs2x/libclocks_porting.a: drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libclocks_porting.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/clocks_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clocks_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libclocks_porting.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/clocks_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clocks_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/build: drivers/chips/bs2x/libclocks_porting.a
@@ -135,10 +135,10 @@ drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/build: drivers/chips/bs2x/libcl
 .PHONY : drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/build
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/clocks_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/clocks_porting.dir/cmake_clean.cmake
 .PHONY : drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/clean
 
 drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/chips/bs2x /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/chips/bs2x /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/bs2x/CMakeFiles/clocks_porting.dir/depend
 

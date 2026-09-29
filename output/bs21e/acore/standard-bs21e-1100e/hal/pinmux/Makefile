@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule
 .PHONY : hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_pinctrl: hal/pinmux/CMakeFiles/hal_pinctrl.dir/rule
 
 # fast build rule for target.
 hal_pinctrl/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/build
 .PHONY : hal_pinctrl/fast
 
 bs2x/hal_pinctrl_bs2x.obj: bs2x/hal_pinctrl_bs2x.c.obj
@@ -131,7 +131,7 @@ bs2x/hal_pinctrl_bs2x.obj: bs2x/hal_pinctrl_bs2x.c.obj
 
 # target to build an object file
 bs2x/hal_pinctrl_bs2x.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj
 .PHONY : bs2x/hal_pinctrl_bs2x.c.obj
 
 bs2x/hal_pinctrl_bs2x.i: bs2x/hal_pinctrl_bs2x.c.i
@@ -140,7 +140,7 @@ bs2x/hal_pinctrl_bs2x.i: bs2x/hal_pinctrl_bs2x.c.i
 
 # target to preprocess a source file
 bs2x/hal_pinctrl_bs2x.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.i
 .PHONY : bs2x/hal_pinctrl_bs2x.c.i
 
 bs2x/hal_pinctrl_bs2x.s: bs2x/hal_pinctrl_bs2x.c.s
@@ -149,7 +149,7 @@ bs2x/hal_pinctrl_bs2x.s: bs2x/hal_pinctrl_bs2x.c.s
 
 # target to generate assembly for a file
 bs2x/hal_pinctrl_bs2x.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.s
 .PHONY : bs2x/hal_pinctrl_bs2x.c.s
 
 common/hal_pinctrl.obj: common/hal_pinctrl.c.obj
@@ -158,7 +158,7 @@ common/hal_pinctrl.obj: common/hal_pinctrl.c.obj
 
 # target to build an object file
 common/hal_pinctrl.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj
 .PHONY : common/hal_pinctrl.c.obj
 
 common/hal_pinctrl.i: common/hal_pinctrl.c.i
@@ -167,7 +167,7 @@ common/hal_pinctrl.i: common/hal_pinctrl.c.i
 
 # target to preprocess a source file
 common/hal_pinctrl.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.i
 .PHONY : common/hal_pinctrl.c.i
 
 common/hal_pinctrl.s: common/hal_pinctrl.c.s
@@ -176,7 +176,7 @@ common/hal_pinctrl.s: common/hal_pinctrl.c.s
 
 # target to generate assembly for a file
 common/hal_pinctrl.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/pinmux/CMakeFiles/hal_pinctrl.dir/build.make hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.s
 .PHONY : common/hal_pinctrl.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

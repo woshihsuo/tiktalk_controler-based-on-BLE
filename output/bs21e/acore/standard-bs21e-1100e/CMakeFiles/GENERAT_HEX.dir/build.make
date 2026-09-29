@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_HEX.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/GENERAT_HEX.dir/progress.make
 
 CMakeFiles/GENERAT_HEX:
-	/usr/bin/python3 /home/bearpi/Desktop/hid/build/script/utils/create_hex.py application.bin application.hex
+	/usr/bin/python3 /home/bearpi/Desktop/tp/build/script/utils/create_hex.py application.bin application.hex
 
 GENERAT_HEX: CMakeFiles/GENERAT_HEX
 GENERAT_HEX: CMakeFiles/GENERAT_HEX.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/GENERAT_HEX.dir/clean:
 .PHONY : CMakeFiles/GENERAT_HEX.dir/clean
 
 CMakeFiles/GENERAT_HEX.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_HEX.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_HEX.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_HEX.dir/depend
 

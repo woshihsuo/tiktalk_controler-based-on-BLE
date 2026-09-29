@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include application/samples/CMakeFiles/samples.dir/depend.make
@@ -59,94 +59,107 @@ include application/samples/CMakeFiles/samples.dir/flags.make
 
 application/samples/CMakeFiles/samples.dir/prj/main.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/main.c.obj: ../../../../application/samples/prj/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object application/samples/CMakeFiles/samples.dir/prj/main.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/main.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object application/samples/CMakeFiles/samples.dir/prj/main.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/main.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/main.c
 
 application/samples/CMakeFiles/samples.dir/prj/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/main.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/main.c > CMakeFiles/samples.dir/prj/main.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/main.c > CMakeFiles/samples.dir/prj/main.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/main.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/main.c -o CMakeFiles/samples.dir/prj/main.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=MAIN_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/main.c -o CMakeFiles/samples.dir/prj/main.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj: ../../../../application/samples/prj/bsp/src/led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/led.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/led.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/led.c
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/led.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.c > CMakeFiles/samples.dir/prj/bsp/src/led.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/led.c > CMakeFiles/samples.dir/prj/bsp/src/led.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/led.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.c -o CMakeFiles/samples.dir/prj/bsp/src/led.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LED_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/led.c -o CMakeFiles/samples.dir/prj/bsp/src/led.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj: ../../../../application/samples/prj/bsp/src/ble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble.c
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/ble.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.c > CMakeFiles/samples.dir/prj/bsp/src/ble.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble.c > CMakeFiles/samples.dir/prj/bsp/src/ble.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/ble.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.c -o CMakeFiles/samples.dir/prj/bsp/src/ble.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble.c -o CMakeFiles/samples.dir/prj/bsp/src/ble.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj: ../../../../application/samples/prj/bsp/src/ble_hid_adv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid_adv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid_adv.c
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid_adv.c > CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid_adv.c > CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid_adv.c -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_ADV_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid_adv.c -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj: ../../../../application/samples/prj/bsp/src/ble_hid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid.c
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid.c > CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid.c > CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid.c -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BLE_HID_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid.c -o CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj: ../../../../application/samples/prj/bsp/src/sle_measure_dis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/sle_measure_dis.c
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.c > CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/sle_measure_dis.c > CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.c -o CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SLE_MEASURE_DIS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/sle_measure_dis.c -o CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s
 
 application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
 application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj: ../../../../application/samples/prj/driver/src/uhal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj   -c /home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/driver/src/uhal_spi.c
 
 application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.c > CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/driver/src/uhal_spi.c > CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i
 
 application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.c -o CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UHAL_SPI_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/driver/src/uhal_spi.c -o CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s
+
+application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj: application/samples/CMakeFiles/samples.dir/flags.make
+application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj: ../../../../application/samples/prj/bsp/src/key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/samples.dir/prj/bsp/src/key.c.obj   -c /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/key.c
+
+application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/samples.dir/prj/bsp/src/key.c.i"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/key.c > CMakeFiles/samples.dir/prj/bsp/src/key.c.i
+
+application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/samples.dir/prj/bsp/src/key.c.s"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=KEY_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/key.c -o CMakeFiles/samples.dir/prj/bsp/src/key.c.s
 
 # Object files for target samples
 samples_OBJECTS = \
@@ -156,7 +169,8 @@ samples_OBJECTS = \
 "CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj" \
 "CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj" \
 "CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj" \
-"CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj"
+"CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj" \
+"CMakeFiles/samples.dir/prj/bsp/src/key.c.obj"
 
 # External object files for target samples
 samples_EXTERNAL_OBJECTS =
@@ -168,11 +182,12 @@ application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/prj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj
+application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/build.make
 application/samples/libsamples.a: application/samples/CMakeFiles/samples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libsamples.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samples.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libsamples.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/samples.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/samples/CMakeFiles/samples.dir/build: application/samples/libsamples.a
@@ -180,10 +195,10 @@ application/samples/CMakeFiles/samples.dir/build: application/samples/libsamples
 .PHONY : application/samples/CMakeFiles/samples.dir/build
 
 application/samples/CMakeFiles/samples.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples && $(CMAKE_COMMAND) -P CMakeFiles/samples.dir/cmake_clean.cmake
 .PHONY : application/samples/CMakeFiles/samples.dir/clean
 
 application/samples/CMakeFiles/samples.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/application/samples /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/application/samples /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/samples.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : application/samples/CMakeFiles/samples.dir/depend
 

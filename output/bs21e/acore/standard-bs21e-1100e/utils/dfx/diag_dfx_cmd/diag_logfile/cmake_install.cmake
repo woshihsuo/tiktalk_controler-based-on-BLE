@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/dfx/diag_dfx_cmd/diag_logfile
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_dfx_cmd/diag_logfile
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

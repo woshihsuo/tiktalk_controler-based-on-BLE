@@ -24,7 +24,7 @@ Unix Makefiles
 -DBIN_NAME=application
 -DCCFLAGS=-std=gnu99;-Wall;-Werror;-Wextra;-Winit-self;-Wpointer-arith;-Wstrict-prototypes;-fno-strict-aliasing;-Os;-fno-unwind-tables;-ffreestanding;-fdata-sections;-Wno-implicit-fallthrough;-ffunction-sections;-nostdlib;-pipe;-fno-tree-scev-cprop;-fno-common;-mpush-pop;-msmall-data-limit=0;-fno-ipa-ra;-Wtrampolines;-Wlogical-op;-Wjump-misses-init;-Wa,-enable-c-lbu-sb;-Wa,-enable-c-lhu-sh;-fimm-compare;-femit-muliadd;-fmerge-immshf;-femit-uxtb-uxth;-femit-lli;-femit-clz;-fldm-stm-optimize;-g;-mabi=ilp32f;-march=rv32imfc;-madjust-regorder;-madjust-const-cost;-freorder-commu-args;-fimm-compare-expand;-frmv-str-zero;-mfp-const-opt;-frtl-sequence-abstract;-frtl-hoist-sink;-fsafe-alias-multipointer;-finline-optimize-size;--short-enums;-fmuliadd-expand;-mlli-expand;-Wa,-mcjal-expand;-foptimize-reg-alloc;-fsplit-multi-zero-assignments;-floop-optimize-size;-mpattern-abstract;-foptimize-pro-and-epilogue
 -DROM_CCFLAGS=-mabi=ilp32f;-march=rv32imfc;-madjust-regorder;-madjust-const-cost;-freorder-commu-args;-fimm-compare-expand;-frmv-str-zero;-mfp-const-opt;-frtl-sequence-abstract;-frtl-hoist-sink;-fsafe-alias-multipointer;-finline-optimize-size;-fmuliadd-expand;-mlli-expand;-Wa,-mcjal-expand;-foptimize-reg-alloc;-fsplit-multi-zero-assignments;-floop-optimize-size;-foptimize-pro-and-epilogue;--short-enums;-fno-inline-functions-called-once;-fno-inline-small-functions;-std=gnu99;-Wall;-Werror;-Wextra;-Winit-self;-Wpointer-arith;-Wstrict-prototypes;-fno-strict-aliasing;-Os;-fno-unwind-tables;-ffreestanding;-fdata-sections;-Wno-implicit-fallthrough;-ffunction-sections;-nostdlib;-pipe;-fno-tree-scev-cprop;-fno-common;-mpush-pop;-msmall-data-limit=0;-fno-ipa-ra;-Wtrampolines;-Wlogical-op;-Wjump-misses-init;-Wa,-enable-c-lbu-sb;-Wa,-enable-c-lhu-sh;-fimm-compare;-femit-muliadd;-fmerge-immshf;-femit-uxtb-uxth;-femit-lli;-femit-clz;-fldm-stm-optimize;-g
--DLINKFLAGS=-Wl,--cjal-relax;-Wl,--dslf;-Wl,--gc-section;-nostdlib;-static;-Wl,--enjal16;-g;-Wl,--just-symbols=/home/bearpi/Desktop/hid/drivers/chips/bs2x/rom/rom_info/acore/acore.sym
+-DLINKFLAGS=-Wl,--cjal-relax;-Wl,--dslf;-Wl,--gc-section;-nostdlib;-static;-Wl,--enjal16;-g;-Wl,--just-symbols=/home/bearpi/Desktop/tp/drivers/chips/bs2x/rom/rom_info/acore/acore.sym
 -DAPPLICATION=standard
 -DHSO_ENABLE_BT=True
 -DHSO_ENABLE=True
@@ -32,7 +32,7 @@ Unix Makefiles
 -DBUILD_ROM_CALLBACK=False
 -DFIXED_ROM=True
 -DFIXED_ROM_PATH=<root>/drivers/chips/bs2x/rom/rom_bin/rom_n1100/application_rom.bin
--DROM_SYM_PATH=/home/bearpi/Desktop/hid/drivers/chips/bs2x/rom/rom_info/acore/acore.sym
+-DROM_SYM_PATH=/home/bearpi/Desktop/tp/drivers/chips/bs2x/rom/rom_info/acore/acore.sym
 -DROM_RAM_CHECK=True
 -DROM_RAM_COMPARE=True
 -DPACKET=True
@@ -53,9 +53,9 @@ Unix Makefiles
 -DBUILD_PLATFORM=linux
 -DTARGET_COMMAND=standard-bs21e-1100e
 -DBUILD_LEVEL=normal
--DCMAKE_TOOLCHAIN_FILE=/home/bearpi/Desktop/hid/build/toolchains/riscv32_musl_b010_fp.cmake
+-DCMAKE_TOOLCHAIN_FILE=/home/bearpi/Desktop/tp/build/toolchains/riscv32_musl_b010_fp.cmake
 -DPY_PATH=/usr/bin/python3
-/home/bearpi/Desktop/hid
+/home/bearpi/Desktop/tp
 -DPRODUCT_TYPE=default
 -DROM_CHECK=False
 -DPKG_TARGET_NAME=standard-bs21e-1100e

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/build_version/CMakeFiles/build_version.dir/depend.make
@@ -59,16 +59,16 @@ include utils/build_version/CMakeFiles/build_version.dir/flags.make
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj: utils/build_version/CMakeFiles/build_version.dir/flags.make
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj: ../../../../middleware/utils/build_version/private/build_version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/build_version.dir/private/build_version.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/build_version.dir/private/build_version.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.c
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/build_version.dir/private/build_version.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.c > CMakeFiles/build_version.dir/private/build_version.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.c > CMakeFiles/build_version.dir/private/build_version.c.i
 
 utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/build_version.dir/private/build_version.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.c -o CMakeFiles/build_version.dir/private/build_version.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=BUILD_VERSION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.c -o CMakeFiles/build_version.dir/private/build_version.c.s
 
 # Object files for target build_version
 build_version_OBJECTS = \
@@ -80,9 +80,9 @@ build_version_EXTERNAL_OBJECTS =
 utils/build_version/libbuild_version.a: utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj
 utils/build_version/libbuild_version.a: utils/build_version/CMakeFiles/build_version.dir/build.make
 utils/build_version/libbuild_version.a: utils/build_version/CMakeFiles/build_version.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libbuild_version.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -P CMakeFiles/build_version.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/build_version.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libbuild_version.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -P CMakeFiles/build_version.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/build_version.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/build_version/CMakeFiles/build_version.dir/build: utils/build_version/libbuild_version.a
@@ -90,10 +90,10 @@ utils/build_version/CMakeFiles/build_version.dir/build: utils/build_version/libb
 .PHONY : utils/build_version/CMakeFiles/build_version.dir/build
 
 utils/build_version/CMakeFiles/build_version.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -P CMakeFiles/build_version.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version && $(CMAKE_COMMAND) -P CMakeFiles/build_version.dir/cmake_clean.cmake
 .PHONY : utils/build_version/CMakeFiles/build_version.dir/clean
 
 utils/build_version/CMakeFiles/build_version.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/build_version /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/CMakeFiles/build_version.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/build_version /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/CMakeFiles/build_version.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/build_version/CMakeFiles/build_version.dir/depend
 

@@ -150,10 +150,10 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj
  ../../../../middleware/utils/dfx/log_file/include/log_file.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_file.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_flash.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file.c
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_file.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_flash.h
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -309,9 +309,9 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
  ../../../../middleware/utils/dfx/log_file/include/log_file.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_file.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_file.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_file.c
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_file.h
 utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -460,6 +460,6 @@ utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
  ../../../../middleware/utils/dfx/log_file/include/log_file.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_common.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_flash.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_flash.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_common.h
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_flash.c
+ /home/bearpi/Desktop/tp/middleware/utils/dfx/log_file/log_file_flash.h

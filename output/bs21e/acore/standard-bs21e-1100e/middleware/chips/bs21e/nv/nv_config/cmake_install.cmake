@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs21e/nv/nv_config
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs21e/nv/nv_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

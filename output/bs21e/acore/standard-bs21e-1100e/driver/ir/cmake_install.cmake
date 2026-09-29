@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/ir
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/ir
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

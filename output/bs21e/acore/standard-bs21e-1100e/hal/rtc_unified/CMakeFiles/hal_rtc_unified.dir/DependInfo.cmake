@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/rtc_unified/hal_rtc.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/rtc_unified/v150/hal_rtc_v150.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/rtc_unified/v150/hal_rtc_v150_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/rtc_unified/hal_rtc.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/rtc_unified/v150/hal_rtc_v150.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/rtc_unified/v150/hal_rtc_v150_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

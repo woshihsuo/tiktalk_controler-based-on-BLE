@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/update/common
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/update/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

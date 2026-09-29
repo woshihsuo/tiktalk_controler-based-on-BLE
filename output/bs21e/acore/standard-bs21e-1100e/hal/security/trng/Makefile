@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/security/trng/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/security/trng/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/security/trng/CMakeFiles/hal_trng.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/CMakeFiles/hal_trng.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/security/trng/CMakeFiles/hal_trng.dir/rule
 .PHONY : hal/security/trng/CMakeFiles/hal_trng.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_trng: hal/security/trng/CMakeFiles/hal_trng.dir/rule
 
 # fast build rule for target.
 hal_trng/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/build
 .PHONY : hal_trng/fast
 
 hal_trng.obj: hal_trng.c.obj
@@ -131,7 +131,7 @@ hal_trng.obj: hal_trng.c.obj
 
 # target to build an object file
 hal_trng.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.obj
 .PHONY : hal_trng.c.obj
 
 hal_trng.i: hal_trng.c.i
@@ -140,7 +140,7 @@ hal_trng.i: hal_trng.c.i
 
 # target to preprocess a source file
 hal_trng.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.i
 .PHONY : hal_trng.c.i
 
 hal_trng.s: hal_trng.c.s
@@ -149,7 +149,7 @@ hal_trng.s: hal_trng.c.s
 
 # target to generate assembly for a file
 hal_trng.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.s
 .PHONY : hal_trng.c.s
 
 hal_trng_v1.obj: hal_trng_v1.c.obj
@@ -158,7 +158,7 @@ hal_trng_v1.obj: hal_trng_v1.c.obj
 
 # target to build an object file
 hal_trng_v1.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj
 .PHONY : hal_trng_v1.c.obj
 
 hal_trng_v1.i: hal_trng_v1.c.i
@@ -167,7 +167,7 @@ hal_trng_v1.i: hal_trng_v1.c.i
 
 # target to preprocess a source file
 hal_trng_v1.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.i
 .PHONY : hal_trng_v1.c.i
 
 hal_trng_v1.s: hal_trng_v1.c.s
@@ -176,7 +176,7 @@ hal_trng_v1.s: hal_trng_v1.c.s
 
 # target to generate assembly for a file
 hal_trng_v1.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.s
 .PHONY : hal_trng_v1.c.s
 
 hal_trng_v1_regs_op.obj: hal_trng_v1_regs_op.c.obj
@@ -185,7 +185,7 @@ hal_trng_v1_regs_op.obj: hal_trng_v1_regs_op.c.obj
 
 # target to build an object file
 hal_trng_v1_regs_op.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj
 .PHONY : hal_trng_v1_regs_op.c.obj
 
 hal_trng_v1_regs_op.i: hal_trng_v1_regs_op.c.i
@@ -194,7 +194,7 @@ hal_trng_v1_regs_op.i: hal_trng_v1_regs_op.c.i
 
 # target to preprocess a source file
 hal_trng_v1_regs_op.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.i
 .PHONY : hal_trng_v1_regs_op.c.i
 
 hal_trng_v1_regs_op.s: hal_trng_v1_regs_op.c.s
@@ -203,7 +203,7 @@ hal_trng_v1_regs_op.s: hal_trng_v1_regs_op.c.s
 
 # target to generate assembly for a file
 hal_trng_v1_regs_op.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.s
 .PHONY : hal_trng_v1_regs_op.c.s
 
 hal_trng_v2.obj: hal_trng_v2.c.obj
@@ -212,7 +212,7 @@ hal_trng_v2.obj: hal_trng_v2.c.obj
 
 # target to build an object file
 hal_trng_v2.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj
 .PHONY : hal_trng_v2.c.obj
 
 hal_trng_v2.i: hal_trng_v2.c.i
@@ -221,7 +221,7 @@ hal_trng_v2.i: hal_trng_v2.c.i
 
 # target to preprocess a source file
 hal_trng_v2.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.i
 .PHONY : hal_trng_v2.c.i
 
 hal_trng_v2.s: hal_trng_v2.c.s
@@ -230,7 +230,7 @@ hal_trng_v2.s: hal_trng_v2.c.s
 
 # target to generate assembly for a file
 hal_trng_v2.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.s
 .PHONY : hal_trng_v2.c.s
 
 hal_trng_v2_regs_op.obj: hal_trng_v2_regs_op.c.obj
@@ -239,7 +239,7 @@ hal_trng_v2_regs_op.obj: hal_trng_v2_regs_op.c.obj
 
 # target to build an object file
 hal_trng_v2_regs_op.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj
 .PHONY : hal_trng_v2_regs_op.c.obj
 
 hal_trng_v2_regs_op.i: hal_trng_v2_regs_op.c.i
@@ -248,7 +248,7 @@ hal_trng_v2_regs_op.i: hal_trng_v2_regs_op.c.i
 
 # target to preprocess a source file
 hal_trng_v2_regs_op.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.i
 .PHONY : hal_trng_v2_regs_op.c.i
 
 hal_trng_v2_regs_op.s: hal_trng_v2_regs_op.c.s
@@ -257,7 +257,7 @@ hal_trng_v2_regs_op.s: hal_trng_v2_regs_op.c.s
 
 # target to generate assembly for a file
 hal_trng_v2_regs_op.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/security/trng/CMakeFiles/hal_trng.dir/build.make hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.s
 .PHONY : hal_trng_v2_regs_op.c.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

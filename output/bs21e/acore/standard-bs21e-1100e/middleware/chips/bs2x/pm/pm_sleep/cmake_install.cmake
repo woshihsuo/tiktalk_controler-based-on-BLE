@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/update/ota/CMakeFiles/ota_upgrade.dir/depend.make
@@ -59,29 +59,29 @@ include utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj: ../../../../middleware/utils/update/ota/ota_upgrade.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade.c
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.c > CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade.c > CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj: utils/update/ota/CMakeFiles/ota_upgrade.dir/flags.make
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj: ../../../../middleware/utils/update/ota/ota_upgrade_handle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade_handle.c
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.c > CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade_handle.c > CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=OTA_UPGRADE_HANDLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/ota/ota_upgrade_handle.c -o CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s
 
 # Object files for target ota_upgrade
 ota_upgrade_OBJECTS = \
@@ -95,9 +95,9 @@ utils/update/ota/libota_upgrade.a: utils/update/ota/CMakeFiles/ota_upgrade.dir/o
 utils/update/ota/libota_upgrade.a: utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
 utils/update/ota/libota_upgrade.a: utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make
 utils/update/ota/libota_upgrade.a: utils/update/ota/CMakeFiles/ota_upgrade.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libota_upgrade.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -P CMakeFiles/ota_upgrade.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ota_upgrade.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libota_upgrade.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -P CMakeFiles/ota_upgrade.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ota_upgrade.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/update/ota/CMakeFiles/ota_upgrade.dir/build: utils/update/ota/libota_upgrade.a
@@ -105,10 +105,10 @@ utils/update/ota/CMakeFiles/ota_upgrade.dir/build: utils/update/ota/libota_upgra
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/build
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -P CMakeFiles/ota_upgrade.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota && $(CMAKE_COMMAND) -P CMakeFiles/ota_upgrade.dir/cmake_clean.cmake
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/clean
 
 utils/update/ota/CMakeFiles/ota_upgrade.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/update/ota /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota/CMakeFiles/ota_upgrade.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/update/ota /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota/CMakeFiles/ota_upgrade.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/depend
 

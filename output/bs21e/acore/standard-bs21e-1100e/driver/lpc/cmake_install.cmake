@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/lpc
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/lpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

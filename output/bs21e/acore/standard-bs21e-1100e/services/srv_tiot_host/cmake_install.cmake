@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/services/srv_tiot_host
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/services/srv_tiot_host
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

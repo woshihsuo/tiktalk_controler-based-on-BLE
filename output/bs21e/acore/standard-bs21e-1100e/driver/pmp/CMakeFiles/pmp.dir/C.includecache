@@ -82,15 +82,15 @@ bits/alltypes.h
 bits/stdint.h
 -
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/pmp.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pmp/pmp.c
 stdint.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/common_def.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pmp/common_def.h
 hal_pmp.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/hal_pmp.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pmp/hal_pmp.h
 pmp_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/pmp_porting.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pmp/pmp_porting.h
 drv_pmp.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/drv_pmp.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pmp/drv_pmp.h
 

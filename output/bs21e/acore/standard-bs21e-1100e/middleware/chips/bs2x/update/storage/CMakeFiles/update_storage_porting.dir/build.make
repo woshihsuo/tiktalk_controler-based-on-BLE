@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/depend.make
@@ -59,16 +59,16 @@ include middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.d
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/flags.make
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj: ../../../../middleware/chips/bs2x/update/storage/upg_backup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_storage_porting.dir/upg_backup.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_backup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_storage_porting.dir/upg_backup.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/update/storage/upg_backup.c
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_storage_porting.dir/upg_backup.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_backup.c > CMakeFiles/update_storage_porting.dir/upg_backup.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/update/storage/upg_backup.c > CMakeFiles/update_storage_porting.dir/upg_backup.c.i
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_storage_porting.dir/upg_backup.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_backup.c -o CMakeFiles/update_storage_porting.dir/upg_backup.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_BACKUP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/update/storage/upg_backup.c -o CMakeFiles/update_storage_porting.dir/upg_backup.c.s
 
 # Object files for target update_storage_porting
 update_storage_porting_OBJECTS = \
@@ -80,9 +80,9 @@ update_storage_porting_EXTERNAL_OBJECTS =
 middleware/chips/bs2x/update/storage/libupdate_storage_porting.a: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj
 middleware/chips/bs2x/update/storage/libupdate_storage_porting.a: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make
 middleware/chips/bs2x/update/storage/libupdate_storage_porting.a: middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libupdate_storage_porting.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_storage_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libupdate_storage_porting.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_storage_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build: middleware/chips/bs2x/update/storage/libupdate_storage_porting.a
@@ -90,10 +90,10 @@ middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build
 .PHONY : middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage_porting.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/clean
 
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/update/storage /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/depend
 

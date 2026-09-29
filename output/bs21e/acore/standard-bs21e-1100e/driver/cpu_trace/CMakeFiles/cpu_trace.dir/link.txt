@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libcpu_trace.a  CMakeFiles/cpu_trace.dir/cpu_trace.c.obj
+/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libcpu_trace.a  CMakeFiles/cpu_trace.dir/cpu_trace.c.obj

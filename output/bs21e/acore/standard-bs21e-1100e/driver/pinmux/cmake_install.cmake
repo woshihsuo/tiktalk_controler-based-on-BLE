@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/pinmux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

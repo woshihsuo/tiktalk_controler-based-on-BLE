@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/include/middleware/utils/usb_class
+# Install script for directory: /home/bearpi/Desktop/tp/include/middleware/utils/usb_class
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

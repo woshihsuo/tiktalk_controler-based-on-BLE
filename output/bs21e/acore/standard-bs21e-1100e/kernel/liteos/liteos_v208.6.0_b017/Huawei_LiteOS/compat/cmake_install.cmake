@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat
+# Install script for directory: /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/cmsis/cmake_install.cmake")
 endif()
 

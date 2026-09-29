@@ -54,4 +54,4 @@ driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/tcxo.c
+ /home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/tcxo.c

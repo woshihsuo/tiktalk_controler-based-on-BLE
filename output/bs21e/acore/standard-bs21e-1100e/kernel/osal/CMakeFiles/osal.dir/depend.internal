@@ -104,7 +104,7 @@ kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/adapt/liteos/oal_onetrack.c
+ /home/bearpi/Desktop/tp/kernel/osal/adapt/liteos/oal_onetrack.c
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -198,7 +198,7 @@ kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/adapt/liteos/osal_cpp_adapt.c
+ /home/bearpi/Desktop/tp/kernel/osal/adapt/liteos/osal_cpp_adapt.c
 kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -272,7 +272,7 @@ kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/adapt/liteos/osal_debug_adapt.c
+ /home/bearpi/Desktop/tp/kernel/osal/adapt/liteos/osal_debug_adapt.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -387,8 +387,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_addr.c
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_addr.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -505,8 +505,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_atomic.c
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_atomic.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -527,7 +527,7 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_barrier.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_barrier.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
@@ -574,7 +574,7 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_cache.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_cache.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -692,8 +692,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_completion.c
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_completion.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -767,7 +767,7 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_debug.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_debug.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/linux/include/asm/int-ll64.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/compat/linux/include/linux/types.h
@@ -808,7 +808,7 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_drvbox.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_drvbox.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -925,8 +925,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_event.c
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_event.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1045,8 +1045,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_fileops.c
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_fileops.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj
  ../../../../drivers/drivers/hal/tcxo/hal_tcxo.h
  ../../../../include/errcode.h
@@ -1165,8 +1165,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_interrupt.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_interrupt.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1280,7 +1280,7 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_math.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_math.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1398,8 +1398,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_msgqueue.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_msgqueue.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1528,8 +1528,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_mutex.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_mutex.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1648,8 +1648,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_semaphore.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_semaphore.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1766,8 +1766,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_spinlock.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_spinlock.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -1881,8 +1881,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_string.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_string.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2006,8 +2006,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_task.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_task.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2130,8 +2130,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_timer.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_timer.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2248,8 +2248,8 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_wait.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_wait.c
 kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -2365,5 +2365,5 @@ kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_inner.h
- /home/bearpi/Desktop/hid/kernel/osal/src/liteos/osal_workqueue.c
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_inner.h
+ /home/bearpi/Desktop/tp/kernel/osal/src/liteos/osal_workqueue.c

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb2.0_phy_app.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified/usb_porting.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb2.0_phy_app.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/phy/usb_phy.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/stub/usbd_hid_mouse.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified/usb_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

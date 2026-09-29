@@ -312,17 +312,17 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/tcxo.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/tcxo.c
 stdbool.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/common_def.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/common_def.h
 soc_osal.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/soc_osal.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/soc_osal.h
 hal_tcxo.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/hal_tcxo.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/hal_tcxo.h
 tcxo_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/tcxo_porting.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/tcxo_porting.h
 tcxo.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/tcxo/tcxo.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/tcxo/tcxo.h
 

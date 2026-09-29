@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/pinmux/CMakeFiles/pinctrl.dir/depend.make
@@ -59,16 +59,16 @@ include driver/pinmux/CMakeFiles/pinctrl.dir/flags.make
 
 driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj: driver/pinmux/CMakeFiles/pinctrl.dir/flags.make
 driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj: ../../../../drivers/drivers/driver/pinmux/pinctrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pinctrl.dir/pinctrl.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux/pinctrl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pinctrl.dir/pinctrl.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/pinmux/pinctrl.c
 
 driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pinctrl.dir/pinctrl.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux/pinctrl.c > CMakeFiles/pinctrl.dir/pinctrl.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/pinmux/pinctrl.c > CMakeFiles/pinctrl.dir/pinctrl.c.i
 
 driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pinctrl.dir/pinctrl.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux/pinctrl.c -o CMakeFiles/pinctrl.dir/pinctrl.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PINCTRL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/pinmux/pinctrl.c -o CMakeFiles/pinctrl.dir/pinctrl.c.s
 
 # Object files for target pinctrl
 pinctrl_OBJECTS = \
@@ -80,9 +80,9 @@ pinctrl_EXTERNAL_OBJECTS =
 driver/pinmux/libpinctrl.a: driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj
 driver/pinmux/libpinctrl.a: driver/pinmux/CMakeFiles/pinctrl.dir/build.make
 driver/pinmux/libpinctrl.a: driver/pinmux/CMakeFiles/pinctrl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpinctrl.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/pinctrl.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pinctrl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpinctrl.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/pinctrl.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pinctrl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/pinmux/CMakeFiles/pinctrl.dir/build: driver/pinmux/libpinctrl.a
@@ -90,10 +90,10 @@ driver/pinmux/CMakeFiles/pinctrl.dir/build: driver/pinmux/libpinctrl.a
 .PHONY : driver/pinmux/CMakeFiles/pinctrl.dir/build
 
 driver/pinmux/CMakeFiles/pinctrl.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/pinctrl.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux && $(CMAKE_COMMAND) -P CMakeFiles/pinctrl.dir/cmake_clean.cmake
 .PHONY : driver/pinmux/CMakeFiles/pinctrl.dir/clean
 
 driver/pinmux/CMakeFiles/pinctrl.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux/CMakeFiles/pinctrl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/driver/pinmux /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/pinmux/CMakeFiles/pinctrl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/pinmux/CMakeFiles/pinctrl.dir/depend
 

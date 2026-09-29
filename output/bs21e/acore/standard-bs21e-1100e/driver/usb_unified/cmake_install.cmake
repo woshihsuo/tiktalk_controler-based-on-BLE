@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/usb_unified
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/usb_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

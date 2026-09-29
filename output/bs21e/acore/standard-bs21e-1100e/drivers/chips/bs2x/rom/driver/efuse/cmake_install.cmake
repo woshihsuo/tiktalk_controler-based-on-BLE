@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/rom/driver/efuse
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/rom/driver/efuse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

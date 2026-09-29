@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj"
+  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/pmu/pmu.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/pmu/pmu_interrupt.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/pmu/pmu_ldo.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

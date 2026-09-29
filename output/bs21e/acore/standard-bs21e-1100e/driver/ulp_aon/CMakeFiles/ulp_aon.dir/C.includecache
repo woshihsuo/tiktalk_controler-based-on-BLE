@@ -154,19 +154,19 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
 ulp_aon_control.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/ulp_aon_control.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.h
 core.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/core.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/core.h
 hal_reg_config.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/hal_reg_config.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/hal_reg_config.h
 tcxo.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/tcxo.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/tcxo.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/ulp_aon_control.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.h
 non_os.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/non_os.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/non_os.h
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/chip_io.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/chip_io.h
 

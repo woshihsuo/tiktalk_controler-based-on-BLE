@@ -26,4 +26,4 @@ middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_b
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/update/inner_include/upg_alloc.h
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_backup.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/update/storage/upg_backup.c

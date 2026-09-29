@@ -138,8 +138,8 @@ middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj
  ../../../../open_source/GmSSL3.1.1/include/gmssl/sha1.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/sha2.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/sm3.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/storage_common.h
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_crypto.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/storage_common.h
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -270,4 +270,4 @@ middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/nv/nv_porting/nv_flash.c
+ /home/bearpi/Desktop/tp/middleware/chips/bs2x/nv/nv_porting/nv_flash.c

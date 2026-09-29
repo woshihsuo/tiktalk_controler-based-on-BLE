@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_plt_cmd_table
+# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_plt_cmd_table
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

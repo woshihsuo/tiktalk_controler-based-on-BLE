@@ -92,13 +92,13 @@ bits/stdint.h
 
 ../../../../middleware/utils/common_headers/chip_definitions.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/adc/adc.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/adc/adc.c
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/adc/common_def.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/adc/common_def.h
 hal_adc.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/adc/hal_adc.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/adc/hal_adc.h
 adc_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/adc/adc_porting.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/adc/adc_porting.h
 adc.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/adc/adc.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/adc/adc.h
 

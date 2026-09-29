@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_ROM_PATCH.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/GENERAT_ROM_PATCH.dir/progress.make
 
 CMakeFiles/GENERAT_ROM_PATCH:
-	/usr/bin/python3 /home/bearpi/Desktop/hid/build/script/patch/patch_riscv.py application.bin application_rom.bin application.nm /home/bearpi/Desktop/hid/build/config/target_config/bs21e/patch_config acore standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e True
+	/usr/bin/python3 /home/bearpi/Desktop/tp/build/script/patch/patch_riscv.py application.bin application_rom.bin application.nm /home/bearpi/Desktop/tp/build/config/target_config/bs21e/patch_config acore standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e True
 
 GENERAT_ROM_PATCH: CMakeFiles/GENERAT_ROM_PATCH
 GENERAT_ROM_PATCH: CMakeFiles/GENERAT_ROM_PATCH.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/GENERAT_ROM_PATCH.dir/clean:
 .PHONY : CMakeFiles/GENERAT_ROM_PATCH.dir/clean
 
 CMakeFiles/GENERAT_ROM_PATCH.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_ROM_PATCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_ROM_PATCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_ROM_PATCH.dir/depend
 

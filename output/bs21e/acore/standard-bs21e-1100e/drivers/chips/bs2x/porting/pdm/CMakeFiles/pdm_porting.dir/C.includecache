@@ -52,21 +52,21 @@ stddef.h
 stdbool.h
 -
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/pdm_porting.c
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/pdm_porting.c
 hal_pdm_v150.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/hal_pdm_v150.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/hal_pdm_v150.h
 pdm_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/pdm_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/pdm_porting.h
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/chip_io.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/chip_io.h
 osal_debug.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/osal_debug.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/osal_debug.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/pdm_porting.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/pdm_porting.h
 stdint.h
 -
 stdbool.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pdm/common_def.h
+/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pdm/common_def.h
 

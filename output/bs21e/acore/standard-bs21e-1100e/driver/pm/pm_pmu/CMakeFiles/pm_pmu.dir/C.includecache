@@ -38,7 +38,7 @@ bits/alltypes.h
 bits/stdint.h
 -
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pm/pm_pmu/pm_pmu.c
 pm_pmu.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pm/pm_pmu/pm_pmu.h
+/home/bearpi/Desktop/tp/drivers/drivers/driver/pm/pm_pmu/pm_pmu.h
 

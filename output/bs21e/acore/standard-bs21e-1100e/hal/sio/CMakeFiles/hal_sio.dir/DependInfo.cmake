@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj"
+  "/home/bearpi/Desktop/tp/drivers/drivers/hal/sio/hal_sio_v151/hal_sio_v151_regs_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

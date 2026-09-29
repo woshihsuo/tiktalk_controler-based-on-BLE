@@ -105,4 +105,4 @@ driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/rtc_unified/rtc.c
+ /home/bearpi/Desktop/tp/drivers/drivers/driver/rtc_unified/rtc.c

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/depend.make
@@ -59,16 +59,16 @@ include middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/flags
 
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj: middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/flags.make
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj: ../../../../middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_cmd_port.dir/at_porting.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_cmd_port.dir/at_porting.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
 
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at_cmd_port.dir/at_porting.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c > CMakeFiles/at_cmd_port.dir/at_porting.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c > CMakeFiles/at_cmd_port.dir/at_porting.c.i
 
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at_cmd_port.dir/at_porting.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c -o CMakeFiles/at_cmd_port.dir/at_porting.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c -o CMakeFiles/at_cmd_port.dir/at_porting.c.s
 
 # Object files for target at_cmd_port
 at_cmd_port_OBJECTS = \
@@ -80,9 +80,9 @@ at_cmd_port_EXTERNAL_OBJECTS =
 middleware/chips/bs2x/at/at_cmd_porting/libat_cmd_port.a: middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj
 middleware/chips/bs2x/at/at_cmd_porting/libat_cmd_port.a: middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/build.make
 middleware/chips/bs2x/at/at_cmd_porting/libat_cmd_port.a: middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libat_cmd_port.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -P CMakeFiles/at_cmd_port.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/at_cmd_port.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libat_cmd_port.a"
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -P CMakeFiles/at_cmd_port.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/at_cmd_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/build: middleware/chips/bs2x/at/at_cmd_porting/libat_cmd_port.a
@@ -90,10 +90,10 @@ middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/build: middle
 .PHONY : middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/build
 
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -P CMakeFiles/at_cmd_port.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting && $(CMAKE_COMMAND) -P CMakeFiles/at_cmd_port.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/clean
 
 middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/depend
 

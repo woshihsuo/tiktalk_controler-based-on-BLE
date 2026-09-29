@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/usb_unified/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/clean
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/preinstall
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/rule
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/rule
 .PHONY : drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ usb_unified_port: drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_
 
 # fast build rule for target.
 usb_unified_port/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build
 .PHONY : usb_unified_port/fast
 
 phy/usb2.0_phy_app.obj: phy/usb2.0_phy_app.c.obj
@@ -131,7 +131,7 @@ phy/usb2.0_phy_app.obj: phy/usb2.0_phy_app.c.obj
 
 # target to build an object file
 phy/usb2.0_phy_app.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.obj
 .PHONY : phy/usb2.0_phy_app.c.obj
 
 phy/usb2.0_phy_app.i: phy/usb2.0_phy_app.c.i
@@ -140,7 +140,7 @@ phy/usb2.0_phy_app.i: phy/usb2.0_phy_app.c.i
 
 # target to preprocess a source file
 phy/usb2.0_phy_app.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.i
 .PHONY : phy/usb2.0_phy_app.c.i
 
 phy/usb2.0_phy_app.s: phy/usb2.0_phy_app.c.s
@@ -149,7 +149,7 @@ phy/usb2.0_phy_app.s: phy/usb2.0_phy_app.c.s
 
 # target to generate assembly for a file
 phy/usb2.0_phy_app.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb2.0_phy_app.c.s
 .PHONY : phy/usb2.0_phy_app.c.s
 
 phy/usb_phy.obj: phy/usb_phy.c.obj
@@ -158,7 +158,7 @@ phy/usb_phy.obj: phy/usb_phy.c.obj
 
 # target to build an object file
 phy/usb_phy.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.obj
 .PHONY : phy/usb_phy.c.obj
 
 phy/usb_phy.i: phy/usb_phy.c.i
@@ -167,7 +167,7 @@ phy/usb_phy.i: phy/usb_phy.c.i
 
 # target to preprocess a source file
 phy/usb_phy.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.i
 .PHONY : phy/usb_phy.c.i
 
 phy/usb_phy.s: phy/usb_phy.c.s
@@ -176,7 +176,7 @@ phy/usb_phy.s: phy/usb_phy.c.s
 
 # target to generate assembly for a file
 phy/usb_phy.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/phy/usb_phy.c.s
 .PHONY : phy/usb_phy.c.s
 
 stub/usbd_hid.obj: stub/usbd_hid.c.obj
@@ -185,7 +185,7 @@ stub/usbd_hid.obj: stub/usbd_hid.c.obj
 
 # target to build an object file
 stub/usbd_hid.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.obj
 .PHONY : stub/usbd_hid.c.obj
 
 stub/usbd_hid.i: stub/usbd_hid.c.i
@@ -194,7 +194,7 @@ stub/usbd_hid.i: stub/usbd_hid.c.i
 
 # target to preprocess a source file
 stub/usbd_hid.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.i
 .PHONY : stub/usbd_hid.c.i
 
 stub/usbd_hid.s: stub/usbd_hid.c.s
@@ -203,7 +203,7 @@ stub/usbd_hid.s: stub/usbd_hid.c.s
 
 # target to generate assembly for a file
 stub/usbd_hid.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid.c.s
 .PHONY : stub/usbd_hid.c.s
 
 stub/usbd_hid_mouse.obj: stub/usbd_hid_mouse.c.obj
@@ -212,7 +212,7 @@ stub/usbd_hid_mouse.obj: stub/usbd_hid_mouse.c.obj
 
 # target to build an object file
 stub/usbd_hid_mouse.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.obj
 .PHONY : stub/usbd_hid_mouse.c.obj
 
 stub/usbd_hid_mouse.i: stub/usbd_hid_mouse.c.i
@@ -221,7 +221,7 @@ stub/usbd_hid_mouse.i: stub/usbd_hid_mouse.c.i
 
 # target to preprocess a source file
 stub/usbd_hid_mouse.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.i
 .PHONY : stub/usbd_hid_mouse.c.i
 
 stub/usbd_hid_mouse.s: stub/usbd_hid_mouse.c.s
@@ -230,7 +230,7 @@ stub/usbd_hid_mouse.s: stub/usbd_hid_mouse.c.s
 
 # target to generate assembly for a file
 stub/usbd_hid_mouse.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/stub/usbd_hid_mouse.c.s
 .PHONY : stub/usbd_hid_mouse.c.s
 
 usb_porting.obj: usb_porting.c.obj
@@ -239,7 +239,7 @@ usb_porting.obj: usb_porting.c.obj
 
 # target to build an object file
 usb_porting.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.obj
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.obj
 .PHONY : usb_porting.c.obj
 
 usb_porting.i: usb_porting.c.i
@@ -248,7 +248,7 @@ usb_porting.i: usb_porting.c.i
 
 # target to preprocess a source file
 usb_porting.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.i
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.i
 .PHONY : usb_porting.c.i
 
 usb_porting.s: usb_porting.c.s
@@ -257,7 +257,7 @@ usb_porting.s: usb_porting.c.s
 
 # target to generate assembly for a file
 usb_porting.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.s
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/build.make drivers/chips/bs2x/porting/usb_unified/CMakeFiles/usb_unified_port.dir/usb_porting.c.s
 .PHONY : usb_porting.c.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

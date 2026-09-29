@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/protocol/nfc/controller
+# Install script for directory: /home/bearpi/Desktop/tp/protocol/nfc/controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

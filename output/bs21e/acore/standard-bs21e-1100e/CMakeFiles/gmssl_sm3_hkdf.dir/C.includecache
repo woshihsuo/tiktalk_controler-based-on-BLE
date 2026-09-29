@@ -138,7 +138,7 @@ string.h
 stdint.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/digest.c
+/home/bearpi/Desktop/tp/open_source/GmSSL3.1.1/src/digest.c
 stdio.h
 -
 gmssl/sm3.h
@@ -156,7 +156,7 @@ gmssl/sha1.h
 gmssl/sha2.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/hkdf.c
+/home/bearpi/Desktop/tp/open_source/GmSSL3.1.1/src/hkdf.c
 stdio.h
 -
 stdlib.h
@@ -170,7 +170,7 @@ gmssl/hmac.h
 gmssl/error.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/hmac.c
+/home/bearpi/Desktop/tp/open_source/GmSSL3.1.1/src/hmac.c
 string.h
 -
 gmssl/hmac.h
@@ -178,7 +178,7 @@ gmssl/hmac.h
 gmssl/error.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3.c
+/home/bearpi/Desktop/tp/open_source/GmSSL3.1.1/src/sm3.c
 string.h
 -
 gmssl/sm3.h

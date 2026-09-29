@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/usb_unified
+# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/usb_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,7 +12,7 @@ chip_definitions.h
 
 ../../../../middleware/utils/common_headers/chip_definitions.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
 chip_core_definition.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/chip_core_definition.h
+/home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_sleep/chip_core_definition.h
 

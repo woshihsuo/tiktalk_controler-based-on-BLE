@@ -138,9 +138,9 @@ std_def.h
 stdint.h
 ../../../../middleware/utils/error_code/public/stdint.h
 
-/home/bearpi/Desktop/hid/middleware/utils/error_code/private/error_code.c
+/home/bearpi/Desktop/tp/middleware/utils/error_code/private/error_code.c
 error_code.h
-/home/bearpi/Desktop/hid/middleware/utils/error_code/private/error_code.h
+/home/bearpi/Desktop/tp/middleware/utils/error_code/private/error_code.h
 non_os.h
-/home/bearpi/Desktop/hid/middleware/utils/error_code/private/non_os.h
+/home/bearpi/Desktop/tp/middleware/utils/error_code/private/non_os.h
 
