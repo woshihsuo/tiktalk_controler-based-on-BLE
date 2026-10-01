@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libat_btc_cmd.a  CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libat_btc_cmd.a  CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj

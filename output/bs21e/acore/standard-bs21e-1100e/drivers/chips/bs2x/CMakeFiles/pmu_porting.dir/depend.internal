@@ -31,8 +31,8 @@ drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu.h
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -201,8 +201,8 @@ drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj
  ../../../../middleware/utils/pm/pm_fsm/pm_fsm.h
  ../../../../middleware/utils/pm/pm_veto/pm_veto.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_interrupt.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_interrupt.h
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -231,5 +231,5 @@ drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_ldo.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_ldo.h

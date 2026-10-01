@@ -122,4 +122,4 @@ driver/watchdog/CMakeFiles/watchdog.dir/watchdog.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/watchdog/watchdog.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/watchdog/watchdog.c

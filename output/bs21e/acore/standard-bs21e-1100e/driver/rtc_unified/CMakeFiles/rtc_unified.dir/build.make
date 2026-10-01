@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/rtc_unified/CMakeFiles/rtc_unified.dir/depend.make
@@ -59,16 +59,16 @@ include driver/rtc_unified/CMakeFiles/rtc_unified.dir/flags.make
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj: driver/rtc_unified/CMakeFiles/rtc_unified.dir/flags.make
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj: ../../../../drivers/drivers/driver/rtc_unified/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtc_unified.dir/rtc.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/driver/rtc_unified/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rtc_unified.dir/rtc.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/rtc_unified/rtc.c
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtc_unified.dir/rtc.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/driver/rtc_unified/rtc.c > CMakeFiles/rtc_unified.dir/rtc.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/rtc_unified/rtc.c > CMakeFiles/rtc_unified.dir/rtc.c.i
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtc_unified.dir/rtc.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/driver/rtc_unified/rtc.c -o CMakeFiles/rtc_unified.dir/rtc.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/rtc_unified/rtc.c -o CMakeFiles/rtc_unified.dir/rtc.c.s
 
 # Object files for target rtc_unified
 rtc_unified_OBJECTS = \
@@ -80,9 +80,9 @@ rtc_unified_EXTERNAL_OBJECTS =
 driver/rtc_unified/librtc_unified.a: driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj
 driver/rtc_unified/librtc_unified.a: driver/rtc_unified/CMakeFiles/rtc_unified.dir/build.make
 driver/rtc_unified/librtc_unified.a: driver/rtc_unified/CMakeFiles/rtc_unified.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librtc_unified.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtc_unified.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library librtc_unified.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtc_unified.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/build: driver/rtc_unified/librtc_unified.a
@@ -90,10 +90,10 @@ driver/rtc_unified/CMakeFiles/rtc_unified.dir/build: driver/rtc_unified/librtc_u
 .PHONY : driver/rtc_unified/CMakeFiles/rtc_unified.dir/build
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified && $(CMAKE_COMMAND) -P CMakeFiles/rtc_unified.dir/cmake_clean.cmake
 .PHONY : driver/rtc_unified/CMakeFiles/rtc_unified.dir/clean
 
 driver/rtc_unified/CMakeFiles/rtc_unified.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/driver/rtc_unified /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified/CMakeFiles/rtc_unified.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/rtc_unified /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/rtc_unified/CMakeFiles/rtc_unified.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/rtc_unified/CMakeFiles/rtc_unified.dir/depend
 

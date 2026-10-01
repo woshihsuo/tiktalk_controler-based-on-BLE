@@ -16,5 +16,5 @@ drivers/chips/bs2x/porting/pmp/CMakeFiles/pmp_port.dir/pmp_porting.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pmp/pmp_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pmp/pmp_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pmp/pmp_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pmp/pmp_porting.h

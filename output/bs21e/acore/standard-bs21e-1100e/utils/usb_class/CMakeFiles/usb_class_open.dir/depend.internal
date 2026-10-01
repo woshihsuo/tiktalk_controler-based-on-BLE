@@ -122,8 +122,8 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
 utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_mem.h
@@ -243,7 +243,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/composite_open.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/composite_open.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_mem.h
@@ -369,7 +369,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_acm.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_acm.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_atomic.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
@@ -498,7 +498,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_acm_hid.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_acm_hid.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_atomic.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
@@ -619,7 +619,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_dfu.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_dfu.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj
  ../../../../drivers/chips/bs2x/porting/usb_unified/usb_porting.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_atomic.h
@@ -744,7 +744,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_hid.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_hid.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_mem.h
@@ -866,7 +866,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_uac.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_uac.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_atomic.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
@@ -989,7 +989,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_uac_hid.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_uac_hid.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_mem.h
@@ -1107,7 +1107,7 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/f_usb_custom.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/f_usb_custom.c
 utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_atomic.h
  ../../../../drivers/drivers/driver/usb_unified/adapt_liteos/kal/include/kal_base.h
@@ -1234,4 +1234,4 @@ utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/usb_class/usbd_hid.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/usb_class/usbd_hid.c

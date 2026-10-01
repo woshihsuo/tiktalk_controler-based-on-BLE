@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

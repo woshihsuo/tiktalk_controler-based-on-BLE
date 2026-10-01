@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/dfx/diag_dfx_cmd/diag_audio_probe
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/diag_dfx_cmd/diag_audio_probe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -900,35 +900,35 @@ chip_definitions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/ir_porting.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/ir_porting.c
 chip_core_irq.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/chip_core_irq.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/chip_core_irq.h
 common_def.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/common_def.h
 timer_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/timer_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/timer_porting.h
 arch_port.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/arch_port.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/arch_port.h
 sfc.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/sfc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/sfc.h
 adc.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/adc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/adc.h
 gpio.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/gpio.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/gpio.h
 pinctrl.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/pinctrl.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/pinctrl.h
 ir_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/ir_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/ir_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/ir_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/ir_porting.h
 stdint.h
 -
 stdbool.h
 -
 chip_core_irq.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/chip_core_irq.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/chip_core_irq.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/platform_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/platform_core.h
 soc_osal.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/ir/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/ir/soc_osal.h
 

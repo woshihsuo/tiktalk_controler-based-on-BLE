@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/boot/boot_porting/serial
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/boot/boot_porting/serial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

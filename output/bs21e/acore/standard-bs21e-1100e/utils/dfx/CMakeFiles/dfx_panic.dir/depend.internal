@@ -181,7 +181,7 @@ utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj
  ../../../../middleware/utils/dfx/preserve/public/crash_data.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/panic/private/panic.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/panic/private/panic.c
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product_evb_standard.h
@@ -196,4 +196,4 @@ utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/panic/private/panic_rom.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/panic/private/panic_rom.c

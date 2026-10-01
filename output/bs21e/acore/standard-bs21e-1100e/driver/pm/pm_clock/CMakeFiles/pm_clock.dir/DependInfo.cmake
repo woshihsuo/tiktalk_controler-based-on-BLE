@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/driver/pm/pm_clock/pm_clock.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_clock/CMakeFiles/pm_clock.dir/pm_clock.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pm/pm_clock/pm_clock.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/pm/pm_clock/CMakeFiles/pm_clock.dir/pm_clock.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

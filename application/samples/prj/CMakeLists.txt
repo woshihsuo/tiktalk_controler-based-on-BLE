@@ -6,6 +6,7 @@
         ${CMAKE_CURRENT_SOURCE_DIR}/bsp/src/ble_hid.c
         ${CMAKE_CURRENT_SOURCE_DIR}/bsp/src/sle_measure_dis.c
         ${CMAKE_CURRENT_SOURCE_DIR}/driver/src/uhal_spi.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/bsp/src/key.c
     )
 
     set(PUBLIC_HEADER_LIST

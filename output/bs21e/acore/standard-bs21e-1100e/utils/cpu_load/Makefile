@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/cpu_load/CMakeFiles/cpu_load.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/CMakeFiles/cpu_load.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/cpu_load/CMakeFiles/cpu_load.dir/rule
 .PHONY : utils/cpu_load/CMakeFiles/cpu_load.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ cpu_load: utils/cpu_load/CMakeFiles/cpu_load.dir/rule
 
 # fast build rule for target.
 cpu_load/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/build
 .PHONY : cpu_load/fast
 
 private/cpu_load.obj: private/cpu_load.c.obj
@@ -131,7 +131,7 @@ private/cpu_load.obj: private/cpu_load.c.obj
 
 # target to build an object file
 private/cpu_load.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj
 .PHONY : private/cpu_load.c.obj
 
 private/cpu_load.i: private/cpu_load.c.i
@@ -140,7 +140,7 @@ private/cpu_load.i: private/cpu_load.c.i
 
 # target to preprocess a source file
 private/cpu_load.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.i
 .PHONY : private/cpu_load.c.i
 
 private/cpu_load.s: private/cpu_load.c.s
@@ -149,7 +149,7 @@ private/cpu_load.s: private/cpu_load.c.s
 
 # target to generate assembly for a file
 private/cpu_load.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/cpu_load/CMakeFiles/cpu_load.dir/build.make utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.s
 .PHONY : private/cpu_load.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

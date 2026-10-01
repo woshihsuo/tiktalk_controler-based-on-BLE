@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/rule
 .PHONY : kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ driverbase: kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeF
 
 # fast build rule for target.
 driverbase/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build
 .PHONY : driverbase/fast
 
 src/los_device.obj: src/los_device.c.obj
@@ -131,7 +131,7 @@ src/los_device.obj: src/los_device.c.obj
 
 # target to build an object file
 src/los_device.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.obj
 .PHONY : src/los_device.c.obj
 
 src/los_device.i: src/los_device.c.i
@@ -140,7 +140,7 @@ src/los_device.i: src/los_device.c.i
 
 # target to preprocess a source file
 src/los_device.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.i
 .PHONY : src/los_device.c.i
 
 src/los_device.s: src/los_device.c.s
@@ -149,7 +149,7 @@ src/los_device.s: src/los_device.c.s
 
 # target to generate assembly for a file
 src/los_device.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.s
 .PHONY : src/los_device.c.s
 
 src/los_driver.obj: src/los_driver.c.obj
@@ -158,7 +158,7 @@ src/los_driver.obj: src/los_driver.c.obj
 
 # target to build an object file
 src/los_driver.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.obj
 .PHONY : src/los_driver.c.obj
 
 src/los_driver.i: src/los_driver.c.i
@@ -167,7 +167,7 @@ src/los_driver.i: src/los_driver.c.i
 
 # target to preprocess a source file
 src/los_driver.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.i
 .PHONY : src/los_driver.c.i
 
 src/los_driver.s: src/los_driver.c.s
@@ -176,7 +176,7 @@ src/los_driver.s: src/los_driver.c.s
 
 # target to generate assembly for a file
 src/los_driver.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.s
 .PHONY : src/los_driver.c.s
 
 src/los_driver_pm.obj: src/los_driver_pm.c.obj
@@ -185,7 +185,7 @@ src/los_driver_pm.obj: src/los_driver_pm.c.obj
 
 # target to build an object file
 src/los_driver_pm.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.obj
 .PHONY : src/los_driver_pm.c.obj
 
 src/los_driver_pm.i: src/los_driver_pm.c.i
@@ -194,7 +194,7 @@ src/los_driver_pm.i: src/los_driver_pm.c.i
 
 # target to preprocess a source file
 src/los_driver_pm.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.i
 .PHONY : src/los_driver_pm.c.i
 
 src/los_driver_pm.s: src/los_driver_pm.c.s
@@ -203,7 +203,7 @@ src/los_driver_pm.s: src/los_driver_pm.c.s
 
 # target to generate assembly for a file
 src/los_driver_pm.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.s
 .PHONY : src/los_driver_pm.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -32,5 +32,5 @@ middleware/chips/bs2x/pm/pm_veto/CMakeFiles/pm_veto_porting.dir/pm_veto_porting.
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_veto/pm_veto_porting.h

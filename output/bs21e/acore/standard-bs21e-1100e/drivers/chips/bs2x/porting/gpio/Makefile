@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/gpio/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/gpio/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule
 .PHONY : drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ gpio_port: drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/rule
 
 # fast build rule for target.
 gpio_port/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build
 .PHONY : gpio_port/fast
 
 gpio_porting.obj: gpio_porting.c.obj
@@ -131,7 +131,7 @@ gpio_porting.obj: gpio_porting.c.obj
 
 # target to build an object file
 gpio_porting.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.obj
 .PHONY : gpio_porting.c.obj
 
 gpio_porting.i: gpio_porting.c.i
@@ -140,7 +140,7 @@ gpio_porting.i: gpio_porting.c.i
 
 # target to preprocess a source file
 gpio_porting.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.i
 .PHONY : gpio_porting.c.i
 
 gpio_porting.s: gpio_porting.c.s
@@ -149,7 +149,7 @@ gpio_porting.s: gpio_porting.c.s
 
 # target to generate assembly for a file
 gpio_porting.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.s
 .PHONY : gpio_porting.c.s
 
 ulp_gpio.obj: ulp_gpio.c.obj
@@ -158,7 +158,7 @@ ulp_gpio.obj: ulp_gpio.c.obj
 
 # target to build an object file
 ulp_gpio.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.obj
 .PHONY : ulp_gpio.c.obj
 
 ulp_gpio.i: ulp_gpio.c.i
@@ -167,7 +167,7 @@ ulp_gpio.i: ulp_gpio.c.i
 
 # target to preprocess a source file
 ulp_gpio.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.i
 .PHONY : ulp_gpio.c.i
 
 ulp_gpio.s: ulp_gpio.c.s
@@ -176,7 +176,7 @@ ulp_gpio.s: ulp_gpio.c.s
 
 # target to generate assembly for a file
 ulp_gpio.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/build.make drivers/chips/bs2x/porting/gpio/CMakeFiles/gpio_port.dir/ulp_gpio.c.s
 .PHONY : ulp_gpio.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

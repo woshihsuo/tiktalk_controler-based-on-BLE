@@ -14,5 +14,5 @@ utils/partition/CMakeFiles/partition.dir/partition.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
  ../../../../middleware/chips/bs21e/partition/include/partition_resource_id.h
  ../../../../middleware/chips/bs2x/partition/partition_porting.h
- /home/bearpi/Desktop/hid/middleware/utils/partition/partition.c
- /home/bearpi/Desktop/hid/middleware/utils/partition/partition_info.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/partition/partition.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/partition/partition_info.h

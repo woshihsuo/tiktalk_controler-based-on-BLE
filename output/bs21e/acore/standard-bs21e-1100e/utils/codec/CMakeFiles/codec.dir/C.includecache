@@ -572,27 +572,27 @@ sys/time.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_codec_comm.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_codec_comm.c
 audio_common.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_common.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_common.h
 
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_decoder.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_decoder.c
 common_def.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/common_def.h
 audio_dec_codec.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_dec_codec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_dec_codec.h
 
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_encoder.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_encoder.c
 sys/time.h
 -
 audio_enc_codec.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_enc_codec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_enc_codec.h
 
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_profile_calc.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_profile_calc.c
 stdio.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/common_def.h
 audio_profile_calc.h
-/home/bearpi/Desktop/hid/middleware/utils/codec/src/audio_profile_calc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/codec/src/audio_profile_calc.h
 

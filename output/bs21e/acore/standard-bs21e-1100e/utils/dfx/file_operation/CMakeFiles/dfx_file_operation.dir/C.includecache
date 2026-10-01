@@ -966,9 +966,9 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_file_operation.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_file_operation.c
 dfx_file_operation.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_file_operation.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_file_operation.h
 string.h
 -
 limits.h
@@ -976,29 +976,29 @@ limits.h
 stdlib.h
 -
 securec.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/securec.h
 errcode.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/errcode.h
 unistd.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/unistd.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/unistd.h
 fcntl.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/fcntl.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/fcntl.h
 soc_log.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/soc_log.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/soc_log.h
 sys/stat.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/sys/stat.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/sys/stat.h
 dirent.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dirent.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dirent.h
 diag_adapt_layer.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/diag_adapt_layer.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/diag_adapt_layer.h
 
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_file_operation.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_file_operation.h
 errcode.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/errcode.h
 stdbool.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/stdbool.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/stdbool.h
 dfx_feature_config.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_feature_config.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_feature_config.h
 common_def.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/common_def.h
 

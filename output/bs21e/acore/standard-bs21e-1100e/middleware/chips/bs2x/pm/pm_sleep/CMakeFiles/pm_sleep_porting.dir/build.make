@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/depend.make
@@ -59,21 +59,21 @@ include middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/flags.
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj: middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/flags.make
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj: ../../../../middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c > CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c > CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.i
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c -o CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SLEEP_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sleep/pm_sleep_porting.c -o CMakeFiles/pm_sleep_porting.dir/pm_sleep_porting.c.s
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj: middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/flags.make
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj: ../../../../middleware/chips/bs2x/pm/pm_sleep/lowpower.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=LOWPOWER_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(ASM_DEFINES) -DTHIS_FILE_ID=LOWPOWER_S -DTHIS_MOD_ID=LOG_PFMODULE $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sleep/lowpower.S
 
 # Object files for target pm_sleep_porting
 pm_sleep_porting_OBJECTS = \
@@ -87,9 +87,9 @@ middleware/chips/bs2x/pm/pm_sleep/libpm_sleep_porting.a: middleware/chips/bs2x/p
 middleware/chips/bs2x/pm/pm_sleep/libpm_sleep_porting.a: middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/lowpower.S.obj
 middleware/chips/bs2x/pm/pm_sleep/libpm_sleep_porting.a: middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build.make
 middleware/chips/bs2x/pm/pm_sleep/libpm_sleep_porting.a: middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libpm_sleep_porting.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -P CMakeFiles/pm_sleep_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_sleep_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libpm_sleep_porting.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -P CMakeFiles/pm_sleep_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_sleep_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build: middleware/chips/bs2x/pm/pm_sleep/libpm_sleep_porting.a
@@ -97,10 +97,10 @@ middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build: middlew
 .PHONY : middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/build
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -P CMakeFiles/pm_sleep_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep && $(CMAKE_COMMAND) -P CMakeFiles/pm_sleep_porting.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/clean
 
 middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sleep /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sleep /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/pm/pm_sleep/CMakeFiles/pm_sleep_porting.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/driver/spi
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/spi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

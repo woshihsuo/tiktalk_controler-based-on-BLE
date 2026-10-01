@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/depend.make
@@ -59,42 +59,42 @@ include drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/flags.make
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj: ../../../../drivers/chips/bs2x/pmu/pmu_interrupt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_interrupt.c
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.c > CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_interrupt.c > CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.i
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_interrupt.c -o CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_INTERRUPT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_interrupt.c -o CMakeFiles/pmu_porting.dir/pmu/pmu_interrupt.c.s
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj: ../../../../drivers/chips/bs2x/pmu/pmu_ldo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_ldo.c
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.c > CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_ldo.c > CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.i
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu_ldo.c -o CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_LDO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu_ldo.c -o CMakeFiles/pmu_porting.dir/pmu/pmu_ldo.c.s
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/flags.make
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj: ../../../../drivers/chips/bs2x/pmu/pmu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj   -c /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu.c
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pmu_porting.dir/pmu/pmu.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.c > CMakeFiles/pmu_porting.dir/pmu/pmu.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu.c > CMakeFiles/pmu_porting.dir/pmu/pmu.c.i
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pmu_porting.dir/pmu/pmu.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/chips/bs2x/pmu/pmu.c -o CMakeFiles/pmu_porting.dir/pmu/pmu.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PMU_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/pmu/pmu.c -o CMakeFiles/pmu_porting.dir/pmu/pmu.c.s
 
 # Object files for target pmu_porting
 pmu_porting_OBJECTS = \
@@ -110,9 +110,9 @@ drivers/chips/bs2x/libpmu_porting.a: drivers/chips/bs2x/CMakeFiles/pmu_porting.d
 drivers/chips/bs2x/libpmu_porting.a: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/pmu/pmu.c.obj
 drivers/chips/bs2x/libpmu_porting.a: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build.make
 drivers/chips/bs2x/libpmu_porting.a: drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libpmu_porting.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/pmu_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pmu_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libpmu_porting.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/pmu_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pmu_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build: drivers/chips/bs2x/libpmu_porting.a
@@ -120,10 +120,10 @@ drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build: drivers/chips/bs2x/libpmu_p
 .PHONY : drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/build
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/pmu_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x && $(CMAKE_COMMAND) -P CMakeFiles/pmu_porting.dir/cmake_clean.cmake
 .PHONY : drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/clean
 
 drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/chips/bs2x /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/bs2x/CMakeFiles/pmu_porting.dir/depend
 

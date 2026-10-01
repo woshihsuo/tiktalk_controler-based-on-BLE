@@ -17,7 +17,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_bitmap.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_bitmap.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_err.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_builddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/include/los_err.h
@@ -28,7 +28,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_err.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_err.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_event.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -99,7 +99,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_event.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_event.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_exc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -174,7 +174,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/uart.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_exc.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_exc.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_hwi.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
@@ -253,7 +253,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_hwi.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_hwi.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_misc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -331,7 +331,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_misc.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_misc.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_mp.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -401,7 +401,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_mp.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_mp.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_mux.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -476,7 +476,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_mux.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_mux.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_percpu.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -525,7 +525,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_percpu.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_percpu.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_printf.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -593,7 +593,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/uart.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_printf.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_printf.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_queue.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -666,7 +666,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_queue.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_queue.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_sem.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -741,7 +741,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_sem.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_sem.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_sortlink.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -811,7 +811,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_sortlink.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_sortlink.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_stackinfo.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cpu.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/exception.h
@@ -845,7 +845,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_stackinfo.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_stackinfo.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_swtmr.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -918,7 +918,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_swtmr.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_swtmr.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_task.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1002,7 +1002,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_task.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_task.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/los_tick.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1074,7 +1074,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_tick.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/los_tick.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/mem/bestfit_little/los_heap.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1148,8 +1148,8 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_heap.c
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory_internal.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_heap.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory_internal.h
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/mem/bestfit_little/los_memory.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1215,8 +1215,8 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory.c
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory_internal.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/mem/bestfit_little/los_memory_internal.h
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/sched/sched_sq/los_priqueue.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1284,7 +1284,7 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/sched/sched_sq/los_priqueue.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/sched/sched_sq/los_priqueue.c
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir/sched/sched_sq/los_sched.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/barrier.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/cache.h
@@ -1361,4 +1361,4 @@ kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/CMakeFiles/base.dir
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/platform.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
- /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/sched/sched_sq/los_sched.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base/sched/sched_sq/los_sched.c

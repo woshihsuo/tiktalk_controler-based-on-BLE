@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libport_pinctrl.a  CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libport_pinctrl.a  CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj

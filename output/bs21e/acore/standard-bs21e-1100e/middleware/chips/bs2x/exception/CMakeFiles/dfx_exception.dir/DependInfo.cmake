@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.s" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/exception/exception_riscv.s" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -444,7 +444,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../open_source/libboundscheck/src"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/exception/exception_riscv.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/exception/exception_riscv.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

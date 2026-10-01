@@ -706,31 +706,31 @@ chip_definitions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/qdec_porting.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/qdec_porting.c
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/chip_io.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/chip_io.h
 gpio.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/gpio.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/gpio.h
 osal_interrupt.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/osal_interrupt.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/osal_interrupt.h
 pinctrl_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/pinctrl_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/pinctrl_porting.h
 pinctrl.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/pinctrl.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/pinctrl.h
 arch_port.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/arch_port.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/arch_port.h
 qdec.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/qdec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/qdec.h
 hal_qdec_v150.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/hal_qdec_v150.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/hal_qdec_v150.h
 hal_qdec_v150_regs_op.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/hal_qdec_v150_regs_op.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/hal_qdec_v150_regs_op.h
 qdec_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/qdec_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/qdec_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/qdec_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/qdec_porting.h
 stdint.h
 -
 pinctrl_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/qdec/pinctrl_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/qdec/pinctrl_porting.h
 

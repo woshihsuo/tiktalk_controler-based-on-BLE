@@ -804,23 +804,23 @@ ipc_actions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/application_version.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/application_version.c
 stdbool.h
 -
 stddef.h
 -
 build_version_info.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/build_version_info.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/build_version_info.h
 application_version.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/application_version.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/application_version.h
 build_version.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/build_version.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/build_version.h
 securec.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/securec.h
 cpu_utils.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/cpu_utils.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/cpu_utils.h
 flash.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/flash.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/flash.h
 bootloader_configuration.h
-/home/bearpi/Desktop/hid/middleware/utils/app_version/private/bootloader_configuration.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/bootloader_configuration.h
 

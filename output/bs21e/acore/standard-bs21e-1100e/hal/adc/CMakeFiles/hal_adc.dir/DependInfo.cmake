@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/adc/hal_adc.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/hal_adc.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/adc/v153/hal_adc_v153.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153_regs_op.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/adc/hal_adc.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/hal_adc.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/adc/v153/hal_adc_v153.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

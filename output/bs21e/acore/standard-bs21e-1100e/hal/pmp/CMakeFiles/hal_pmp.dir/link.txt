@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_pmp.a  CMakeFiles/hal_pmp.dir/hal_pmp.c.obj CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_pmp.a  CMakeFiles/hal_pmp.dir/hal_pmp.c.obj CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj

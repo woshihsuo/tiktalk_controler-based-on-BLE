@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_qdec.a  CMakeFiles/hal_qdec.dir/hal_qdec.c.obj CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_qdec.a  CMakeFiles/hal_qdec.dir/hal_qdec.c.obj CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj

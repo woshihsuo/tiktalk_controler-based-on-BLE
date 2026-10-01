@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/depend.make
@@ -59,16 +59,16 @@ include middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/flags.make
 
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.obj: middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/flags.make
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.obj: ../../../../middleware/chips/bs2x/pm/pm_sys/pm_sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_sys.dir/pm_sys.c.obj   -c /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_sys.dir/pm_sys.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.c
 
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_sys.dir/pm_sys.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.c > CMakeFiles/pm_sys.dir/pm_sys.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.c > CMakeFiles/pm_sys.dir/pm_sys.c.i
 
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_sys.dir/pm_sys.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.c -o CMakeFiles/pm_sys.dir/pm_sys.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_SYS_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.c -o CMakeFiles/pm_sys.dir/pm_sys.c.s
 
 # Object files for target pm_sys
 pm_sys_OBJECTS = \
@@ -80,9 +80,9 @@ pm_sys_EXTERNAL_OBJECTS =
 middleware/chips/bs2x/pm/pm_sys/libpm_sys.a: middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/pm_sys.c.obj
 middleware/chips/bs2x/pm/pm_sys/libpm_sys.a: middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build.make
 middleware/chips/bs2x/pm/pm_sys/libpm_sys.a: middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_sys.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -P CMakeFiles/pm_sys.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_sys.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_sys.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -P CMakeFiles/pm_sys.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_sys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build: middleware/chips/bs2x/pm/pm_sys/libpm_sys.a
@@ -90,10 +90,10 @@ middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build: middleware/chips/bs
 .PHONY : middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/build
 
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -P CMakeFiles/pm_sys.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys && $(CMAKE_COMMAND) -P CMakeFiles/pm_sys.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/clean
 
 middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/pm/pm_sys/CMakeFiles/pm_sys.dir/depend
 

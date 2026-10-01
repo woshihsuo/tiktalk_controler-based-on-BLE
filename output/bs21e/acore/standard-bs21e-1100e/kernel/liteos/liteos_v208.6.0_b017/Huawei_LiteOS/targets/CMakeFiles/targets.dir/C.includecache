@@ -536,55 +536,55 @@ cmsis_os2.h
 los_typedef.h
 ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/los_typedef.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c
 los_task_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_task_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_task_pri.h
 los_tick_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_tick_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_tick_pri.h
 los_init_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_init_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_init_pri.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c
 irmalloc_private.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/irmalloc_private.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/irmalloc_private.h
 los_memory.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_memory.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_memory.h
 securec.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/securec.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c
 msg_chl.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.h
 string.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/string.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/string.h
 los_queue_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_queue_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_queue_pri.h
 los_memory.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_memory.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_memory.h
 los_hwi.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_hwi.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_hwi.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c
 stdint.h
 -
 los_typedef.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_typedef.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_typedef.h
 los_printf.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_printf.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_printf.h
 los_task.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_task.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_task.h
 los_init_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_init_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_init_pri.h
 los_task_pri.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_task_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/los_task_pri.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c
 soc/uart.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/soc/uart.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/soc/uart.h
 
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c
 los_memory.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_memory.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_memory.h
 ../mem/bestfit_little/los_memory_internal.h
-/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/mem/bestfit_little/los_memory_internal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/mem/bestfit_little/los_memory_internal.h
 

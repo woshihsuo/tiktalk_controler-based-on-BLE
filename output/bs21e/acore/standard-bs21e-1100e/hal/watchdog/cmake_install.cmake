@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

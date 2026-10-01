@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/pm/pm_dfx
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_dfx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,58 +1,71 @@
 #include "main.h"
 #include "securec.h"
 
-#define BLE_KEYBOARD_MAX_KEY_LENTH              6
-#define BLE_KEYBOARD_REPORT_LENTH               7
-#define USB_HID_SPECIAL_KEY_MIN                 0xE0
-#define USB_HID_SPECIAL_KEY_MAX                 0xE7
+/* Touch screen HID report (Android Digitizer), wire format:
+ * [report id=1][status][x_lo][x_hi][y_lo][y_hi] = 6 bytes
+ * status bit0=Tip Switch(1=touching), bit1=In Range
+ * X/Y absolute, range 0~10000, Android maps them onto the real screen.
+ */
+#define HID_TOUCH_REPORT_LEN            6
+#define HID_TOUCH_REPORT_ID             1
+#define HID_TOUCH_TIP_SWITCH            0x01
+#define HID_TOUCH_IN_RANGE              0x02
 
-/* HID keyboard keycode: Keyboard DownArrow */
-#define HID_KEY_DOWN_ARROW                      0x51
+/* swipe geometry (in 0~10000 coords): horizontal center, vertical middle band,
+ * kept away from screen edges to avoid edge gestures / accidental taps
+ */
+#define TOUCH_X_CENTER                  5000
+#define TOUCH_Y_START                   7500
+#define TOUCH_Y_END                     2500
+#define SWIPE_STEPS                     10
+#define SWIPE_STEP_DELAY_MS             15
 
-typedef struct usb_hid_keyboard_report {
-    uint8_t special_key;                         /*!< 8bit special key(Lctrl Lshift Lalt Lgui Rctrl Rshift Ralt Rgui) */
-    uint8_t key[BLE_KEYBOARD_MAX_KEY_LENTH];     /*!< Normal key */
-} usb_hid_keyboard_report_t;
+static uint8_t g_touch_report[HID_TOUCH_REPORT_LEN];
 
-static usb_hid_keyboard_report_t g_send_key_msg;
-
-static void ble_keyboard_fill_report(uint8_t key_num, uint8_t key_value[])
+static void ble_touch_send(uint8_t tip, uint16_t x, uint16_t y)
 {
-    uint8_t normal_key_num = BLE_KEYBOARD_MAX_KEY_LENTH - 1;
-
-    (void)memset_s(&g_send_key_msg, sizeof(g_send_key_msg), 0, sizeof(g_send_key_msg));
-    for (uint8_t i = 0; i < key_num; i++) {
-        if (key_value[i] >= USB_HID_SPECIAL_KEY_MIN && key_value[i] <= USB_HID_SPECIAL_KEY_MAX) {
-            g_send_key_msg.special_key |= (1 << (key_value[i] - USB_HID_SPECIAL_KEY_MIN));
-        } else {
-            g_send_key_msg.key[normal_key_num] = key_value[i];
-            normal_key_num--;
-        }
-    }
+    g_touch_report[0] = HID_TOUCH_REPORT_ID;
+    g_touch_report[1] = tip ? (HID_TOUCH_TIP_SWITCH | HID_TOUCH_IN_RANGE) : 0x00;
+    g_touch_report[2] = (uint8_t)(x & 0xFF);
+    g_touch_report[3] = (uint8_t)((x >> 8) & 0xFF);
+    g_touch_report[4] = (uint8_t)(y & 0xFF);
+    g_touch_report[5] = (uint8_t)((y >> 8) & 0xFF);
+    errcode_t ret = ble_hiddev_keyboard_server_send_input_report_by_uuid(g_touch_report, HID_TOUCH_REPORT_LEN);
+    printf("touch tip=%d y=%u ret=%d\r\n", tip, y, ret);
 }
+
+/* one complete Android touch gesture: down -> move -> up.
+ * move_up=true : finger y 7500 -> 2500, content scrolls up (Douyin: next video)
+ */
+static void ble_swipe(bool move_up)
+{
+    uint16_t y_start = move_up ? TOUCH_Y_START : TOUCH_Y_END;
+    uint16_t y_end   = move_up ? TOUCH_Y_END   : TOUCH_Y_START;
+
+    ble_touch_send(1, TOUCH_X_CENTER, y_start); /* touch down */
+    osDelay(20);
+    for (uint16_t i = 1; i <= SWIPE_STEPS; i++) {
+        uint16_t y = (uint16_t)(y_start + ((int32_t)y_end - y_start) * i / SWIPE_STEPS);
+        ble_touch_send(1, TOUCH_X_CENTER, y); /* move */
+        osDelay(SWIPE_STEP_DELAY_MS);
+    }
+    ble_touch_send(0, TOUCH_X_CENTER, y_end); /* touch up: full clean release */
+    osDelay(20);
+}
+
 
 static void hid_task(void *arg)
 {
     unused(arg);
-    uint8_t press_key[1] = {HID_KEY_DOWN_ARROW};
 
     while (1) {
         ble_t *ble = get_Blefam();
-        if ((ble->conn_state == GAP_BLE_STATE_CONNECTED)&&(uapi_gpio_get_val(S_MGPIO8)==GPIO_LEVEL_LOW)) {
-            /* press DownArrow */
-            ble_keyboard_fill_report(sizeof(press_key), press_key);
-            errcode_t ret1 = ble_hiddev_keyboard_server_send_input_report_by_uuid(
-                (uint8_t *)(uintptr_t)&g_send_key_msg, BLE_KEYBOARD_REPORT_LENTH);
-            osDelay(20);
-            /* release: argc = 0 in the keyscan sample means an all-zero report */
-            ble_keyboard_fill_report(0, NULL);
-            errcode_t ret2 = ble_hiddev_keyboard_server_send_input_report_by_uuid(
-                (uint8_t *)(uintptr_t)&g_send_key_msg, BLE_KEYBOARD_REPORT_LENTH);
-            printf("down ret=%d, up ret=%d\r\n", ret1, ret2);
-            uapi_gpio_toggle(LED_PIN);
+        if (ble->conn_state == GAP_BLE_STATE_CONNECTED) {
+            ble_swipe(true); /* single direction: next video. false = scroll back */
+            /* ble_tap(5000, 9000); */ /* example: tap at a fixed position (e.g. like button) */
         }
-        
-        osDelay(1000);
+        uapi_gpio_toggle(LED_PIN);
+        osDelay(2000);
     }
 }
 
@@ -60,12 +73,6 @@ static void task_entry(void)
 {
 
     led_init();
-
-    uapi_pin_set_mode(S_MGPIO8, HAL_PIO_FUNC_GPIO);
-
-    uapi_gpio_set_dir(S_MGPIO8, GPIO_DIRECTION_INPUT);
-    uapi_pin_set_pull(S_MGPIO8,PIN_PULL_UP);
-
     ble_hid_server_init();
     osThreadAttr_t attr;
 

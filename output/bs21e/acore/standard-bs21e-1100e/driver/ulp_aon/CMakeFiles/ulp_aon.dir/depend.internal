@@ -29,5 +29,5 @@ driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
- /home/bearpi/Desktop/hid/drivers/drivers/driver/ulp_aon/ulp_aon_control.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/ulp_aon/ulp_aon_control.h

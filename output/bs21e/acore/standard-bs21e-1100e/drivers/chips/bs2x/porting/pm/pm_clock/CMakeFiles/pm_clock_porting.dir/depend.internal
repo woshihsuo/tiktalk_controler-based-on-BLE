@@ -106,5 +106,5 @@ drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h

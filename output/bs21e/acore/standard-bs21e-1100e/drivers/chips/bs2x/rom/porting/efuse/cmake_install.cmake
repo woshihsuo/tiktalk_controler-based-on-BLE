@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/drivers/chips/bs2x/rom/porting/efuse
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/rom/porting/efuse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

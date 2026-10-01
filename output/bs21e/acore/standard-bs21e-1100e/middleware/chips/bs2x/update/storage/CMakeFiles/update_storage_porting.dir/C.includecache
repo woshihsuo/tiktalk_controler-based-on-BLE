@@ -122,23 +122,23 @@ partition_resource_id.h
 upg.h
 ../../../../middleware/utils/update/inner_include/upg.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_backup.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/upg_backup.c
 stddef.h
 -
 stdint.h
 -
 errcode.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/errcode.h
 common_def.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/common_def.h
 partition.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/partition.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/partition.h
 upg_definitions.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_definitions.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/upg_definitions.h
 upg_porting.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/upg_porting.h
 upg_alloc.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_alloc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/upg_alloc.h
 upg_common_porting.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/update/storage/upg_common_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/update/storage/upg_common_porting.h
 

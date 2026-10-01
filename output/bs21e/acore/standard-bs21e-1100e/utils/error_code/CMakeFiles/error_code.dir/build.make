@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/error_code/CMakeFiles/error_code.dir/depend.make
@@ -59,16 +59,16 @@ include utils/error_code/CMakeFiles/error_code.dir/flags.make
 
 utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj: utils/error_code/CMakeFiles/error_code.dir/flags.make
 utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj: ../../../../middleware/utils/error_code/private/error_code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/error_code.dir/private/error_code.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/error_code/private/error_code.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/error_code.dir/private/error_code.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/error_code/private/error_code.c
 
 utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/error_code.dir/private/error_code.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/error_code/private/error_code.c > CMakeFiles/error_code.dir/private/error_code.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/error_code/private/error_code.c > CMakeFiles/error_code.dir/private/error_code.c.i
 
 utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/error_code.dir/private/error_code.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/error_code/private/error_code.c -o CMakeFiles/error_code.dir/private/error_code.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ERROR_CODE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/error_code/private/error_code.c -o CMakeFiles/error_code.dir/private/error_code.c.s
 
 # Object files for target error_code
 error_code_OBJECTS = \
@@ -80,9 +80,9 @@ error_code_EXTERNAL_OBJECTS =
 utils/error_code/liberror_code.a: utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj
 utils/error_code/liberror_code.a: utils/error_code/CMakeFiles/error_code.dir/build.make
 utils/error_code/liberror_code.a: utils/error_code/CMakeFiles/error_code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liberror_code.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -P CMakeFiles/error_code.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/error_code.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liberror_code.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -P CMakeFiles/error_code.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/error_code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/error_code/CMakeFiles/error_code.dir/build: utils/error_code/liberror_code.a
@@ -90,10 +90,10 @@ utils/error_code/CMakeFiles/error_code.dir/build: utils/error_code/liberror_code
 .PHONY : utils/error_code/CMakeFiles/error_code.dir/build
 
 utils/error_code/CMakeFiles/error_code.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -P CMakeFiles/error_code.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code && $(CMAKE_COMMAND) -P CMakeFiles/error_code.dir/cmake_clean.cmake
 .PHONY : utils/error_code/CMakeFiles/error_code.dir/clean
 
 utils/error_code/CMakeFiles/error_code.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/error_code /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/error_code/CMakeFiles/error_code.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/error_code /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/error_code/CMakeFiles/error_code.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/error_code/CMakeFiles/error_code.dir/depend
 

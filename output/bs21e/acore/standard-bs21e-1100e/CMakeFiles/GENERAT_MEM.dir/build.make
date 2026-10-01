@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_MEM.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/GENERAT_MEM.dir/progress.make
 
 CMakeFiles/GENERAT_MEM: application.elf
-	/usr/bin/python3 /home/bearpi/Desktop/hid/build/script/utils/elftodu.py /home/bearpi/Desktop/hid application.elf /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm > application.du
-	/usr/bin/python3 /home/bearpi/Desktop/hid/build/script/utils/mem_stats.py application.lst application.du /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/linker.lds bs21e > application.mem
-	/usr/bin/python3 /home/bearpi/Desktop/hid/build/script/utils/parse_map_size_info.py application.lst application.map
+	/usr/bin/python3 /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/build/script/utils/elftodu.py /home/bearpi/Desktop/tiktalk_controler-based-on-BLE application.elf /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm > application.du
+	/usr/bin/python3 /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/build/script/utils/mem_stats.py application.lst application.du /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/linker.lds bs21e > application.mem
+	/usr/bin/python3 /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/build/script/utils/parse_map_size_info.py application.lst application.map
 
 GENERAT_MEM: CMakeFiles/GENERAT_MEM
 GENERAT_MEM: CMakeFiles/GENERAT_MEM.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/GENERAT_MEM.dir/clean:
 .PHONY : CMakeFiles/GENERAT_MEM.dir/clean
 
 CMakeFiles/GENERAT_MEM.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_MEM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_MEM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_MEM.dir/depend
 

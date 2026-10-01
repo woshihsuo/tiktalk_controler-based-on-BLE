@@ -130,4 +130,4 @@ driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/pinmux/pinctrl.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pinmux/pinctrl.c

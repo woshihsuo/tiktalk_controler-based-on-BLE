@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/hal_cpu_core.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_core/CMakeFiles/hal_cpu_core.dir/hal_cpu_core.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/hal_cpu_core.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/cpu_core/CMakeFiles/hal_cpu_core.dir/hal_cpu_core.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

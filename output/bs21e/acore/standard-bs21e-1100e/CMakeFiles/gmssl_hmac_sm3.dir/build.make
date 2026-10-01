@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gmssl_hmac_sm3.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/gmssl_hmac_sm3.dir/flags.make
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj: CMakeFiles/gmssl_hmac_sm3.dir/flags.make
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj: ../../../../open_source/GmSSL3.1.1/src/sm3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj   -c /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj"
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3.c
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.i"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3.c > CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.i
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3.c > CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.i
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.s"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3.c -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.s
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3.c -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3.c.s
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj: CMakeFiles/gmssl_hmac_sm3.dir/flags.make
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj: ../../../../open_source/GmSSL3.1.1/src/sm3_hmac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj   -c /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3_hmac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj"
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3_hmac.c
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.i"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3_hmac.c > CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.i
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3_hmac.c > CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.i
 
 CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.s"
-	/home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3_hmac.c -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.s
+	/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=SM3_HMAC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3_hmac.c -o CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.s
 
 # Object files for target gmssl_hmac_sm3
 gmssl_hmac_sm3_OBJECTS = \
@@ -95,7 +95,7 @@ libgmssl_hmac_sm3.a: CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm
 libgmssl_hmac_sm3.a: CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.1.1/src/sm3_hmac.c.obj
 libgmssl_hmac_sm3.a: CMakeFiles/gmssl_hmac_sm3.dir/build.make
 libgmssl_hmac_sm3.a: CMakeFiles/gmssl_hmac_sm3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libgmssl_hmac_sm3.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libgmssl_hmac_sm3.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gmssl_hmac_sm3.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmssl_hmac_sm3.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/gmssl_hmac_sm3.dir/clean:
 .PHONY : CMakeFiles/gmssl_hmac_sm3.dir/clean
 
 CMakeFiles/gmssl_hmac_sm3.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/gmssl_hmac_sm3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/gmssl_hmac_sm3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gmssl_hmac_sm3.dir/depend
 

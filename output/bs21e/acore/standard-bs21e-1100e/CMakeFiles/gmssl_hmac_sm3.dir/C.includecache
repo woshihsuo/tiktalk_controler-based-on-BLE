@@ -58,7 +58,7 @@ string.h
 stdint.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3.c
 string.h
 -
 gmssl/sm3.h
@@ -72,7 +72,7 @@ x86intrin.h
 immintrin.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/sm3_hmac.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/sm3_hmac.c
 string.h
 -
 gmssl/sm3.h

@@ -129,4 +129,4 @@ utils/app_version/CMakeFiles/app_version.dir/private/application_version.c.obj
  ../../../../middleware/utils/dfx/dfx_reboot/cpu_utils/public/cpu_utils.h
  ../../../../middleware/utils/dfx/dfx_reboot/reboot/shared/non_os_reboot.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/app_version/private/application_version.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_version/private/application_version.c

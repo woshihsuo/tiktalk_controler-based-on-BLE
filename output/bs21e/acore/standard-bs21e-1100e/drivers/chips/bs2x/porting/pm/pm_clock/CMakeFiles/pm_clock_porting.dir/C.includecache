@@ -644,27 +644,27 @@ stdbool.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/chip_io.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/chip_io.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/platform_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/platform_core.h
 osal_interrupt.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/osal_interrupt.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/osal_interrupt.h
 pm_clock.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock.h
 pm_pmu.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_pmu.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_pmu.h
 clocks_switch.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/clocks_switch.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/clocks_switch.h
 tcxo.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/tcxo.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/tcxo.h
 pinctrl.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pinctrl.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pinctrl.h
 pm_clock_porting.h
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h
 
-/home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.h
 stdbool.h
 -
 

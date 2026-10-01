@@ -11,8 +11,8 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/hal_efuse.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/hal_efuse.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/hal_efuse.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/hal_efuse.h
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
  ../../../../drivers/chips/bs2x/porting/efuse/efuse_porting.h
  ../../../../drivers/drivers/hal/efuse/hal_efuse.h
@@ -104,9 +104,9 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
 hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
  ../../../../drivers/chips/bs2x/porting/efuse/efuse_porting.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
@@ -115,6 +115,6 @@ hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.h

@@ -18,4 +18,4 @@ driver/pmp/CMakeFiles/pmp.dir/pmp.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/pmp/pmp.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pmp/pmp.c

@@ -19,4 +19,4 @@ utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdlib.h
  ../../../../middleware/utils/build_version/public/build_version.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/build_version/private/build_version.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/build_version/private/build_version.c

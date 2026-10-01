@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/rtc_unified/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule
 .PHONY : hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_rtc_unified: hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/rule
 
 # fast build rule for target.
 hal_rtc_unified/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build
 .PHONY : hal_rtc_unified/fast
 
 hal_rtc.obj: hal_rtc.c.obj
@@ -131,7 +131,7 @@ hal_rtc.obj: hal_rtc.c.obj
 
 # target to build an object file
 hal_rtc.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj
 .PHONY : hal_rtc.c.obj
 
 hal_rtc.i: hal_rtc.c.i
@@ -140,7 +140,7 @@ hal_rtc.i: hal_rtc.c.i
 
 # target to preprocess a source file
 hal_rtc.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.i
 .PHONY : hal_rtc.c.i
 
 hal_rtc.s: hal_rtc.c.s
@@ -149,7 +149,7 @@ hal_rtc.s: hal_rtc.c.s
 
 # target to generate assembly for a file
 hal_rtc.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.s
 .PHONY : hal_rtc.c.s
 
 v150/hal_rtc_v150.obj: v150/hal_rtc_v150.c.obj
@@ -158,7 +158,7 @@ v150/hal_rtc_v150.obj: v150/hal_rtc_v150.c.obj
 
 # target to build an object file
 v150/hal_rtc_v150.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.obj
 .PHONY : v150/hal_rtc_v150.c.obj
 
 v150/hal_rtc_v150.i: v150/hal_rtc_v150.c.i
@@ -167,7 +167,7 @@ v150/hal_rtc_v150.i: v150/hal_rtc_v150.c.i
 
 # target to preprocess a source file
 v150/hal_rtc_v150.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.i
 .PHONY : v150/hal_rtc_v150.c.i
 
 v150/hal_rtc_v150.s: v150/hal_rtc_v150.c.s
@@ -176,7 +176,7 @@ v150/hal_rtc_v150.s: v150/hal_rtc_v150.c.s
 
 # target to generate assembly for a file
 v150/hal_rtc_v150.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150.c.s
 .PHONY : v150/hal_rtc_v150.c.s
 
 v150/hal_rtc_v150_op.obj: v150/hal_rtc_v150_op.c.obj
@@ -185,7 +185,7 @@ v150/hal_rtc_v150_op.obj: v150/hal_rtc_v150_op.c.obj
 
 # target to build an object file
 v150/hal_rtc_v150_op.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.obj
 .PHONY : v150/hal_rtc_v150_op.c.obj
 
 v150/hal_rtc_v150_op.i: v150/hal_rtc_v150_op.c.i
@@ -194,7 +194,7 @@ v150/hal_rtc_v150_op.i: v150/hal_rtc_v150_op.c.i
 
 # target to preprocess a source file
 v150/hal_rtc_v150_op.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.i
 .PHONY : v150/hal_rtc_v150_op.c.i
 
 v150/hal_rtc_v150_op.s: v150/hal_rtc_v150_op.c.s
@@ -203,7 +203,7 @@ v150/hal_rtc_v150_op.s: v150/hal_rtc_v150_op.c.s
 
 # target to generate assembly for a file
 v150/hal_rtc_v150_op.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/build.make hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v150/hal_rtc_v150_op.c.s
 .PHONY : v150/hal_rtc_v150_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

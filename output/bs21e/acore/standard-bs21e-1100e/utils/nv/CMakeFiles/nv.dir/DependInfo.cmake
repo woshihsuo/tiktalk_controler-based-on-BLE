@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/soc_nv_storage.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_async_store.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_debug.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_notify.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_reset.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_rpc.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_update.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_upg.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/soc_nv_storage.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_async_store.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_debug.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_notify.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_reset.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_rpc.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_update.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_upg.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

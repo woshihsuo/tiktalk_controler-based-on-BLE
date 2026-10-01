@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/init/los_init.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/init/CMakeFiles/init.dir/los_init.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/init/los_init.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/init/CMakeFiles/init.dir/los_init.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

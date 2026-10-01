@@ -10,8 +10,8 @@ hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/hal_watchdog.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/hal_watchdog.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/hal_watchdog.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/hal_watchdog.h
 hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj
  ../../../../drivers/chips/bs2x/porting/watchdog/watchdog_porting.h
  ../../../../drivers/drivers/hal/watchdog/hal_watchdog.h
@@ -103,7 +103,7 @@ hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151_regs_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151_regs_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151_regs_op.h

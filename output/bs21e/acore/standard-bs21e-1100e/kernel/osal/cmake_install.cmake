@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/kernel/osal
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/osal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

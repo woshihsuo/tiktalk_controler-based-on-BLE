@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/rule
 .PHONY : middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ dfx_porting: middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/rule
 
 # fast build rule for target.
 dfx_porting/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build
 .PHONY : dfx_porting/fast
 
 dfx_channel.obj: dfx_channel.c.obj
@@ -131,7 +131,7 @@ dfx_channel.obj: dfx_channel.c.obj
 
 # target to build an object file
 dfx_channel.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.obj
 .PHONY : dfx_channel.c.obj
 
 dfx_channel.i: dfx_channel.c.i
@@ -140,7 +140,7 @@ dfx_channel.i: dfx_channel.c.i
 
 # target to preprocess a source file
 dfx_channel.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.i
 .PHONY : dfx_channel.c.i
 
 dfx_channel.s: dfx_channel.c.s
@@ -149,7 +149,7 @@ dfx_channel.s: dfx_channel.c.s
 
 # target to generate assembly for a file
 dfx_channel.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.s
 .PHONY : dfx_channel.c.s
 
 dfx_system_init.obj: dfx_system_init.c.obj
@@ -158,7 +158,7 @@ dfx_system_init.obj: dfx_system_init.c.obj
 
 # target to build an object file
 dfx_system_init.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj
 .PHONY : dfx_system_init.c.obj
 
 dfx_system_init.i: dfx_system_init.c.i
@@ -167,7 +167,7 @@ dfx_system_init.i: dfx_system_init.c.i
 
 # target to preprocess a source file
 dfx_system_init.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.i
 .PHONY : dfx_system_init.c.i
 
 dfx_system_init.s: dfx_system_init.c.s
@@ -176,7 +176,7 @@ dfx_system_init.s: dfx_system_init.c.s
 
 # target to generate assembly for a file
 dfx_system_init.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.s
 .PHONY : dfx_system_init.c.s
 
 diag_adapt_cmd_mem.obj: diag_adapt_cmd_mem.c.obj
@@ -185,7 +185,7 @@ diag_adapt_cmd_mem.obj: diag_adapt_cmd_mem.c.obj
 
 # target to build an object file
 diag_adapt_cmd_mem.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj
 .PHONY : diag_adapt_cmd_mem.c.obj
 
 diag_adapt_cmd_mem.i: diag_adapt_cmd_mem.c.i
@@ -194,7 +194,7 @@ diag_adapt_cmd_mem.i: diag_adapt_cmd_mem.c.i
 
 # target to preprocess a source file
 diag_adapt_cmd_mem.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.i
 .PHONY : diag_adapt_cmd_mem.c.i
 
 diag_adapt_cmd_mem.s: diag_adapt_cmd_mem.c.s
@@ -203,7 +203,7 @@ diag_adapt_cmd_mem.s: diag_adapt_cmd_mem.c.s
 
 # target to generate assembly for a file
 diag_adapt_cmd_mem.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.s
 .PHONY : diag_adapt_cmd_mem.c.s
 
 diag_adapt_flash.obj: diag_adapt_flash.c.obj
@@ -212,7 +212,7 @@ diag_adapt_flash.obj: diag_adapt_flash.c.obj
 
 # target to build an object file
 diag_adapt_flash.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj
 .PHONY : diag_adapt_flash.c.obj
 
 diag_adapt_flash.i: diag_adapt_flash.c.i
@@ -221,7 +221,7 @@ diag_adapt_flash.i: diag_adapt_flash.c.i
 
 # target to preprocess a source file
 diag_adapt_flash.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.i
 .PHONY : diag_adapt_flash.c.i
 
 diag_adapt_flash.s: diag_adapt_flash.c.s
@@ -230,7 +230,7 @@ diag_adapt_flash.s: diag_adapt_flash.c.s
 
 # target to generate assembly for a file
 diag_adapt_flash.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.s
 .PHONY : diag_adapt_flash.c.s
 
 diag_adapt_sdt.obj: diag_adapt_sdt.c.obj
@@ -239,7 +239,7 @@ diag_adapt_sdt.obj: diag_adapt_sdt.c.obj
 
 # target to build an object file
 diag_adapt_sdt.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj
 .PHONY : diag_adapt_sdt.c.obj
 
 diag_adapt_sdt.i: diag_adapt_sdt.c.i
@@ -248,7 +248,7 @@ diag_adapt_sdt.i: diag_adapt_sdt.c.i
 
 # target to preprocess a source file
 diag_adapt_sdt.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.i
 .PHONY : diag_adapt_sdt.c.i
 
 diag_adapt_sdt.s: diag_adapt_sdt.c.s
@@ -257,7 +257,7 @@ diag_adapt_sdt.s: diag_adapt_sdt.c.s
 
 # target to generate assembly for a file
 diag_adapt_sdt.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.s
 .PHONY : diag_adapt_sdt.c.s
 
 last_dump_adapt.obj: last_dump_adapt.c.obj
@@ -266,7 +266,7 @@ last_dump_adapt.obj: last_dump_adapt.c.obj
 
 # target to build an object file
 last_dump_adapt.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj
 .PHONY : last_dump_adapt.c.obj
 
 last_dump_adapt.i: last_dump_adapt.c.i
@@ -275,7 +275,7 @@ last_dump_adapt.i: last_dump_adapt.c.i
 
 # target to preprocess a source file
 last_dump_adapt.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.i
 .PHONY : last_dump_adapt.c.i
 
 last_dump_adapt.s: last_dump_adapt.c.s
@@ -284,7 +284,7 @@ last_dump_adapt.s: last_dump_adapt.c.s
 
 # target to generate assembly for a file
 last_dump_adapt.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.s
 .PHONY : last_dump_adapt.c.s
 
 log_oam_logger_porting.obj: log_oam_logger_porting.c.obj
@@ -293,7 +293,7 @@ log_oam_logger_porting.obj: log_oam_logger_porting.c.obj
 
 # target to build an object file
 log_oam_logger_porting.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.obj
 .PHONY : log_oam_logger_porting.c.obj
 
 log_oam_logger_porting.i: log_oam_logger_porting.c.i
@@ -302,7 +302,7 @@ log_oam_logger_porting.i: log_oam_logger_porting.c.i
 
 # target to preprocess a source file
 log_oam_logger_porting.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.i
 .PHONY : log_oam_logger_porting.c.i
 
 log_oam_logger_porting.s: log_oam_logger_porting.c.s
@@ -311,7 +311,7 @@ log_oam_logger_porting.s: log_oam_logger_porting.c.s
 
 # target to generate assembly for a file
 log_oam_logger_porting.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.s
 .PHONY : log_oam_logger_porting.c.s
 
 sample_data_adapt.obj: sample_data_adapt.c.obj
@@ -320,7 +320,7 @@ sample_data_adapt.obj: sample_data_adapt.c.obj
 
 # target to build an object file
 sample_data_adapt.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj
 .PHONY : sample_data_adapt.c.obj
 
 sample_data_adapt.i: sample_data_adapt.c.i
@@ -329,7 +329,7 @@ sample_data_adapt.i: sample_data_adapt.c.i
 
 # target to preprocess a source file
 sample_data_adapt.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.i
 .PHONY : sample_data_adapt.c.i
 
 sample_data_adapt.s: sample_data_adapt.c.s
@@ -338,7 +338,7 @@ sample_data_adapt.s: sample_data_adapt.c.s
 
 # target to generate assembly for a file
 sample_data_adapt.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/build.make middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.s
 .PHONY : sample_data_adapt.c.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

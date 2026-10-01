@@ -64,4 +64,4 @@ utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/crash_data.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/dfx_reboot/cpu_utils/private/cpu_utils.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/dfx_reboot/cpu_utils/private/cpu_utils.c

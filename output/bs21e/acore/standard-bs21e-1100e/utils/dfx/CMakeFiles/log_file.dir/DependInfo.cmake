@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_file.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/log_file/log_file_flash.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_file/log_file.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_file/log_file_file.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_file/log_file_flash.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/sio/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/sio/CMakeFiles/hal_sio.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/CMakeFiles/hal_sio.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/sio/CMakeFiles/hal_sio.dir/rule
 .PHONY : hal/sio/CMakeFiles/hal_sio.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_sio: hal/sio/CMakeFiles/hal_sio.dir/rule
 
 # fast build rule for target.
 hal_sio/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/build
 .PHONY : hal_sio/fast
 
 hal_sio.obj: hal_sio.c.obj
@@ -131,7 +131,7 @@ hal_sio.obj: hal_sio.c.obj
 
 # target to build an object file
 hal_sio.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj
 .PHONY : hal_sio.c.obj
 
 hal_sio.i: hal_sio.c.i
@@ -140,7 +140,7 @@ hal_sio.i: hal_sio.c.i
 
 # target to preprocess a source file
 hal_sio.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.i
 .PHONY : hal_sio.c.i
 
 hal_sio.s: hal_sio.c.s
@@ -149,7 +149,7 @@ hal_sio.s: hal_sio.c.s
 
 # target to generate assembly for a file
 hal_sio.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.s
 .PHONY : hal_sio.c.s
 
 hal_sio_v151/hal_sio_v151.obj: hal_sio_v151/hal_sio_v151.c.obj
@@ -158,7 +158,7 @@ hal_sio_v151/hal_sio_v151.obj: hal_sio_v151/hal_sio_v151.c.obj
 
 # target to build an object file
 hal_sio_v151/hal_sio_v151.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.obj
 .PHONY : hal_sio_v151/hal_sio_v151.c.obj
 
 hal_sio_v151/hal_sio_v151.i: hal_sio_v151/hal_sio_v151.c.i
@@ -167,7 +167,7 @@ hal_sio_v151/hal_sio_v151.i: hal_sio_v151/hal_sio_v151.c.i
 
 # target to preprocess a source file
 hal_sio_v151/hal_sio_v151.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.i
 .PHONY : hal_sio_v151/hal_sio_v151.c.i
 
 hal_sio_v151/hal_sio_v151.s: hal_sio_v151/hal_sio_v151.c.s
@@ -176,7 +176,7 @@ hal_sio_v151/hal_sio_v151.s: hal_sio_v151/hal_sio_v151.c.s
 
 # target to generate assembly for a file
 hal_sio_v151/hal_sio_v151.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151.c.s
 .PHONY : hal_sio_v151/hal_sio_v151.c.s
 
 hal_sio_v151/hal_sio_v151_regs_op.obj: hal_sio_v151/hal_sio_v151_regs_op.c.obj
@@ -185,7 +185,7 @@ hal_sio_v151/hal_sio_v151_regs_op.obj: hal_sio_v151/hal_sio_v151_regs_op.c.obj
 
 # target to build an object file
 hal_sio_v151/hal_sio_v151_regs_op.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.obj
 .PHONY : hal_sio_v151/hal_sio_v151_regs_op.c.obj
 
 hal_sio_v151/hal_sio_v151_regs_op.i: hal_sio_v151/hal_sio_v151_regs_op.c.i
@@ -194,7 +194,7 @@ hal_sio_v151/hal_sio_v151_regs_op.i: hal_sio_v151/hal_sio_v151_regs_op.c.i
 
 # target to preprocess a source file
 hal_sio_v151/hal_sio_v151_regs_op.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.i
 .PHONY : hal_sio_v151/hal_sio_v151_regs_op.c.i
 
 hal_sio_v151/hal_sio_v151_regs_op.s: hal_sio_v151/hal_sio_v151_regs_op.c.s
@@ -203,7 +203,7 @@ hal_sio_v151/hal_sio_v151_regs_op.s: hal_sio_v151/hal_sio_v151_regs_op.c.s
 
 # target to generate assembly for a file
 hal_sio_v151/hal_sio_v151_regs_op.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/sio/CMakeFiles/hal_sio.dir/build.make hal/sio/CMakeFiles/hal_sio.dir/hal_sio_v151/hal_sio_v151_regs_op.c.s
 .PHONY : hal_sio_v151/hal_sio_v151_regs_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

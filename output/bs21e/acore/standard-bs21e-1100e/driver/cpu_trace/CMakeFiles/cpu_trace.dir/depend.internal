@@ -129,5 +129,5 @@ driver/cpu_trace/CMakeFiles/cpu_trace.dir/cpu_trace.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/cpu_trace/cpu_trace.c
- /home/bearpi/Desktop/hid/drivers/drivers/driver/cpu_trace/cpu_trace.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/cpu_trace/cpu_trace.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/cpu_trace/cpu_trace.h

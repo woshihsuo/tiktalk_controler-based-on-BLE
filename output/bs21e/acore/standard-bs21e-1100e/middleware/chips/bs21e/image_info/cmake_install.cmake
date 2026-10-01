@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs21e/image_info
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs21e/image_info
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -44,9 +44,13 @@ enum {
     HID_CONTROL_POINT_PROPERTIES = GATT_CHARACTER_PROPERTY_BIT_WRITE_NO_RSP,
 };
 
-static uint16_t g_device_keyboard_appearance_value = GAP_BLE_APPEARANCE_TYPE_KEYBOARD;
+/* BLE appearance 965 = Digitizer Tablet.
+ * Android recognizes the touch device from the HID descriptor itself.
+ */
+#define GAP_BLE_APPEARANCE_TYPE_DIGITIZER_TABLET 965
+static uint16_t g_device_keyboard_appearance_value = GAP_BLE_APPEARANCE_TYPE_DIGITIZER_TABLET;
 static uint8_t g_device_keyboard_name_value[32] = {'h','i','d','-','d','y', '\0'};
-static uint8_t g_device_keyboard_name_len = 11;
+static uint8_t g_device_keyboard_name_len = 6; /* "hid-dy" real length */
 /* HID information value for test */
 static uint8_t hid_information_val[] = { uint16_to_byte(BLE_HID_VERSION), BLE_HID_INFO_COUNTRY_CODE,
     BLE_HID_INFO_FLAG_REMOTE_WAKE_UP_MSK | BLE_HID_INFO_FLAG_NORMALLY_CONNECTABLE_MSK };
@@ -58,12 +62,11 @@ static uint8_t ccc_val[] = {0x00, 0x00};
 static uint8_t report_reference_val_input[] = {BLE_HID_REPORT_ID, BLE_REPORT_REFERENCE_REPORT_TYPE_INPUT_REPORT};
 /* HID output report reference value for test [report id 1, output] */
 static uint8_t report_reference_val_output[] = {BLE_HID_REPORT_ID, BLE_REPORT_REFERENCE_REPORT_TYPE_OUTPUT_REPORT};
-/* HID input report value  for test
- * input report format:
- * data0 | data1 | data2 | data3 | data4 | data5 | data6
- * E0~E7 | key   | key   | key   | key   | key   | key
+/* HID input report value for touch screen (single touch, absolute coords)
+ * wire format: [report id=1][status][x_lo][x_hi][y_lo][y_hi] = 6 bytes
+ * status bit0 = Tip Switch (1=touching), bit1 = In Range
  */
-static uint8_t input_report_value[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
+static uint8_t input_report_value[] = {0x01, 0x00, 0x00, 0x00, 0x00, 0x00};
 /* HID output report value for test */
 static uint8_t output_report_value[] = {0x00};
 /* HID protocol mode value for test */
@@ -75,36 +78,33 @@ static uint16_t g_hid_input_report_att_hdl = INVALID_ATT_HDL;
 /* gatt server ID */
 static uint8_t g_server_id = INVALID_SERVER_ID;
 
-/* Hid Report Map (Descriptor) */
+/* Hid Report Map (Descriptor) - Single Touch Touch Screen (Digitizer) */
 static uint8_t g_srv_hid_keyboard_report_map[] = {
-    0x05, 0x01,       /* Usage Page (Generic Desktop) */
-    0x09, 0x06,       /* Usage (Keyboard) */
+    0x05, 0x0D,       /* Usage Page (Digitizer) */
+    0x09, 0x04,       /* Usage (Touch Screen) */
     0xA1, 0x01,       /* Collection (Application) */
-    0x85, 0x01,       /* Report Id (1) */
-    0x05, 0x07,       /* Usage Page (Keyboard) */
-    0x19, 0xE0,       /* Usage Minimum (Keyboard Left Control) */
-    0x29, 0xE7,       /* Usage Maximum (Keyboard Right GUI) */
-    0x15, 0x00,       /* Logical minimum (0) */
-    0x25, 0x01,       /* Logical maximum (1) */
-    0x75, 0x01,       /* Report Size (1) */
-    0x95, 0x08,       /* Report Count (8) */
-    0x81, 0x02,       /* Input (data,Value,Absolute,Bit Field) */
-    0x95, 0x05,       /* Report Count (5) */
-    0x05, 0x08,       /* Usage Page (LEDs) */
-    0x19, 0x01,       /* Usage Minimum (Num Lock) */
-    0x29, 0x05,       /* Usage Maximum (Kana) */
-    0x91, 0x02,       /* Output (data,Value,Absolute,Non-volatile,Bit Field) */
-    0x95, 0x01,       /* Report Count (1) */
-    0x75, 0x03,       /* Report Size (3) */
-    0x91, 0x01,       /* Output (Constant,Array,Absolute,Non-volatile,Bit Field) */
-    0x95, 0x06,       /* Report Count (6) */
-    0x75, 0x08,       /* Report Size (8) */
-    0x15, 0x00,       /* Logical minimum (0) */
-    0x26, 0xA4, 0x00, /* Logical maximum (164) */
-    0x05, 0x07,       /* Usage Page (Keyboard) */
-    0x19, 0x00,       /* Usage Minimum (No event indicated) */
-    0x2A, 0xA4, 0x00, /* Usage Maximum (Keyboard ExSel) */
-    0x81, 0x00,       /* Input (data,Array,Absolute,Bit Field) */
+    0x85, 0x01,       /*   Report Id (1) */
+    0x09, 0x22,       /*   Usage (Finger) */
+    0xA1, 0x02,       /*   Collection (Logical) */
+    0x09, 0x42,       /*     Usage (Tip Switch) */
+    0x09, 0x32,       /*     Usage (In Range) */
+    0x15, 0x00,       /*     Logical minimum (0) */
+    0x25, 0x01,       /*     Logical maximum (1) */
+    0x75, 0x01,       /*     Report Size (1) */
+    0x95, 0x02,       /*     Report Count (2) */
+    0x81, 0x02,       /*     Input (Data, Var, Abs) - tip + in-range */
+    0x75, 0x01,       /*     Report Size (1) */
+    0x95, 0x06,       /*     Report Count (6) padding bits */
+    0x81, 0x03,       /*     Input (Const, Var, Abs) */
+    0x05, 0x01,       /*     Usage Page (Generic Desktop) */
+    0x09, 0x30,       /*     Usage (X) */
+    0x09, 0x31,       /*     Usage (Y) */
+    0x16, 0x00, 0x00, /*     Logical minimum (0) */
+    0x26, 0x10, 0x27, /*     Logical maximum (10000) */
+    0x75, 0x10,       /*     Report Size (16) */
+    0x95, 0x02,       /*     Report Count (2) */
+    0x81, 0x02,       /*     Input (Data, Var, Abs) - X, Y */
+    0xC0,             /*   End Collection */
     0xC0,             /* End Collection */
 };
 

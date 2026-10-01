@@ -10,8 +10,8 @@ hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/hal_dma.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/hal_dma.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/hal_dma.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/hal_dma.h
 hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product_evb_standard.h
@@ -31,8 +31,8 @@ hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj
  ../../../../kernel/non_os/irmalloc/common/irmalloc.h
  ../../../../kernel/osal/include/memory/osal_addr.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/hal_dma_mem.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/hal_dma_mem.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/hal_dma_mem.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/hal_dma_mem.h
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj
  ../../../../drivers/chips/bs2x/porting/dma/dma_porting.h
  ../../../../drivers/drivers/hal/dma/hal_dma.h
@@ -156,10 +156,10 @@ hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
 hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
  ../../../../drivers/chips/bs2x/porting/dma/dma_porting.h
  ../../../../include/common_def.h
@@ -169,6 +169,6 @@ hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.h

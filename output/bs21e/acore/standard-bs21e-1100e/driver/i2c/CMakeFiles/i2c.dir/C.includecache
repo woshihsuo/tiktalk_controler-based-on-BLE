@@ -838,21 +838,21 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/i2c.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/i2c.c
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/soc_osal.h
 securec.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/securec.h
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/common_def.h
 tcxo.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/tcxo.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/tcxo.h
 i2c.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/i2c.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/i2c.h
 dma.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/dma.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/dma.h
 hal_dma.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/i2c/hal_dma.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/i2c/hal_dma.h
 

@@ -137,5 +137,5 @@ drivers/chips/bs2x/porting/pm/pm_pmu/CMakeFiles/pm_pmu_porting.dir/pm_pmu_portin
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h

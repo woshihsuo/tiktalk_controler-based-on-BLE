@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/libm
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/libm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

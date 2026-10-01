@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/vectors.s" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/vectors.s" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/vectors.s.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -444,18 +444,18 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../open_source/libboundscheck/src"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/interrupt.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/interrupt_handler.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/mpu.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/oam_trace.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/arch/src/patch.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/interrupt/interrupt_adapter.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/interrupt/vectors.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/liteos/idle_config.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/liteos/memory_info.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/liteos/os_dfx.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/chips/bs2x/liteos/tick_timer.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/interrupt.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/interrupt_handler.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/interrupt_handler.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/mpu.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/mpu.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/oam_trace.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/oam_trace.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/arch/src/patch.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/arch/src/patch.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/interrupt/interrupt_adapter.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_adapter.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/interrupt/interrupt_os_adapter.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/interrupt_os_adapter.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/interrupt/vectors.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/interrupt/vectors.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/liteos/idle_config.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/idle_config.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/liteos/memory_info.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/memory_info.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/liteos/os_dfx.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/os_dfx.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/liteos/tick_timer.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/chip_porting.dir/liteos/tick_timer.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

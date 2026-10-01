@@ -120,5 +120,5 @@ utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj
  ../../../../middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/pm/pm_fsm/pm_fsm.c
- /home/bearpi/Desktop/hid/middleware/utils/pm/pm_fsm/pm_fsm.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_fsm/pm_fsm.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_fsm/pm_fsm.h

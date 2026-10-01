@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/rule
 .PHONY : kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ csysdeps: kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/
 
 # fast build rule for target.
 csysdeps/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build
 .PHONY : csysdeps/fast
 
 memcpy.obj: memcpy.S.obj
@@ -131,7 +131,7 @@ memcpy.obj: memcpy.S.obj
 
 # target to build an object file
 memcpy.S.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.obj
 .PHONY : memcpy.S.obj
 
 memcpy.i: memcpy.S.i
@@ -140,7 +140,7 @@ memcpy.i: memcpy.S.i
 
 # target to preprocess a source file
 memcpy.S.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.i
 .PHONY : memcpy.S.i
 
 memcpy.s: memcpy.S.s
@@ -149,7 +149,7 @@ memcpy.s: memcpy.S.s
 
 # target to generate assembly for a file
 memcpy.S.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.s
 .PHONY : memcpy.S.s
 
 memset.obj: memset.S.obj
@@ -158,7 +158,7 @@ memset.obj: memset.S.obj
 
 # target to build an object file
 memset.S.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.obj
 .PHONY : memset.S.obj
 
 memset.i: memset.S.i
@@ -167,7 +167,7 @@ memset.i: memset.S.i
 
 # target to preprocess a source file
 memset.S.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.i
 .PHONY : memset.S.i
 
 memset.s: memset.S.s
@@ -176,7 +176,7 @@ memset.s: memset.S.s
 
 # target to generate assembly for a file
 memset.S.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.s
 .PHONY : memset.S.s
 
 setjmp.obj: setjmp.S.obj
@@ -185,7 +185,7 @@ setjmp.obj: setjmp.S.obj
 
 # target to build an object file
 setjmp.S.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.obj
 .PHONY : setjmp.S.obj
 
 setjmp.i: setjmp.S.i
@@ -194,7 +194,7 @@ setjmp.i: setjmp.S.i
 
 # target to preprocess a source file
 setjmp.S.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.i
 .PHONY : setjmp.S.i
 
 setjmp.s: setjmp.S.s
@@ -203,7 +203,7 @@ setjmp.s: setjmp.S.s
 
 # target to generate assembly for a file
 setjmp.S.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.s
 .PHONY : setjmp.S.s
 
 strcmp.obj: strcmp.S.obj
@@ -212,7 +212,7 @@ strcmp.obj: strcmp.S.obj
 
 # target to build an object file
 strcmp.S.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.obj
 .PHONY : strcmp.S.obj
 
 strcmp.i: strcmp.S.i
@@ -221,7 +221,7 @@ strcmp.i: strcmp.S.i
 
 # target to preprocess a source file
 strcmp.S.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.i
 .PHONY : strcmp.S.i
 
 strcmp.s: strcmp.S.s
@@ -230,7 +230,7 @@ strcmp.s: strcmp.S.s
 
 # target to generate assembly for a file
 strcmp.S.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/build.make kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.s
 .PHONY : strcmp.S.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -107,13 +107,13 @@ driver/security/trng/CMakeFiles/trng.dir/drv_trng.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.c
- /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/security/trng/drv_trng.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/security/trng/drv_trng.h
 driver/security/trng/CMakeFiles/trng.dir/trng.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/drv_trng.h
- /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/trng.c
- /home/bearpi/Desktop/hid/drivers/drivers/driver/security/trng/trng.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/security/trng/drv_trng.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/security/trng/trng.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/security/trng/trng.h

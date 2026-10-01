@@ -604,67 +604,67 @@ stdbool.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec.c
 stdio.h
 -
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/common_def.h
 errcode.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/errcode.h
 hal_qdec.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec.h
 stdint.h
 -
 stdbool.h
 -
 errcode.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/errcode.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/platform_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/platform_core.h
 qdec_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/qdec_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/qdec_porting.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150.c
 stdint.h
 -
 debug/osal_debug.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/debug/osal_debug.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/debug/osal_debug.h
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/common_def.h
 hal_qdec_v150_regs_op.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
 hal_qdec_v150.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150.h
 hal_qdec.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_def.h
 stdint.h
 -
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/common_def.h
 tcxo.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/tcxo.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/tcxo.h
 qdec_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/qdec_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/qdec_porting.h
 hal_qdec_v150_regs_op.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.h
 stdint.h
 -
 stdbool.h
 -
 errcode.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/errcode.h
 hal_qdec_v150_regs_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/hal_qdec_v150_regs_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/hal_qdec_v150_regs_def.h
 qdec_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/qdec/qdec_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/qdec/qdec_porting.h
 

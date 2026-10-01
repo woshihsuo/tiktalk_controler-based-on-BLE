@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/include/driver/security_unified
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/include/driver/security_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

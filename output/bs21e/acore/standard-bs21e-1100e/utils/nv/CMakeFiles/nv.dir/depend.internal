@@ -140,9 +140,9 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj
  ../../../../middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_update.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/nv_storage.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/nv_storage_handle.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/soc_nv_storage.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/nv_storage.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/nv_storage_handle.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/soc_nv_storage.c
 utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -282,9 +282,9 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj
  ../../../../middleware/utils/nv/nv_storage_lib/nv_update.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_upg.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/nv_storage.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/nv_storage_handle.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/nv_storage.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/nv_storage_handle.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -420,10 +420,10 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_notify.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_async_store.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_async_store.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_async_store.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_async_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -551,8 +551,8 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_debug.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_debug.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_debug.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_debug.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -680,10 +680,10 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -813,8 +813,8 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj
  ../../../../middleware/utils/nv/nv_storage_app/nv_storage.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_notify.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_notify.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_notify.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_notify.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -945,11 +945,11 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1076,10 +1076,10 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1212,15 +1212,15 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj
  ../../../../middleware/utils/nv/nv_storage_app/nv_storage.h
  ../../../../middleware/utils/nv/nv_storage_app/nv_storage_handle.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_notify.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_reset.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_reset.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_update.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_notify.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_reset.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_reset.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_update.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1351,10 +1351,10 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_rpc.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_rpc.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_rpc.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_rpc.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1485,11 +1485,11 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1624,14 +1624,14 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_reset.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_update.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_update.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_nvregion.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_reset.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_update.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_update.h
 utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1773,12 +1773,12 @@ utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj
  ../../../../middleware/utils/update/inner_include/upg_common.h
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_async_store.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_key.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_page.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_reset.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_store.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_update.h
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_upg.c
- /home/bearpi/Desktop/hid/middleware/utils/nv/nv_storage_lib/nv_upg.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_async_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_key.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_page.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_reset.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_store.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_task_adapt.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_update.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_upg.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/nv/nv_storage_lib/nv_upg.h

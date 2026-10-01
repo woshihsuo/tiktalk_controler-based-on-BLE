@@ -10,8 +10,8 @@ drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_config_info_portin
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
 drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_porting.c.obj
  ../../../../drivers/drivers/hal/sfc/hal_sfc.h
  ../../../../drivers/drivers/hal/sfc/hal_sfc_v150.h
@@ -60,6 +60,6 @@ drivers/chips/bs2x/porting/sfc/CMakeFiles/sfc_porting.dir/sfc_porting.c.obj
  ../../../../kernel/osal_adapt/inc/osal_adapt_debug.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_porting.c
- /home/bearpi/Desktop/hid/drivers/chips/bs2x/porting/sfc/sfc_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/sfc/sfc_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/chips/bs2x/porting/sfc/sfc_porting.h

@@ -852,7 +852,7 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
 stdint.h
 -
 stddef.h
@@ -864,39 +864,39 @@ stdlib.h
 assert.h
 -
 securec.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/securec.h
 soc_osal.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/soc_osal.h
 common_def.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/common_def.h
 errcode.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/errcode.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c
 uart.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/uart.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/uart.h
 platform_core.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/platform_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/platform_core.h
 soc_osal.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/soc_osal.h
 common_def.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/common_def.h
 at_config.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_config.h
 at_product.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_product.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_product.h
 at_porting.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h
 slp_radar_at.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/slp_radar_at.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/slp_radar_at.h
 slp_at.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/slp_at.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/slp_at.h
 carkey_at.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/carkey_at.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/carkey_at.h
 gadget/usbd_acm.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/gadget/usbd_acm.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/gadget/usbd_acm.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at_porting.h
 at.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_cmd_porting/at.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_cmd_porting/at.h
 

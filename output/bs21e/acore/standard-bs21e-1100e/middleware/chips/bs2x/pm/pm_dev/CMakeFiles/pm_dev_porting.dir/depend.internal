@@ -110,5 +110,5 @@ middleware/chips/bs2x/pm/pm_dev/CMakeFiles/pm_dev_porting.dir/pm_dev_porting.c.o
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_dev/pm_dev_porting.c
- /home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_dev/pm_dev_porting.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_dev/pm_dev_porting.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_dev/pm_dev_porting.h

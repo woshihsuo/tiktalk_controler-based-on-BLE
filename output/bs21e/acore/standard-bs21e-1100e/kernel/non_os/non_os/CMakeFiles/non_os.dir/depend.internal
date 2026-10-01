@@ -61,9 +61,9 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/kernel/non_os/non_os/non_os.h
- /home/bearpi/Desktop/hid/kernel/non_os/non_os/non_os_nmi.c
- /home/bearpi/Desktop/hid/kernel/non_os/non_os/non_os_nmi.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/non_os/non_os/non_os.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/non_os/non_os/non_os_nmi.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/non_os/non_os/non_os_nmi.h
 kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -101,5 +101,5 @@ kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/kernel/non_os/non_os/non_os.h
- /home/bearpi/Desktop/hid/kernel/non_os/non_os/non_os_utils.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/non_os/non_os/non_os.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/non_os/non_os/non_os_utils.c

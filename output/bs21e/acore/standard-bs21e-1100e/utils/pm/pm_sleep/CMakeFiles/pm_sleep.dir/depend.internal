@@ -150,5 +150,5 @@ utils/pm/pm_sleep/CMakeFiles/pm_sleep.dir/pm_sleep.c.obj
  ../../../../middleware/utils/pm/pm_fsm/pm_fsm.h
  ../../../../middleware/utils/pm/pm_veto/pm_veto.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep.c
- /home/bearpi/Desktop/hid/middleware/utils/pm/pm_sleep/pm_sleep.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_sleep/pm_sleep.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_sleep/pm_sleep.h

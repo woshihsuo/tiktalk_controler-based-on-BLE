@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/vendor/libm
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/vendor/libm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

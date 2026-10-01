@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

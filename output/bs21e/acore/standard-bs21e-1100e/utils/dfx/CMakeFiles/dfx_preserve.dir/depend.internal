@@ -160,7 +160,7 @@ utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/preserve/private/crash_data.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/preserve/private/crash_data.c
 utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -293,4 +293,4 @@ utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
  ../../../../middleware/utils/dfx/preserve/public/crash_data.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/preserve/private/preserve.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/preserve/private/preserve.c

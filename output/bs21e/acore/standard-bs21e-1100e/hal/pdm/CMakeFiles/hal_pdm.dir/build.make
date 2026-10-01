@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/pdm/CMakeFiles/hal_pdm.dir/depend.make
@@ -59,42 +59,42 @@ include hal/pdm/CMakeFiles/hal_pdm.dir/flags.make
 
 hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj: hal/pdm/CMakeFiles/hal_pdm.dir/flags.make
 hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj: ../../../../drivers/drivers/hal/pdm/hal_pdm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/hal_pdm.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/hal_pdm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/hal_pdm.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/hal_pdm.c
 
 hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pdm.dir/hal_pdm.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/hal_pdm.c > CMakeFiles/hal_pdm.dir/hal_pdm.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/hal_pdm.c > CMakeFiles/hal_pdm.dir/hal_pdm.c.i
 
 hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pdm.dir/hal_pdm.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/hal_pdm.c -o CMakeFiles/hal_pdm.dir/hal_pdm.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/hal_pdm.c -o CMakeFiles/hal_pdm.dir/hal_pdm.c.s
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj: hal/pdm/CMakeFiles/hal_pdm.dir/flags.make
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj: ../../../../drivers/drivers/hal/pdm/v150/hal_pdm_v150.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c > CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c > CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.i
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.s
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj: hal/pdm/CMakeFiles/hal_pdm.dir/flags.make
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj   -c /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c > CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c > CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.i
 
 hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_PDM_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c -o CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.s
 
 # Object files for target hal_pdm
 hal_pdm_OBJECTS = \
@@ -110,9 +110,9 @@ hal/pdm/libhal_pdm.a: hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj
 hal/pdm/libhal_pdm.a: hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj
 hal/pdm/libhal_pdm.a: hal/pdm/CMakeFiles/hal_pdm.dir/build.make
 hal/pdm/libhal_pdm.a: hal/pdm/CMakeFiles/hal_pdm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_pdm.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -P CMakeFiles/hal_pdm.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_pdm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_pdm.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -P CMakeFiles/hal_pdm.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_pdm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/pdm/CMakeFiles/hal_pdm.dir/build: hal/pdm/libhal_pdm.a
@@ -120,10 +120,10 @@ hal/pdm/CMakeFiles/hal_pdm.dir/build: hal/pdm/libhal_pdm.a
 .PHONY : hal/pdm/CMakeFiles/hal_pdm.dir/build
 
 hal/pdm/CMakeFiles/hal_pdm.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -P CMakeFiles/hal_pdm.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm && $(CMAKE_COMMAND) -P CMakeFiles/hal_pdm.dir/cmake_clean.cmake
 .PHONY : hal/pdm/CMakeFiles/hal_pdm.dir/clean
 
 hal/pdm/CMakeFiles/hal_pdm.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/drivers/drivers/hal/pdm /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/pdm /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/pdm/CMakeFiles/hal_pdm.dir/depend
 

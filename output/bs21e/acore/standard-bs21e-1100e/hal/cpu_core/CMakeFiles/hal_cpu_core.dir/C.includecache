@@ -62,15 +62,15 @@ stddef.h
 stdbool.h
 -
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/hal_cpu_core.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/hal_cpu_core.c
 hal_cpu_core.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/hal_cpu_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/hal_cpu_core.h
 platform_core.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/platform_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/platform_core.h
 chip_io.h
-/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/chip_io.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/chip_io.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/hal/cpu_core/hal_cpu_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/cpu_core/hal_cpu_core.h
 stdbool.h
 -
 

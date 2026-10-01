@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 driver/lpc/CMakeFiles/lpc.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/CMakeFiles/lpc.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/lpc/CMakeFiles/lpc.dir/rule
 .PHONY : driver/lpc/CMakeFiles/lpc.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ lpc: driver/lpc/CMakeFiles/lpc.dir/rule
 
 # fast build rule for target.
 lpc/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/build
 .PHONY : lpc/fast
 
 acore/lpc_core.obj: acore/lpc_core.c.obj
@@ -131,7 +131,7 @@ acore/lpc_core.obj: acore/lpc_core.c.obj
 
 # target to build an object file
 acore/lpc_core.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.obj
 .PHONY : acore/lpc_core.c.obj
 
 acore/lpc_core.i: acore/lpc_core.c.i
@@ -140,7 +140,7 @@ acore/lpc_core.i: acore/lpc_core.c.i
 
 # target to preprocess a source file
 acore/lpc_core.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.i
 .PHONY : acore/lpc_core.c.i
 
 acore/lpc_core.s: acore/lpc_core.c.s
@@ -149,7 +149,7 @@ acore/lpc_core.s: acore/lpc_core.c.s
 
 # target to generate assembly for a file
 acore/lpc_core.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.s
 .PHONY : acore/lpc_core.c.s
 
 shared/lpc.obj: shared/lpc.c.obj
@@ -158,7 +158,7 @@ shared/lpc.obj: shared/lpc.c.obj
 
 # target to build an object file
 shared/lpc.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj
 .PHONY : shared/lpc.c.obj
 
 shared/lpc.i: shared/lpc.c.i
@@ -167,7 +167,7 @@ shared/lpc.i: shared/lpc.c.i
 
 # target to preprocess a source file
 shared/lpc.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.i
 .PHONY : shared/lpc.c.i
 
 shared/lpc.s: shared/lpc.c.s
@@ -176,7 +176,7 @@ shared/lpc.s: shared/lpc.c.s
 
 # target to generate assembly for a file
 shared/lpc.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/lpc/CMakeFiles/lpc.dir/build.make driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.s
 .PHONY : shared/lpc.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

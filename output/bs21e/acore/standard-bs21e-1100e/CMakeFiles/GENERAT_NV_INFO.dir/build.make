@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_NV_INFO.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-11
 include CMakeFiles/GENERAT_NV_INFO.dir/progress.make
 
 CMakeFiles/GENERAT_NV_INFO:
-	cd /home/bearpi/Desktop/hid/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default && /usr/bin/python3 /home/bearpi/Desktop/hid/build/script/nv/generate_utils.py NV include /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.c
-	cd /home/bearpi/Desktop/hid/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc -o /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.etypes -I/home/bearpi/Desktop/hid/include -I/home/bearpi/Desktop/hid/middleware/utils/common_headers/native -I/home/bearpi/Desktop/hid/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default/include -DCONFIG_NV_SUPPORT_SINGLE_CORE_SYSTEM -E /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.c
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default && /usr/bin/python3 /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/build/script/nv/generate_utils.py NV include /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.c
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc -o /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.etypes -I/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/include -I/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/common_headers/native -I/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs21e/nv/nv_config/bs21e_nv_default/include -DCONFIG_NV_SUPPORT_SINGLE_CORE_SYSTEM -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/nv_config/etypes/acore.c
 
 GENERAT_NV_INFO: CMakeFiles/GENERAT_NV_INFO
 GENERAT_NV_INFO: CMakeFiles/GENERAT_NV_INFO.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_NV_INFO.dir/clean:
 .PHONY : CMakeFiles/GENERAT_NV_INFO.dir/clean
 
 CMakeFiles/GENERAT_NV_INFO.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NV_INFO.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NV_INFO.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_NV_INFO.dir/depend
 

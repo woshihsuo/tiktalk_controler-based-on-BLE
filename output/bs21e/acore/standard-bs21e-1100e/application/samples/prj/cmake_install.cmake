@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/application/samples/prj
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

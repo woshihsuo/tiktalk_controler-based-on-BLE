@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/pm/pm_veto/CMakeFiles/pm_veto.dir/depend.make
@@ -59,16 +59,16 @@ include utils/pm/pm_veto/CMakeFiles/pm_veto.dir/flags.make
 
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.obj: utils/pm/pm_veto/CMakeFiles/pm_veto.dir/flags.make
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.obj: ../../../../middleware/utils/pm/pm_veto/pm_veto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.obj"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_veto.dir/pm_veto.c.obj   -c /home/bearpi/Desktop/hid/middleware/utils/pm/pm_veto/pm_veto.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.obj"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_veto.dir/pm_veto.c.obj   -c /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_veto/pm_veto.c
 
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_veto.dir/pm_veto.c.i"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/hid/middleware/utils/pm/pm_veto/pm_veto.c > CMakeFiles/pm_veto.dir/pm_veto.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_veto/pm_veto.c > CMakeFiles/pm_veto.dir/pm_veto.c.i
 
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_veto.dir/pm_veto.c.s"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/hid/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/hid/middleware/utils/pm/pm_veto/pm_veto.c -o CMakeFiles/pm_veto.dir/pm_veto.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_VETO_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_veto/pm_veto.c -o CMakeFiles/pm_veto.dir/pm_veto.c.s
 
 # Object files for target pm_veto
 pm_veto_OBJECTS = \
@@ -80,9 +80,9 @@ pm_veto_EXTERNAL_OBJECTS =
 utils/pm/pm_veto/libpm_veto.a: utils/pm/pm_veto/CMakeFiles/pm_veto.dir/pm_veto.c.obj
 utils/pm/pm_veto/libpm_veto.a: utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build.make
 utils/pm/pm_veto/libpm_veto.a: utils/pm/pm_veto/CMakeFiles/pm_veto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_veto.a"
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -P CMakeFiles/pm_veto.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_veto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_veto.a"
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -P CMakeFiles/pm_veto.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_veto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build: utils/pm/pm_veto/libpm_veto.a
@@ -90,10 +90,10 @@ utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build: utils/pm/pm_veto/libpm_veto.a
 .PHONY : utils/pm/pm_veto/CMakeFiles/pm_veto.dir/build
 
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -P CMakeFiles/pm_veto.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto && $(CMAKE_COMMAND) -P CMakeFiles/pm_veto.dir/cmake_clean.cmake
 .PHONY : utils/pm/pm_veto/CMakeFiles/pm_veto.dir/clean
 
 utils/pm/pm_veto/CMakeFiles/pm_veto.dir/depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/hid /home/bearpi/Desktop/hid/middleware/utils/pm/pm_veto /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto/CMakeFiles/pm_veto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tiktalk_controler-based-on-BLE /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/pm/pm_veto /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_veto/CMakeFiles/pm_veto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/pm/pm_veto/CMakeFiles/pm_veto.dir/depend
 

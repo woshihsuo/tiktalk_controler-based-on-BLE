@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/chips/bs2x/at/at_btc_cmd_table
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/at/at_btc_cmd_table
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

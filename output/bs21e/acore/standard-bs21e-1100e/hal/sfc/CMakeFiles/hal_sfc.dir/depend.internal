@@ -11,8 +11,8 @@ hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc.h
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj
  ../../../../drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
  ../../../../drivers/chips/bs2x/porting/sfc/sfc_porting.h
@@ -105,10 +105,10 @@ hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150_regs_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.h
 hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj
  ../../../../drivers/chips/bs2x/porting/sfc/sfc_config_info_porting.h
  ../../../../drivers/chips/bs2x/porting/sfc/sfc_porting.h
@@ -120,6 +120,6 @@ hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_def.h
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c
- /home/bearpi/Desktop/hid/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150_regs_def.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/sfc/hal_sfc_v150_regs_op.h

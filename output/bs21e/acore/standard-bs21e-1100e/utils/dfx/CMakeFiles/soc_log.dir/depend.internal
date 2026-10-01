@@ -141,7 +141,7 @@ utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log_strategy.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/soc_log/soc_log.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/soc_log/soc_log.c
 utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -284,4 +284,4 @@ utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log_strategy.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/soc_log/soc_log_uart_instance.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/soc_log/soc_log_uart_instance.c

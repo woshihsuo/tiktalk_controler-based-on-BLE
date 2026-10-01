@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/nv/nv_porting/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule
 .PHONY : middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ nv_porting: middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/rule
 
 # fast build rule for target.
 nv_porting/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build
 .PHONY : nv_porting/fast
 
 nv_crypto.obj: nv_crypto.c.obj
@@ -131,7 +131,7 @@ nv_crypto.obj: nv_crypto.c.obj
 
 # target to build an object file
 nv_crypto.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.obj
 .PHONY : nv_crypto.c.obj
 
 nv_crypto.i: nv_crypto.c.i
@@ -140,7 +140,7 @@ nv_crypto.i: nv_crypto.c.i
 
 # target to preprocess a source file
 nv_crypto.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.i
 .PHONY : nv_crypto.c.i
 
 nv_crypto.s: nv_crypto.c.s
@@ -149,7 +149,7 @@ nv_crypto.s: nv_crypto.c.s
 
 # target to generate assembly for a file
 nv_crypto.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_crypto.c.s
 .PHONY : nv_crypto.c.s
 
 nv_flash.obj: nv_flash.c.obj
@@ -158,7 +158,7 @@ nv_flash.obj: nv_flash.c.obj
 
 # target to build an object file
 nv_flash.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.obj
 .PHONY : nv_flash.c.obj
 
 nv_flash.i: nv_flash.c.i
@@ -167,7 +167,7 @@ nv_flash.i: nv_flash.c.i
 
 # target to preprocess a source file
 nv_flash.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.i
 .PHONY : nv_flash.c.i
 
 nv_flash.s: nv_flash.c.s
@@ -176,7 +176,7 @@ nv_flash.s: nv_flash.c.s
 
 # target to generate assembly for a file
 nv_flash.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/build.make middleware/chips/bs2x/nv/nv_porting/CMakeFiles/nv_porting.dir/nv_flash.c.s
 .PHONY : nv_flash.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

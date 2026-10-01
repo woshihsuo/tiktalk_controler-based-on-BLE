@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/update/ota/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/update/ota/CMakeFiles/ota_upgrade.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/CMakeFiles/ota_upgrade.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/update/ota/CMakeFiles/ota_upgrade.dir/rule
 .PHONY : utils/update/ota/CMakeFiles/ota_upgrade.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ota_upgrade: utils/update/ota/CMakeFiles/ota_upgrade.dir/rule
 
 # fast build rule for target.
 ota_upgrade/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/build
 .PHONY : ota_upgrade/fast
 
 ota_upgrade.obj: ota_upgrade.c.obj
@@ -131,7 +131,7 @@ ota_upgrade.obj: ota_upgrade.c.obj
 
 # target to build an object file
 ota_upgrade.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj
 .PHONY : ota_upgrade.c.obj
 
 ota_upgrade.i: ota_upgrade.c.i
@@ -140,7 +140,7 @@ ota_upgrade.i: ota_upgrade.c.i
 
 # target to preprocess a source file
 ota_upgrade.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.i
 .PHONY : ota_upgrade.c.i
 
 ota_upgrade.s: ota_upgrade.c.s
@@ -149,7 +149,7 @@ ota_upgrade.s: ota_upgrade.c.s
 
 # target to generate assembly for a file
 ota_upgrade.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.s
 .PHONY : ota_upgrade.c.s
 
 ota_upgrade_handle.obj: ota_upgrade_handle.c.obj
@@ -158,7 +158,7 @@ ota_upgrade_handle.obj: ota_upgrade_handle.c.obj
 
 # target to build an object file
 ota_upgrade_handle.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
 .PHONY : ota_upgrade_handle.c.obj
 
 ota_upgrade_handle.i: ota_upgrade_handle.c.i
@@ -167,7 +167,7 @@ ota_upgrade_handle.i: ota_upgrade_handle.c.i
 
 # target to preprocess a source file
 ota_upgrade_handle.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.i
 .PHONY : ota_upgrade_handle.c.i
 
 ota_upgrade_handle.s: ota_upgrade_handle.c.s
@@ -176,7 +176,7 @@ ota_upgrade_handle.s: ota_upgrade_handle.c.s
 
 # target to generate assembly for a file
 ota_upgrade_handle.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/update/ota/CMakeFiles/ota_upgrade.dir/build.make utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.s
 .PHONY : ota_upgrade_handle.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

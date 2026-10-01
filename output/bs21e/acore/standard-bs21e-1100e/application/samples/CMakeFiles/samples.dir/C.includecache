@@ -30,6 +30,20 @@ bts_gatt_stru.h
 bts_gatt_server.h
 ../../../../application/samples/prj/bsp/inc/bts_gatt_server.h
 
+../../../../application/samples/prj/bsp/inc/key.h
+main.h
+../../../../application/samples/prj/bsp/inc/main.h
+pinctrl.h
+../../../../application/samples/prj/bsp/inc/pinctrl.h
+gpio.h
+../../../../application/samples/prj/bsp/inc/gpio.h
+timer.h
+../../../../application/samples/prj/bsp/inc/timer.h
+tcxo.h
+../../../../application/samples/prj/bsp/inc/tcxo.h
+chip_core_irq.h
+../../../../application/samples/prj/bsp/inc/chip_core_irq.h
+
 ../../../../application/samples/prj/bsp/inc/led.h
 common_def.h
 ../../../../application/samples/prj/bsp/inc/common_def.h
@@ -109,10 +123,14 @@ cmsis_os2.h
 ../../../../application/samples/prj/cmsis_os2.h
 app_init.h
 ../../../../application/samples/prj/app_init.h
+securec.h
+../../../../application/samples/prj/securec.h
 led.h
 ../../../../application/samples/prj/led.h
 ble.h
 ../../../../application/samples/prj/ble.h
+key.h
+../../../../application/samples/prj/key.h
 sle_measure_dis.h
 ../../../../application/samples/prj/sle_measure_dis.h
 
@@ -137,6 +155,8 @@ product_evb_standard.h
 ../../../../drivers/chips/bs2x/include/chip_core_definition.h
 chip_definitions.h
 ../../../../drivers/chips/bs2x/include/chip_definitions.h
+
+../../../../drivers/chips/bs2x/include/chip_core_irq.h
 
 ../../../../drivers/chips/bs2x/include/platform_core.h
 product.h
@@ -186,6 +206,22 @@ hal_spi_v151_regs_def.h
 dma_porting.h
 ../../../../drivers/chips/bs2x/porting/spi/dma_porting.h
 
+../../../../drivers/chips/bs2x/porting/tcxo/tcxo_porting.h
+stdint.h
+-
+platform_core.h
+../../../../drivers/chips/bs2x/porting/tcxo/platform_core.h
+clocks_core_common.h
+../../../../drivers/chips/bs2x/porting/tcxo/clocks_core_common.h
+
+../../../../drivers/chips/bs2x/porting/timer/timer_porting.h
+stdint.h
+-
+stdbool.h
+-
+tcxo_porting.h
+../../../../drivers/chips/bs2x/porting/timer/tcxo_porting.h
+
 ../../../../drivers/drivers/hal/gpio/hal_gpio.h
 stdint.h
 -
@@ -221,6 +257,16 @@ spi_porting.h
 ../../../../drivers/drivers/hal/spi/v151/hal_spi_v151_regs_def.h
 stdint.h
 -
+
+../../../../drivers/drivers/hal/timer/hal_drv_timer.h
+stdint.h
+-
+stdbool.h
+-
+errcode.h
+../../../../drivers/drivers/hal/timer/errcode.h
+timer_porting.h
+../../../../drivers/drivers/hal/timer/timer_porting.h
 
 ../../../../include/common_def.h
 stdint.h
@@ -265,6 +311,14 @@ stdint.h
 -
 errcode.h
 ../../../../include/driver/errcode.h
+
+../../../../include/driver/timer.h
+stdint.h
+-
+errcode.h
+../../../../include/driver/errcode.h
+hal_drv_timer.h
+../../../../include/driver/hal_drv_timer.h
 
 ../../../../include/errcode.h
 stdint.h
@@ -1176,49 +1230,57 @@ slem_errcode.h
 stdint.h
 -
 
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble.c
 ble.h
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble_hid.c
 ble.h
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble_hid_adv.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble_hid_adv.c
 ble.h
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/ble.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/ble.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/key.c
+key.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/key.h
+
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/led.c
 led.h
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/led.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/led.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/sle_measure_dis.c
 sle_measure_dis.h
-/home/bearpi/Desktop/hid/application/samples/prj/bsp/src/sle_measure_dis.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/bsp/src/sle_measure_dis.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/driver/src/uhal_spi.c
 uhal_spi.h
-/home/bearpi/Desktop/hid/application/samples/prj/driver/src/uhal_spi.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/driver/src/uhal_spi.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/main.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/main.c
 main.h
-/home/bearpi/Desktop/hid/application/samples/prj/main.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/main.h
 securec.h
-/home/bearpi/Desktop/hid/application/samples/prj/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/securec.h
 
-/home/bearpi/Desktop/hid/application/samples/prj/main.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/main.h
 common_def.h
-/home/bearpi/Desktop/hid/application/samples/prj/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/common_def.h
 osal_debug.h
-/home/bearpi/Desktop/hid/application/samples/prj/osal_debug.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/osal_debug.h
 cmsis_os2.h
-/home/bearpi/Desktop/hid/application/samples/prj/cmsis_os2.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/cmsis_os2.h
 app_init.h
-/home/bearpi/Desktop/hid/application/samples/prj/app_init.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/app_init.h
+securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/securec.h
 led.h
-/home/bearpi/Desktop/hid/application/samples/prj/led.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/led.h
 ble.h
-/home/bearpi/Desktop/hid/application/samples/prj/ble.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/ble.h
+key.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/key.h
 sle_measure_dis.h
-/home/bearpi/Desktop/hid/application/samples/prj/sle_measure_dis.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/application/samples/prj/sle_measure_dis.h
 

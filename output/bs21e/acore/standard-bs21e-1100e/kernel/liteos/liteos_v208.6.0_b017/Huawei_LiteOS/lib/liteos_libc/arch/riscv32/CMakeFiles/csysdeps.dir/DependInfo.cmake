@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memcpy.S" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.obj"
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memset.S" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.obj"
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/setjmp.S" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.obj"
-  "/home/bearpi/Desktop/hid/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/strcmp.S" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memcpy.S" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memcpy.S.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memset.S" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/memset.S.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/setjmp.S" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/setjmp.S.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/strcmp.S" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/CMakeFiles/csysdeps.dir/strcmp.S.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

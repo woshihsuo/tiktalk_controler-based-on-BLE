@@ -878,35 +878,35 @@ stdint.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/massdata_buffer.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/massdata_buffer.c
 securec.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/securec.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/securec.h
 non_os.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/non_os.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/non_os.h
 panic.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/panic.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/panic.h
 soc_osal.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/soc_osal.h
 common_def.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/common_def.h
 memory_config.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/memory_config.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/memory_config.h
 massdata_buffer.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/massdata_buffer.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/massdata_buffer.h
 ipc.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/ipc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/ipc.h
 ipc_actions.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/ipc_actions.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/ipc_actions.h
 log_trigger.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/log_trigger.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/log_trigger.h
 systick.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/systick.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/systick.h
 log_printf.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/log_printf.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/log_printf.h
 ipc.h
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/ipc.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/ipc.h
 
-/home/bearpi/Desktop/hid/middleware/utils/dfx/massdata/massdata_buffer.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/massdata/massdata_buffer.h
 stdint.h
 -
 

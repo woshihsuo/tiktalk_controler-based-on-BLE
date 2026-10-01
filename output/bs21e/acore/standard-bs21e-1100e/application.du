@@ -72,7 +72,6 @@
 20      ./.text/application/samples/prj/bsp/src/ble_hid.c/ble_hid_server_service_start_cbk
 312     ./.text/application/samples/prj/bsp/src/ble_hid_adv.c/ble_hid_set_adv_data
 70      ./.text/application/samples/prj/bsp/src/ble_hid_adv.c/ble_hid_start_adv
-78      ./.text/application/samples/prj/main.c/ble_keyboard_fill_report
 8       ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/ble_modulation_index_values
 32      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/ble_pk_payload_type_values
 24      ./.text/application/samples/prj/bsp/src/ble.c/ble_power_on_cbk
@@ -80,6 +79,7 @@
 36      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/ble_rf_rx_write_param_syntax
 16      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/ble_rf_tx_phy_values
 48      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/ble_rf_tx_write_param_syntax
+64      ./.text/application/samples/prj/main.c/ble_touch_send.constprop.1
 10      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/bt_at_ble_register_callback_cmd
 10      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/bt_at_ble_reset_cmd
 30      ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c/bt_at_ble_rf_rx_cmd
@@ -273,7 +273,6 @@
 196     ./.text/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c/hal_efuse_write_operation
 6       ./.text/drivers/drivers/hal/gpio/hal_gpio.c/hal_gpio_base_addrs_get
 14      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_ctrl
-48      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_get_inval
 50      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_init
 168     ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.c/hal_gpio_irq_handler
 42      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_output
@@ -289,7 +288,6 @@
 36      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_v150_ctrl_resume
 38      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_v150_ctrl_suspend
 72      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_v150_ctrl_toggle
-48      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_v150_get_inval
 50      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150.c/hal_gpio_v150_init
 28      ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150_regs_op.c/hal_gpio_v150_intr_rebase
 168     ./.text/drivers/drivers/hal/gpio/v150/hal_gpio_v150_comm.c/hal_gpio_v150_irq_handler
@@ -360,7 +358,7 @@
 2       ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_init
 18      ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_kick
 100     ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_set_attr
-94      ./.text/application/samples/prj/main.c/hid_task
+102     ./.text/application/samples/prj/main.c/hid_task
 14      ./.text/drivers/chips/bs2x/liteos/idle_config.c/idle_task_config
 16      ./.text/drivers/chips/bs2x/liteos/idle_config.c/idle_task_process
 65      ./.text/home/xujie/workspace/sec_image_tool/iot_sec_image_src/gen_sec_image_tools/output/e018/image_info.c/image_info
@@ -585,7 +583,7 @@
 130     ./.text/middleware/utils/dfx/preserve/private/preserve.c/system_boot_reason_print
 268     ./.text/middleware/utils/dfx/preserve/private/preserve.c/system_boot_reason_process
 8       ./.text/drivers/chips/bs2x/porting/systick/systick_porting.c/systick_porting_base_addr_get
-70      ./.text/application/samples/prj/main.c/task_entry
+46      ./.text/application/samples/prj/main.c/task_entry
 82      ./.text/drivers/drivers/driver/timer/timer.c/timer_get_next_timer
 98      ./.text/drivers/drivers/driver/timer/timer.c/timer_set_next_timer_interrupt
 126     ./.text/drivers/drivers/driver/timer/timer.c/timer_update_timers_time
@@ -672,7 +670,6 @@
 4       ./.text/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c/uapi_get_bt_table_size
 8       ./.text/middleware/chips/bs2x/at/at_plt_cmd_table/at_table.c/uapi_get_plt_at_table
 4       ./.text/middleware/chips/bs2x/at/at_plt_cmd_table/at_table.c/uapi_get_plt_table_size
-18      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_get_val
 22      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_init
 66      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_set_dir
 58      ./.text/drivers/drivers/driver/gpio/gpio.c/uapi_gpio_set_val
@@ -1156,7 +1153,6 @@
 4       ./.bss/middleware/utils/dfx/log_buffer/log_buffer_reader.c/g_section_control
 4       ./.bss/middleware/utils/dfx/log_reader/log_uart.c/g_semaphore_logs
 4       ./.bss/middleware/utils/dfx/log_reader/log_uart.c/g_semaphore_uart
-7       ./.bss/application/samples/prj/main.c/g_send_key_msg
 1       ./.bss/application/samples/prj/bsp/src/ble_hid.c/g_server_id
 4       ./.bss/drivers/drivers/hal/sfc/hal_sfc.c/g_sfc_bus_dma_regs
 4       ./.bss/drivers/drivers/hal/sfc/hal_sfc.c/g_sfc_bus_regs
@@ -1184,6 +1180,7 @@
 4       ./.bss/drivers/drivers/hal/timer/hal_drv_timer.c/g_timer_comm_regs
 4       ./.bss/drivers/drivers/hal/timer/hal_drv_timer.c/g_timer_regs
 24      ./.bss/drivers/drivers/driver/timer/timer.c/g_timers_manager
+6       ./.bss/application/samples/prj/main.c/g_touch_report
 100     ./.bss/middleware/utils/dfx/diag_transmit/transmit_item.c/g_transmit_ctrl
 1       ./.bss/middleware/utils/dfx/log/log.c/g_trigger_tx
 4       ./.bss/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.c/g_trng_v1_regs
@@ -1212,7 +1209,6 @@
 4       ./.bss/drivers/drivers/driver/watchdog/watchdog.c/g_wdt_timeout
 28      ./.bss/middleware/utils/dfx/diag/diag_filter.c/g_zdiag_filter_ctrl
 12      ./.bss/middleware/utils/dfx/diag/diag_filter.c/g_zdiag_notify_process
-7       ./.bss/application/samples/prj/bsp/src/ble_hid.c/input_report_value
 4       ./.bss/middleware/utils/nv/nv_storage_app/soc_nv_storage_handle.c/nv_sem
 1       ./.bss/application/samples/prj/bsp/src/ble_hid.c/output_report_value
 2       ./.bss/application/samples/prj/bsp/src/ble_hid.c/protocol_mode_val
@@ -1272,13 +1268,14 @@
 8       ./.data/middleware/utils/pm/pm_fsm/pm_fsm.c/g_pm_fsm_list
 4       ./.data/drivers/chips/bs2x/porting/sfc/sfc_porting.c/g_sfc_delay_once_us
 4       ./.data/drivers/chips/bs2x/porting/sfc/sfc_porting.c/g_sfc_delay_times
-59      ./.data/application/samples/prj/bsp/src/ble_hid.c/g_srv_hid_keyboard_report_map
+52      ./.data/application/samples/prj/bsp/src/ble_hid.c/g_srv_hid_keyboard_report_map
 1       ./.data/middleware/chips/bs2x/pm/pm_porting.c/g_sysldo_default_val
 4       ./.data/drivers/chips/bs2x/porting/security/trng/trng_porting.c/g_trng_v1_base_addr
 4       ./.data/drivers/chips/bs2x/porting/watchdog/watchdog_porting.c/g_watchdog_base_addr
 4       ./.data/drivers/chips/bs2x/porting/watchdog/watchdog_porting.c/g_watchdog_config
 1       ./.data/drivers/drivers/driver/watchdog/watchdog.c/g_wdt_mode
 4       ./.data/application/samples/prj/bsp/src/ble_hid.c/hid_information_val
+6       ./.data/application/samples/prj/bsp/src/ble_hid.c/input_report_value
 2       ./.data/application/samples/prj/bsp/src/ble_hid.c/report_reference_val_input
 2       ./.data/application/samples/prj/bsp/src/ble_hid.c/report_reference_val_output
 16      ./.drv_xip/middleware/utils/dfx/log/log.c/get_log_sn_number
@@ -1318,4 +1315,4 @@
 44      ./.osal_xip/kernel/osal/src/liteos/osal_addr.c/osal_vzalloc
 524     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_cmp
 512     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_remap
-done. Lines: 9706, Matches: 1320
+done. Lines: 9703, Matches: 1317

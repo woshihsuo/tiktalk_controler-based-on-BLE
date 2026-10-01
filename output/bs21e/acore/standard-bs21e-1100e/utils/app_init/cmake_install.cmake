@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/middleware/utils/app_init
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/app_init
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/protocol/bt/host/bt/ahi/ahi_b
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/protocol/bt/host/bt/ahi/ahi_b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

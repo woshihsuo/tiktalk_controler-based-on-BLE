@@ -188,7 +188,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -317,7 +317,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_buffer_common.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_dscr_cb.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_dscr_cb.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -375,7 +375,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.obj
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
  ../../../../middleware/utils/dfx/log_buffer/log_buffer_common.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_logger.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_logger.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -555,7 +555,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_mem_query.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_mem_query.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -690,7 +690,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.obj
  ../../../../middleware/utils/dfx/log/include/log_printf.h
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_msg.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_msg.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -745,7 +745,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_memory_definitions.h
  ../../../../middleware/utils/dfx/log_buffer/log_memory_section.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_ota.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_ota.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -800,7 +800,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_memory_definitions.h
  ../../../../middleware/utils/dfx/log_buffer/log_memory_section.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_pcm.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_pcm.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -936,7 +936,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_buffer_common.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_reg_query.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_reg_query.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1064,7 +1064,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_buffer_common.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oam_status.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oam_status.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1224,7 +1224,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oml_exception.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oml_exception.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1279,7 +1279,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_buffer_common.h
  ../../../../middleware/utils/dfx/log_buffer/log_memory_definitions.h
  ../../../../middleware/utils/dfx/log_buffer/log_memory_section.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_oml_ota_rom.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_oml_ota_rom.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1336,7 +1336,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.obj
  ../../../../middleware/utils/dfx/log_buffer/log_memory_definitions.h
  ../../../../middleware/utils/dfx/log_buffer/log_memory_section.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_printf.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_printf.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1365,7 +1365,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/log/include/log_printf.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_printf_rom.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_printf_rom.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1417,7 +1417,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.obj
  ../../../../middleware/utils/dfx/log/include/log_reg_dump.h
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_reg_dump.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_reg_dump.c
 utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1565,7 +1565,7 @@ utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.obj
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log/log_trigger.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log/log_trigger.c
 utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1700,11 +1700,11 @@ utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.obj
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer_common.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_section.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer_common.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_definitions.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_section.h
 utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1813,11 +1813,11 @@ utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.obj
  ../../../../middleware/utils/dfx/log/include/log_module_id.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer_common.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer_reader.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_buffer_reader.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_section.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer_common.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer_reader.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_buffer_reader.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_definitions.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_section.h
 utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1944,9 +1944,9 @@ utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_region.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_region.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_definitions.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_region.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_region.h
 utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1959,6 +1959,6 @@ utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_definitions.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_section.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/log_buffer/log_memory_section.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_definitions.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_section.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/log_buffer/log_memory_section.h

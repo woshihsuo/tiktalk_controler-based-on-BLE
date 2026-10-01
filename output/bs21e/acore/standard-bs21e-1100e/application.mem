@@ -3,7 +3,7 @@
   Section             Start Addr        Size      Used
   ------------------  ----------  ----------  --------
   
-  ITCM                0x00040000     0x14000    0xE1D8 = 57816
+  ITCM                0x00040000     0x14000    0xE1D0 = 57808
     .patch_data       0x00040000                  1040 load address 0x90115600
     .rom_ram_bss      0x00040410                   280                  
     .rom_ram_text     0x00040528                  3120 load address 0x90115A3C
@@ -17,11 +17,11 @@
     .plt_ramtext      0x00041920                 29376 load address 0x9011AC80
     .btc_ramtext      0x00048BE0                  7616 load address 0x90121F40
     .usb_ramtext      0x0004A9A0                     0                  
-    .bss              0x0004A9A0                 14392                  
+    .bss              0x0004A9A0                 14384                  
   
   DTCM                0x20000000      0xFF00    0x2C00 = 11264
     .stacks           0x20000000                  7680                  
-    .data             0x20001E00                  3584 load address 0x9018D070
+    .data             0x20001E00                  3584 load address 0x9018D010
     .heap             0x20002C00                     0                  
   
   PRESERVE            0x2000FF00       0x100      0xFC = 252
@@ -31,7 +31,7 @@
     startup           0x90115300                   432                  
     .version_str      0x901154B0                    88                  
   
-  FLASH_PROGRAM       0x90115600     0x87A00   0x78870 = 493680
+  FLASH_PROGRAM       0x90115600     0x87A00   0x78810 = 493584
     .patch_data       0x90115600                  1040                  
     .sysintcall.init  0x90115A10                    44                  
     .rom_ram_text     0x90115A3C                  3120                  
@@ -46,8 +46,8 @@
     .plt_ramtext      0x9011AC80                 29376                  
     .btc_ramtext      0x90121F40                  7616                  
     .initcall.init    0x90123D00                     0                  
-    .text             0x90123D00                430960                  
-    .data             0x9018D070                  3584                  
+    .text             0x90123D00                430864                  
+    .data             0x9018D010                  3584                  
   
   CPUTRACE_RAM        0x52006000       0x3FC     0x3FC = 1020
     .cputrace_mem     0x52006000                  1020                  
@@ -65,7 +65,7 @@
   --------------------------------  --------  -----
 
 
-  .text                                57664
+  .text                                57520
 
     open_source                         8193
       GmSSL3.1.1                            
@@ -74,7 +74,7 @@
           sm3                                     6906
           sm3_hmac                                 228
 
-    drivers                            12811
+    drivers                            12697
       chips                             5686
         bs2x                                
           main_init                      914
@@ -132,8 +132,8 @@
             pmu_interrupt                          488
             pmu                                     84
 
-      drivers                           7125
-        driver                          2288
+      drivers                           7011
+        driver                          2270
           cpu_trace                      224
             cpu_trace                              224
 
@@ -148,8 +148,8 @@
           timer                          404
             timer                                  404
 
-          gpio                           220
-            gpio                                   220
+          gpio                           202
+            gpio                                   202
 
           pinmux                         322
             pinctrl                                322
@@ -163,10 +163,10 @@
           watchdog                       346
             watchdog                               346
 
-        hal                             4837
-          gpio                          1430
-            v150                        1406
-              hal_gpio_v150                        880
+        hal                             4741
+          gpio                          1334
+            v150                        1310
+              hal_gpio_v150                        784
               hal_gpio_v150_comm                   476
               hal_gpio_v150_comm.h                  22
               hal_gpio_v150_regs_op                 28
@@ -393,8 +393,8 @@
                 libgcc                      
                   libgcc2                         2782
 
-    application                         2526
-      samples                           2522
+    application                         2496
+      samples                           2492
         prj                                 
           bsp                           2276
             src                             
@@ -403,7 +403,7 @@
               ble_hid_adv                          382
               led                                   28
 
-          main                                     246
+          main                                     216
 
       bs21e                                4
         standard                            
@@ -575,17 +575,17 @@
   --------------------------------  --------  -----
 
 
-  .bss                                  2939
+  .bss                                  2931
 
-    application                           30
+    application                           22
       samples                               
         prj                                 
-          bsp                             23
+          bsp                             16
             src                             
-              ble_hid                               19
+              ble_hid                               12
               ble                                    4
 
-          main                                       7
+          main                                       6
 
     drivers                             1210
       chips                              137
@@ -870,7 +870,7 @@
   --------------------------------  --------  -----
 
 
-  .data                                  459
+  .data                                  458
 
     drivers                              283
       chips                               58
@@ -932,12 +932,12 @@
           watchdog                          
             watchdog                                 1
 
-    application                          116
+    application                          115
       samples                               
         prj                                 
           bsp                               
             src                             
-              ble_hid                              101
+              ble_hid                              100
               ble_hid_adv                           15
 
     middleware                            60
@@ -1070,14 +1070,14 @@
 
   Mismatched section sizes...
 
-         .text  .lst file = 430960 (0x69370)
-                 .du file = 57664 (0xE140)
+         .text  .lst file = 430864 (0x69310)
+                 .du file = 57520 (0xE0B0)
 
          .data  .lst file = 3584 (0xE00)
-                 .du file = 459 (0x1CB)
+                 .du file = 458 (0x1CA)
 
-          .bss  .lst file = 14392 (0x3838)
-                 .du file = 2939 (0xB7B)
+          .bss  .lst file = 14384 (0x3830)
+                 .du file = 2931 (0xB73)
 
   ====================================================
 

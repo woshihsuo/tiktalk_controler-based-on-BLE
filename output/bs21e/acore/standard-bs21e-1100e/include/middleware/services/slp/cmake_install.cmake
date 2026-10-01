@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/include/middleware/services/slp
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/include/middleware/services/slp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

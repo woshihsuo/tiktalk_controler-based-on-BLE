@@ -132,17 +132,17 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/memory_core.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/memory_core.c
 memory_core.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/memory_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/memory_core.h
 non_os.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/non_os.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/non_os.h
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/memory_core.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/memory_core.h
 stdint.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/stdint.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/stdint.h
 stdbool.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/stdbool.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/stdbool.h
 platform_types.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/memory_core/shared/platform_types.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/memory_core/shared/platform_types.h
 

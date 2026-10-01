@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/hid
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/driver/usb_unified/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/clean
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/preinstall
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 driver/usb_unified/CMakeFiles/usb_unified_open.dir/rule:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/CMakeFiles/usb_unified_open.dir/rule
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 driver/usb_unified/CMakeFiles/usb_unified_open.dir/rule
 .PHONY : driver/usb_unified/CMakeFiles/usb_unified_open.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ usb_unified_open: driver/usb_unified/CMakeFiles/usb_unified_open.dir/rule
 
 # fast build rule for target.
 usb_unified_open/fast:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/build
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/build
 .PHONY : usb_unified_open/fast
 
 adapt_liteos/implementation/usb_init.obj: adapt_liteos/implementation/usb_init.c.obj
@@ -131,7 +131,7 @@ adapt_liteos/implementation/usb_init.obj: adapt_liteos/implementation/usb_init.c
 
 # target to build an object file
 adapt_liteos/implementation/usb_init.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.obj
 .PHONY : adapt_liteos/implementation/usb_init.c.obj
 
 adapt_liteos/implementation/usb_init.i: adapt_liteos/implementation/usb_init.c.i
@@ -140,7 +140,7 @@ adapt_liteos/implementation/usb_init.i: adapt_liteos/implementation/usb_init.c.i
 
 # target to preprocess a source file
 adapt_liteos/implementation/usb_init.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.i
 .PHONY : adapt_liteos/implementation/usb_init.c.i
 
 adapt_liteos/implementation/usb_init.s: adapt_liteos/implementation/usb_init.c.s
@@ -149,7 +149,7 @@ adapt_liteos/implementation/usb_init.s: adapt_liteos/implementation/usb_init.c.s
 
 # target to generate assembly for a file
 adapt_liteos/implementation/usb_init.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/adapt_liteos/implementation/usb_init.c.s
 .PHONY : adapt_liteos/implementation/usb_init.c.s
 
 implementation/_intr_ref.obj: implementation/_intr_ref.c.obj
@@ -158,7 +158,7 @@ implementation/_intr_ref.obj: implementation/_intr_ref.c.obj
 
 # target to build an object file
 implementation/_intr_ref.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.obj
 .PHONY : implementation/_intr_ref.c.obj
 
 implementation/_intr_ref.i: implementation/_intr_ref.c.i
@@ -167,7 +167,7 @@ implementation/_intr_ref.i: implementation/_intr_ref.c.i
 
 # target to preprocess a source file
 implementation/_intr_ref.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.i
 .PHONY : implementation/_intr_ref.c.i
 
 implementation/_intr_ref.s: implementation/_intr_ref.c.s
@@ -176,7 +176,7 @@ implementation/_intr_ref.s: implementation/_intr_ref.c.s
 
 # target to generate assembly for a file
 implementation/_intr_ref.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/_intr_ref.c.s
 .PHONY : implementation/_intr_ref.c.s
 
 implementation/usb_dma_cache.obj: implementation/usb_dma_cache.c.obj
@@ -185,7 +185,7 @@ implementation/usb_dma_cache.obj: implementation/usb_dma_cache.c.obj
 
 # target to build an object file
 implementation/usb_dma_cache.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.obj
 .PHONY : implementation/usb_dma_cache.c.obj
 
 implementation/usb_dma_cache.i: implementation/usb_dma_cache.c.i
@@ -194,7 +194,7 @@ implementation/usb_dma_cache.i: implementation/usb_dma_cache.c.i
 
 # target to preprocess a source file
 implementation/usb_dma_cache.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.i
 .PHONY : implementation/usb_dma_cache.c.i
 
 implementation/usb_dma_cache.s: implementation/usb_dma_cache.c.s
@@ -203,7 +203,7 @@ implementation/usb_dma_cache.s: implementation/usb_dma_cache.c.s
 
 # target to generate assembly for a file
 implementation/usb_dma_cache.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_dma_cache.c.s
 .PHONY : implementation/usb_dma_cache.c.s
 
 implementation/usb_version.obj: implementation/usb_version.c.obj
@@ -212,7 +212,7 @@ implementation/usb_version.obj: implementation/usb_version.c.obj
 
 # target to build an object file
 implementation/usb_version.c.obj:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.obj
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.obj
 .PHONY : implementation/usb_version.c.obj
 
 implementation/usb_version.i: implementation/usb_version.c.i
@@ -221,7 +221,7 @@ implementation/usb_version.i: implementation/usb_version.c.i
 
 # target to preprocess a source file
 implementation/usb_version.c.i:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.i
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.i
 .PHONY : implementation/usb_version.c.i
 
 implementation/usb_version.s: implementation/usb_version.c.s
@@ -230,7 +230,7 @@ implementation/usb_version.s: implementation/usb_version.c.s
 
 # target to generate assembly for a file
 implementation/usb_version.c.s:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.s
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f driver/usb_unified/CMakeFiles/usb_unified_open.dir/build.make driver/usb_unified/CMakeFiles/usb_unified_open.dir/implementation/usb_version.c.s
 .PHONY : implementation/usb_version.c.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

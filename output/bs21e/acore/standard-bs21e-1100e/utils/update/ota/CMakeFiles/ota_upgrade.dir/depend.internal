@@ -27,9 +27,9 @@ utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade.c.obj
  ../../../../middleware/utils/dfx/diag/diag_service.h
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/diag_transmit/include/transmit.h
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.c
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.h
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade_handle.h
 utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -180,6 +180,6 @@ utils/update/ota/CMakeFiles/ota_upgrade.dir/ota_upgrade_handle.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/update/inner_include/upg_definitions.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade.h
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.c
- /home/bearpi/Desktop/hid/middleware/utils/update/ota/ota_upgrade_handle.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade_handle.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/update/ota/ota_upgrade_handle.h

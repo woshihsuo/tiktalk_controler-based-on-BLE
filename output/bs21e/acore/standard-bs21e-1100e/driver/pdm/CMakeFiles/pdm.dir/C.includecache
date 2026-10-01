@@ -58,11 +58,11 @@ features.h
 bits/alltypes.h
 -
 
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pdm/pdm.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pdm/pdm.c
 common_def.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pdm/common_def.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pdm/common_def.h
 pdm_porting.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pdm/pdm_porting.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pdm/pdm_porting.h
 pdm.h
-/home/bearpi/Desktop/hid/drivers/drivers/driver/pdm/pdm.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/driver/pdm/pdm.h
 

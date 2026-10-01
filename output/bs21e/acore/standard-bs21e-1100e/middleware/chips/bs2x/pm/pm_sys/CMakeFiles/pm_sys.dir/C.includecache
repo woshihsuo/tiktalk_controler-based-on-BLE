@@ -946,23 +946,23 @@ pm_veto_porting.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.c
 los_tick_pri.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/los_tick_pri.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/los_tick_pri.h
 soc_osal.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/soc_osal.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/soc_osal.h
 pm_veto.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_veto.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_veto.h
 app_init.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/app_init.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/app_init.h
 osal_debug.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/osal_debug.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/osal_debug.h
 osal_msgqueue.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/osal_msgqueue.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/osal_msgqueue.h
 pm_sys.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.h
 
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/pm_sys.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/pm_sys.h
 errcode.h
-/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_sys/errcode.h
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_sys/errcode.h
 

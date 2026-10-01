@@ -10,4 +10,4 @@ utils/mips/CMakeFiles/mips.dir/private/mips.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/mips/public/mips.h
- /home/bearpi/Desktop/hid/middleware/utils/mips/private/mips.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/mips/private/mips.c

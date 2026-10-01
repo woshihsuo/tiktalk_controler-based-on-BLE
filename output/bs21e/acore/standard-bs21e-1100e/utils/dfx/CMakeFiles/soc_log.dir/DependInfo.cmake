@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/soc_log/soc_log.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj"
-  "/home/bearpi/Desktop/hid/middleware/utils/dfx/soc_log/soc_log_uart_instance.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/soc_log/soc_log.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/soc_log/soc_log_uart_instance.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -144,7 +144,7 @@ stdint.h
 string.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/aes.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/aes.c
 stdio.h
 -
 string.h
@@ -158,7 +158,7 @@ gmssl/endian.h
 gmssl/mem.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/aes_modes.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/aes_modes.c
 stdio.h
 -
 string.h
@@ -174,7 +174,7 @@ gmssl/error.h
 gmssl/mem.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/gcm.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/gcm.c
 stdio.h
 -
 string.h
@@ -198,7 +198,7 @@ gmssl/aes.h
 gmssl/endian.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/gf128.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/gf128.c
 stdio.h
 -
 string.h
@@ -214,7 +214,7 @@ gmssl/endian.h
 gmssl/error.h
 -
 
-/home/bearpi/Desktop/hid/open_source/GmSSL3.1.1/src/hex.c
+/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/open_source/GmSSL3.1.1/src/hex.c
 stdio.h
 -
 stdlib.h

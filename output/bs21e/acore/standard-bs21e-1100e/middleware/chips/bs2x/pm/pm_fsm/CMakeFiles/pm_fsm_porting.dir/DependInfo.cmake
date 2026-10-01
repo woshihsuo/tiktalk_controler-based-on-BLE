@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/pm_fsm_porting.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/chips/bs2x/pm/pm_fsm/pm_fsm_porting.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_fsm/CMakeFiles/pm_fsm_porting.dir/pm_fsm_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

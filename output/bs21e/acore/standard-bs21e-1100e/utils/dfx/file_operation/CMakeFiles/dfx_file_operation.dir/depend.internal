@@ -152,5 +152,5 @@ utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_file_operation.c
- /home/bearpi/Desktop/hid/middleware/utils/dfx/file_operation/dfx_file_operation.h
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_file_operation.c
+ /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/middleware/utils/dfx/file_operation/dfx_file_operation.h

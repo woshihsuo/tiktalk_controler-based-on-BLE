@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/hid/protocol/bt/host/bg_common
+# Install script for directory: /home/bearpi/Desktop/tiktalk_controler-based-on-BLE/protocol/bt/host/bg_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

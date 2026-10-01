@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/hal_efuse.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj"
-  "/home/bearpi/Desktop/hid/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c" "/home/bearpi/Desktop/hid/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/hal_efuse.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj"
+  "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/drivers/drivers/hal/efuse/v151/hal_efuse_v151_reg_op.c" "/home/bearpi/Desktop/tiktalk_controler-based-on-BLE/output/bs21e/acore/standard-bs21e-1100e/hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
