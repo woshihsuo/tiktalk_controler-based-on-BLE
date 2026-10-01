@@ -13,8 +13,9 @@
 /* one swipe = press left button + SWIPE_STEPS moves of SWIPE_STEP + release.
  * total drag distance = SWIPE_STEPS * SWIPE_STEP (pointer units), tune to taste
  */
-#define SWIPE_STEPS                     6
+#define SWIPE_STEPS                     3
 #define SWIPE_STEP                      30
+#define SWIPE_STEP_DELAY_MS             25
 
 static uint8_t g_mouse_report[HID_MOUSE_REPORT_LEN];
 
@@ -38,7 +39,7 @@ static void ble_swipe(bool move_up)
     osDelay(20);
     for (uint8_t i = 0; i < SWIPE_STEPS; i++) { /* drag */
         ble_mouse_send(HID_MOUSE_BTN_LEFT, 0, dy);
-        osDelay(10);
+        osDelay(SWIPE_STEP_DELAY_MS);
     }
     ble_mouse_send(0, 0, 0); /* release */
     osDelay(20);
@@ -51,23 +52,36 @@ static void hid_task(void *arg)
 
     while (1) {
         ble_t *ble = get_Blefam();
-        if ((uapi_gpio_get_val(S_MGPIO8)==0)&(ble->conn_state == GAP_BLE_STATE_CONNECTED)) {
+        key_time_t* time = get_Key_time();
+        printf("%d-%d=%d\r\n",time->end_time,time->start_time,time->end_time-time->start_time);
+        if ((time->end_time-time->start_time<=300)&(ble->conn_state == GAP_BLE_STATE_CONNECTED)) {
             ble_swipe(swipe_up);
             uapi_gpio_toggle(LED_PIN);
         }
-        osDelay(1000);
+        // osDelay(1000);
     }
 }
+
+// static void test_task(void *arg)
+// {
+//     unused(arg);
+//     while (1) {
+        
+//         printf("%d-%d=%d\r\n",time->end_time,time->start_time,time->end_time-time->start_time);
+//     }
+// }
 
 static void task_entry(void)
 {
 
     led_init();
-    key_init();
+    
     ble_hid_server_init();
+
+    key_init();
     osThreadAttr_t attr;
 
-    attr.name = "TasksTask";
+    attr.name = "hid_task";
     attr.attr_bits = 0U;
     attr.cb_mem = NULL;
     attr.cb_size = 0U;
@@ -78,6 +92,10 @@ static void task_entry(void)
     if (osThreadNew(hid_task, NULL, &attr) == NULL) {
         /* Create task fail. */
     }
+
+    // if (osThreadNew(test_task, NULL, &attr) == NULL) {
+    //     /* Create task fail. */
+    // }
 }
 
 /* Run the task_entry. */
