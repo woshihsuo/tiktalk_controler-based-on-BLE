@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,81 +34,81 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/algorithm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/app_init/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/app_init/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/app_version/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/app_version/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/at/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/at/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/codec/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/codec/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/common_headers/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/common_headers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/cpu_load/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/error_code/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/error_code/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/nv/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/nv/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/partition/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/partition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/mips/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/mips/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/cmake_install.cmake")
 endif()
 

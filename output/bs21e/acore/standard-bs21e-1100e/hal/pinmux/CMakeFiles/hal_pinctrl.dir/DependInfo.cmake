@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/pinmux/common/hal_pinctrl.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pinmux/bs2x/hal_pinctrl_bs2x.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/bs2x/hal_pinctrl_bs2x.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pinmux/common/hal_pinctrl.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

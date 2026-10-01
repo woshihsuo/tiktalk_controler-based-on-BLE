@@ -92,7 +92,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_cpup.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/dfx_os/liteos_v1/dfx_cpup.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/dfx_os/liteos_v1/dfx_cpup.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
@@ -182,7 +182,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_mem.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/dfx_os/liteos_v1/dfx_mem.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/dfx_os/liteos_v1/dfx_mem.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/arch/riscv32/bits/stdint.h
@@ -192,7 +192,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
  ../../../../kernel/non_os/non_os/osal_inner.h
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_res.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/dfx_os/liteos_v1/dfx_res.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/dfx_os/liteos_v1/dfx_res.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
  ../../../../include/errcode.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/arch/riscv/include/arch/atomic.h
@@ -282,7 +282,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
  ../../../../middleware/utils/dfx/dfx_os/dfx_include/dfx_os_st.h
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_task.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/dfx_os/liteos_v1/dfx_task.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/dfx_os/liteos_v1/dfx_task.c
 utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -377,7 +377,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
  ../../../../middleware/utils/dfx/dfx_os/include/dfx_trace.h
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/include/diag_cmd_trace_info.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/dfx_os/liteos_v1/dfx_trace.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/dfx_os/liteos_v1/dfx_trace.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -519,10 +519,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_channel.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_channel_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_channel.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_channel_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -669,7 +669,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_cmd_router/diag_cmd_dispatch.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_cmd_router/diag_cmd_dispatch.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -815,7 +815,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_cmd_router/diag_cmd_dst.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_cmd_router/diag_cmd_dst.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -996,7 +996,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_cmd_router/diag_ind_src.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_cmd_router/diag_ind_src.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1147,9 +1147,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_debug.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_debug.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -1162,7 +1162,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.obj
  ../../../../middleware/chips/bs2x/dfx/include/dfx_resource_id.h
  ../../../../middleware/utils/dfx/diag/dfx_include/diag_dfx_st.h
  ../../../../middleware/utils/dfx/diag/include/diag_dfx.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_dfx.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_dfx.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1307,7 +1307,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_filter.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_filter.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1451,10 +1451,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1605,9 +1605,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_msg.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_msg.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -1751,8 +1751,8 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1908,13 +1908,13 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_service.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_tx.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_service.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_tx.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2060,12 +2060,12 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_channel_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_rx_api.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_rx_api.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_channel_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_rx_api.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_rx_api.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2210,11 +2210,11 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_channel_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_service.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_service.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_channel_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_service.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_service.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2359,7 +2359,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_stat.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_stat.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2506,7 +2506,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_bt_sample_data.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_bt_sample_data.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2651,7 +2651,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
  ../../../../middleware/utils/dfx/diag/include/diag_filter.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_beat_heart.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_beat_heart.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2797,7 +2797,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.obj
  ../../../../middleware/utils/dfx/diag/include/diag_secure.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_connect.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_connect.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -2957,7 +2957,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_debug.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_dfx_case.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_dfx_case.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -3105,7 +3105,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_filter.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_filter.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -3259,7 +3259,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_cpup.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_cpup.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -3400,7 +3400,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_init_info.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_init_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -3543,7 +3543,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.o
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_mem_info.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_mem_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -3686,7 +3686,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.o
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_res_info.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_res_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -3829,7 +3829,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_task_info.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_get_task_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -3980,7 +3980,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.obj
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_log_level.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_log_level.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -4074,7 +4074,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/dfx_include/diag_cmd_mem_read_write_st.h
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/include/diag_cmd_mem_read_write.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_mem_read_write.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_mem_read_write.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4219,7 +4219,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.ob
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_offline_log.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_offline_log.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4378,7 +4378,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.obj
  ../../../../middleware/utils/nv/nv_storage_lib/nv_key.h
  ../../../../middleware/utils/nv/nv_storage_lib/nv_notify.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_password.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_password.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4525,7 +4525,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_stat.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_stat.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4628,7 +4628,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.obj
  ../../../../middleware/utils/dfx/diag/diag_system_cmd/include/diag_cmd_trace_info.h
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_trace_info.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_cmd_trace_info.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4778,7 +4778,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/diag_mocked_shell.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/diag_mocked_shell.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -4926,7 +4926,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_system_cmd/last_dump.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_system_cmd/last_dump.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5071,13 +5071,13 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_channel_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_mem.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_pkt_router.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_tx.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/diag_tx.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_channel_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_mem.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_pkt_router.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_tx.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/diag_tx.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5099,7 +5099,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.obj
  ../../../../middleware/utils/dfx/diag/diag_cmd_router/include/diag_ind_src.h
  ../../../../middleware/utils/dfx/diag/include/diag_common.h
  ../../../../middleware/utils/dfx/diag/include/diag_oam_log.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/romable/diag_oam_log.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/romable/diag_oam_log.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.obj
  ../../../../include/common_def.h
  ../../../../include/errcode.h
@@ -5110,7 +5110,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/chips/bs2x/dfx/include/dfx_resource_id.h
  ../../../../middleware/utils/dfx/diag/include/diag_rom_api.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag/romable/diag_rom_api.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag/romable/diag_rom_api.c
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5256,10 +5256,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.obj
  ../../../../middleware/utils/dfx/diag_transmit/include/transmit_cmd_ls.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5408,10 +5408,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_api.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_write_read.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_api.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_write_read.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5559,10 +5559,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.obj
  ../../../../middleware/utils/dfx/file_operation/dfx_file_operation.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_cmd_delete_file.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_cmd_delete_file.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5709,10 +5709,10 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.obj
  ../../../../middleware/utils/dfx/file_operation/dfx_file_operation.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_cmd_ls.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_cmd_ls.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -5856,9 +5856,9 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.obj
  ../../../../middleware/utils/dfx/diag_transmit/include/transmit_cmd_id.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6014,13 +6014,13 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_dst.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_dst.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_resume.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_write_read.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_dst.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_dst.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_resume.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_write_read.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6172,12 +6172,12 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_dst.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_src.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_dst.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_src.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6317,8 +6317,8 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.obj
  ../../../../middleware/utils/dfx/diag_transmit/dfx_include/transmit_st.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_resume.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_resume.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_resume.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_resume.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6464,12 +6464,12 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_dst.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_src.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_dst.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_src.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6618,13 +6618,13 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.obj
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../middleware/utils/dfx/write_interface/include/dfx_write_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_dst.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_src.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_src.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_write_read.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_dst.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_send_recv_pkt.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_src.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_src.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_write_read.h
 utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -6768,7 +6768,7 @@ utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.obj
  ../../../../middleware/utils/dfx/file_operation/dfx_file_operation.h
  ../../../../middleware/utils/dfx/soc_log/include/soc_log.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_debug.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_item.h
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_write_read.c
- /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_transmit/transmit_write_read.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_debug.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_item.h
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_write_read.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_transmit/transmit_write_read.h

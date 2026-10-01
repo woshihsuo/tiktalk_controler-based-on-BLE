@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,26 +34,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_dev/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_dev/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_fsm/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_fsm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_veto/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_veto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sleep/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/pm_sys/cmake_install.cmake")
 endif()
 

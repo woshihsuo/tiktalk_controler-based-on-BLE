@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/efuse/CMakeFiles/efuse.dir/depend.make
@@ -59,16 +59,16 @@ include driver/efuse/CMakeFiles/efuse.dir/flags.make
 
 driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj: driver/efuse/CMakeFiles/efuse.dir/flags.make
 driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj: ../../../../drivers/drivers/driver/efuse/efuse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/efuse.dir/efuse.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/efuse/efuse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/efuse.dir/efuse.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/efuse/efuse.c
 
 driver/efuse/CMakeFiles/efuse.dir/efuse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/efuse.dir/efuse.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/efuse/efuse.c > CMakeFiles/efuse.dir/efuse.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/efuse/efuse.c > CMakeFiles/efuse.dir/efuse.c.i
 
 driver/efuse/CMakeFiles/efuse.dir/efuse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/efuse.dir/efuse.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/efuse/efuse.c -o CMakeFiles/efuse.dir/efuse.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=EFUSE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/efuse/efuse.c -o CMakeFiles/efuse.dir/efuse.c.s
 
 # Object files for target efuse
 efuse_OBJECTS = \
@@ -80,9 +80,9 @@ efuse_EXTERNAL_OBJECTS =
 driver/efuse/libefuse.a: driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj
 driver/efuse/libefuse.a: driver/efuse/CMakeFiles/efuse.dir/build.make
 driver/efuse/libefuse.a: driver/efuse/CMakeFiles/efuse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libefuse.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/efuse.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libefuse.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/efuse.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/efuse/CMakeFiles/efuse.dir/build: driver/efuse/libefuse.a
@@ -90,10 +90,10 @@ driver/efuse/CMakeFiles/efuse.dir/build: driver/efuse/libefuse.a
 .PHONY : driver/efuse/CMakeFiles/efuse.dir/build
 
 driver/efuse/CMakeFiles/efuse.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse.dir/cmake_clean.cmake
 .PHONY : driver/efuse/CMakeFiles/efuse.dir/clean
 
 driver/efuse/CMakeFiles/efuse.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/driver/efuse /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/efuse/CMakeFiles/efuse.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/efuse /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/efuse/CMakeFiles/efuse.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/efuse/CMakeFiles/efuse.dir/depend
 

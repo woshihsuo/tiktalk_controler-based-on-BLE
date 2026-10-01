@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/update/local_update
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/update/local_update
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

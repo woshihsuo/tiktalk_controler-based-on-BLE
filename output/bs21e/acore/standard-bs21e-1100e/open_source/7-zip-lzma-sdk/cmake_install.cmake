@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk
+# Install script for directory: /home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

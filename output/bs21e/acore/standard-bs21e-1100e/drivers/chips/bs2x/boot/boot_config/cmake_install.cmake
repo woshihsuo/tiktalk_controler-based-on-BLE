@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/boot/boot_config
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/boot/boot_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

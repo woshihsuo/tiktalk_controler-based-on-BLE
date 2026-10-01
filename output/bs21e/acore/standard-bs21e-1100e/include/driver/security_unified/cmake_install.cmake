@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/include/driver/security_unified
+# Install script for directory: /home/bearpi/Desktop/tp4ios/include/driver/security_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

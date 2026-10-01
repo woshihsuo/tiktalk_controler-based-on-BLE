@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_channel.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/dfx_system_init.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_cmd_mem.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_flash.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/diag_adapt_sdt.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/last_dump_adapt.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/log_oam_logger_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/dfx/sample_data_adapt.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/dfx_channel.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_channel.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/dfx_system_init.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/dfx_system_init.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/diag_adapt_cmd_mem.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_cmd_mem.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/diag_adapt_flash.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_flash.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/diag_adapt_sdt.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/diag_adapt_sdt.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/last_dump_adapt.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/last_dump_adapt.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/log_oam_logger_porting.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/log_oam_logger_porting.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/dfx/sample_data_adapt.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/dfx/CMakeFiles/dfx_porting.dir/sample_data_adapt.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

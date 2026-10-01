@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/mips
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/mips
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

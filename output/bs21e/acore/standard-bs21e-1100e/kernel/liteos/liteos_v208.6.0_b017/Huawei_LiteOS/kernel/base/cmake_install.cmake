@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base
+# Install script for directory: /home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/kernel/base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

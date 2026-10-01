@@ -13,4 +13,4 @@ driver/pdm/CMakeFiles/pdm.dir/pdm.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/driver/pdm/pdm.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/pdm/pdm.c

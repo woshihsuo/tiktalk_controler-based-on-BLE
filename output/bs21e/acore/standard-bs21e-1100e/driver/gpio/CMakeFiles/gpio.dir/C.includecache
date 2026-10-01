@@ -826,15 +826,15 @@ chip_definitions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/tp/drivers/drivers/driver/gpio/gpio.c
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/gpio/gpio.c
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/gpio/soc_osal.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/gpio/soc_osal.h
 securec.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/gpio/securec.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/gpio/securec.h
 gpio_porting.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/gpio/gpio_porting.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/gpio/gpio_porting.h
 gpio.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/gpio/gpio.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/gpio/gpio.h
 

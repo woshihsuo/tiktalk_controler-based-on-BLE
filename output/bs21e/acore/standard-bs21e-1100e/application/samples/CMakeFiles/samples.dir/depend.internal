@@ -167,7 +167,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/ble.c
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj
  ../../../../application/samples/prj/bsp/inc/ble.h
  ../../../../application/samples/prj/bsp/inc/key.h
@@ -334,7 +334,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/ble_hid.c
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj
  ../../../../application/samples/prj/bsp/inc/ble.h
  ../../../../application/samples/prj/bsp/inc/key.h
@@ -501,7 +501,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/ble_hid_adv.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/ble_hid_adv.c
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj
  ../../../../application/samples/prj/bsp/inc/ble.h
  ../../../../application/samples/prj/bsp/inc/key.h
@@ -668,7 +668,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/key.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/key.c
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj
  ../../../../application/samples/prj/bsp/inc/led.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -776,7 +776,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/led.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/led.c
 application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj
  ../../../../application/samples/prj/bsp/inc/sle_measure_dis.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -916,7 +916,7 @@ application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/bsp/src/sle_measure_dis.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/bsp/src/sle_measure_dis.c
 application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj
  ../../../../application/samples/prj/driver/inc/uhal_spi.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -1053,7 +1053,7 @@ application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/application/samples/prj/driver/src/uhal_spi.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/driver/src/uhal_spi.c
 application/samples/CMakeFiles/samples.dir/prj/main.c.obj
  ../../../../application/samples/prj/bsp/inc/ble.h
  ../../../../application/samples/prj/bsp/inc/key.h
@@ -1219,5 +1219,5 @@ application/samples/CMakeFiles/samples.dir/prj/main.c.obj
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_disalg.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_errcode.h
  ../../../../protocol/bt/algorithm/posalg/cal_dis_bs21/cal_dis_bs21_h/slem_smooth.h
- /home/bearpi/Desktop/tp/application/samples/prj/main.c
- /home/bearpi/Desktop/tp/application/samples/prj/main.h
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/main.c
+ /home/bearpi/Desktop/tp4ios/application/samples/prj/main.h

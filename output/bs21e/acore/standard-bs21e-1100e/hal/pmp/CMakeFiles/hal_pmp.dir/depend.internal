@@ -16,8 +16,8 @@ hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/hal_pmp.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/hal_pmp.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/hal_pmp.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/hal_pmp.h
 hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
  ../../../../drivers/chips/bs2x/arch/include/arch_barrier.h
  ../../../../drivers/chips/bs2x/arch/include/arch_encoding.h
@@ -33,10 +33,10 @@ hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
 hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
  ../../../../drivers/chips/bs2x/arch/include/arch_barrier.h
  ../../../../drivers/chips/bs2x/arch/include/arch_encoding.h
@@ -52,6 +52,6 @@ hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stddef.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pmp/v31/hal_pmp_riscv31_regs_op.h

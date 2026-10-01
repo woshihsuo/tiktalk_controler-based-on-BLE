@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/pm/pm_veto
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_veto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

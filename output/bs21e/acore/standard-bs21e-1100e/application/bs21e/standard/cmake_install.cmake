@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/application/bs21e/standard
+# Install script for directory: /home/bearpi/Desktop/tp4ios/application/bs21e/standard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -58,5 +58,5 @@ drivers/chips/bs2x/porting/watchdog/CMakeFiles/watchdog_port.dir/watchdog_portin
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/watchdog/watchdog_porting.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/watchdog/watchdog_porting.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/watchdog/watchdog_porting.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/watchdog/watchdog_porting.h

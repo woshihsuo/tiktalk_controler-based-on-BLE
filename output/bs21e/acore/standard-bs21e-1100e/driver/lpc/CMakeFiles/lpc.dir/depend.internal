@@ -137,8 +137,8 @@ driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.obj
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/acore/lpc_core.c
- /home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/acore/lpc_core.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/acore/lpc_core.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/acore/lpc_core.h
 driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -286,5 +286,5 @@ driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/shared/lpc.c
- /home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/shared/lpc.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/shared/lpc.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/shared/lpc.h

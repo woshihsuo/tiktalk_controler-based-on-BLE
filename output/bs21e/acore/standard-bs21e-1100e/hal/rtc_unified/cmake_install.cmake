@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/rtc_unified
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/rtc_unified
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

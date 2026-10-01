@@ -96,5 +96,5 @@ drivers/chips/bs2x/porting/efuse/CMakeFiles/efuse_port.dir/efuse_porting.c.obj
  ../../../../kernel/osal/include/debug/osal_debug.h
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/efuse/efuse_porting.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/efuse/efuse_porting.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/efuse/efuse_porting.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/efuse/efuse_porting.h

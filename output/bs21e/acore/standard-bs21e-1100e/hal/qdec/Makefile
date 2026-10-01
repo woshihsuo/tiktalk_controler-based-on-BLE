@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hal/qdec/CMakeFiles/hal_qdec.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/CMakeFiles/hal_qdec.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 hal/qdec/CMakeFiles/hal_qdec.dir/rule
 .PHONY : hal/qdec/CMakeFiles/hal_qdec.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hal_qdec: hal/qdec/CMakeFiles/hal_qdec.dir/rule
 
 # fast build rule for target.
 hal_qdec/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/build
 .PHONY : hal_qdec/fast
 
 hal_qdec.obj: hal_qdec.c.obj
@@ -131,7 +131,7 @@ hal_qdec.obj: hal_qdec.c.obj
 
 # target to build an object file
 hal_qdec.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj
 .PHONY : hal_qdec.c.obj
 
 hal_qdec.i: hal_qdec.c.i
@@ -140,7 +140,7 @@ hal_qdec.i: hal_qdec.c.i
 
 # target to preprocess a source file
 hal_qdec.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.i
 .PHONY : hal_qdec.c.i
 
 hal_qdec.s: hal_qdec.c.s
@@ -149,7 +149,7 @@ hal_qdec.s: hal_qdec.c.s
 
 # target to generate assembly for a file
 hal_qdec.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.s
 .PHONY : hal_qdec.c.s
 
 hal_qdec_v150.obj: hal_qdec_v150.c.obj
@@ -158,7 +158,7 @@ hal_qdec_v150.obj: hal_qdec_v150.c.obj
 
 # target to build an object file
 hal_qdec_v150.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj
 .PHONY : hal_qdec_v150.c.obj
 
 hal_qdec_v150.i: hal_qdec_v150.c.i
@@ -167,7 +167,7 @@ hal_qdec_v150.i: hal_qdec_v150.c.i
 
 # target to preprocess a source file
 hal_qdec_v150.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i
 .PHONY : hal_qdec_v150.c.i
 
 hal_qdec_v150.s: hal_qdec_v150.c.s
@@ -176,7 +176,7 @@ hal_qdec_v150.s: hal_qdec_v150.c.s
 
 # target to generate assembly for a file
 hal_qdec_v150.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s
 .PHONY : hal_qdec_v150.c.s
 
 hal_qdec_v150_regs_op.obj: hal_qdec_v150_regs_op.c.obj
@@ -185,7 +185,7 @@ hal_qdec_v150_regs_op.obj: hal_qdec_v150_regs_op.c.obj
 
 # target to build an object file
 hal_qdec_v150_regs_op.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj
 .PHONY : hal_qdec_v150_regs_op.c.obj
 
 hal_qdec_v150_regs_op.i: hal_qdec_v150_regs_op.c.i
@@ -194,7 +194,7 @@ hal_qdec_v150_regs_op.i: hal_qdec_v150_regs_op.c.i
 
 # target to preprocess a source file
 hal_qdec_v150_regs_op.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i
 .PHONY : hal_qdec_v150_regs_op.c.i
 
 hal_qdec_v150_regs_op.s: hal_qdec_v150_regs_op.c.s
@@ -203,7 +203,7 @@ hal_qdec_v150_regs_op.s: hal_qdec_v150_regs_op.c.s
 
 # target to generate assembly for a file
 hal_qdec_v150_regs_op.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f hal/qdec/CMakeFiles/hal_qdec.dir/build.make hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s
 .PHONY : hal_qdec_v150_regs_op.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

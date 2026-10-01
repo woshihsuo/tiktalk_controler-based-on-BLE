@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/rule
 .PHONY : utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ dfx_file_operation: utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/r
 
 # fast build rule for target.
 dfx_file_operation/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build
 .PHONY : dfx_file_operation/fast
 
 dfx_file_operation.obj: dfx_file_operation.c.obj
@@ -131,7 +131,7 @@ dfx_file_operation.obj: dfx_file_operation.c.obj
 
 # target to build an object file
 dfx_file_operation.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj
 .PHONY : dfx_file_operation.c.obj
 
 dfx_file_operation.i: dfx_file_operation.c.i
@@ -140,7 +140,7 @@ dfx_file_operation.i: dfx_file_operation.c.i
 
 # target to preprocess a source file
 dfx_file_operation.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i
 .PHONY : dfx_file_operation.c.i
 
 dfx_file_operation.s: dfx_file_operation.c.s
@@ -149,7 +149,7 @@ dfx_file_operation.s: dfx_file_operation.c.s
 
 # target to generate assembly for a file
 dfx_file_operation.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s
 .PHONY : dfx_file_operation.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

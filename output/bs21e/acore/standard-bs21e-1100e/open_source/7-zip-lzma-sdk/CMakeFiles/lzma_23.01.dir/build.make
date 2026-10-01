@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/depend.make
@@ -59,16 +59,16 @@ include open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/flags.make
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/flags.make
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj: ../../../../open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj   -c /home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj   -c /home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c > CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c > CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.i
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=LZMADEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c -o CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.s
 
 # Object files for target lzma_23.01
 lzma_23_01_OBJECTS = \
@@ -80,9 +80,9 @@ lzma_23_01_EXTERNAL_OBJECTS =
 open_source/7-zip-lzma-sdk/liblzma_23.01.a: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj
 open_source/7-zip-lzma-sdk/liblzma_23.01.a: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build.make
 open_source/7-zip-lzma-sdk/liblzma_23.01.a: open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblzma_23.01.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -P CMakeFiles/lzma_23.01.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lzma_23.01.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library liblzma_23.01.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -P CMakeFiles/lzma_23.01.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lzma_23.01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build: open_source/7-zip-lzma-sdk/liblzma_23.01.a
@@ -90,10 +90,10 @@ open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build: open_source/7-zip-lz
 .PHONY : open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/build
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -P CMakeFiles/lzma_23.01.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk && $(CMAKE_COMMAND) -P CMakeFiles/lzma_23.01.dir/cmake_clean.cmake
 .PHONY : open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/clean
 
 open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/depend
 

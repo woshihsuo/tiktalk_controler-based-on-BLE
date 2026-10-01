@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_device.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver_pm.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_device.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_device.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver_pm.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/CMakeFiles/driverbase.dir/src/los_driver_pm.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

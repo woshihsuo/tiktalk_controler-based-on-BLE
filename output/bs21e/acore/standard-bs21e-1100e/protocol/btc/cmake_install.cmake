@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/protocol/bt/controller
+# Install script for directory: /home/bearpi/Desktop/tp4ios/protocol/bt/controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/protocol/btc/bgtp/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/protocol/btc/bgtp/cmake_install.cmake")
 endif()
 

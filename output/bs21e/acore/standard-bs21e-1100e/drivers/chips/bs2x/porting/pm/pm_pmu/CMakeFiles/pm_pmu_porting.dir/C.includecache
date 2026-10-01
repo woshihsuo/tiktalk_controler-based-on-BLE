@@ -870,27 +870,27 @@ chip_definitions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.c
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.c
 chip_io.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/chip_io.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/chip_io.h
 soc_osal.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/soc_osal.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/soc_osal.h
 platform_core.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/platform_core.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/platform_core.h
 pinctrl.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pinctrl.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pinctrl.h
 gpio.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/gpio.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/gpio.h
 tcxo.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/tcxo.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/tcxo.h
 pmu_ldo.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pmu_ldo.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pmu_ldo.h
 pm_pmu.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu.h
 pm_pmu_porting.h
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h
 
-/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h
+/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_pmu/pm_pmu_porting.h
 stdbool.h
 -
 

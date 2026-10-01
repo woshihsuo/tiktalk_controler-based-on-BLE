@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/update/storage/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/rule
 .PHONY : middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ update_storage_porting: middleware/chips/bs2x/update/storage/CMakeFiles/update_s
 
 # fast build rule for target.
 update_storage_porting/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build
 .PHONY : update_storage_porting/fast
 
 upg_backup.obj: upg_backup.c.obj
@@ -131,7 +131,7 @@ upg_backup.obj: upg_backup.c.obj
 
 # target to build an object file
 upg_backup.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.obj
 .PHONY : upg_backup.c.obj
 
 upg_backup.i: upg_backup.c.i
@@ -140,7 +140,7 @@ upg_backup.i: upg_backup.c.i
 
 # target to preprocess a source file
 upg_backup.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.i
 .PHONY : upg_backup.c.i
 
 upg_backup.s: upg_backup.c.s
@@ -149,7 +149,7 @@ upg_backup.s: upg_backup.c.s
 
 # target to generate assembly for a file
 upg_backup.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/build.make middleware/chips/bs2x/update/storage/CMakeFiles/update_storage_porting.dir/upg_backup.c.s
 .PHONY : upg_backup.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

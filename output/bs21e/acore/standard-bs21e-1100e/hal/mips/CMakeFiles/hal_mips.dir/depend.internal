@@ -7,5 +7,5 @@ hal/mips/CMakeFiles/hal_mips.dir/hal_mips.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/malloc.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdlib.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/mips/hal_mips.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/mips/hal_mips.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/mips/hal_mips.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/mips/hal_mips.h

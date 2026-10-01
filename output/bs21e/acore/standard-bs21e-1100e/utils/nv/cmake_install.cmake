@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/nv
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/nv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

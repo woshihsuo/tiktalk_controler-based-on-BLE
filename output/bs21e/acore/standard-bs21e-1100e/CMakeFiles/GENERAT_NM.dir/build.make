@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_NM.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-110
 include CMakeFiles/GENERAT_NM.dir/progress.make
 
 CMakeFiles/GENERAT_NM: application.elf
-	/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm -S -n --format=sysv application.elf > application.nm
+	/home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-nm -S -n --format=sysv application.elf > application.nm
 
 GENERAT_NM: CMakeFiles/GENERAT_NM
 GENERAT_NM: CMakeFiles/GENERAT_NM.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/GENERAT_NM.dir/clean:
 .PHONY : CMakeFiles/GENERAT_NM.dir/clean
 
 CMakeFiles/GENERAT_NM.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_NM.dir/depend
 

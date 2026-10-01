@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/keyscan
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/keyscan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

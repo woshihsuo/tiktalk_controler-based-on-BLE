@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/kernel/non_os/non_os
+# Install script for directory: /home/bearpi/Desktop/tp4ios/kernel/non_os/non_os
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,8 +8,8 @@ hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng.h
 hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj
  ../../../../include/common_def.h
  ../../../../include/driver/systick.h
@@ -20,11 +20,11 @@ hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.h
 hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj
  ../../../../drivers/chips/bs2x/porting/security/trng/trng_porting.h
  ../../../../drivers/drivers/hal/security/trng/hal_trng.h
@@ -34,9 +34,9 @@ hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v1_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v1_regs_op.h
 hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj
  ../../../../drivers/chips/bs2x/porting/security/trng/trng_porting.h
  ../../../../include/driver/systick.h
@@ -47,11 +47,11 @@ hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.h
 hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj
  ../../../../drivers/chips/bs2x/porting/security/trng/trng_porting.h
  ../../../../drivers/drivers/hal/security/trng/hal_trng.h
@@ -61,6 +61,6 @@ hal/security/trng/CMakeFiles/hal_trng.dir/hal_trng_v2_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/features.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/security/trng/hal_trng_v2_regs_op.h

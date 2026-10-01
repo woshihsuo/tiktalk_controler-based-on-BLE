@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.obj"
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/board.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/board.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/los_irmalloc.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/los_irmalloc.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/msg_chl.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/msg_chl.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/os_adapt/os_adapt.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/os_adapt/os_adapt.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/uart.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/bs21/uart.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/common/los_mem_check.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/CMakeFiles/targets.dir/aiot/common/los_mem_check.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

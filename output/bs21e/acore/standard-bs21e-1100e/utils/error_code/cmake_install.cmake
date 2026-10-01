@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/error_code
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/error_code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

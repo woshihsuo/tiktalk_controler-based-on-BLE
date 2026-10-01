@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/application/samples/prj
+# Install script for directory: /home/bearpi/Desktop/tp4ios/application/samples/prj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

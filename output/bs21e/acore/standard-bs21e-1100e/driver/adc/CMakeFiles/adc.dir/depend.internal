@@ -19,4 +19,4 @@ driver/adc/CMakeFiles/adc.dir/adc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/tp/drivers/drivers/driver/adc/adc.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/adc/adc.c

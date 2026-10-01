@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/vendor/libm
+# Install script for directory: /home/bearpi/Desktop/tp4ios/vendor/libm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule
 .PHONY : drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ pm_clock_porting: drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_por
 
 # fast build rule for target.
 pm_clock_porting/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build
 .PHONY : pm_clock_porting/fast
 
 pm_clock_porting.obj: pm_clock_porting.c.obj
@@ -131,7 +131,7 @@ pm_clock_porting.obj: pm_clock_porting.c.obj
 
 # target to build an object file
 pm_clock_porting.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj
 .PHONY : pm_clock_porting.c.obj
 
 pm_clock_porting.i: pm_clock_porting.c.i
@@ -140,7 +140,7 @@ pm_clock_porting.i: pm_clock_porting.c.i
 
 # target to preprocess a source file
 pm_clock_porting.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.i
 .PHONY : pm_clock_porting.c.i
 
 pm_clock_porting.s: pm_clock_porting.c.s
@@ -149,7 +149,7 @@ pm_clock_porting.s: pm_clock_porting.c.s
 
 # target to generate assembly for a file
 pm_clock_porting.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/build.make drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.s
 .PHONY : pm_clock_porting.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

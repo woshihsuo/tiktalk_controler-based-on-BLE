@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/protocol/bt/host/bt/sdk
+# Install script for directory: /home/bearpi/Desktop/tp4ios/protocol/bt/host/bt/sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/flash/CMakeFiles/flash.dir/depend.make
@@ -59,16 +59,16 @@ include driver/flash/CMakeFiles/flash.dir/flags.make
 
 driver/flash/CMakeFiles/flash.dir/flash.c.obj: driver/flash/CMakeFiles/flash.dir/flags.make
 driver/flash/CMakeFiles/flash.dir/flash.c.obj: ../../../../drivers/drivers/driver/flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/flash/CMakeFiles/flash.dir/flash.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/flash.dir/flash.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/flash/CMakeFiles/flash.dir/flash.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/flash.dir/flash.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/flash/flash.c
 
 driver/flash/CMakeFiles/flash.dir/flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/flash.dir/flash.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/flash/flash.c > CMakeFiles/flash.dir/flash.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/flash/flash.c > CMakeFiles/flash.dir/flash.c.i
 
 driver/flash/CMakeFiles/flash.dir/flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/flash.dir/flash.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/flash/flash.c -o CMakeFiles/flash.dir/flash.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=FLASH_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/flash/flash.c -o CMakeFiles/flash.dir/flash.c.s
 
 # Object files for target flash
 flash_OBJECTS = \
@@ -80,9 +80,9 @@ flash_EXTERNAL_OBJECTS =
 driver/flash/libflash.a: driver/flash/CMakeFiles/flash.dir/flash.c.obj
 driver/flash/libflash.a: driver/flash/CMakeFiles/flash.dir/build.make
 driver/flash/libflash.a: driver/flash/CMakeFiles/flash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libflash.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flash.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libflash.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/flash/CMakeFiles/flash.dir/build: driver/flash/libflash.a
@@ -90,10 +90,10 @@ driver/flash/CMakeFiles/flash.dir/build: driver/flash/libflash.a
 .PHONY : driver/flash/CMakeFiles/flash.dir/build
 
 driver/flash/CMakeFiles/flash.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash && $(CMAKE_COMMAND) -P CMakeFiles/flash.dir/cmake_clean.cmake
 .PHONY : driver/flash/CMakeFiles/flash.dir/clean
 
 driver/flash/CMakeFiles/flash.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/driver/flash /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/flash/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/flash /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/flash/CMakeFiles/flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/flash/CMakeFiles/flash.dir/depend
 

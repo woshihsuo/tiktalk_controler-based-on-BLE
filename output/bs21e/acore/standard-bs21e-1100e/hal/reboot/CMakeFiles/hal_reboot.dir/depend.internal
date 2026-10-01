@@ -74,5 +74,5 @@ hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/reboot/hal_reboot.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/reboot/hal_reboot.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/reboot/hal_reboot.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/reboot/hal_reboot.h

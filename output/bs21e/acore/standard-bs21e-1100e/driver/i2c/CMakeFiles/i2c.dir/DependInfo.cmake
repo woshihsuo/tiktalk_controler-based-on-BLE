@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/driver/i2c/i2c.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/i2c/CMakeFiles/i2c.dir/i2c.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/i2c/i2c.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/i2c/CMakeFiles/i2c.dir/i2c.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

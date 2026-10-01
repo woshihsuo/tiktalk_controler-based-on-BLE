@@ -13,8 +13,8 @@ hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdbool.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdio.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan.h
 hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj
  ../../../../drivers/chips/bs2x/include/chip_core_irq.h
  ../../../../drivers/chips/bs2x/porting/keyscan/keyscan_porting.h
@@ -137,10 +137,10 @@ hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150.c.obj
  ../../../../middleware/utils/common_headers/native/td_type.h
  ../../../../middleware/utils/common_headers/oal_interface.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan_v150.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan_v150.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.h
 hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj
  ../../../../drivers/chips/bs2x/porting/keyscan/keyscan_porting.h
  ../../../../drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_def.h
@@ -229,5 +229,5 @@ hal/keyscan/CMakeFiles/hal_keyscan.dir/hal_keyscan_v150_regs_op.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/asm/register_config.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/keyscan/hal_keyscan_v150_regs_op.h

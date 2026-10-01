@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_cmd_porting/at_porting.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_cmd_porting/CMakeFiles/at_cmd_port.dir/at_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/cpu_load
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/cpu_load
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

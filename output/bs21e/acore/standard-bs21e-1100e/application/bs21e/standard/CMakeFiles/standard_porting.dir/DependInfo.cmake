@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/bearpi/Desktop/tp/application/bs21e/standard/startup.S" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir/startup.S.obj"
+  "/home/bearpi/Desktop/tp4ios/application/bs21e/standard/startup.S" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir/startup.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -444,7 +444,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../../../open_source/libboundscheck/src"
   )
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/application/bs21e/standard/main.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj"
+  "/home/bearpi/Desktop/tp4ios/application/bs21e/standard/main.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/application/bs21e/standard/CMakeFiles/standard_porting.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

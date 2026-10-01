@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/app_os_init.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_init.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_test.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/app_os_init.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_init.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_test.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

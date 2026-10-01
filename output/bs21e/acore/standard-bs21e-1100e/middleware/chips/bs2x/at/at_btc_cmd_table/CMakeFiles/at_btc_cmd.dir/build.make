@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/depend.make
@@ -59,29 +59,29 @@ include middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flag
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flags.make
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj: ../../../../middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c > CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c > CMakeFiles/at_btc_cmd.dir/at_btc_product.c.i
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BTC_PRODUCT_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_btc_product.c -o CMakeFiles/at_btc_cmd.dir/at_btc_product.c.s
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/flags.make
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj: ../../../../middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c > CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c > CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.i
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=AT_BT_CMD_TABLE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table/at_bt_cmd_table.c -o CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.s
 
 # Object files for target at_btc_cmd
 at_btc_cmd_OBJECTS = \
@@ -95,9 +95,9 @@ middleware/chips/bs2x/at/at_btc_cmd_table/libat_btc_cmd.a: middleware/chips/bs2x
 middleware/chips/bs2x/at/at_btc_cmd_table/libat_btc_cmd.a: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/at_bt_cmd_table.c.obj
 middleware/chips/bs2x/at/at_btc_cmd_table/libat_btc_cmd.a: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/build.make
 middleware/chips/bs2x/at/at_btc_cmd_table/libat_btc_cmd.a: middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libat_btc_cmd.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -P CMakeFiles/at_btc_cmd.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/at_btc_cmd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libat_btc_cmd.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -P CMakeFiles/at_btc_cmd.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/at_btc_cmd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/build: middleware/chips/bs2x/at/at_btc_cmd_table/libat_btc_cmd.a
@@ -105,10 +105,10 @@ middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/build: middl
 .PHONY : middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/build
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -P CMakeFiles/at_btc_cmd.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table && $(CMAKE_COMMAND) -P CMakeFiles/at_btc_cmd.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/clean
 
 middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/at/at_btc_cmd_table /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/at/at_btc_cmd_table /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/at/at_btc_cmd_table/CMakeFiles/at_btc_cmd.dir/depend
 

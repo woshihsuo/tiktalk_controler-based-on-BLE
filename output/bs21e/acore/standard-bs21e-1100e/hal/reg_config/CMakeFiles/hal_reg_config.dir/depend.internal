@@ -65,5 +65,5 @@ hal/reg_config/CMakeFiles/hal_reg_config.dir/hal_reg_config.c.obj
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/reg_config/hal_reg_config.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/reg_config/hal_reg_config.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/reg_config/hal_reg_config.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/reg_config/hal_reg_config.h

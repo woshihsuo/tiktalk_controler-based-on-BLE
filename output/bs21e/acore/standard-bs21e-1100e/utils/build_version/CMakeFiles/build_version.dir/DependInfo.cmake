@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/middleware/utils/build_version/private/build_version.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/build_version/private/build_version.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/build_version/CMakeFiles/build_version.dir/private/build_version.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

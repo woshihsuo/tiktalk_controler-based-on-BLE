@@ -117,5 +117,5 @@ drivers/chips/bs2x/porting/uart/CMakeFiles/uart_port.dir/uart_porting.c.obj
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/uart/uart_porting.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/uart/uart_porting.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/uart/uart_porting.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/uart/uart_porting.h

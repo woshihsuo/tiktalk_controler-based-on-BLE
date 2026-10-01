@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/depend.make
@@ -59,16 +59,16 @@ include utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/flags.make
 
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj: utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/flags.make
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj: ../../../../middleware/utils/pm/pm_fsm/pm_fsm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_fsm.dir/pm_fsm.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/pm/pm_fsm/pm_fsm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_fsm.dir/pm_fsm.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_fsm/pm_fsm.c
 
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_fsm.dir/pm_fsm.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/pm/pm_fsm/pm_fsm.c > CMakeFiles/pm_fsm.dir/pm_fsm.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_fsm/pm_fsm.c > CMakeFiles/pm_fsm.dir/pm_fsm.c.i
 
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_fsm.dir/pm_fsm.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/pm/pm_fsm/pm_fsm.c -o CMakeFiles/pm_fsm.dir/pm_fsm.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_FSM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_fsm/pm_fsm.c -o CMakeFiles/pm_fsm.dir/pm_fsm.c.s
 
 # Object files for target pm_fsm
 pm_fsm_OBJECTS = \
@@ -80,9 +80,9 @@ pm_fsm_EXTERNAL_OBJECTS =
 utils/pm/pm_fsm/libpm_fsm.a: utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/pm_fsm.c.obj
 utils/pm/pm_fsm/libpm_fsm.a: utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build.make
 utils/pm/pm_fsm/libpm_fsm.a: utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_fsm.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -P CMakeFiles/pm_fsm.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_fsm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libpm_fsm.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -P CMakeFiles/pm_fsm.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_fsm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build: utils/pm/pm_fsm/libpm_fsm.a
@@ -90,10 +90,10 @@ utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build: utils/pm/pm_fsm/libpm_fsm.a
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/build
 
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -P CMakeFiles/pm_fsm.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm && $(CMAKE_COMMAND) -P CMakeFiles/pm_fsm.dir/cmake_clean.cmake
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/clean
 
 utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/pm/pm_fsm /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_fsm /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/pm/pm_fsm/CMakeFiles/pm_fsm.dir/depend
 

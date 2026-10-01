@@ -3,7 +3,7 @@
   Section             Start Addr        Size      Used
   ------------------  ----------  ----------  --------
   
-  ITCM                0x00040000     0x14000    0xE1D0 = 57808
+  ITCM                0x00040000     0x14000    0xE200 = 57856
     .patch_data       0x00040000                  1040 load address 0x90115600
     .rom_ram_bss      0x00040410                   280                  
     .rom_ram_text     0x00040528                  3120 load address 0x90115A3C
@@ -17,11 +17,11 @@
     .plt_ramtext      0x00041920                 29376 load address 0x9011AC80
     .btc_ramtext      0x00048BE0                  7616 load address 0x90121F40
     .usb_ramtext      0x0004A9A0                     0                  
-    .bss              0x0004A9A0                 14384                  
+    .bss              0x0004A9A0                 14432                  
   
   DTCM                0x20000000      0xFF00    0x2C20 = 11296
     .stacks           0x20000000                  7680                  
-    .data             0x20001E00                  3616 load address 0x9018D058
+    .data             0x20001E00                  3616 load address 0x9018D170
     .heap             0x20002C20                     0                  
   
   PRESERVE            0x2000FF00       0x100      0xFC = 252
@@ -31,7 +31,7 @@
     startup           0x90115300                   432                  
     .version_str      0x901154B0                    88                  
   
-  FLASH_PROGRAM       0x90115600     0x87A00   0x78878 = 493688
+  FLASH_PROGRAM       0x90115600     0x87A00   0x78990 = 493968
     .patch_data       0x90115600                  1040                  
     .sysintcall.init  0x90115A10                    44                  
     .rom_ram_text     0x90115A3C                  3120                  
@@ -46,8 +46,8 @@
     .plt_ramtext      0x9011AC80                 29376                  
     .btc_ramtext      0x90121F40                  7616                  
     .initcall.init    0x90123D00                     0                  
-    .text             0x90123D00                430936                  
-    .data             0x9018D058                  3616                  
+    .text             0x90123D00                431216                  
+    .data             0x9018D170                  3616                  
   
   CPUTRACE_RAM        0x52006000       0x3FC     0x3FC = 1020
     .cputrace_mem     0x52006000                  1020                  
@@ -65,7 +65,7 @@
   --------------------------------  --------  -----
 
 
-  .text                                57632
+  .text                                57864
 
     open_source                         8193
       GmSSL3.1.1                            
@@ -393,18 +393,18 @@
                 libgcc                      
                   libgcc2                         2782
 
-    application                         2494
-      samples                           2490
+    application                         2726
+      samples                           2722
         prj                                 
-          bsp                           2312
+          bsp                           2522
             src                             
               ble                                  288
               ble_hid                             1578
               ble_hid_adv                          382
-              key                                   36
+              key                                  246
               led                                   28
 
-          main                                     178
+          main                                     200
 
       bs21e                                4
         standard                            
@@ -576,15 +576,16 @@
   --------------------------------  --------  -----
 
 
-  .bss                                  2930
+  .bss                                  2934
 
-    application                           21
+    application                           25
       samples                               
         prj                                 
-          bsp                             16
+          bsp                             20
             src                             
               ble_hid                               12
               ble                                    4
+              key                                    4
 
           main                                       5
 
@@ -1071,14 +1072,14 @@
 
   Mismatched section sizes...
 
-         .text  .lst file = 430936 (0x69358)
-                 .du file = 57632 (0xE120)
+         .text  .lst file = 431216 (0x69470)
+                 .du file = 57864 (0xE208)
 
          .data  .lst file = 3616 (0xE20)
                  .du file = 469 (0x1D5)
 
-          .bss  .lst file = 14384 (0x3830)
-                 .du file = 2930 (0xB72)
+          .bss  .lst file = 14432 (0x3860)
+                 .du file = 2934 (0xB76)
 
   ====================================================
 

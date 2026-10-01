@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/depend.make
@@ -59,29 +59,29 @@ include middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/flags.make
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.obj: middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/flags.make
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.obj: ../../../../middleware/chips/bs2x/pm/pm_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_porting.dir/pm_porting.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_porting.dir/pm_porting.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/pm_porting.c
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_porting.dir/pm_porting.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_porting.c > CMakeFiles/pm_porting.dir/pm_porting.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/pm_porting.c > CMakeFiles/pm_porting.dir/pm_porting.c.i
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_porting.dir/pm_porting.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_porting.c -o CMakeFiles/pm_porting.dir/pm_porting.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PM_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/pm_porting.c -o CMakeFiles/pm_porting.dir/pm_porting.c.s
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj: middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/flags.make
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj: ../../../../middleware/chips/bs2x/pm/ulp_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_porting.dir/ulp_rtc.c.obj   -c /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/ulp_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pm_porting.dir/ulp_rtc.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/ulp_rtc.c
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pm_porting.dir/ulp_rtc.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/ulp_rtc.c > CMakeFiles/pm_porting.dir/ulp_rtc.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/ulp_rtc.c > CMakeFiles/pm_porting.dir/ulp_rtc.c.i
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pm_porting.dir/ulp_rtc.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/ulp_rtc.c -o CMakeFiles/pm_porting.dir/ulp_rtc.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_RTC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/ulp_rtc.c -o CMakeFiles/pm_porting.dir/ulp_rtc.c.s
 
 # Object files for target pm_porting
 pm_porting_OBJECTS = \
@@ -95,9 +95,9 @@ middleware/chips/bs2x/pm/libpm_porting.a: middleware/chips/bs2x/pm/CMakeFiles/pm
 middleware/chips/bs2x/pm/libpm_porting.a: middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj
 middleware/chips/bs2x/pm/libpm_porting.a: middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build.make
 middleware/chips/bs2x/pm/libpm_porting.a: middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libpm_porting.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -P CMakeFiles/pm_porting.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_porting.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libpm_porting.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -P CMakeFiles/pm_porting.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pm_porting.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build: middleware/chips/bs2x/pm/libpm_porting.a
@@ -105,10 +105,10 @@ middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build: middleware/chips/bs2x/
 .PHONY : middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/build
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -P CMakeFiles/pm_porting.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm && $(CMAKE_COMMAND) -P CMakeFiles/pm_porting.dir/cmake_clean.cmake
 .PHONY : middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/clean
 
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/depend
 

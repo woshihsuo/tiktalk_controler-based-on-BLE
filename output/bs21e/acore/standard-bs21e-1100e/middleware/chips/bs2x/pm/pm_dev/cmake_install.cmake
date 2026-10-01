@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_dev
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/pm_dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

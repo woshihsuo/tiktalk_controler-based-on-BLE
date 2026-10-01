@@ -18,8 +18,8 @@ hal/adc/CMakeFiles/hal_adc.dir/hal_adc.c.obj
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/hal_adc.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/hal_adc.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/hal_adc.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/hal_adc.h
 hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -43,10 +43,10 @@ hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153.c.obj
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.h
 hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153_regs_op.c.obj
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/product/product.h
@@ -67,6 +67,6 @@ hal/adc/CMakeFiles/hal_adc.dir/v153/hal_adc_v153_regs_op.c.obj
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_def.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/adc/v153/hal_adc_v153_regs_op.h

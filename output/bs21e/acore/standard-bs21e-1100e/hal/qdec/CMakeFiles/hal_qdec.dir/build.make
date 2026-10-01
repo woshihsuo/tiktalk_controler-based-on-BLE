@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include hal/qdec/CMakeFiles/hal_qdec.dir/depend.make
@@ -59,42 +59,42 @@ include hal/qdec/CMakeFiles/hal_qdec.dir/flags.make
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj: hal/qdec/CMakeFiles/hal_qdec.dir/flags.make
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj: ../../../../drivers/drivers/hal/qdec/hal_qdec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec.c
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_qdec.dir/hal_qdec.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec.c > CMakeFiles/hal_qdec.dir/hal_qdec.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec.c > CMakeFiles/hal_qdec.dir/hal_qdec.c.i
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_qdec.dir/hal_qdec.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec.c -o CMakeFiles/hal_qdec.dir/hal_qdec.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec.c -o CMakeFiles/hal_qdec.dir/hal_qdec.c.s
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj: hal/qdec/CMakeFiles/hal_qdec.dir/flags.make
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj: ../../../../drivers/drivers/hal/qdec/hal_qdec_v150.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150.c
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150.c > CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150.c > CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.i
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150.c -o CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150.c -o CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.s
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj: hal/qdec/CMakeFiles/hal_qdec.dir/flags.make
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj: ../../../../drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c > CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c > CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.i
 
 hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c -o CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=HAL_QDEC_V150_REGS_OP_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec/hal_qdec_v150_regs_op.c -o CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.s
 
 # Object files for target hal_qdec
 hal_qdec_OBJECTS = \
@@ -110,9 +110,9 @@ hal/qdec/libhal_qdec.a: hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150.c.obj
 hal/qdec/libhal_qdec.a: hal/qdec/CMakeFiles/hal_qdec.dir/hal_qdec_v150_regs_op.c.obj
 hal/qdec/libhal_qdec.a: hal/qdec/CMakeFiles/hal_qdec.dir/build.make
 hal/qdec/libhal_qdec.a: hal/qdec/CMakeFiles/hal_qdec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_qdec.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -P CMakeFiles/hal_qdec.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_qdec.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libhal_qdec.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -P CMakeFiles/hal_qdec.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hal_qdec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 hal/qdec/CMakeFiles/hal_qdec.dir/build: hal/qdec/libhal_qdec.a
@@ -120,10 +120,10 @@ hal/qdec/CMakeFiles/hal_qdec.dir/build: hal/qdec/libhal_qdec.a
 .PHONY : hal/qdec/CMakeFiles/hal_qdec.dir/build
 
 hal/qdec/CMakeFiles/hal_qdec.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -P CMakeFiles/hal_qdec.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec && $(CMAKE_COMMAND) -P CMakeFiles/hal_qdec.dir/cmake_clean.cmake
 .PHONY : hal/qdec/CMakeFiles/hal_qdec.dir/clean
 
 hal/qdec/CMakeFiles/hal_qdec.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/hal/qdec /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/qdec/CMakeFiles/hal_qdec.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/qdec /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/qdec/CMakeFiles/hal_qdec.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hal/qdec/CMakeFiles/hal_qdec.dir/depend
 

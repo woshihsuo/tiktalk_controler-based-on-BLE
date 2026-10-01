@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/at/at_radar_cmd
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/at/at_radar_cmd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/codec/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/codec/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/codec/CMakeFiles/codec.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/CMakeFiles/codec.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/codec/CMakeFiles/codec.dir/rule
 .PHONY : utils/codec/CMakeFiles/codec.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ codec: utils/codec/CMakeFiles/codec.dir/rule
 
 # fast build rule for target.
 codec/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/build
 .PHONY : codec/fast
 
 src/audio_codec_comm.obj: src/audio_codec_comm.c.obj
@@ -131,7 +131,7 @@ src/audio_codec_comm.obj: src/audio_codec_comm.c.obj
 
 # target to build an object file
 src/audio_codec_comm.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.obj
 .PHONY : src/audio_codec_comm.c.obj
 
 src/audio_codec_comm.i: src/audio_codec_comm.c.i
@@ -140,7 +140,7 @@ src/audio_codec_comm.i: src/audio_codec_comm.c.i
 
 # target to preprocess a source file
 src/audio_codec_comm.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.i
 .PHONY : src/audio_codec_comm.c.i
 
 src/audio_codec_comm.s: src/audio_codec_comm.c.s
@@ -149,7 +149,7 @@ src/audio_codec_comm.s: src/audio_codec_comm.c.s
 
 # target to generate assembly for a file
 src/audio_codec_comm.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_codec_comm.c.s
 .PHONY : src/audio_codec_comm.c.s
 
 src/audio_decoder.obj: src/audio_decoder.c.obj
@@ -158,7 +158,7 @@ src/audio_decoder.obj: src/audio_decoder.c.obj
 
 # target to build an object file
 src/audio_decoder.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.obj
 .PHONY : src/audio_decoder.c.obj
 
 src/audio_decoder.i: src/audio_decoder.c.i
@@ -167,7 +167,7 @@ src/audio_decoder.i: src/audio_decoder.c.i
 
 # target to preprocess a source file
 src/audio_decoder.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.i
 .PHONY : src/audio_decoder.c.i
 
 src/audio_decoder.s: src/audio_decoder.c.s
@@ -176,7 +176,7 @@ src/audio_decoder.s: src/audio_decoder.c.s
 
 # target to generate assembly for a file
 src/audio_decoder.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_decoder.c.s
 .PHONY : src/audio_decoder.c.s
 
 src/audio_encoder.obj: src/audio_encoder.c.obj
@@ -185,7 +185,7 @@ src/audio_encoder.obj: src/audio_encoder.c.obj
 
 # target to build an object file
 src/audio_encoder.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.obj
 .PHONY : src/audio_encoder.c.obj
 
 src/audio_encoder.i: src/audio_encoder.c.i
@@ -194,7 +194,7 @@ src/audio_encoder.i: src/audio_encoder.c.i
 
 # target to preprocess a source file
 src/audio_encoder.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.i
 .PHONY : src/audio_encoder.c.i
 
 src/audio_encoder.s: src/audio_encoder.c.s
@@ -203,7 +203,7 @@ src/audio_encoder.s: src/audio_encoder.c.s
 
 # target to generate assembly for a file
 src/audio_encoder.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_encoder.c.s
 .PHONY : src/audio_encoder.c.s
 
 src/audio_profile_calc.obj: src/audio_profile_calc.c.obj
@@ -212,7 +212,7 @@ src/audio_profile_calc.obj: src/audio_profile_calc.c.obj
 
 # target to build an object file
 src/audio_profile_calc.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.obj
 .PHONY : src/audio_profile_calc.c.obj
 
 src/audio_profile_calc.i: src/audio_profile_calc.c.i
@@ -221,7 +221,7 @@ src/audio_profile_calc.i: src/audio_profile_calc.c.i
 
 # target to preprocess a source file
 src/audio_profile_calc.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.i
 .PHONY : src/audio_profile_calc.c.i
 
 src/audio_profile_calc.s: src/audio_profile_calc.c.s
@@ -230,7 +230,7 @@ src/audio_profile_calc.s: src/audio_profile_calc.c.s
 
 # target to generate assembly for a file
 src/audio_profile_calc.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/codec/CMakeFiles/codec.dir/build.make utils/codec/CMakeFiles/codec.dir/src/audio_profile_calc.c.s
 .PHONY : src/audio_profile_calc.c.s
 
 # Help Target
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

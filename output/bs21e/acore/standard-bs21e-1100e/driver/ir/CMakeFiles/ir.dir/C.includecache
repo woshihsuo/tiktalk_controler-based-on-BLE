@@ -884,23 +884,23 @@ chip_definitions.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/ir_tx.c
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/ir_tx.c
 stdbool.h
 -
 soc_osal.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/soc_osal.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/soc_osal.h
 securec.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/securec.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/securec.h
 gpio_porting.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/gpio_porting.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/gpio_porting.h
 gpio.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/gpio.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/gpio.h
 pwm.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/pwm.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/pwm.h
 pwm_porting.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/pwm_porting.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/pwm_porting.h
 tcxo.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/tcxo.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/tcxo.h
 ir_tx.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/ir/ir_tx.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ir/ir_tx.h
 

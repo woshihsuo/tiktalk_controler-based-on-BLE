@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/pm/pm_dfx
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/pm/pm_dfx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

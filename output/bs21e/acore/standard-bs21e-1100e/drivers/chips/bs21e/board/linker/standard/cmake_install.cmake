@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs21e/board/linker/standard
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/chips/bs21e/board/linker/standard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

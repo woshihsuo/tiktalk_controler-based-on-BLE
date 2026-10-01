@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include driver/ulp_aon/CMakeFiles/ulp_aon.dir/depend.make
@@ -59,16 +59,16 @@ include driver/ulp_aon/CMakeFiles/ulp_aon.dir/flags.make
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj: driver/ulp_aon/CMakeFiles/ulp_aon.dir/flags.make
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj: ../../../../drivers/drivers/driver/ulp_aon/ulp_aon_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj   -c /home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon/ulp_aon_control.c
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.c > CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon/ulp_aon_control.c > CMakeFiles/ulp_aon.dir/ulp_aon_control.c.i
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.c -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ULP_AON_CONTROL_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon/ulp_aon_control.c -o CMakeFiles/ulp_aon.dir/ulp_aon_control.c.s
 
 # Object files for target ulp_aon
 ulp_aon_OBJECTS = \
@@ -80,9 +80,9 @@ ulp_aon_EXTERNAL_OBJECTS =
 driver/ulp_aon/libulp_aon.a: driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj
 driver/ulp_aon/libulp_aon.a: driver/ulp_aon/CMakeFiles/ulp_aon.dir/build.make
 driver/ulp_aon/libulp_aon.a: driver/ulp_aon/CMakeFiles/ulp_aon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libulp_aon.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -P CMakeFiles/ulp_aon.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ulp_aon.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libulp_aon.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -P CMakeFiles/ulp_aon.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ulp_aon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/build: driver/ulp_aon/libulp_aon.a
@@ -90,10 +90,10 @@ driver/ulp_aon/CMakeFiles/ulp_aon.dir/build: driver/ulp_aon/libulp_aon.a
 .PHONY : driver/ulp_aon/CMakeFiles/ulp_aon.dir/build
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -P CMakeFiles/ulp_aon.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon && $(CMAKE_COMMAND) -P CMakeFiles/ulp_aon.dir/cmake_clean.cmake
 .PHONY : driver/ulp_aon/CMakeFiles/ulp_aon.dir/clean
 
 driver/ulp_aon/CMakeFiles/ulp_aon.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/CMakeFiles/ulp_aon.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/CMakeFiles/ulp_aon.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : driver/ulp_aon/CMakeFiles/ulp_aon.dir/depend
 

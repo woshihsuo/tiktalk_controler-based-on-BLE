@@ -210,6 +210,7 @@
 39      ./.text/middleware/utils/nv/nv_storage_lib/nv_update.c/g_erase_keys_transitions
 8       ./.text/application/samples/prj/bsp/src/ble.c/get_Blefam
 12      ./.text/middleware/utils/dfx/preserve/private/preserve.c/get_cpu_utils_reset_cause
+38      ./.text/application/samples/prj/bsp/src/key.c/get_Key_time
 6       ./.text/middleware/utils/dfx/log/log_printf.c/get_log_basetime_ms
 20      ./.text/drivers/chips/bs2x/porting/pinctrl/pinctrl_porting.c/get_pio_func_config
 12      ./.text/middleware/utils/dfx/preserve/private/preserve.c/get_update_reset_cause_on_boot
@@ -360,12 +361,13 @@
 2       ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_init
 18      ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_kick
 100     ./.text/drivers/drivers/hal/watchdog/v151/hal_watchdog_v151.c/hal_watchdog_v151_set_attr
-74      ./.text/application/samples/prj/main.c/hid_task
+96      ./.text/application/samples/prj/main.c/hid_task
 14      ./.text/drivers/chips/bs2x/liteos/idle_config.c/idle_task_config
 16      ./.text/drivers/chips/bs2x/liteos/idle_config.c/idle_task_process
 65      ./.text/home/xujie/workspace/sec_image_tool/iot_sec_image_src/gen_sec_image_tools/output/e018/image_info.c/image_info
 44      ./.text/middleware/utils/nv/nv_storage_lib/nv_update.c/invoke_current_state_action
-36      ./.text/application/samples/prj/bsp/src/key.c/key_init
+100     ./.text/application/samples/prj/bsp/src/key.c/key_init
+108     ./.text/application/samples/prj/bsp/src/key.c/key_task
 32      ./.text/middleware/utils/nv/nv_storage_lib/nv_key.c/kv_crc32_swap
 74      ./.text/middleware/chips/bs2x/nv/nv_porting/nv_flash.c/kv_flash_erase
 186     ./.text/middleware/chips/bs2x/nv/nv_porting/nv_flash.c/kv_flash_read
@@ -1149,6 +1151,7 @@
 252     ./.bss/middleware/utils/dfx/preserve/private/preserve.c/g_preserve_data_lib_ram
 2       ./.bss/middleware/chips/bs2x/pm/pm_porting.c/g_protocol_wakeup_advance_time
 2       ./.bss/middleware/chips/bs2x/pm/pm_porting.c/g_protocol_work_advance_time
+4       ./.bss/application/samples/prj/bsp/src/key.c/g_queue_id
 4       ./.bss/middleware/chips/bs2x/dfx/diag_adapt_sdt.c/g_recv_buf
 4       ./.bss/middleware/chips/bs2x/dfx/diag_adapt_sdt.c/g_recv_len
 1       ./.bss/middleware/chips/bs2x/dfx/diag_adapt_sdt.c/g_recv_msg_step
@@ -1319,4 +1322,4 @@
 44      ./.osal_xip/kernel/osal/src/liteos/osal_addr.c/osal_vzalloc
 524     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_cmp
 512     ./.patch_data/drivers/chips/bs2x/arch/src/patch.c/patch_remap
-done. Lines: 9707, Matches: 1321
+done. Lines: 9712, Matches: 1324

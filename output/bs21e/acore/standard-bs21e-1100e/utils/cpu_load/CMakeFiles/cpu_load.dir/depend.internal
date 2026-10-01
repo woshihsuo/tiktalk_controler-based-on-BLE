@@ -50,4 +50,4 @@ utils/cpu_load/CMakeFiles/cpu_load.dir/private/cpu_load.c.obj
  ../../../../middleware/utils/dfx/log/include/log_oam_logger.h
  ../../../../middleware/utils/dfx/log/include/log_printf.h
  ../../../../middleware/utils/dfx/log/include/log_trigger.h
- /home/bearpi/Desktop/tp/middleware/utils/cpu_load/private/cpu_load.c
+ /home/bearpi/Desktop/tp4ios/middleware/utils/cpu_load/private/cpu_load.c

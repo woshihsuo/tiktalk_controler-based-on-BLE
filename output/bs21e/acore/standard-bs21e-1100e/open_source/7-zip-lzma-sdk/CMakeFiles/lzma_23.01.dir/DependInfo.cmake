@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
+  "/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/open_source/7-zip-lzma-sdk/CMakeFiles/lzma_23.01.dir/lzma_23.01/C/LzmaDec.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

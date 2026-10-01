@@ -52,11 +52,11 @@ bits/alltypes.h
 bits/stdint.h
 -
 
-/home/bearpi/Desktop/tp/drivers/drivers/driver/dma/dma.c
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/dma/dma.c
 common_def.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/dma/common_def.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/dma/common_def.h
 hal_dma.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/dma/hal_dma.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/dma/hal_dma.h
 dma.h
-/home/bearpi/Desktop/tp/drivers/drivers/driver/dma/dma.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/dma/dma.h
 

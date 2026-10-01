@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_massdata.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_massdata.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_massdata.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_massdata.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ dfx_massdata: utils/dfx/CMakeFiles/dfx_massdata.dir/rule
 
 # fast build rule for target.
 dfx_massdata/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/build
 .PHONY : dfx_massdata/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_log_reader.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log_reader.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log_reader.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_log_reader.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ dfx_log_reader: utils/dfx/CMakeFiles/dfx_log_reader.dir/rule
 
 # fast build rule for target.
 dfx_log_reader/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/build
 .PHONY : dfx_log_reader/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_diag.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_diag.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_diag.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_diag.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ dfx_diag: utils/dfx/CMakeFiles/dfx_diag.dir/rule
 
 # fast build rule for target.
 dfx_diag/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/build
 .PHONY : dfx_diag/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_preserve.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_preserve.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_preserve.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_preserve.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ dfx_preserve: utils/dfx/CMakeFiles/dfx_preserve.dir/rule
 
 # fast build rule for target.
 dfx_preserve/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/build
 .PHONY : dfx_preserve/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/soc_log.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/soc_log.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/soc_log.dir/rule
 .PHONY : utils/dfx/CMakeFiles/soc_log.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ soc_log: utils/dfx/CMakeFiles/soc_log.dir/rule
 
 # fast build rule for target.
 soc_log/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/build
 .PHONY : soc_log/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/log_file.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/log_file.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/log_file.dir/rule
 .PHONY : utils/dfx/CMakeFiles/log_file.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ log_file: utils/dfx/CMakeFiles/log_file.dir/rule
 
 # fast build rule for target.
 log_file/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/build
 .PHONY : log_file/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_panic.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_panic.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_panic.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_panic.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ dfx_panic: utils/dfx/CMakeFiles/dfx_panic.dir/rule
 
 # fast build rule for target.
 dfx_panic/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/build
 .PHONY : dfx_panic/fast
 
 # Convenience name for target.
 utils/dfx/CMakeFiles/dfx_log.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/dfx/CMakeFiles/dfx_log.dir/rule
 .PHONY : utils/dfx/CMakeFiles/dfx_log.dir/rule
 
 # Convenience name for target.
@@ -227,7 +227,7 @@ dfx_log: utils/dfx/CMakeFiles/dfx_log.dir/rule
 
 # fast build rule for target.
 dfx_log/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/build
 .PHONY : dfx_log/fast
 
 dfx_os/liteos_v1/dfx_cpup.obj: dfx_os/liteos_v1/dfx_cpup.c.obj
@@ -236,7 +236,7 @@ dfx_os/liteos_v1/dfx_cpup.obj: dfx_os/liteos_v1/dfx_cpup.c.obj
 
 # target to build an object file
 dfx_os/liteos_v1/dfx_cpup.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.obj
 .PHONY : dfx_os/liteos_v1/dfx_cpup.c.obj
 
 dfx_os/liteos_v1/dfx_cpup.i: dfx_os/liteos_v1/dfx_cpup.c.i
@@ -245,7 +245,7 @@ dfx_os/liteos_v1/dfx_cpup.i: dfx_os/liteos_v1/dfx_cpup.c.i
 
 # target to preprocess a source file
 dfx_os/liteos_v1/dfx_cpup.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.i
 .PHONY : dfx_os/liteos_v1/dfx_cpup.c.i
 
 dfx_os/liteos_v1/dfx_cpup.s: dfx_os/liteos_v1/dfx_cpup.c.s
@@ -254,7 +254,7 @@ dfx_os/liteos_v1/dfx_cpup.s: dfx_os/liteos_v1/dfx_cpup.c.s
 
 # target to generate assembly for a file
 dfx_os/liteos_v1/dfx_cpup.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.s
 .PHONY : dfx_os/liteos_v1/dfx_cpup.c.s
 
 dfx_os/liteos_v1/dfx_mem.obj: dfx_os/liteos_v1/dfx_mem.c.obj
@@ -263,7 +263,7 @@ dfx_os/liteos_v1/dfx_mem.obj: dfx_os/liteos_v1/dfx_mem.c.obj
 
 # target to build an object file
 dfx_os/liteos_v1/dfx_mem.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
 .PHONY : dfx_os/liteos_v1/dfx_mem.c.obj
 
 dfx_os/liteos_v1/dfx_mem.i: dfx_os/liteos_v1/dfx_mem.c.i
@@ -272,7 +272,7 @@ dfx_os/liteos_v1/dfx_mem.i: dfx_os/liteos_v1/dfx_mem.c.i
 
 # target to preprocess a source file
 dfx_os/liteos_v1/dfx_mem.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.i
 .PHONY : dfx_os/liteos_v1/dfx_mem.c.i
 
 dfx_os/liteos_v1/dfx_mem.s: dfx_os/liteos_v1/dfx_mem.c.s
@@ -281,7 +281,7 @@ dfx_os/liteos_v1/dfx_mem.s: dfx_os/liteos_v1/dfx_mem.c.s
 
 # target to generate assembly for a file
 dfx_os/liteos_v1/dfx_mem.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.s
 .PHONY : dfx_os/liteos_v1/dfx_mem.c.s
 
 dfx_os/liteos_v1/dfx_res.obj: dfx_os/liteos_v1/dfx_res.c.obj
@@ -290,7 +290,7 @@ dfx_os/liteos_v1/dfx_res.obj: dfx_os/liteos_v1/dfx_res.c.obj
 
 # target to build an object file
 dfx_os/liteos_v1/dfx_res.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
 .PHONY : dfx_os/liteos_v1/dfx_res.c.obj
 
 dfx_os/liteos_v1/dfx_res.i: dfx_os/liteos_v1/dfx_res.c.i
@@ -299,7 +299,7 @@ dfx_os/liteos_v1/dfx_res.i: dfx_os/liteos_v1/dfx_res.c.i
 
 # target to preprocess a source file
 dfx_os/liteos_v1/dfx_res.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.i
 .PHONY : dfx_os/liteos_v1/dfx_res.c.i
 
 dfx_os/liteos_v1/dfx_res.s: dfx_os/liteos_v1/dfx_res.c.s
@@ -308,7 +308,7 @@ dfx_os/liteos_v1/dfx_res.s: dfx_os/liteos_v1/dfx_res.c.s
 
 # target to generate assembly for a file
 dfx_os/liteos_v1/dfx_res.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.s
 .PHONY : dfx_os/liteos_v1/dfx_res.c.s
 
 dfx_os/liteos_v1/dfx_task.obj: dfx_os/liteos_v1/dfx_task.c.obj
@@ -317,7 +317,7 @@ dfx_os/liteos_v1/dfx_task.obj: dfx_os/liteos_v1/dfx_task.c.obj
 
 # target to build an object file
 dfx_os/liteos_v1/dfx_task.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
 .PHONY : dfx_os/liteos_v1/dfx_task.c.obj
 
 dfx_os/liteos_v1/dfx_task.i: dfx_os/liteos_v1/dfx_task.c.i
@@ -326,7 +326,7 @@ dfx_os/liteos_v1/dfx_task.i: dfx_os/liteos_v1/dfx_task.c.i
 
 # target to preprocess a source file
 dfx_os/liteos_v1/dfx_task.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.i
 .PHONY : dfx_os/liteos_v1/dfx_task.c.i
 
 dfx_os/liteos_v1/dfx_task.s: dfx_os/liteos_v1/dfx_task.c.s
@@ -335,7 +335,7 @@ dfx_os/liteos_v1/dfx_task.s: dfx_os/liteos_v1/dfx_task.c.s
 
 # target to generate assembly for a file
 dfx_os/liteos_v1/dfx_task.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.s
 .PHONY : dfx_os/liteos_v1/dfx_task.c.s
 
 dfx_os/liteos_v1/dfx_trace.obj: dfx_os/liteos_v1/dfx_trace.c.obj
@@ -344,7 +344,7 @@ dfx_os/liteos_v1/dfx_trace.obj: dfx_os/liteos_v1/dfx_trace.c.obj
 
 # target to build an object file
 dfx_os/liteos_v1/dfx_trace.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
 .PHONY : dfx_os/liteos_v1/dfx_trace.c.obj
 
 dfx_os/liteos_v1/dfx_trace.i: dfx_os/liteos_v1/dfx_trace.c.i
@@ -353,7 +353,7 @@ dfx_os/liteos_v1/dfx_trace.i: dfx_os/liteos_v1/dfx_trace.c.i
 
 # target to preprocess a source file
 dfx_os/liteos_v1/dfx_trace.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.i
 .PHONY : dfx_os/liteos_v1/dfx_trace.c.i
 
 dfx_os/liteos_v1/dfx_trace.s: dfx_os/liteos_v1/dfx_trace.c.s
@@ -362,7 +362,7 @@ dfx_os/liteos_v1/dfx_trace.s: dfx_os/liteos_v1/dfx_trace.c.s
 
 # target to generate assembly for a file
 dfx_os/liteos_v1/dfx_trace.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.s
 .PHONY : dfx_os/liteos_v1/dfx_trace.c.s
 
 diag/diag_channel.obj: diag/diag_channel.c.obj
@@ -371,7 +371,7 @@ diag/diag_channel.obj: diag/diag_channel.c.obj
 
 # target to build an object file
 diag/diag_channel.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.obj
 .PHONY : diag/diag_channel.c.obj
 
 diag/diag_channel.i: diag/diag_channel.c.i
@@ -380,7 +380,7 @@ diag/diag_channel.i: diag/diag_channel.c.i
 
 # target to preprocess a source file
 diag/diag_channel.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.i
 .PHONY : diag/diag_channel.c.i
 
 diag/diag_channel.s: diag/diag_channel.c.s
@@ -389,7 +389,7 @@ diag/diag_channel.s: diag/diag_channel.c.s
 
 # target to generate assembly for a file
 diag/diag_channel.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_channel.c.s
 .PHONY : diag/diag_channel.c.s
 
 diag/diag_cmd_router/diag_cmd_dispatch.obj: diag/diag_cmd_router/diag_cmd_dispatch.c.obj
@@ -398,7 +398,7 @@ diag/diag_cmd_router/diag_cmd_dispatch.obj: diag/diag_cmd_router/diag_cmd_dispat
 
 # target to build an object file
 diag/diag_cmd_router/diag_cmd_dispatch.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.obj
 .PHONY : diag/diag_cmd_router/diag_cmd_dispatch.c.obj
 
 diag/diag_cmd_router/diag_cmd_dispatch.i: diag/diag_cmd_router/diag_cmd_dispatch.c.i
@@ -407,7 +407,7 @@ diag/diag_cmd_router/diag_cmd_dispatch.i: diag/diag_cmd_router/diag_cmd_dispatch
 
 # target to preprocess a source file
 diag/diag_cmd_router/diag_cmd_dispatch.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.i
 .PHONY : diag/diag_cmd_router/diag_cmd_dispatch.c.i
 
 diag/diag_cmd_router/diag_cmd_dispatch.s: diag/diag_cmd_router/diag_cmd_dispatch.c.s
@@ -416,7 +416,7 @@ diag/diag_cmd_router/diag_cmd_dispatch.s: diag/diag_cmd_router/diag_cmd_dispatch
 
 # target to generate assembly for a file
 diag/diag_cmd_router/diag_cmd_dispatch.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dispatch.c.s
 .PHONY : diag/diag_cmd_router/diag_cmd_dispatch.c.s
 
 diag/diag_cmd_router/diag_cmd_dst.obj: diag/diag_cmd_router/diag_cmd_dst.c.obj
@@ -425,7 +425,7 @@ diag/diag_cmd_router/diag_cmd_dst.obj: diag/diag_cmd_router/diag_cmd_dst.c.obj
 
 # target to build an object file
 diag/diag_cmd_router/diag_cmd_dst.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.obj
 .PHONY : diag/diag_cmd_router/diag_cmd_dst.c.obj
 
 diag/diag_cmd_router/diag_cmd_dst.i: diag/diag_cmd_router/diag_cmd_dst.c.i
@@ -434,7 +434,7 @@ diag/diag_cmd_router/diag_cmd_dst.i: diag/diag_cmd_router/diag_cmd_dst.c.i
 
 # target to preprocess a source file
 diag/diag_cmd_router/diag_cmd_dst.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.i
 .PHONY : diag/diag_cmd_router/diag_cmd_dst.c.i
 
 diag/diag_cmd_router/diag_cmd_dst.s: diag/diag_cmd_router/diag_cmd_dst.c.s
@@ -443,7 +443,7 @@ diag/diag_cmd_router/diag_cmd_dst.s: diag/diag_cmd_router/diag_cmd_dst.c.s
 
 # target to generate assembly for a file
 diag/diag_cmd_router/diag_cmd_dst.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_cmd_dst.c.s
 .PHONY : diag/diag_cmd_router/diag_cmd_dst.c.s
 
 diag/diag_cmd_router/diag_ind_src.obj: diag/diag_cmd_router/diag_ind_src.c.obj
@@ -452,7 +452,7 @@ diag/diag_cmd_router/diag_ind_src.obj: diag/diag_cmd_router/diag_ind_src.c.obj
 
 # target to build an object file
 diag/diag_cmd_router/diag_ind_src.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.obj
 .PHONY : diag/diag_cmd_router/diag_ind_src.c.obj
 
 diag/diag_cmd_router/diag_ind_src.i: diag/diag_cmd_router/diag_ind_src.c.i
@@ -461,7 +461,7 @@ diag/diag_cmd_router/diag_ind_src.i: diag/diag_cmd_router/diag_ind_src.c.i
 
 # target to preprocess a source file
 diag/diag_cmd_router/diag_ind_src.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.i
 .PHONY : diag/diag_cmd_router/diag_ind_src.c.i
 
 diag/diag_cmd_router/diag_ind_src.s: diag/diag_cmd_router/diag_ind_src.c.s
@@ -470,7 +470,7 @@ diag/diag_cmd_router/diag_ind_src.s: diag/diag_cmd_router/diag_ind_src.c.s
 
 # target to generate assembly for a file
 diag/diag_cmd_router/diag_ind_src.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_cmd_router/diag_ind_src.c.s
 .PHONY : diag/diag_cmd_router/diag_ind_src.c.s
 
 diag/diag_debug.obj: diag/diag_debug.c.obj
@@ -479,7 +479,7 @@ diag/diag_debug.obj: diag/diag_debug.c.obj
 
 # target to build an object file
 diag/diag_debug.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.obj
 .PHONY : diag/diag_debug.c.obj
 
 diag/diag_debug.i: diag/diag_debug.c.i
@@ -488,7 +488,7 @@ diag/diag_debug.i: diag/diag_debug.c.i
 
 # target to preprocess a source file
 diag/diag_debug.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.i
 .PHONY : diag/diag_debug.c.i
 
 diag/diag_debug.s: diag/diag_debug.c.s
@@ -497,7 +497,7 @@ diag/diag_debug.s: diag/diag_debug.c.s
 
 # target to generate assembly for a file
 diag/diag_debug.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_debug.c.s
 .PHONY : diag/diag_debug.c.s
 
 diag/diag_dfx.obj: diag/diag_dfx.c.obj
@@ -506,7 +506,7 @@ diag/diag_dfx.obj: diag/diag_dfx.c.obj
 
 # target to build an object file
 diag/diag_dfx.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.obj
 .PHONY : diag/diag_dfx.c.obj
 
 diag/diag_dfx.i: diag/diag_dfx.c.i
@@ -515,7 +515,7 @@ diag/diag_dfx.i: diag/diag_dfx.c.i
 
 # target to preprocess a source file
 diag/diag_dfx.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.i
 .PHONY : diag/diag_dfx.c.i
 
 diag/diag_dfx.s: diag/diag_dfx.c.s
@@ -524,7 +524,7 @@ diag/diag_dfx.s: diag/diag_dfx.c.s
 
 # target to generate assembly for a file
 diag/diag_dfx.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_dfx.c.s
 .PHONY : diag/diag_dfx.c.s
 
 diag/diag_filter.obj: diag/diag_filter.c.obj
@@ -533,7 +533,7 @@ diag/diag_filter.obj: diag/diag_filter.c.obj
 
 # target to build an object file
 diag/diag_filter.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.obj
 .PHONY : diag/diag_filter.c.obj
 
 diag/diag_filter.i: diag/diag_filter.c.i
@@ -542,7 +542,7 @@ diag/diag_filter.i: diag/diag_filter.c.i
 
 # target to preprocess a source file
 diag/diag_filter.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.i
 .PHONY : diag/diag_filter.c.i
 
 diag/diag_filter.s: diag/diag_filter.c.s
@@ -551,7 +551,7 @@ diag/diag_filter.s: diag/diag_filter.c.s
 
 # target to generate assembly for a file
 diag/diag_filter.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_filter.c.s
 .PHONY : diag/diag_filter.c.s
 
 diag/diag_mem.obj: diag/diag_mem.c.obj
@@ -560,7 +560,7 @@ diag/diag_mem.obj: diag/diag_mem.c.obj
 
 # target to build an object file
 diag/diag_mem.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.obj
 .PHONY : diag/diag_mem.c.obj
 
 diag/diag_mem.i: diag/diag_mem.c.i
@@ -569,7 +569,7 @@ diag/diag_mem.i: diag/diag_mem.c.i
 
 # target to preprocess a source file
 diag/diag_mem.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.i
 .PHONY : diag/diag_mem.c.i
 
 diag/diag_mem.s: diag/diag_mem.c.s
@@ -578,7 +578,7 @@ diag/diag_mem.s: diag/diag_mem.c.s
 
 # target to generate assembly for a file
 diag/diag_mem.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_mem.c.s
 .PHONY : diag/diag_mem.c.s
 
 diag/diag_msg.obj: diag/diag_msg.c.obj
@@ -587,7 +587,7 @@ diag/diag_msg.obj: diag/diag_msg.c.obj
 
 # target to build an object file
 diag/diag_msg.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.obj
 .PHONY : diag/diag_msg.c.obj
 
 diag/diag_msg.i: diag/diag_msg.c.i
@@ -596,7 +596,7 @@ diag/diag_msg.i: diag/diag_msg.c.i
 
 # target to preprocess a source file
 diag/diag_msg.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.i
 .PHONY : diag/diag_msg.c.i
 
 diag/diag_msg.s: diag/diag_msg.c.s
@@ -605,7 +605,7 @@ diag/diag_msg.s: diag/diag_msg.c.s
 
 # target to generate assembly for a file
 diag/diag_msg.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_msg.c.s
 .PHONY : diag/diag_msg.c.s
 
 diag/diag_pkt.obj: diag/diag_pkt.c.obj
@@ -614,7 +614,7 @@ diag/diag_pkt.obj: diag/diag_pkt.c.obj
 
 # target to build an object file
 diag/diag_pkt.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.obj
 .PHONY : diag/diag_pkt.c.obj
 
 diag/diag_pkt.i: diag/diag_pkt.c.i
@@ -623,7 +623,7 @@ diag/diag_pkt.i: diag/diag_pkt.c.i
 
 # target to preprocess a source file
 diag/diag_pkt.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.i
 .PHONY : diag/diag_pkt.c.i
 
 diag/diag_pkt.s: diag/diag_pkt.c.s
@@ -632,7 +632,7 @@ diag/diag_pkt.s: diag/diag_pkt.c.s
 
 # target to generate assembly for a file
 diag/diag_pkt.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt.c.s
 .PHONY : diag/diag_pkt.c.s
 
 diag/diag_pkt_router.obj: diag/diag_pkt_router.c.obj
@@ -641,7 +641,7 @@ diag/diag_pkt_router.obj: diag/diag_pkt_router.c.obj
 
 # target to build an object file
 diag/diag_pkt_router.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.obj
 .PHONY : diag/diag_pkt_router.c.obj
 
 diag/diag_pkt_router.i: diag/diag_pkt_router.c.i
@@ -650,7 +650,7 @@ diag/diag_pkt_router.i: diag/diag_pkt_router.c.i
 
 # target to preprocess a source file
 diag/diag_pkt_router.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.i
 .PHONY : diag/diag_pkt_router.c.i
 
 diag/diag_pkt_router.s: diag/diag_pkt_router.c.s
@@ -659,7 +659,7 @@ diag/diag_pkt_router.s: diag/diag_pkt_router.c.s
 
 # target to generate assembly for a file
 diag/diag_pkt_router.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_pkt_router.c.s
 .PHONY : diag/diag_pkt_router.c.s
 
 diag/diag_rx_api.obj: diag/diag_rx_api.c.obj
@@ -668,7 +668,7 @@ diag/diag_rx_api.obj: diag/diag_rx_api.c.obj
 
 # target to build an object file
 diag/diag_rx_api.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.obj
 .PHONY : diag/diag_rx_api.c.obj
 
 diag/diag_rx_api.i: diag/diag_rx_api.c.i
@@ -677,7 +677,7 @@ diag/diag_rx_api.i: diag/diag_rx_api.c.i
 
 # target to preprocess a source file
 diag/diag_rx_api.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.i
 .PHONY : diag/diag_rx_api.c.i
 
 diag/diag_rx_api.s: diag/diag_rx_api.c.s
@@ -686,7 +686,7 @@ diag/diag_rx_api.s: diag/diag_rx_api.c.s
 
 # target to generate assembly for a file
 diag/diag_rx_api.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_rx_api.c.s
 .PHONY : diag/diag_rx_api.c.s
 
 diag/diag_service.obj: diag/diag_service.c.obj
@@ -695,7 +695,7 @@ diag/diag_service.obj: diag/diag_service.c.obj
 
 # target to build an object file
 diag/diag_service.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.obj
 .PHONY : diag/diag_service.c.obj
 
 diag/diag_service.i: diag/diag_service.c.i
@@ -704,7 +704,7 @@ diag/diag_service.i: diag/diag_service.c.i
 
 # target to preprocess a source file
 diag/diag_service.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.i
 .PHONY : diag/diag_service.c.i
 
 diag/diag_service.s: diag/diag_service.c.s
@@ -713,7 +713,7 @@ diag/diag_service.s: diag/diag_service.c.s
 
 # target to generate assembly for a file
 diag/diag_service.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_service.c.s
 .PHONY : diag/diag_service.c.s
 
 diag/diag_stat.obj: diag/diag_stat.c.obj
@@ -722,7 +722,7 @@ diag/diag_stat.obj: diag/diag_stat.c.obj
 
 # target to build an object file
 diag/diag_stat.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.obj
 .PHONY : diag/diag_stat.c.obj
 
 diag/diag_stat.i: diag/diag_stat.c.i
@@ -731,7 +731,7 @@ diag/diag_stat.i: diag/diag_stat.c.i
 
 # target to preprocess a source file
 diag/diag_stat.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.i
 .PHONY : diag/diag_stat.c.i
 
 diag/diag_stat.s: diag/diag_stat.c.s
@@ -740,7 +740,7 @@ diag/diag_stat.s: diag/diag_stat.c.s
 
 # target to generate assembly for a file
 diag/diag_stat.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_stat.c.s
 .PHONY : diag/diag_stat.c.s
 
 diag/diag_system_cmd/diag_bt_sample_data.obj: diag/diag_system_cmd/diag_bt_sample_data.c.obj
@@ -749,7 +749,7 @@ diag/diag_system_cmd/diag_bt_sample_data.obj: diag/diag_system_cmd/diag_bt_sampl
 
 # target to build an object file
 diag/diag_system_cmd/diag_bt_sample_data.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.obj
 .PHONY : diag/diag_system_cmd/diag_bt_sample_data.c.obj
 
 diag/diag_system_cmd/diag_bt_sample_data.i: diag/diag_system_cmd/diag_bt_sample_data.c.i
@@ -758,7 +758,7 @@ diag/diag_system_cmd/diag_bt_sample_data.i: diag/diag_system_cmd/diag_bt_sample_
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_bt_sample_data.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.i
 .PHONY : diag/diag_system_cmd/diag_bt_sample_data.c.i
 
 diag/diag_system_cmd/diag_bt_sample_data.s: diag/diag_system_cmd/diag_bt_sample_data.c.s
@@ -767,7 +767,7 @@ diag/diag_system_cmd/diag_bt_sample_data.s: diag/diag_system_cmd/diag_bt_sample_
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_bt_sample_data.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_bt_sample_data.c.s
 .PHONY : diag/diag_system_cmd/diag_bt_sample_data.c.s
 
 diag/diag_system_cmd/diag_cmd_beat_heart.obj: diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
@@ -776,7 +776,7 @@ diag/diag_system_cmd/diag_cmd_beat_heart.obj: diag/diag_system_cmd/diag_cmd_beat
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_beat_heart.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_beat_heart.c.obj
 
 diag/diag_system_cmd/diag_cmd_beat_heart.i: diag/diag_system_cmd/diag_cmd_beat_heart.c.i
@@ -785,7 +785,7 @@ diag/diag_system_cmd/diag_cmd_beat_heart.i: diag/diag_system_cmd/diag_cmd_beat_h
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_beat_heart.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_beat_heart.c.i
 
 diag/diag_system_cmd/diag_cmd_beat_heart.s: diag/diag_system_cmd/diag_cmd_beat_heart.c.s
@@ -794,7 +794,7 @@ diag/diag_system_cmd/diag_cmd_beat_heart.s: diag/diag_system_cmd/diag_cmd_beat_h
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_beat_heart.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_beat_heart.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_beat_heart.c.s
 
 diag/diag_system_cmd/diag_cmd_connect.obj: diag/diag_system_cmd/diag_cmd_connect.c.obj
@@ -803,7 +803,7 @@ diag/diag_system_cmd/diag_cmd_connect.obj: diag/diag_system_cmd/diag_cmd_connect
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_connect.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_connect.c.obj
 
 diag/diag_system_cmd/diag_cmd_connect.i: diag/diag_system_cmd/diag_cmd_connect.c.i
@@ -812,7 +812,7 @@ diag/diag_system_cmd/diag_cmd_connect.i: diag/diag_system_cmd/diag_cmd_connect.c
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_connect.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_connect.c.i
 
 diag/diag_system_cmd/diag_cmd_connect.s: diag/diag_system_cmd/diag_cmd_connect.c.s
@@ -821,7 +821,7 @@ diag/diag_system_cmd/diag_cmd_connect.s: diag/diag_system_cmd/diag_cmd_connect.c
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_connect.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_connect.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_connect.c.s
 
 diag/diag_system_cmd/diag_cmd_dfx_case.obj: diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
@@ -830,7 +830,7 @@ diag/diag_system_cmd/diag_cmd_dfx_case.obj: diag/diag_system_cmd/diag_cmd_dfx_ca
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_dfx_case.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_dfx_case.c.obj
 
 diag/diag_system_cmd/diag_cmd_dfx_case.i: diag/diag_system_cmd/diag_cmd_dfx_case.c.i
@@ -839,7 +839,7 @@ diag/diag_system_cmd/diag_cmd_dfx_case.i: diag/diag_system_cmd/diag_cmd_dfx_case
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_dfx_case.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_dfx_case.c.i
 
 diag/diag_system_cmd/diag_cmd_dfx_case.s: diag/diag_system_cmd/diag_cmd_dfx_case.c.s
@@ -848,7 +848,7 @@ diag/diag_system_cmd/diag_cmd_dfx_case.s: diag/diag_system_cmd/diag_cmd_dfx_case
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_dfx_case.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_dfx_case.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_dfx_case.c.s
 
 diag/diag_system_cmd/diag_cmd_filter.obj: diag/diag_system_cmd/diag_cmd_filter.c.obj
@@ -857,7 +857,7 @@ diag/diag_system_cmd/diag_cmd_filter.obj: diag/diag_system_cmd/diag_cmd_filter.c
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_filter.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_filter.c.obj
 
 diag/diag_system_cmd/diag_cmd_filter.i: diag/diag_system_cmd/diag_cmd_filter.c.i
@@ -866,7 +866,7 @@ diag/diag_system_cmd/diag_cmd_filter.i: diag/diag_system_cmd/diag_cmd_filter.c.i
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_filter.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_filter.c.i
 
 diag/diag_system_cmd/diag_cmd_filter.s: diag/diag_system_cmd/diag_cmd_filter.c.s
@@ -875,7 +875,7 @@ diag/diag_system_cmd/diag_cmd_filter.s: diag/diag_system_cmd/diag_cmd_filter.c.s
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_filter.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_filter.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_filter.c.s
 
 diag/diag_system_cmd/diag_cmd_get_cpup.obj: diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
@@ -884,7 +884,7 @@ diag/diag_system_cmd/diag_cmd_get_cpup.obj: diag/diag_system_cmd/diag_cmd_get_cp
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_get_cpup.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_get_cpup.c.obj
 
 diag/diag_system_cmd/diag_cmd_get_cpup.i: diag/diag_system_cmd/diag_cmd_get_cpup.c.i
@@ -893,7 +893,7 @@ diag/diag_system_cmd/diag_cmd_get_cpup.i: diag/diag_system_cmd/diag_cmd_get_cpup
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_get_cpup.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_get_cpup.c.i
 
 diag/diag_system_cmd/diag_cmd_get_cpup.s: diag/diag_system_cmd/diag_cmd_get_cpup.c.s
@@ -902,7 +902,7 @@ diag/diag_system_cmd/diag_cmd_get_cpup.s: diag/diag_system_cmd/diag_cmd_get_cpup
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_get_cpup.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_cpup.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_get_cpup.c.s
 
 diag/diag_system_cmd/diag_cmd_get_init_info.obj: diag/diag_system_cmd/diag_cmd_get_init_info.c.obj
@@ -911,7 +911,7 @@ diag/diag_system_cmd/diag_cmd_get_init_info.obj: diag/diag_system_cmd/diag_cmd_g
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_get_init_info.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_get_init_info.c.obj
 
 diag/diag_system_cmd/diag_cmd_get_init_info.i: diag/diag_system_cmd/diag_cmd_get_init_info.c.i
@@ -920,7 +920,7 @@ diag/diag_system_cmd/diag_cmd_get_init_info.i: diag/diag_system_cmd/diag_cmd_get
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_get_init_info.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_get_init_info.c.i
 
 diag/diag_system_cmd/diag_cmd_get_init_info.s: diag/diag_system_cmd/diag_cmd_get_init_info.c.s
@@ -929,7 +929,7 @@ diag/diag_system_cmd/diag_cmd_get_init_info.s: diag/diag_system_cmd/diag_cmd_get
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_get_init_info.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_init_info.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_get_init_info.c.s
 
 diag/diag_system_cmd/diag_cmd_get_mem_info.obj: diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
@@ -938,7 +938,7 @@ diag/diag_system_cmd/diag_cmd_get_mem_info.obj: diag/diag_system_cmd/diag_cmd_ge
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
 
 diag/diag_system_cmd/diag_cmd_get_mem_info.i: diag/diag_system_cmd/diag_cmd_get_mem_info.c.i
@@ -947,7 +947,7 @@ diag/diag_system_cmd/diag_cmd_get_mem_info.i: diag/diag_system_cmd/diag_cmd_get_
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_get_mem_info.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_get_mem_info.c.i
 
 diag/diag_system_cmd/diag_cmd_get_mem_info.s: diag/diag_system_cmd/diag_cmd_get_mem_info.c.s
@@ -956,7 +956,7 @@ diag/diag_system_cmd/diag_cmd_get_mem_info.s: diag/diag_system_cmd/diag_cmd_get_
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_get_mem_info.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_mem_info.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_get_mem_info.c.s
 
 diag/diag_system_cmd/diag_cmd_get_res_info.obj: diag/diag_system_cmd/diag_cmd_get_res_info.c.obj
@@ -965,7 +965,7 @@ diag/diag_system_cmd/diag_cmd_get_res_info.obj: diag/diag_system_cmd/diag_cmd_ge
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_get_res_info.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_get_res_info.c.obj
 
 diag/diag_system_cmd/diag_cmd_get_res_info.i: diag/diag_system_cmd/diag_cmd_get_res_info.c.i
@@ -974,7 +974,7 @@ diag/diag_system_cmd/diag_cmd_get_res_info.i: diag/diag_system_cmd/diag_cmd_get_
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_get_res_info.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_get_res_info.c.i
 
 diag/diag_system_cmd/diag_cmd_get_res_info.s: diag/diag_system_cmd/diag_cmd_get_res_info.c.s
@@ -983,7 +983,7 @@ diag/diag_system_cmd/diag_cmd_get_res_info.s: diag/diag_system_cmd/diag_cmd_get_
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_get_res_info.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_res_info.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_get_res_info.c.s
 
 diag/diag_system_cmd/diag_cmd_get_task_info.obj: diag/diag_system_cmd/diag_cmd_get_task_info.c.obj
@@ -992,7 +992,7 @@ diag/diag_system_cmd/diag_cmd_get_task_info.obj: diag/diag_system_cmd/diag_cmd_g
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_get_task_info.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_get_task_info.c.obj
 
 diag/diag_system_cmd/diag_cmd_get_task_info.i: diag/diag_system_cmd/diag_cmd_get_task_info.c.i
@@ -1001,7 +1001,7 @@ diag/diag_system_cmd/diag_cmd_get_task_info.i: diag/diag_system_cmd/diag_cmd_get
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_get_task_info.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_get_task_info.c.i
 
 diag/diag_system_cmd/diag_cmd_get_task_info.s: diag/diag_system_cmd/diag_cmd_get_task_info.c.s
@@ -1010,7 +1010,7 @@ diag/diag_system_cmd/diag_cmd_get_task_info.s: diag/diag_system_cmd/diag_cmd_get
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_get_task_info.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_get_task_info.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_get_task_info.c.s
 
 diag/diag_system_cmd/diag_cmd_log_level.obj: diag/diag_system_cmd/diag_cmd_log_level.c.obj
@@ -1019,7 +1019,7 @@ diag/diag_system_cmd/diag_cmd_log_level.obj: diag/diag_system_cmd/diag_cmd_log_l
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_log_level.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_log_level.c.obj
 
 diag/diag_system_cmd/diag_cmd_log_level.i: diag/diag_system_cmd/diag_cmd_log_level.c.i
@@ -1028,7 +1028,7 @@ diag/diag_system_cmd/diag_cmd_log_level.i: diag/diag_system_cmd/diag_cmd_log_lev
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_log_level.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_log_level.c.i
 
 diag/diag_system_cmd/diag_cmd_log_level.s: diag/diag_system_cmd/diag_cmd_log_level.c.s
@@ -1037,7 +1037,7 @@ diag/diag_system_cmd/diag_cmd_log_level.s: diag/diag_system_cmd/diag_cmd_log_lev
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_log_level.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_log_level.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_log_level.c.s
 
 diag/diag_system_cmd/diag_cmd_mem_read_write.obj: diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
@@ -1046,7 +1046,7 @@ diag/diag_system_cmd/diag_cmd_mem_read_write.obj: diag/diag_system_cmd/diag_cmd_
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
 
 diag/diag_system_cmd/diag_cmd_mem_read_write.i: diag/diag_system_cmd/diag_cmd_mem_read_write.c.i
@@ -1055,7 +1055,7 @@ diag/diag_system_cmd/diag_cmd_mem_read_write.i: diag/diag_system_cmd/diag_cmd_me
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_mem_read_write.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_mem_read_write.c.i
 
 diag/diag_system_cmd/diag_cmd_mem_read_write.s: diag/diag_system_cmd/diag_cmd_mem_read_write.c.s
@@ -1064,7 +1064,7 @@ diag/diag_system_cmd/diag_cmd_mem_read_write.s: diag/diag_system_cmd/diag_cmd_me
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_mem_read_write.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_mem_read_write.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_mem_read_write.c.s
 
 diag/diag_system_cmd/diag_cmd_offline_log.obj: diag/diag_system_cmd/diag_cmd_offline_log.c.obj
@@ -1073,7 +1073,7 @@ diag/diag_system_cmd/diag_cmd_offline_log.obj: diag/diag_system_cmd/diag_cmd_off
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_offline_log.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_offline_log.c.obj
 
 diag/diag_system_cmd/diag_cmd_offline_log.i: diag/diag_system_cmd/diag_cmd_offline_log.c.i
@@ -1082,7 +1082,7 @@ diag/diag_system_cmd/diag_cmd_offline_log.i: diag/diag_system_cmd/diag_cmd_offli
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_offline_log.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_offline_log.c.i
 
 diag/diag_system_cmd/diag_cmd_offline_log.s: diag/diag_system_cmd/diag_cmd_offline_log.c.s
@@ -1091,7 +1091,7 @@ diag/diag_system_cmd/diag_cmd_offline_log.s: diag/diag_system_cmd/diag_cmd_offli
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_offline_log.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_offline_log.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_offline_log.c.s
 
 diag/diag_system_cmd/diag_cmd_password.obj: diag/diag_system_cmd/diag_cmd_password.c.obj
@@ -1100,7 +1100,7 @@ diag/diag_system_cmd/diag_cmd_password.obj: diag/diag_system_cmd/diag_cmd_passwo
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_password.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_password.c.obj
 
 diag/diag_system_cmd/diag_cmd_password.i: diag/diag_system_cmd/diag_cmd_password.c.i
@@ -1109,7 +1109,7 @@ diag/diag_system_cmd/diag_cmd_password.i: diag/diag_system_cmd/diag_cmd_password
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_password.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_password.c.i
 
 diag/diag_system_cmd/diag_cmd_password.s: diag/diag_system_cmd/diag_cmd_password.c.s
@@ -1118,7 +1118,7 @@ diag/diag_system_cmd/diag_cmd_password.s: diag/diag_system_cmd/diag_cmd_password
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_password.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_password.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_password.c.s
 
 diag/diag_system_cmd/diag_cmd_stat.obj: diag/diag_system_cmd/diag_cmd_stat.c.obj
@@ -1127,7 +1127,7 @@ diag/diag_system_cmd/diag_cmd_stat.obj: diag/diag_system_cmd/diag_cmd_stat.c.obj
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_stat.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_stat.c.obj
 
 diag/diag_system_cmd/diag_cmd_stat.i: diag/diag_system_cmd/diag_cmd_stat.c.i
@@ -1136,7 +1136,7 @@ diag/diag_system_cmd/diag_cmd_stat.i: diag/diag_system_cmd/diag_cmd_stat.c.i
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_stat.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_stat.c.i
 
 diag/diag_system_cmd/diag_cmd_stat.s: diag/diag_system_cmd/diag_cmd_stat.c.s
@@ -1145,7 +1145,7 @@ diag/diag_system_cmd/diag_cmd_stat.s: diag/diag_system_cmd/diag_cmd_stat.c.s
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_stat.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_stat.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_stat.c.s
 
 diag/diag_system_cmd/diag_cmd_trace_info.obj: diag/diag_system_cmd/diag_cmd_trace_info.c.obj
@@ -1154,7 +1154,7 @@ diag/diag_system_cmd/diag_cmd_trace_info.obj: diag/diag_system_cmd/diag_cmd_trac
 
 # target to build an object file
 diag/diag_system_cmd/diag_cmd_trace_info.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.obj
 .PHONY : diag/diag_system_cmd/diag_cmd_trace_info.c.obj
 
 diag/diag_system_cmd/diag_cmd_trace_info.i: diag/diag_system_cmd/diag_cmd_trace_info.c.i
@@ -1163,7 +1163,7 @@ diag/diag_system_cmd/diag_cmd_trace_info.i: diag/diag_system_cmd/diag_cmd_trace_
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_cmd_trace_info.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.i
 .PHONY : diag/diag_system_cmd/diag_cmd_trace_info.c.i
 
 diag/diag_system_cmd/diag_cmd_trace_info.s: diag/diag_system_cmd/diag_cmd_trace_info.c.s
@@ -1172,7 +1172,7 @@ diag/diag_system_cmd/diag_cmd_trace_info.s: diag/diag_system_cmd/diag_cmd_trace_
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_cmd_trace_info.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_cmd_trace_info.c.s
 .PHONY : diag/diag_system_cmd/diag_cmd_trace_info.c.s
 
 diag/diag_system_cmd/diag_mocked_shell.obj: diag/diag_system_cmd/diag_mocked_shell.c.obj
@@ -1181,7 +1181,7 @@ diag/diag_system_cmd/diag_mocked_shell.obj: diag/diag_system_cmd/diag_mocked_she
 
 # target to build an object file
 diag/diag_system_cmd/diag_mocked_shell.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.obj
 .PHONY : diag/diag_system_cmd/diag_mocked_shell.c.obj
 
 diag/diag_system_cmd/diag_mocked_shell.i: diag/diag_system_cmd/diag_mocked_shell.c.i
@@ -1190,7 +1190,7 @@ diag/diag_system_cmd/diag_mocked_shell.i: diag/diag_system_cmd/diag_mocked_shell
 
 # target to preprocess a source file
 diag/diag_system_cmd/diag_mocked_shell.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.i
 .PHONY : diag/diag_system_cmd/diag_mocked_shell.c.i
 
 diag/diag_system_cmd/diag_mocked_shell.s: diag/diag_system_cmd/diag_mocked_shell.c.s
@@ -1199,7 +1199,7 @@ diag/diag_system_cmd/diag_mocked_shell.s: diag/diag_system_cmd/diag_mocked_shell
 
 # target to generate assembly for a file
 diag/diag_system_cmd/diag_mocked_shell.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/diag_mocked_shell.c.s
 .PHONY : diag/diag_system_cmd/diag_mocked_shell.c.s
 
 diag/diag_system_cmd/last_dump.obj: diag/diag_system_cmd/last_dump.c.obj
@@ -1208,7 +1208,7 @@ diag/diag_system_cmd/last_dump.obj: diag/diag_system_cmd/last_dump.c.obj
 
 # target to build an object file
 diag/diag_system_cmd/last_dump.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.obj
 .PHONY : diag/diag_system_cmd/last_dump.c.obj
 
 diag/diag_system_cmd/last_dump.i: diag/diag_system_cmd/last_dump.c.i
@@ -1217,7 +1217,7 @@ diag/diag_system_cmd/last_dump.i: diag/diag_system_cmd/last_dump.c.i
 
 # target to preprocess a source file
 diag/diag_system_cmd/last_dump.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.i
 .PHONY : diag/diag_system_cmd/last_dump.c.i
 
 diag/diag_system_cmd/last_dump.s: diag/diag_system_cmd/last_dump.c.s
@@ -1226,7 +1226,7 @@ diag/diag_system_cmd/last_dump.s: diag/diag_system_cmd/last_dump.c.s
 
 # target to generate assembly for a file
 diag/diag_system_cmd/last_dump.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_system_cmd/last_dump.c.s
 .PHONY : diag/diag_system_cmd/last_dump.c.s
 
 diag/diag_tx.obj: diag/diag_tx.c.obj
@@ -1235,7 +1235,7 @@ diag/diag_tx.obj: diag/diag_tx.c.obj
 
 # target to build an object file
 diag/diag_tx.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.obj
 .PHONY : diag/diag_tx.c.obj
 
 diag/diag_tx.i: diag/diag_tx.c.i
@@ -1244,7 +1244,7 @@ diag/diag_tx.i: diag/diag_tx.c.i
 
 # target to preprocess a source file
 diag/diag_tx.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.i
 .PHONY : diag/diag_tx.c.i
 
 diag/diag_tx.s: diag/diag_tx.c.s
@@ -1253,7 +1253,7 @@ diag/diag_tx.s: diag/diag_tx.c.s
 
 # target to generate assembly for a file
 diag/diag_tx.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/diag_tx.c.s
 .PHONY : diag/diag_tx.c.s
 
 diag/romable/diag_oam_log.obj: diag/romable/diag_oam_log.c.obj
@@ -1262,7 +1262,7 @@ diag/romable/diag_oam_log.obj: diag/romable/diag_oam_log.c.obj
 
 # target to build an object file
 diag/romable/diag_oam_log.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.obj
 .PHONY : diag/romable/diag_oam_log.c.obj
 
 diag/romable/diag_oam_log.i: diag/romable/diag_oam_log.c.i
@@ -1271,7 +1271,7 @@ diag/romable/diag_oam_log.i: diag/romable/diag_oam_log.c.i
 
 # target to preprocess a source file
 diag/romable/diag_oam_log.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.i
 .PHONY : diag/romable/diag_oam_log.c.i
 
 diag/romable/diag_oam_log.s: diag/romable/diag_oam_log.c.s
@@ -1280,7 +1280,7 @@ diag/romable/diag_oam_log.s: diag/romable/diag_oam_log.c.s
 
 # target to generate assembly for a file
 diag/romable/diag_oam_log.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_oam_log.c.s
 .PHONY : diag/romable/diag_oam_log.c.s
 
 diag/romable/diag_rom_api.obj: diag/romable/diag_rom_api.c.obj
@@ -1289,7 +1289,7 @@ diag/romable/diag_rom_api.obj: diag/romable/diag_rom_api.c.obj
 
 # target to build an object file
 diag/romable/diag_rom_api.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.obj
 .PHONY : diag/romable/diag_rom_api.c.obj
 
 diag/romable/diag_rom_api.i: diag/romable/diag_rom_api.c.i
@@ -1298,7 +1298,7 @@ diag/romable/diag_rom_api.i: diag/romable/diag_rom_api.c.i
 
 # target to preprocess a source file
 diag/romable/diag_rom_api.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.i
 .PHONY : diag/romable/diag_rom_api.c.i
 
 diag/romable/diag_rom_api.s: diag/romable/diag_rom_api.c.s
@@ -1307,7 +1307,7 @@ diag/romable/diag_rom_api.s: diag/romable/diag_rom_api.c.s
 
 # target to generate assembly for a file
 diag/romable/diag_rom_api.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag/romable/diag_rom_api.c.s
 .PHONY : diag/romable/diag_rom_api.c.s
 
 diag_transmit/transmit.obj: diag_transmit/transmit.c.obj
@@ -1316,7 +1316,7 @@ diag_transmit/transmit.obj: diag_transmit/transmit.c.obj
 
 # target to build an object file
 diag_transmit/transmit.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.obj
 .PHONY : diag_transmit/transmit.c.obj
 
 diag_transmit/transmit.i: diag_transmit/transmit.c.i
@@ -1325,7 +1325,7 @@ diag_transmit/transmit.i: diag_transmit/transmit.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.i
 .PHONY : diag_transmit/transmit.c.i
 
 diag_transmit/transmit.s: diag_transmit/transmit.c.s
@@ -1334,7 +1334,7 @@ diag_transmit/transmit.s: diag_transmit/transmit.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit.c.s
 .PHONY : diag_transmit/transmit.c.s
 
 diag_transmit/transmit_api.obj: diag_transmit/transmit_api.c.obj
@@ -1343,7 +1343,7 @@ diag_transmit/transmit_api.obj: diag_transmit/transmit_api.c.obj
 
 # target to build an object file
 diag_transmit/transmit_api.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.obj
 .PHONY : diag_transmit/transmit_api.c.obj
 
 diag_transmit/transmit_api.i: diag_transmit/transmit_api.c.i
@@ -1352,7 +1352,7 @@ diag_transmit/transmit_api.i: diag_transmit/transmit_api.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_api.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.i
 .PHONY : diag_transmit/transmit_api.c.i
 
 diag_transmit/transmit_api.s: diag_transmit/transmit_api.c.s
@@ -1361,7 +1361,7 @@ diag_transmit/transmit_api.s: diag_transmit/transmit_api.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_api.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_api.c.s
 .PHONY : diag_transmit/transmit_api.c.s
 
 diag_transmit/transmit_cmd_delete_file.obj: diag_transmit/transmit_cmd_delete_file.c.obj
@@ -1370,7 +1370,7 @@ diag_transmit/transmit_cmd_delete_file.obj: diag_transmit/transmit_cmd_delete_fi
 
 # target to build an object file
 diag_transmit/transmit_cmd_delete_file.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.obj
 .PHONY : diag_transmit/transmit_cmd_delete_file.c.obj
 
 diag_transmit/transmit_cmd_delete_file.i: diag_transmit/transmit_cmd_delete_file.c.i
@@ -1379,7 +1379,7 @@ diag_transmit/transmit_cmd_delete_file.i: diag_transmit/transmit_cmd_delete_file
 
 # target to preprocess a source file
 diag_transmit/transmit_cmd_delete_file.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.i
 .PHONY : diag_transmit/transmit_cmd_delete_file.c.i
 
 diag_transmit/transmit_cmd_delete_file.s: diag_transmit/transmit_cmd_delete_file.c.s
@@ -1388,7 +1388,7 @@ diag_transmit/transmit_cmd_delete_file.s: diag_transmit/transmit_cmd_delete_file
 
 # target to generate assembly for a file
 diag_transmit/transmit_cmd_delete_file.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_delete_file.c.s
 .PHONY : diag_transmit/transmit_cmd_delete_file.c.s
 
 diag_transmit/transmit_cmd_ls.obj: diag_transmit/transmit_cmd_ls.c.obj
@@ -1397,7 +1397,7 @@ diag_transmit/transmit_cmd_ls.obj: diag_transmit/transmit_cmd_ls.c.obj
 
 # target to build an object file
 diag_transmit/transmit_cmd_ls.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.obj
 .PHONY : diag_transmit/transmit_cmd_ls.c.obj
 
 diag_transmit/transmit_cmd_ls.i: diag_transmit/transmit_cmd_ls.c.i
@@ -1406,7 +1406,7 @@ diag_transmit/transmit_cmd_ls.i: diag_transmit/transmit_cmd_ls.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_cmd_ls.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.i
 .PHONY : diag_transmit/transmit_cmd_ls.c.i
 
 diag_transmit/transmit_cmd_ls.s: diag_transmit/transmit_cmd_ls.c.s
@@ -1415,7 +1415,7 @@ diag_transmit/transmit_cmd_ls.s: diag_transmit/transmit_cmd_ls.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_cmd_ls.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_cmd_ls.c.s
 .PHONY : diag_transmit/transmit_cmd_ls.c.s
 
 diag_transmit/transmit_debug.obj: diag_transmit/transmit_debug.c.obj
@@ -1424,7 +1424,7 @@ diag_transmit/transmit_debug.obj: diag_transmit/transmit_debug.c.obj
 
 # target to build an object file
 diag_transmit/transmit_debug.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.obj
 .PHONY : diag_transmit/transmit_debug.c.obj
 
 diag_transmit/transmit_debug.i: diag_transmit/transmit_debug.c.i
@@ -1433,7 +1433,7 @@ diag_transmit/transmit_debug.i: diag_transmit/transmit_debug.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_debug.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.i
 .PHONY : diag_transmit/transmit_debug.c.i
 
 diag_transmit/transmit_debug.s: diag_transmit/transmit_debug.c.s
@@ -1442,7 +1442,7 @@ diag_transmit/transmit_debug.s: diag_transmit/transmit_debug.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_debug.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_debug.c.s
 .PHONY : diag_transmit/transmit_debug.c.s
 
 diag_transmit/transmit_dst.obj: diag_transmit/transmit_dst.c.obj
@@ -1451,7 +1451,7 @@ diag_transmit/transmit_dst.obj: diag_transmit/transmit_dst.c.obj
 
 # target to build an object file
 diag_transmit/transmit_dst.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.obj
 .PHONY : diag_transmit/transmit_dst.c.obj
 
 diag_transmit/transmit_dst.i: diag_transmit/transmit_dst.c.i
@@ -1460,7 +1460,7 @@ diag_transmit/transmit_dst.i: diag_transmit/transmit_dst.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_dst.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.i
 .PHONY : diag_transmit/transmit_dst.c.i
 
 diag_transmit/transmit_dst.s: diag_transmit/transmit_dst.c.s
@@ -1469,7 +1469,7 @@ diag_transmit/transmit_dst.s: diag_transmit/transmit_dst.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_dst.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_dst.c.s
 .PHONY : diag_transmit/transmit_dst.c.s
 
 diag_transmit/transmit_item.obj: diag_transmit/transmit_item.c.obj
@@ -1478,7 +1478,7 @@ diag_transmit/transmit_item.obj: diag_transmit/transmit_item.c.obj
 
 # target to build an object file
 diag_transmit/transmit_item.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.obj
 .PHONY : diag_transmit/transmit_item.c.obj
 
 diag_transmit/transmit_item.i: diag_transmit/transmit_item.c.i
@@ -1487,7 +1487,7 @@ diag_transmit/transmit_item.i: diag_transmit/transmit_item.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_item.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.i
 .PHONY : diag_transmit/transmit_item.c.i
 
 diag_transmit/transmit_item.s: diag_transmit/transmit_item.c.s
@@ -1496,7 +1496,7 @@ diag_transmit/transmit_item.s: diag_transmit/transmit_item.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_item.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_item.c.s
 .PHONY : diag_transmit/transmit_item.c.s
 
 diag_transmit/transmit_resume.obj: diag_transmit/transmit_resume.c.obj
@@ -1505,7 +1505,7 @@ diag_transmit/transmit_resume.obj: diag_transmit/transmit_resume.c.obj
 
 # target to build an object file
 diag_transmit/transmit_resume.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.obj
 .PHONY : diag_transmit/transmit_resume.c.obj
 
 diag_transmit/transmit_resume.i: diag_transmit/transmit_resume.c.i
@@ -1514,7 +1514,7 @@ diag_transmit/transmit_resume.i: diag_transmit/transmit_resume.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_resume.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.i
 .PHONY : diag_transmit/transmit_resume.c.i
 
 diag_transmit/transmit_resume.s: diag_transmit/transmit_resume.c.s
@@ -1523,7 +1523,7 @@ diag_transmit/transmit_resume.s: diag_transmit/transmit_resume.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_resume.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_resume.c.s
 .PHONY : diag_transmit/transmit_resume.c.s
 
 diag_transmit/transmit_send_recv_pkt.obj: diag_transmit/transmit_send_recv_pkt.c.obj
@@ -1532,7 +1532,7 @@ diag_transmit/transmit_send_recv_pkt.obj: diag_transmit/transmit_send_recv_pkt.c
 
 # target to build an object file
 diag_transmit/transmit_send_recv_pkt.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.obj
 .PHONY : diag_transmit/transmit_send_recv_pkt.c.obj
 
 diag_transmit/transmit_send_recv_pkt.i: diag_transmit/transmit_send_recv_pkt.c.i
@@ -1541,7 +1541,7 @@ diag_transmit/transmit_send_recv_pkt.i: diag_transmit/transmit_send_recv_pkt.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_send_recv_pkt.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.i
 .PHONY : diag_transmit/transmit_send_recv_pkt.c.i
 
 diag_transmit/transmit_send_recv_pkt.s: diag_transmit/transmit_send_recv_pkt.c.s
@@ -1550,7 +1550,7 @@ diag_transmit/transmit_send_recv_pkt.s: diag_transmit/transmit_send_recv_pkt.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_send_recv_pkt.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_send_recv_pkt.c.s
 .PHONY : diag_transmit/transmit_send_recv_pkt.c.s
 
 diag_transmit/transmit_src.obj: diag_transmit/transmit_src.c.obj
@@ -1559,7 +1559,7 @@ diag_transmit/transmit_src.obj: diag_transmit/transmit_src.c.obj
 
 # target to build an object file
 diag_transmit/transmit_src.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.obj
 .PHONY : diag_transmit/transmit_src.c.obj
 
 diag_transmit/transmit_src.i: diag_transmit/transmit_src.c.i
@@ -1568,7 +1568,7 @@ diag_transmit/transmit_src.i: diag_transmit/transmit_src.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_src.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.i
 .PHONY : diag_transmit/transmit_src.c.i
 
 diag_transmit/transmit_src.s: diag_transmit/transmit_src.c.s
@@ -1577,7 +1577,7 @@ diag_transmit/transmit_src.s: diag_transmit/transmit_src.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_src.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_src.c.s
 .PHONY : diag_transmit/transmit_src.c.s
 
 diag_transmit/transmit_write_read.obj: diag_transmit/transmit_write_read.c.obj
@@ -1586,7 +1586,7 @@ diag_transmit/transmit_write_read.obj: diag_transmit/transmit_write_read.c.obj
 
 # target to build an object file
 diag_transmit/transmit_write_read.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.obj
 .PHONY : diag_transmit/transmit_write_read.c.obj
 
 diag_transmit/transmit_write_read.i: diag_transmit/transmit_write_read.c.i
@@ -1595,7 +1595,7 @@ diag_transmit/transmit_write_read.i: diag_transmit/transmit_write_read.c.i
 
 # target to preprocess a source file
 diag_transmit/transmit_write_read.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.i
 .PHONY : diag_transmit/transmit_write_read.c.i
 
 diag_transmit/transmit_write_read.s: diag_transmit/transmit_write_read.c.s
@@ -1604,7 +1604,7 @@ diag_transmit/transmit_write_read.s: diag_transmit/transmit_write_read.c.s
 
 # target to generate assembly for a file
 diag_transmit/transmit_write_read.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_diag.dir/build.make utils/dfx/CMakeFiles/dfx_diag.dir/diag_transmit/transmit_write_read.c.s
 .PHONY : diag_transmit/transmit_write_read.c.s
 
 log/log.obj: log/log.c.obj
@@ -1613,7 +1613,7 @@ log/log.obj: log/log.c.obj
 
 # target to build an object file
 log/log.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.obj
 .PHONY : log/log.c.obj
 
 log/log.i: log/log.c.i
@@ -1622,7 +1622,7 @@ log/log.i: log/log.c.i
 
 # target to preprocess a source file
 log/log.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.i
 .PHONY : log/log.c.i
 
 log/log.s: log/log.c.s
@@ -1631,7 +1631,7 @@ log/log.s: log/log.c.s
 
 # target to generate assembly for a file
 log/log.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.s
 .PHONY : log/log.c.s
 
 log/log_oam_dscr_cb.obj: log/log_oam_dscr_cb.c.obj
@@ -1640,7 +1640,7 @@ log/log_oam_dscr_cb.obj: log/log_oam_dscr_cb.c.obj
 
 # target to build an object file
 log/log_oam_dscr_cb.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.obj
 .PHONY : log/log_oam_dscr_cb.c.obj
 
 log/log_oam_dscr_cb.i: log/log_oam_dscr_cb.c.i
@@ -1649,7 +1649,7 @@ log/log_oam_dscr_cb.i: log/log_oam_dscr_cb.c.i
 
 # target to preprocess a source file
 log/log_oam_dscr_cb.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.i
 .PHONY : log/log_oam_dscr_cb.c.i
 
 log/log_oam_dscr_cb.s: log/log_oam_dscr_cb.c.s
@@ -1658,7 +1658,7 @@ log/log_oam_dscr_cb.s: log/log_oam_dscr_cb.c.s
 
 # target to generate assembly for a file
 log/log_oam_dscr_cb.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.s
 .PHONY : log/log_oam_dscr_cb.c.s
 
 log/log_oam_logger.obj: log/log_oam_logger.c.obj
@@ -1667,7 +1667,7 @@ log/log_oam_logger.obj: log/log_oam_logger.c.obj
 
 # target to build an object file
 log/log_oam_logger.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.obj
 .PHONY : log/log_oam_logger.c.obj
 
 log/log_oam_logger.i: log/log_oam_logger.c.i
@@ -1676,7 +1676,7 @@ log/log_oam_logger.i: log/log_oam_logger.c.i
 
 # target to preprocess a source file
 log/log_oam_logger.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.i
 .PHONY : log/log_oam_logger.c.i
 
 log/log_oam_logger.s: log/log_oam_logger.c.s
@@ -1685,7 +1685,7 @@ log/log_oam_logger.s: log/log_oam_logger.c.s
 
 # target to generate assembly for a file
 log/log_oam_logger.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.s
 .PHONY : log/log_oam_logger.c.s
 
 log/log_oam_mem_query.obj: log/log_oam_mem_query.c.obj
@@ -1694,7 +1694,7 @@ log/log_oam_mem_query.obj: log/log_oam_mem_query.c.obj
 
 # target to build an object file
 log/log_oam_mem_query.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.obj
 .PHONY : log/log_oam_mem_query.c.obj
 
 log/log_oam_mem_query.i: log/log_oam_mem_query.c.i
@@ -1703,7 +1703,7 @@ log/log_oam_mem_query.i: log/log_oam_mem_query.c.i
 
 # target to preprocess a source file
 log/log_oam_mem_query.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.i
 .PHONY : log/log_oam_mem_query.c.i
 
 log/log_oam_mem_query.s: log/log_oam_mem_query.c.s
@@ -1712,7 +1712,7 @@ log/log_oam_mem_query.s: log/log_oam_mem_query.c.s
 
 # target to generate assembly for a file
 log/log_oam_mem_query.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.s
 .PHONY : log/log_oam_mem_query.c.s
 
 log/log_oam_msg.obj: log/log_oam_msg.c.obj
@@ -1721,7 +1721,7 @@ log/log_oam_msg.obj: log/log_oam_msg.c.obj
 
 # target to build an object file
 log/log_oam_msg.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.obj
 .PHONY : log/log_oam_msg.c.obj
 
 log/log_oam_msg.i: log/log_oam_msg.c.i
@@ -1730,7 +1730,7 @@ log/log_oam_msg.i: log/log_oam_msg.c.i
 
 # target to preprocess a source file
 log/log_oam_msg.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.i
 .PHONY : log/log_oam_msg.c.i
 
 log/log_oam_msg.s: log/log_oam_msg.c.s
@@ -1739,7 +1739,7 @@ log/log_oam_msg.s: log/log_oam_msg.c.s
 
 # target to generate assembly for a file
 log/log_oam_msg.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.s
 .PHONY : log/log_oam_msg.c.s
 
 log/log_oam_ota.obj: log/log_oam_ota.c.obj
@@ -1748,7 +1748,7 @@ log/log_oam_ota.obj: log/log_oam_ota.c.obj
 
 # target to build an object file
 log/log_oam_ota.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.obj
 .PHONY : log/log_oam_ota.c.obj
 
 log/log_oam_ota.i: log/log_oam_ota.c.i
@@ -1757,7 +1757,7 @@ log/log_oam_ota.i: log/log_oam_ota.c.i
 
 # target to preprocess a source file
 log/log_oam_ota.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.i
 .PHONY : log/log_oam_ota.c.i
 
 log/log_oam_ota.s: log/log_oam_ota.c.s
@@ -1766,7 +1766,7 @@ log/log_oam_ota.s: log/log_oam_ota.c.s
 
 # target to generate assembly for a file
 log/log_oam_ota.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.s
 .PHONY : log/log_oam_ota.c.s
 
 log/log_oam_pcm.obj: log/log_oam_pcm.c.obj
@@ -1775,7 +1775,7 @@ log/log_oam_pcm.obj: log/log_oam_pcm.c.obj
 
 # target to build an object file
 log/log_oam_pcm.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.obj
 .PHONY : log/log_oam_pcm.c.obj
 
 log/log_oam_pcm.i: log/log_oam_pcm.c.i
@@ -1784,7 +1784,7 @@ log/log_oam_pcm.i: log/log_oam_pcm.c.i
 
 # target to preprocess a source file
 log/log_oam_pcm.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.i
 .PHONY : log/log_oam_pcm.c.i
 
 log/log_oam_pcm.s: log/log_oam_pcm.c.s
@@ -1793,7 +1793,7 @@ log/log_oam_pcm.s: log/log_oam_pcm.c.s
 
 # target to generate assembly for a file
 log/log_oam_pcm.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.s
 .PHONY : log/log_oam_pcm.c.s
 
 log/log_oam_reg_query.obj: log/log_oam_reg_query.c.obj
@@ -1802,7 +1802,7 @@ log/log_oam_reg_query.obj: log/log_oam_reg_query.c.obj
 
 # target to build an object file
 log/log_oam_reg_query.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.obj
 .PHONY : log/log_oam_reg_query.c.obj
 
 log/log_oam_reg_query.i: log/log_oam_reg_query.c.i
@@ -1811,7 +1811,7 @@ log/log_oam_reg_query.i: log/log_oam_reg_query.c.i
 
 # target to preprocess a source file
 log/log_oam_reg_query.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.i
 .PHONY : log/log_oam_reg_query.c.i
 
 log/log_oam_reg_query.s: log/log_oam_reg_query.c.s
@@ -1820,7 +1820,7 @@ log/log_oam_reg_query.s: log/log_oam_reg_query.c.s
 
 # target to generate assembly for a file
 log/log_oam_reg_query.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.s
 .PHONY : log/log_oam_reg_query.c.s
 
 log/log_oam_status.obj: log/log_oam_status.c.obj
@@ -1829,7 +1829,7 @@ log/log_oam_status.obj: log/log_oam_status.c.obj
 
 # target to build an object file
 log/log_oam_status.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.obj
 .PHONY : log/log_oam_status.c.obj
 
 log/log_oam_status.i: log/log_oam_status.c.i
@@ -1838,7 +1838,7 @@ log/log_oam_status.i: log/log_oam_status.c.i
 
 # target to preprocess a source file
 log/log_oam_status.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.i
 .PHONY : log/log_oam_status.c.i
 
 log/log_oam_status.s: log/log_oam_status.c.s
@@ -1847,7 +1847,7 @@ log/log_oam_status.s: log/log_oam_status.c.s
 
 # target to generate assembly for a file
 log/log_oam_status.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.s
 .PHONY : log/log_oam_status.c.s
 
 log/log_oml_exception.obj: log/log_oml_exception.c.obj
@@ -1856,7 +1856,7 @@ log/log_oml_exception.obj: log/log_oml_exception.c.obj
 
 # target to build an object file
 log/log_oml_exception.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.obj
 .PHONY : log/log_oml_exception.c.obj
 
 log/log_oml_exception.i: log/log_oml_exception.c.i
@@ -1865,7 +1865,7 @@ log/log_oml_exception.i: log/log_oml_exception.c.i
 
 # target to preprocess a source file
 log/log_oml_exception.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.i
 .PHONY : log/log_oml_exception.c.i
 
 log/log_oml_exception.s: log/log_oml_exception.c.s
@@ -1874,7 +1874,7 @@ log/log_oml_exception.s: log/log_oml_exception.c.s
 
 # target to generate assembly for a file
 log/log_oml_exception.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.s
 .PHONY : log/log_oml_exception.c.s
 
 log/log_oml_ota_rom.obj: log/log_oml_ota_rom.c.obj
@@ -1883,7 +1883,7 @@ log/log_oml_ota_rom.obj: log/log_oml_ota_rom.c.obj
 
 # target to build an object file
 log/log_oml_ota_rom.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.obj
 .PHONY : log/log_oml_ota_rom.c.obj
 
 log/log_oml_ota_rom.i: log/log_oml_ota_rom.c.i
@@ -1892,7 +1892,7 @@ log/log_oml_ota_rom.i: log/log_oml_ota_rom.c.i
 
 # target to preprocess a source file
 log/log_oml_ota_rom.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.i
 .PHONY : log/log_oml_ota_rom.c.i
 
 log/log_oml_ota_rom.s: log/log_oml_ota_rom.c.s
@@ -1901,7 +1901,7 @@ log/log_oml_ota_rom.s: log/log_oml_ota_rom.c.s
 
 # target to generate assembly for a file
 log/log_oml_ota_rom.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.s
 .PHONY : log/log_oml_ota_rom.c.s
 
 log/log_printf.obj: log/log_printf.c.obj
@@ -1910,7 +1910,7 @@ log/log_printf.obj: log/log_printf.c.obj
 
 # target to build an object file
 log/log_printf.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.obj
 .PHONY : log/log_printf.c.obj
 
 log/log_printf.i: log/log_printf.c.i
@@ -1919,7 +1919,7 @@ log/log_printf.i: log/log_printf.c.i
 
 # target to preprocess a source file
 log/log_printf.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.i
 .PHONY : log/log_printf.c.i
 
 log/log_printf.s: log/log_printf.c.s
@@ -1928,7 +1928,7 @@ log/log_printf.s: log/log_printf.c.s
 
 # target to generate assembly for a file
 log/log_printf.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.s
 .PHONY : log/log_printf.c.s
 
 log/log_printf_rom.obj: log/log_printf_rom.c.obj
@@ -1937,7 +1937,7 @@ log/log_printf_rom.obj: log/log_printf_rom.c.obj
 
 # target to build an object file
 log/log_printf_rom.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.obj
 .PHONY : log/log_printf_rom.c.obj
 
 log/log_printf_rom.i: log/log_printf_rom.c.i
@@ -1946,7 +1946,7 @@ log/log_printf_rom.i: log/log_printf_rom.c.i
 
 # target to preprocess a source file
 log/log_printf_rom.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.i
 .PHONY : log/log_printf_rom.c.i
 
 log/log_printf_rom.s: log/log_printf_rom.c.s
@@ -1955,7 +1955,7 @@ log/log_printf_rom.s: log/log_printf_rom.c.s
 
 # target to generate assembly for a file
 log/log_printf_rom.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.s
 .PHONY : log/log_printf_rom.c.s
 
 log/log_reg_dump.obj: log/log_reg_dump.c.obj
@@ -1964,7 +1964,7 @@ log/log_reg_dump.obj: log/log_reg_dump.c.obj
 
 # target to build an object file
 log/log_reg_dump.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.obj
 .PHONY : log/log_reg_dump.c.obj
 
 log/log_reg_dump.i: log/log_reg_dump.c.i
@@ -1973,7 +1973,7 @@ log/log_reg_dump.i: log/log_reg_dump.c.i
 
 # target to preprocess a source file
 log/log_reg_dump.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.i
 .PHONY : log/log_reg_dump.c.i
 
 log/log_reg_dump.s: log/log_reg_dump.c.s
@@ -1982,7 +1982,7 @@ log/log_reg_dump.s: log/log_reg_dump.c.s
 
 # target to generate assembly for a file
 log/log_reg_dump.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.s
 .PHONY : log/log_reg_dump.c.s
 
 log/log_trigger.obj: log/log_trigger.c.obj
@@ -1991,7 +1991,7 @@ log/log_trigger.obj: log/log_trigger.c.obj
 
 # target to build an object file
 log/log_trigger.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.obj
 .PHONY : log/log_trigger.c.obj
 
 log/log_trigger.i: log/log_trigger.c.i
@@ -2000,7 +2000,7 @@ log/log_trigger.i: log/log_trigger.c.i
 
 # target to preprocess a source file
 log/log_trigger.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.i
 .PHONY : log/log_trigger.c.i
 
 log/log_trigger.s: log/log_trigger.c.s
@@ -2009,7 +2009,7 @@ log/log_trigger.s: log/log_trigger.c.s
 
 # target to generate assembly for a file
 log/log_trigger.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.s
 .PHONY : log/log_trigger.c.s
 
 log_buffer/log_buffer.obj: log_buffer/log_buffer.c.obj
@@ -2018,7 +2018,7 @@ log_buffer/log_buffer.obj: log_buffer/log_buffer.c.obj
 
 # target to build an object file
 log_buffer/log_buffer.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.obj
 .PHONY : log_buffer/log_buffer.c.obj
 
 log_buffer/log_buffer.i: log_buffer/log_buffer.c.i
@@ -2027,7 +2027,7 @@ log_buffer/log_buffer.i: log_buffer/log_buffer.c.i
 
 # target to preprocess a source file
 log_buffer/log_buffer.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.i
 .PHONY : log_buffer/log_buffer.c.i
 
 log_buffer/log_buffer.s: log_buffer/log_buffer.c.s
@@ -2036,7 +2036,7 @@ log_buffer/log_buffer.s: log_buffer/log_buffer.c.s
 
 # target to generate assembly for a file
 log_buffer/log_buffer.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.s
 .PHONY : log_buffer/log_buffer.c.s
 
 log_buffer/log_buffer_reader.obj: log_buffer/log_buffer_reader.c.obj
@@ -2045,7 +2045,7 @@ log_buffer/log_buffer_reader.obj: log_buffer/log_buffer_reader.c.obj
 
 # target to build an object file
 log_buffer/log_buffer_reader.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.obj
 .PHONY : log_buffer/log_buffer_reader.c.obj
 
 log_buffer/log_buffer_reader.i: log_buffer/log_buffer_reader.c.i
@@ -2054,7 +2054,7 @@ log_buffer/log_buffer_reader.i: log_buffer/log_buffer_reader.c.i
 
 # target to preprocess a source file
 log_buffer/log_buffer_reader.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.i
 .PHONY : log_buffer/log_buffer_reader.c.i
 
 log_buffer/log_buffer_reader.s: log_buffer/log_buffer_reader.c.s
@@ -2063,7 +2063,7 @@ log_buffer/log_buffer_reader.s: log_buffer/log_buffer_reader.c.s
 
 # target to generate assembly for a file
 log_buffer/log_buffer_reader.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.s
 .PHONY : log_buffer/log_buffer_reader.c.s
 
 log_buffer/log_memory_region.obj: log_buffer/log_memory_region.c.obj
@@ -2072,7 +2072,7 @@ log_buffer/log_memory_region.obj: log_buffer/log_memory_region.c.obj
 
 # target to build an object file
 log_buffer/log_memory_region.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.obj
 .PHONY : log_buffer/log_memory_region.c.obj
 
 log_buffer/log_memory_region.i: log_buffer/log_memory_region.c.i
@@ -2081,7 +2081,7 @@ log_buffer/log_memory_region.i: log_buffer/log_memory_region.c.i
 
 # target to preprocess a source file
 log_buffer/log_memory_region.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.i
 .PHONY : log_buffer/log_memory_region.c.i
 
 log_buffer/log_memory_region.s: log_buffer/log_memory_region.c.s
@@ -2090,7 +2090,7 @@ log_buffer/log_memory_region.s: log_buffer/log_memory_region.c.s
 
 # target to generate assembly for a file
 log_buffer/log_memory_region.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.s
 .PHONY : log_buffer/log_memory_region.c.s
 
 log_buffer/log_memory_section.obj: log_buffer/log_memory_section.c.obj
@@ -2099,7 +2099,7 @@ log_buffer/log_memory_section.obj: log_buffer/log_memory_section.c.obj
 
 # target to build an object file
 log_buffer/log_memory_section.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.obj
 .PHONY : log_buffer/log_memory_section.c.obj
 
 log_buffer/log_memory_section.i: log_buffer/log_memory_section.c.i
@@ -2108,7 +2108,7 @@ log_buffer/log_memory_section.i: log_buffer/log_memory_section.c.i
 
 # target to preprocess a source file
 log_buffer/log_memory_section.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.i
 .PHONY : log_buffer/log_memory_section.c.i
 
 log_buffer/log_memory_section.s: log_buffer/log_memory_section.c.s
@@ -2117,7 +2117,7 @@ log_buffer/log_memory_section.s: log_buffer/log_memory_section.c.s
 
 # target to generate assembly for a file
 log_buffer/log_memory_section.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log.dir/build.make utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.s
 .PHONY : log_buffer/log_memory_section.c.s
 
 log_file/log_file.obj: log_file/log_file.c.obj
@@ -2126,7 +2126,7 @@ log_file/log_file.obj: log_file/log_file.c.obj
 
 # target to build an object file
 log_file/log_file.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj
 .PHONY : log_file/log_file.c.obj
 
 log_file/log_file.i: log_file/log_file.c.i
@@ -2135,7 +2135,7 @@ log_file/log_file.i: log_file/log_file.c.i
 
 # target to preprocess a source file
 log_file/log_file.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.i
 .PHONY : log_file/log_file.c.i
 
 log_file/log_file.s: log_file/log_file.c.s
@@ -2144,7 +2144,7 @@ log_file/log_file.s: log_file/log_file.c.s
 
 # target to generate assembly for a file
 log_file/log_file.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.s
 .PHONY : log_file/log_file.c.s
 
 log_file/log_file_file.obj: log_file/log_file_file.c.obj
@@ -2153,7 +2153,7 @@ log_file/log_file_file.obj: log_file/log_file_file.c.obj
 
 # target to build an object file
 log_file/log_file_file.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
 .PHONY : log_file/log_file_file.c.obj
 
 log_file/log_file_file.i: log_file/log_file_file.c.i
@@ -2162,7 +2162,7 @@ log_file/log_file_file.i: log_file/log_file_file.c.i
 
 # target to preprocess a source file
 log_file/log_file_file.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.i
 .PHONY : log_file/log_file_file.c.i
 
 log_file/log_file_file.s: log_file/log_file_file.c.s
@@ -2171,7 +2171,7 @@ log_file/log_file_file.s: log_file/log_file_file.c.s
 
 # target to generate assembly for a file
 log_file/log_file_file.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.s
 .PHONY : log_file/log_file_file.c.s
 
 log_file/log_file_flash.obj: log_file/log_file_flash.c.obj
@@ -2180,7 +2180,7 @@ log_file/log_file_flash.obj: log_file/log_file_flash.c.obj
 
 # target to build an object file
 log_file/log_file_flash.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
 .PHONY : log_file/log_file_flash.c.obj
 
 log_file/log_file_flash.i: log_file/log_file_flash.c.i
@@ -2189,7 +2189,7 @@ log_file/log_file_flash.i: log_file/log_file_flash.c.i
 
 # target to preprocess a source file
 log_file/log_file_flash.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.i
 .PHONY : log_file/log_file_flash.c.i
 
 log_file/log_file_flash.s: log_file/log_file_flash.c.s
@@ -2198,7 +2198,7 @@ log_file/log_file_flash.s: log_file/log_file_flash.c.s
 
 # target to generate assembly for a file
 log_file/log_file_flash.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/log_file.dir/build.make utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.s
 .PHONY : log_file/log_file_flash.c.s
 
 log_reader/log_uart.obj: log_reader/log_uart.c.obj
@@ -2207,7 +2207,7 @@ log_reader/log_uart.obj: log_reader/log_uart.c.obj
 
 # target to build an object file
 log_reader/log_uart.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.obj
 .PHONY : log_reader/log_uart.c.obj
 
 log_reader/log_uart.i: log_reader/log_uart.c.i
@@ -2216,7 +2216,7 @@ log_reader/log_uart.i: log_reader/log_uart.c.i
 
 # target to preprocess a source file
 log_reader/log_uart.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.i
 .PHONY : log_reader/log_uart.c.i
 
 log_reader/log_uart.s: log_reader/log_uart.c.s
@@ -2225,7 +2225,7 @@ log_reader/log_uart.s: log_reader/log_uart.c.s
 
 # target to generate assembly for a file
 log_reader/log_uart.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_log_reader.dir/build.make utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.s
 .PHONY : log_reader/log_uart.c.s
 
 massdata/massdata_buffer.obj: massdata/massdata_buffer.c.obj
@@ -2234,7 +2234,7 @@ massdata/massdata_buffer.obj: massdata/massdata_buffer.c.obj
 
 # target to build an object file
 massdata/massdata_buffer.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.obj
 .PHONY : massdata/massdata_buffer.c.obj
 
 massdata/massdata_buffer.i: massdata/massdata_buffer.c.i
@@ -2243,7 +2243,7 @@ massdata/massdata_buffer.i: massdata/massdata_buffer.c.i
 
 # target to preprocess a source file
 massdata/massdata_buffer.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.i
 .PHONY : massdata/massdata_buffer.c.i
 
 massdata/massdata_buffer.s: massdata/massdata_buffer.c.s
@@ -2252,7 +2252,7 @@ massdata/massdata_buffer.s: massdata/massdata_buffer.c.s
 
 # target to generate assembly for a file
 massdata/massdata_buffer.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_massdata.dir/build.make utils/dfx/CMakeFiles/dfx_massdata.dir/massdata/massdata_buffer.c.s
 .PHONY : massdata/massdata_buffer.c.s
 
 panic/private/panic.obj: panic/private/panic.c.obj
@@ -2261,7 +2261,7 @@ panic/private/panic.obj: panic/private/panic.c.obj
 
 # target to build an object file
 panic/private/panic.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj
 .PHONY : panic/private/panic.c.obj
 
 panic/private/panic.i: panic/private/panic.c.i
@@ -2270,7 +2270,7 @@ panic/private/panic.i: panic/private/panic.c.i
 
 # target to preprocess a source file
 panic/private/panic.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.i
 .PHONY : panic/private/panic.c.i
 
 panic/private/panic.s: panic/private/panic.c.s
@@ -2279,7 +2279,7 @@ panic/private/panic.s: panic/private/panic.c.s
 
 # target to generate assembly for a file
 panic/private/panic.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.s
 .PHONY : panic/private/panic.c.s
 
 panic/private/panic_rom.obj: panic/private/panic_rom.c.obj
@@ -2288,7 +2288,7 @@ panic/private/panic_rom.obj: panic/private/panic_rom.c.obj
 
 # target to build an object file
 panic/private/panic_rom.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
 .PHONY : panic/private/panic_rom.c.obj
 
 panic/private/panic_rom.i: panic/private/panic_rom.c.i
@@ -2297,7 +2297,7 @@ panic/private/panic_rom.i: panic/private/panic_rom.c.i
 
 # target to preprocess a source file
 panic/private/panic_rom.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i
 .PHONY : panic/private/panic_rom.c.i
 
 panic/private/panic_rom.s: panic/private/panic_rom.c.s
@@ -2306,7 +2306,7 @@ panic/private/panic_rom.s: panic/private/panic_rom.c.s
 
 # target to generate assembly for a file
 panic/private/panic_rom.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_panic.dir/build.make utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s
 .PHONY : panic/private/panic_rom.c.s
 
 preserve/private/crash_data.obj: preserve/private/crash_data.c.obj
@@ -2315,7 +2315,7 @@ preserve/private/crash_data.obj: preserve/private/crash_data.c.obj
 
 # target to build an object file
 preserve/private/crash_data.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
 .PHONY : preserve/private/crash_data.c.obj
 
 preserve/private/crash_data.i: preserve/private/crash_data.c.i
@@ -2324,7 +2324,7 @@ preserve/private/crash_data.i: preserve/private/crash_data.c.i
 
 # target to preprocess a source file
 preserve/private/crash_data.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.i
 .PHONY : preserve/private/crash_data.c.i
 
 preserve/private/crash_data.s: preserve/private/crash_data.c.s
@@ -2333,7 +2333,7 @@ preserve/private/crash_data.s: preserve/private/crash_data.c.s
 
 # target to generate assembly for a file
 preserve/private/crash_data.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.s
 .PHONY : preserve/private/crash_data.c.s
 
 preserve/private/preserve.obj: preserve/private/preserve.c.obj
@@ -2342,7 +2342,7 @@ preserve/private/preserve.obj: preserve/private/preserve.c.obj
 
 # target to build an object file
 preserve/private/preserve.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
 .PHONY : preserve/private/preserve.c.obj
 
 preserve/private/preserve.i: preserve/private/preserve.c.i
@@ -2351,7 +2351,7 @@ preserve/private/preserve.i: preserve/private/preserve.c.i
 
 # target to preprocess a source file
 preserve/private/preserve.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.i
 .PHONY : preserve/private/preserve.c.i
 
 preserve/private/preserve.s: preserve/private/preserve.c.s
@@ -2360,7 +2360,7 @@ preserve/private/preserve.s: preserve/private/preserve.c.s
 
 # target to generate assembly for a file
 preserve/private/preserve.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/dfx_preserve.dir/build.make utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.s
 .PHONY : preserve/private/preserve.c.s
 
 soc_log/soc_log.obj: soc_log/soc_log.c.obj
@@ -2369,7 +2369,7 @@ soc_log/soc_log.obj: soc_log/soc_log.c.obj
 
 # target to build an object file
 soc_log/soc_log.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj
 .PHONY : soc_log/soc_log.c.obj
 
 soc_log/soc_log.i: soc_log/soc_log.c.i
@@ -2378,7 +2378,7 @@ soc_log/soc_log.i: soc_log/soc_log.c.i
 
 # target to preprocess a source file
 soc_log/soc_log.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.i
 .PHONY : soc_log/soc_log.c.i
 
 soc_log/soc_log.s: soc_log/soc_log.c.s
@@ -2387,7 +2387,7 @@ soc_log/soc_log.s: soc_log/soc_log.c.s
 
 # target to generate assembly for a file
 soc_log/soc_log.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.s
 .PHONY : soc_log/soc_log.c.s
 
 soc_log/soc_log_uart_instance.obj: soc_log/soc_log_uart_instance.c.obj
@@ -2396,7 +2396,7 @@ soc_log/soc_log_uart_instance.obj: soc_log/soc_log_uart_instance.c.obj
 
 # target to build an object file
 soc_log/soc_log_uart_instance.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
 .PHONY : soc_log/soc_log_uart_instance.c.obj
 
 soc_log/soc_log_uart_instance.i: soc_log/soc_log_uart_instance.c.i
@@ -2405,7 +2405,7 @@ soc_log/soc_log_uart_instance.i: soc_log/soc_log_uart_instance.c.i
 
 # target to preprocess a source file
 soc_log/soc_log_uart_instance.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.i
 .PHONY : soc_log/soc_log_uart_instance.c.i
 
 soc_log/soc_log_uart_instance.s: soc_log/soc_log_uart_instance.c.s
@@ -2414,7 +2414,7 @@ soc_log/soc_log_uart_instance.s: soc_log/soc_log_uart_instance.c.s
 
 # target to generate assembly for a file
 soc_log/soc_log_uart_instance.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/dfx/CMakeFiles/soc_log.dir/build.make utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.s
 .PHONY : soc_log/soc_log_uart_instance.c.s
 
 # Help Target
@@ -2687,6 +2687,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

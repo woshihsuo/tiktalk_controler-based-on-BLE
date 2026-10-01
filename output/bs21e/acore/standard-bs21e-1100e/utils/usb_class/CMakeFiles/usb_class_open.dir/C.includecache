@@ -922,7 +922,7 @@ asm/register_config.h
 
 ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c
 nuttx/config.h
 -
 sys/types.h
@@ -938,7 +938,7 @@ errno.h
 debug.h
 -
 kal_base.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/kal_base.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/kal_base.h
 nuttx/irq.h
 -
 nuttx/arch.h
@@ -952,9 +952,9 @@ nuttx/usb/usbdev.h
 nuttx/usb/usbdev_trace.h
 -
 composite.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.h
 nuttx/config.h
 -
 sys/param.h
@@ -970,77 +970,77 @@ nuttx/usb/usbdev.h
 nuttx/usb/usbdev_trace.h
 -
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/composite_open.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/composite_open.c
 gadget/composite_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/composite_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/composite_pri.h
 gadget/composite_gadget.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/composite_gadget.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/composite_gadget.h
 kal_base.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/kal_base.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/kal_base.h
 securec.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/securec.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/securec.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_acm.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_acm.c
 gadget/f_acm.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_acm.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_acm.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_acm_hid.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_acm_hid.c
 gadget/f_acm.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_acm.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_acm.h
 gadget/f_hid_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_hid_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_hid_pri.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_dfu.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_dfu.c
 usb_os_adapt.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/usb_os_adapt.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/usb_os_adapt.h
 gadget/f_dfu_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_dfu_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_dfu_pri.h
 gadget/composite.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/composite.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/composite.h
 kal_atomic.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/kal_atomic.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/kal_atomic.h
 kal_base.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/kal_base.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/kal_base.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_hid.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_hid.c
 gadget/f_hid_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_hid_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_hid_pri.h
 gadget/usbd_hid.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/usbd_hid.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/usbd_hid.h
 controller/usb_device/dwc_otg_pcd.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/controller/usb_device/dwc_otg_pcd.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/controller/usb_device/dwc_otg_pcd.h
 errcode.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/errcode.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/errcode.h
 usb_porting.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/usb_porting.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/usb_porting.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_uac.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_uac.c
 gadget/f_uac_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_uac_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_uac_pri.h
 gadget/usbd_audio_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/usbd_audio_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/usbd_audio_pri.h
 implementation/usb_list.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/implementation/usb_list.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/implementation/usb_list.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_uac_hid.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_uac_hid.c
 gadget/f_uac_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_uac_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_uac_pri.h
 gadget/f_hid_pri.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/f_hid_pri.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/f_hid_pri.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_usb_custom.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_usb_custom.c
 gadget/composite.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/composite.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/composite.h
 implementation/_thread_ref.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/implementation/_thread_ref.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/implementation/_thread_ref.h
 
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/usbd_hid.c
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/usbd_hid.c
 gadget/usbd_hid.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/gadget/usbd_hid.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/gadget/usbd_hid.h
 poll.h
 -
 fs/fs.h
 -
 errcode.h
-/home/bearpi/Desktop/tp/middleware/utils/usb_class/errcode.h
+/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/errcode.h
 

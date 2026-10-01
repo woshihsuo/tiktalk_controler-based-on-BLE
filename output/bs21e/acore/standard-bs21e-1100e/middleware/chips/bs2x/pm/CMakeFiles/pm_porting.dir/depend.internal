@@ -149,7 +149,7 @@ middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/pm_porting.c.obj
  ../../../../middleware/utils/pm/pm_sleep/pm_sleep.h
  ../../../../middleware/utils/pm/pm_veto/pm_veto.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/pm_porting.c
+ /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/pm_porting.c
 middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -178,5 +178,5 @@ middleware/chips/bs2x/pm/CMakeFiles/pm_porting.dir/ulp_rtc.c.obj
  ../../../../middleware/utils/common_headers/debug_print.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/ulp_rtc.c
- /home/bearpi/Desktop/tp/middleware/chips/bs2x/pm/ulp_rtc.h
+ /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/ulp_rtc.c
+ /home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/pm/ulp_rtc.h

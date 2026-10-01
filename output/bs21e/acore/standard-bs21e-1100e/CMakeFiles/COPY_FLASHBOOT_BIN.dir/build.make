@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for COPY_FLASHBOOT_BIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-110
 include CMakeFiles/COPY_FLASHBOOT_BIN.dir/progress.make
 
 CMakeFiles/COPY_FLASHBOOT_BIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "copy bin file"
-	cp /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/flashboot-bs21e-1100e/flashboot_sign_a.bin /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/flashboot_sign_a.bin && cp /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/flashboot-bs21e-1100e/flashboot_sign_b.bin /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/boot_bin/flashboot_sign_b.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "copy bin file"
+	cp /home/bearpi/Desktop/tp4ios/interim_binary/bs21e/bin/boot_bin/flashboot-bs21e-1100e/flashboot_sign_a.bin /home/bearpi/Desktop/tp4ios/interim_binary/bs21e/bin/boot_bin/flashboot_sign_a.bin && cp /home/bearpi/Desktop/tp4ios/interim_binary/bs21e/bin/boot_bin/flashboot-bs21e-1100e/flashboot_sign_b.bin /home/bearpi/Desktop/tp4ios/interim_binary/bs21e/bin/boot_bin/flashboot_sign_b.bin
 
 COPY_FLASHBOOT_BIN: CMakeFiles/COPY_FLASHBOOT_BIN
 COPY_FLASHBOOT_BIN: CMakeFiles/COPY_FLASHBOOT_BIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/COPY_FLASHBOOT_BIN.dir/clean:
 .PHONY : CMakeFiles/COPY_FLASHBOOT_BIN.dir/clean
 
 CMakeFiles/COPY_FLASHBOOT_BIN.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/COPY_FLASHBOOT_BIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/COPY_FLASHBOOT_BIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/COPY_FLASHBOOT_BIN.dir/depend
 

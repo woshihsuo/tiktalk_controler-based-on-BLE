@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/rom
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/rom
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,26 +34,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/driver/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/hal/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/hal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/porting/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/common/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/rom_info/cmake_install.cmake")
+  include("/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/rom/rom_info/cmake_install.cmake")
 endif()
 

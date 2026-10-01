@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/usb_class/CMakeFiles/usb_class_open.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/CMakeFiles/usb_class_open.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 utils/usb_class/CMakeFiles/usb_class_open.dir/rule
 .PHONY : utils/usb_class/CMakeFiles/usb_class_open.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ usb_class_open: utils/usb_class/CMakeFiles/usb_class_open.dir/rule
 
 # fast build rule for target.
 usb_class_open/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/build
 .PHONY : usb_class_open/fast
 
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.obj: __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj
@@ -131,7 +131,7 @@ __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-
 
 # target to build an object file
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj
 .PHONY : __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj
 
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.i: __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i
@@ -140,7 +140,7 @@ __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-
 
 # target to preprocess a source file
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i
 .PHONY : __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.i
 
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.s: __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s
@@ -149,7 +149,7 @@ __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-
 
 # target to generate assembly for a file
 __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s
 .PHONY : __/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.s
 
 composite_open.obj: composite_open.c.obj
@@ -158,7 +158,7 @@ composite_open.obj: composite_open.c.obj
 
 # target to build an object file
 composite_open.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj
 .PHONY : composite_open.c.obj
 
 composite_open.i: composite_open.c.i
@@ -167,7 +167,7 @@ composite_open.i: composite_open.c.i
 
 # target to preprocess a source file
 composite_open.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.i
 .PHONY : composite_open.c.i
 
 composite_open.s: composite_open.c.s
@@ -176,7 +176,7 @@ composite_open.s: composite_open.c.s
 
 # target to generate assembly for a file
 composite_open.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.s
 .PHONY : composite_open.c.s
 
 f_acm.obj: f_acm.c.obj
@@ -185,7 +185,7 @@ f_acm.obj: f_acm.c.obj
 
 # target to build an object file
 f_acm.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj
 .PHONY : f_acm.c.obj
 
 f_acm.i: f_acm.c.i
@@ -194,7 +194,7 @@ f_acm.i: f_acm.c.i
 
 # target to preprocess a source file
 f_acm.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.i
 .PHONY : f_acm.c.i
 
 f_acm.s: f_acm.c.s
@@ -203,7 +203,7 @@ f_acm.s: f_acm.c.s
 
 # target to generate assembly for a file
 f_acm.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.s
 .PHONY : f_acm.c.s
 
 f_acm_hid.obj: f_acm_hid.c.obj
@@ -212,7 +212,7 @@ f_acm_hid.obj: f_acm_hid.c.obj
 
 # target to build an object file
 f_acm_hid.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj
 .PHONY : f_acm_hid.c.obj
 
 f_acm_hid.i: f_acm_hid.c.i
@@ -221,7 +221,7 @@ f_acm_hid.i: f_acm_hid.c.i
 
 # target to preprocess a source file
 f_acm_hid.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.i
 .PHONY : f_acm_hid.c.i
 
 f_acm_hid.s: f_acm_hid.c.s
@@ -230,7 +230,7 @@ f_acm_hid.s: f_acm_hid.c.s
 
 # target to generate assembly for a file
 f_acm_hid.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.s
 .PHONY : f_acm_hid.c.s
 
 f_dfu.obj: f_dfu.c.obj
@@ -239,7 +239,7 @@ f_dfu.obj: f_dfu.c.obj
 
 # target to build an object file
 f_dfu.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj
 .PHONY : f_dfu.c.obj
 
 f_dfu.i: f_dfu.c.i
@@ -248,7 +248,7 @@ f_dfu.i: f_dfu.c.i
 
 # target to preprocess a source file
 f_dfu.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.i
 .PHONY : f_dfu.c.i
 
 f_dfu.s: f_dfu.c.s
@@ -257,7 +257,7 @@ f_dfu.s: f_dfu.c.s
 
 # target to generate assembly for a file
 f_dfu.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.s
 .PHONY : f_dfu.c.s
 
 f_hid.obj: f_hid.c.obj
@@ -266,7 +266,7 @@ f_hid.obj: f_hid.c.obj
 
 # target to build an object file
 f_hid.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj
 .PHONY : f_hid.c.obj
 
 f_hid.i: f_hid.c.i
@@ -275,7 +275,7 @@ f_hid.i: f_hid.c.i
 
 # target to preprocess a source file
 f_hid.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.i
 .PHONY : f_hid.c.i
 
 f_hid.s: f_hid.c.s
@@ -284,7 +284,7 @@ f_hid.s: f_hid.c.s
 
 # target to generate assembly for a file
 f_hid.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.s
 .PHONY : f_hid.c.s
 
 f_uac.obj: f_uac.c.obj
@@ -293,7 +293,7 @@ f_uac.obj: f_uac.c.obj
 
 # target to build an object file
 f_uac.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj
 .PHONY : f_uac.c.obj
 
 f_uac.i: f_uac.c.i
@@ -302,7 +302,7 @@ f_uac.i: f_uac.c.i
 
 # target to preprocess a source file
 f_uac.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.i
 .PHONY : f_uac.c.i
 
 f_uac.s: f_uac.c.s
@@ -311,7 +311,7 @@ f_uac.s: f_uac.c.s
 
 # target to generate assembly for a file
 f_uac.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.s
 .PHONY : f_uac.c.s
 
 f_uac_hid.obj: f_uac_hid.c.obj
@@ -320,7 +320,7 @@ f_uac_hid.obj: f_uac_hid.c.obj
 
 # target to build an object file
 f_uac_hid.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj
 .PHONY : f_uac_hid.c.obj
 
 f_uac_hid.i: f_uac_hid.c.i
@@ -329,7 +329,7 @@ f_uac_hid.i: f_uac_hid.c.i
 
 # target to preprocess a source file
 f_uac_hid.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.i
 .PHONY : f_uac_hid.c.i
 
 f_uac_hid.s: f_uac_hid.c.s
@@ -338,7 +338,7 @@ f_uac_hid.s: f_uac_hid.c.s
 
 # target to generate assembly for a file
 f_uac_hid.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.s
 .PHONY : f_uac_hid.c.s
 
 f_usb_custom.obj: f_usb_custom.c.obj
@@ -347,7 +347,7 @@ f_usb_custom.obj: f_usb_custom.c.obj
 
 # target to build an object file
 f_usb_custom.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj
 .PHONY : f_usb_custom.c.obj
 
 f_usb_custom.i: f_usb_custom.c.i
@@ -356,7 +356,7 @@ f_usb_custom.i: f_usb_custom.c.i
 
 # target to preprocess a source file
 f_usb_custom.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.i
 .PHONY : f_usb_custom.c.i
 
 f_usb_custom.s: f_usb_custom.c.s
@@ -365,7 +365,7 @@ f_usb_custom.s: f_usb_custom.c.s
 
 # target to generate assembly for a file
 f_usb_custom.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.s
 .PHONY : f_usb_custom.c.s
 
 usbd_hid.obj: usbd_hid.c.obj
@@ -374,7 +374,7 @@ usbd_hid.obj: usbd_hid.c.obj
 
 # target to build an object file
 usbd_hid.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj
 .PHONY : usbd_hid.c.obj
 
 usbd_hid.i: usbd_hid.c.i
@@ -383,7 +383,7 @@ usbd_hid.i: usbd_hid.c.i
 
 # target to preprocess a source file
 usbd_hid.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.i
 .PHONY : usbd_hid.c.i
 
 usbd_hid.s: usbd_hid.c.s
@@ -392,7 +392,7 @@ usbd_hid.s: usbd_hid.c.s
 
 # target to generate assembly for a file
 usbd_hid.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f utils/usb_class/CMakeFiles/usb_class_open.dir/build.make utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.s
 .PHONY : usbd_hid.c.s
 
 # Help Target
@@ -445,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

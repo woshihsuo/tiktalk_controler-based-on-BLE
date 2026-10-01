@@ -34,19 +34,19 @@ bits/stdint.h
 
 ../../../../middleware/chips/bs21e/partition/include/partition_resource_id.h
 
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_porting.c
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/partition_porting.c
 stdint.h
 -
 stddef.h
 -
 partition.h
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition.h
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/partition.h
 partition_porting.h
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_porting.h
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/partition_porting.h
 
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_porting.h
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/partition_porting.h
 partition_resource_id.h
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/partition_resource_id.h
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/partition_resource_id.h
 errcode.h
-/home/bearpi/Desktop/tp/middleware/chips/bs2x/partition/errcode.h
+/home/bearpi/Desktop/tp4ios/middleware/chips/bs2x/partition/errcode.h
 

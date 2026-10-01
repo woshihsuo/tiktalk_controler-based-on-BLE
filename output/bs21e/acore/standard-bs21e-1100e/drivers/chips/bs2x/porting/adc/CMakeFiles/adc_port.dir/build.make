@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/depend.make
@@ -59,16 +59,16 @@ include drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/flags.make
 
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj: drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/flags.make
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj: ../../../../drivers/chips/bs2x/porting/adc/adc_porting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/adc_port.dir/adc_porting.c.obj   -c /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/adc/adc_porting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/adc_port.dir/adc_porting.c.obj   -c /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/adc/adc_porting.c
 
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/adc_port.dir/adc_porting.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/adc/adc_porting.c > CMakeFiles/adc_port.dir/adc_porting.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/adc/adc_porting.c > CMakeFiles/adc_port.dir/adc_porting.c.i
 
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/adc_port.dir/adc_porting.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/adc/adc_porting.c -o CMakeFiles/adc_port.dir/adc_porting.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=ADC_PORTING_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/adc/adc_porting.c -o CMakeFiles/adc_port.dir/adc_porting.c.s
 
 # Object files for target adc_port
 adc_port_OBJECTS = \
@@ -80,9 +80,9 @@ adc_port_EXTERNAL_OBJECTS =
 drivers/chips/bs2x/porting/adc/libadc_port.a: drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj
 drivers/chips/bs2x/porting/adc/libadc_port.a: drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/build.make
 drivers/chips/bs2x/porting/adc/libadc_port.a: drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libadc_port.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -P CMakeFiles/adc_port.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adc_port.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libadc_port.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -P CMakeFiles/adc_port.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adc_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/build: drivers/chips/bs2x/porting/adc/libadc_port.a
@@ -90,10 +90,10 @@ drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/build: drivers/chips/bs2x
 .PHONY : drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/build
 
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -P CMakeFiles/adc_port.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc && $(CMAKE_COMMAND) -P CMakeFiles/adc_port.dir/cmake_clean.cmake
 .PHONY : drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/clean
 
 drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/adc /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/adc /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : drivers/chips/bs2x/porting/adc/CMakeFiles/adc_port.dir/depend
 

@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/composite_open.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_acm.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_acm_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_dfu.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_uac.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_uac_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/f_usb_custom.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj"
-  "/home/bearpi/Desktop/tp/middleware/utils/usb_class/usbd_hid.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj"
+  "/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/__/__/__/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/incubator-nuttx/liteos/drivers/usb/gadget/composite.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/composite_open.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/composite_open.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_acm.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_acm_hid.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_acm_hid.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_dfu.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_dfu.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_hid.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_hid.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_uac.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_uac_hid.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_uac_hid.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/f_usb_custom.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/f_usb_custom.c.obj"
+  "/home/bearpi/Desktop/tp4ios/middleware/utils/usb_class/usbd_hid.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/usb_class/CMakeFiles/usb_class_open.dir/usbd_hid.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

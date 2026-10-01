@@ -26,5 +26,5 @@ hal/cpu_trace/CMakeFiles/hal_cpu_trace.dir/hal_cpu_trace.c.obj
  ../../../../middleware/utils/common_headers/chip_io.h
  ../../../../middleware/utils/common_headers/platform_types.h
  ../../../../middleware/utils/common_headers/std_def.h
- /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
- /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
+ /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h

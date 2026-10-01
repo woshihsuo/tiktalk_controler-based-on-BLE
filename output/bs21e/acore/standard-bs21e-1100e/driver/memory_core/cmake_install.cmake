@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/memory_core
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/memory_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

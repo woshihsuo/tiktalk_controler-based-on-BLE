@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

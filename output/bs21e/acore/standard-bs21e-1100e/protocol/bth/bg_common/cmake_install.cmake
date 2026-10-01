@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/protocol/bt/host/bg_common
+# Install script for directory: /home/bearpi/Desktop/tp4ios/protocol/bt/host/bg_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

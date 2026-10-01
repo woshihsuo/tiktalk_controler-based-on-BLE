@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pm/pm_clock/pm_clock_porting.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pm/pm_clock/CMakeFiles/pm_clock_porting.dir/pm_clock_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

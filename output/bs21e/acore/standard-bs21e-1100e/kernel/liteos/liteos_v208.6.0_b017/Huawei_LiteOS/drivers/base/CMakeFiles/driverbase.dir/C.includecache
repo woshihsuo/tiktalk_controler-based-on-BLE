@@ -356,17 +356,17 @@ asm/register_config.h
 
 ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/targets/aiot/bs21/include/soc/clock.h
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_device.c
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_device.c
 los_driverbase_pri.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver.c
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver.c
 los_driverbase_pri.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
 los_init.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_init.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_init.h
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver_pm.c
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driver_pm.c
 los_driverbase_pri.h
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/drivers/base/src/los_driverbase_pri.h
 

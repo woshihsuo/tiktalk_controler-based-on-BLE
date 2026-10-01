@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon/ulp_aon_control.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon/ulp_aon_control.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/ulp_aon/CMakeFiles/ulp_aon.dir/ulp_aon_control.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

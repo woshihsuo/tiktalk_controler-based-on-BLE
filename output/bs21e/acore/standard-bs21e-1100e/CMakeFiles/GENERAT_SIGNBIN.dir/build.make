@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_SIGNBIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-110
 include CMakeFiles/GENERAT_SIGNBIN.dir/progress.make
 
 CMakeFiles/GENERAT_SIGNBIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "sign file:gen boot sign file"
-	/home/bearpi/Desktop/tp/tools/bin/sign_tool/sign_tool_pltuni 0 /home/bearpi/Desktop/tp/build/config/target_config/bs21e/sign_config/standard_bs21e_1100e.cfg 1>nul 2>nul
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "sign file:gen boot sign file"
+	/home/bearpi/Desktop/tp4ios/tools/bin/sign_tool/sign_tool_pltuni 0 /home/bearpi/Desktop/tp4ios/build/config/target_config/bs21e/sign_config/standard_bs21e_1100e.cfg 1>nul 2>nul
 
 GENERAT_SIGNBIN: CMakeFiles/GENERAT_SIGNBIN
 GENERAT_SIGNBIN: CMakeFiles/GENERAT_SIGNBIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_SIGNBIN.dir/clean:
 .PHONY : CMakeFiles/GENERAT_SIGNBIN.dir/clean
 
 CMakeFiles/GENERAT_SIGNBIN.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_SIGNBIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_SIGNBIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_SIGNBIN.dir/depend
 

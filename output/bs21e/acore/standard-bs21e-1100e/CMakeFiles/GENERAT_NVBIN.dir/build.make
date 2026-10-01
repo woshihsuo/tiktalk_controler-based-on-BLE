@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Utility rule file for GENERAT_NVBIN.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-110
 include CMakeFiles/GENERAT_NVBIN.dir/progress.make
 
 CMakeFiles/GENERAT_NVBIN:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update nv bin"
-	cd /home/bearpi/Desktop/tp && /usr/bin/python3 /home/bearpi/Desktop/tp/build/script/build_nvbin.py /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/nv_config/build_nv_config.json acore True && cp /home/bearpi/Desktop/tp/interim_binary/bs21e/bin/nv/standard-bs21e-1100e/bs21e_all_nv.bin /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/bs21e_all_nv.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "update nv bin"
+	cd /home/bearpi/Desktop/tp4ios && /usr/bin/python3 /home/bearpi/Desktop/tp4ios/build/script/build_nvbin.py /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/nv_config/build_nv_config.json acore True && cp /home/bearpi/Desktop/tp4ios/interim_binary/bs21e/bin/nv/standard-bs21e-1100e/bs21e_all_nv.bin /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/bs21e_all_nv.bin
 
 GENERAT_NVBIN: CMakeFiles/GENERAT_NVBIN
 GENERAT_NVBIN: CMakeFiles/GENERAT_NVBIN.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/GENERAT_NVBIN.dir/clean:
 .PHONY : CMakeFiles/GENERAT_NVBIN.dir/clean
 
 CMakeFiles/GENERAT_NVBIN.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NVBIN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles/GENERAT_NVBIN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GENERAT_NVBIN.dir/depend
 

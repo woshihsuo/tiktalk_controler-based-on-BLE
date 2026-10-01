@@ -136,23 +136,23 @@ los_typedef.h
 product.h
 ../../../../middleware/utils/common_headers/product.h
 
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/hal_cpu_trace.c
 hal_cpu_trace.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h
 chip_io.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/chip_io.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/chip_io.h
 core.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/core.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/core.h
 chip_definitions.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/chip_definitions.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/chip_definitions.h
 arch_barrier.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/arch_barrier.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/arch_barrier.h
 
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/hal_cpu_trace.h
 stdint.h
 -
 std_def.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/std_def.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/std_def.h
 chip_definitions.h
-/home/bearpi/Desktop/tp/drivers/drivers/hal/cpu_trace/chip_definitions.h
+/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/cpu_trace/chip_definitions.h
 

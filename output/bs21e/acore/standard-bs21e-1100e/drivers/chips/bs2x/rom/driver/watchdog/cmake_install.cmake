@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/rom/driver/watchdog
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/rom/driver/watchdog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

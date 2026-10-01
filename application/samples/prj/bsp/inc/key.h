@@ -19,7 +19,14 @@ typedef enum{
     KEY_DOUBLE_CLICKED
 }key_state_t;
 
+typedef struct 
+{
+    uint32_t start_time;
+    uint32_t end_time;
+}key_time_t;
+
+
 void key_init(void);
-key_state_t key_read_status(void);
+key_time_t* get_Key_time(void);
 
 #endif

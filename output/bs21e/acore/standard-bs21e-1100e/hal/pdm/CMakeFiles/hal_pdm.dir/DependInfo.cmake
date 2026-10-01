@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/pdm/hal_pdm.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pdm/hal_pdm.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/hal_pdm.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pdm/v150/hal_pdm_v150.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/pdm/v150/hal_pdm_v150_regs_op.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/pdm/CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

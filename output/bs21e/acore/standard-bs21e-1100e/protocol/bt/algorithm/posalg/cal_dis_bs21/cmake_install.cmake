@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/protocol/bt/algorithm/posalg/cal_dis_bs21
+# Install script for directory: /home/bearpi/Desktop/tp4ios/protocol/bt/algorithm/posalg/cal_dis_bs21
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

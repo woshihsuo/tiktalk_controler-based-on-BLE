@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/include/middleware/services/nfc
+# Install script for directory: /home/bearpi/Desktop/tp4ios/include/middleware/services/nfc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

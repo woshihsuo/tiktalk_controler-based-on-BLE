@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/acore/lpc_core.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/driver/lpc/shared/lpc.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/acore/lpc_core.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/lpc.dir/acore/lpc_core.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/driver/lpc/shared/lpc.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/driver/lpc/CMakeFiles/lpc.dir/shared/lpc.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

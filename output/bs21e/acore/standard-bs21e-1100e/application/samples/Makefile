@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/progress.marks
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/application/samples/CMakeFiles/progress.marks
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/clean
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/samples/CMakeFiles/samples.dir/rule:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/rule
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f CMakeFiles/Makefile2 application/samples/CMakeFiles/samples.dir/rule
 .PHONY : application/samples/CMakeFiles/samples.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ samples: application/samples/CMakeFiles/samples.dir/rule
 
 # fast build rule for target.
 samples/fast:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/build
 .PHONY : samples/fast
 
 prj/bsp/src/ble.obj: prj/bsp/src/ble.c.obj
@@ -131,7 +131,7 @@ prj/bsp/src/ble.obj: prj/bsp/src/ble.c.obj
 
 # target to build an object file
 prj/bsp/src/ble.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.obj
 .PHONY : prj/bsp/src/ble.c.obj
 
 prj/bsp/src/ble.i: prj/bsp/src/ble.c.i
@@ -140,7 +140,7 @@ prj/bsp/src/ble.i: prj/bsp/src/ble.c.i
 
 # target to preprocess a source file
 prj/bsp/src/ble.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.i
 .PHONY : prj/bsp/src/ble.c.i
 
 prj/bsp/src/ble.s: prj/bsp/src/ble.c.s
@@ -149,7 +149,7 @@ prj/bsp/src/ble.s: prj/bsp/src/ble.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/ble.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble.c.s
 .PHONY : prj/bsp/src/ble.c.s
 
 prj/bsp/src/ble_hid.obj: prj/bsp/src/ble_hid.c.obj
@@ -158,7 +158,7 @@ prj/bsp/src/ble_hid.obj: prj/bsp/src/ble_hid.c.obj
 
 # target to build an object file
 prj/bsp/src/ble_hid.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.obj
 .PHONY : prj/bsp/src/ble_hid.c.obj
 
 prj/bsp/src/ble_hid.i: prj/bsp/src/ble_hid.c.i
@@ -167,7 +167,7 @@ prj/bsp/src/ble_hid.i: prj/bsp/src/ble_hid.c.i
 
 # target to preprocess a source file
 prj/bsp/src/ble_hid.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.i
 .PHONY : prj/bsp/src/ble_hid.c.i
 
 prj/bsp/src/ble_hid.s: prj/bsp/src/ble_hid.c.s
@@ -176,7 +176,7 @@ prj/bsp/src/ble_hid.s: prj/bsp/src/ble_hid.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/ble_hid.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid.c.s
 .PHONY : prj/bsp/src/ble_hid.c.s
 
 prj/bsp/src/ble_hid_adv.obj: prj/bsp/src/ble_hid_adv.c.obj
@@ -185,7 +185,7 @@ prj/bsp/src/ble_hid_adv.obj: prj/bsp/src/ble_hid_adv.c.obj
 
 # target to build an object file
 prj/bsp/src/ble_hid_adv.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.obj
 .PHONY : prj/bsp/src/ble_hid_adv.c.obj
 
 prj/bsp/src/ble_hid_adv.i: prj/bsp/src/ble_hid_adv.c.i
@@ -194,7 +194,7 @@ prj/bsp/src/ble_hid_adv.i: prj/bsp/src/ble_hid_adv.c.i
 
 # target to preprocess a source file
 prj/bsp/src/ble_hid_adv.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.i
 .PHONY : prj/bsp/src/ble_hid_adv.c.i
 
 prj/bsp/src/ble_hid_adv.s: prj/bsp/src/ble_hid_adv.c.s
@@ -203,7 +203,7 @@ prj/bsp/src/ble_hid_adv.s: prj/bsp/src/ble_hid_adv.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/ble_hid_adv.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/ble_hid_adv.c.s
 .PHONY : prj/bsp/src/ble_hid_adv.c.s
 
 prj/bsp/src/key.obj: prj/bsp/src/key.c.obj
@@ -212,7 +212,7 @@ prj/bsp/src/key.obj: prj/bsp/src/key.c.obj
 
 # target to build an object file
 prj/bsp/src/key.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.obj
 .PHONY : prj/bsp/src/key.c.obj
 
 prj/bsp/src/key.i: prj/bsp/src/key.c.i
@@ -221,7 +221,7 @@ prj/bsp/src/key.i: prj/bsp/src/key.c.i
 
 # target to preprocess a source file
 prj/bsp/src/key.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.i
 .PHONY : prj/bsp/src/key.c.i
 
 prj/bsp/src/key.s: prj/bsp/src/key.c.s
@@ -230,7 +230,7 @@ prj/bsp/src/key.s: prj/bsp/src/key.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/key.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/key.c.s
 .PHONY : prj/bsp/src/key.c.s
 
 prj/bsp/src/led.obj: prj/bsp/src/led.c.obj
@@ -239,7 +239,7 @@ prj/bsp/src/led.obj: prj/bsp/src/led.c.obj
 
 # target to build an object file
 prj/bsp/src/led.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.obj
 .PHONY : prj/bsp/src/led.c.obj
 
 prj/bsp/src/led.i: prj/bsp/src/led.c.i
@@ -248,7 +248,7 @@ prj/bsp/src/led.i: prj/bsp/src/led.c.i
 
 # target to preprocess a source file
 prj/bsp/src/led.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.i
 .PHONY : prj/bsp/src/led.c.i
 
 prj/bsp/src/led.s: prj/bsp/src/led.c.s
@@ -257,7 +257,7 @@ prj/bsp/src/led.s: prj/bsp/src/led.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/led.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/led.c.s
 .PHONY : prj/bsp/src/led.c.s
 
 prj/bsp/src/sle_measure_dis.obj: prj/bsp/src/sle_measure_dis.c.obj
@@ -266,7 +266,7 @@ prj/bsp/src/sle_measure_dis.obj: prj/bsp/src/sle_measure_dis.c.obj
 
 # target to build an object file
 prj/bsp/src/sle_measure_dis.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.obj
 .PHONY : prj/bsp/src/sle_measure_dis.c.obj
 
 prj/bsp/src/sle_measure_dis.i: prj/bsp/src/sle_measure_dis.c.i
@@ -275,7 +275,7 @@ prj/bsp/src/sle_measure_dis.i: prj/bsp/src/sle_measure_dis.c.i
 
 # target to preprocess a source file
 prj/bsp/src/sle_measure_dis.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.i
 .PHONY : prj/bsp/src/sle_measure_dis.c.i
 
 prj/bsp/src/sle_measure_dis.s: prj/bsp/src/sle_measure_dis.c.s
@@ -284,7 +284,7 @@ prj/bsp/src/sle_measure_dis.s: prj/bsp/src/sle_measure_dis.c.s
 
 # target to generate assembly for a file
 prj/bsp/src/sle_measure_dis.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/bsp/src/sle_measure_dis.c.s
 .PHONY : prj/bsp/src/sle_measure_dis.c.s
 
 prj/driver/src/uhal_spi.obj: prj/driver/src/uhal_spi.c.obj
@@ -293,7 +293,7 @@ prj/driver/src/uhal_spi.obj: prj/driver/src/uhal_spi.c.obj
 
 # target to build an object file
 prj/driver/src/uhal_spi.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.obj
 .PHONY : prj/driver/src/uhal_spi.c.obj
 
 prj/driver/src/uhal_spi.i: prj/driver/src/uhal_spi.c.i
@@ -302,7 +302,7 @@ prj/driver/src/uhal_spi.i: prj/driver/src/uhal_spi.c.i
 
 # target to preprocess a source file
 prj/driver/src/uhal_spi.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.i
 .PHONY : prj/driver/src/uhal_spi.c.i
 
 prj/driver/src/uhal_spi.s: prj/driver/src/uhal_spi.c.s
@@ -311,7 +311,7 @@ prj/driver/src/uhal_spi.s: prj/driver/src/uhal_spi.c.s
 
 # target to generate assembly for a file
 prj/driver/src/uhal_spi.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/driver/src/uhal_spi.c.s
 .PHONY : prj/driver/src/uhal_spi.c.s
 
 prj/main.obj: prj/main.c.obj
@@ -320,7 +320,7 @@ prj/main.obj: prj/main.c.obj
 
 # target to build an object file
 prj/main.c.obj:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.obj
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.obj
 .PHONY : prj/main.c.obj
 
 prj/main.i: prj/main.c.i
@@ -329,7 +329,7 @@ prj/main.i: prj/main.c.i
 
 # target to preprocess a source file
 prj/main.c.i:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.i
 .PHONY : prj/main.c.i
 
 prj/main.s: prj/main.c.s
@@ -338,7 +338,7 @@ prj/main.s: prj/main.c.s
 
 # target to generate assembly for a file
 prj/main.c.s:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(MAKE) -f application/samples/CMakeFiles/samples.dir/build.make application/samples/CMakeFiles/samples.dir/prj/main.c.s
 .PHONY : prj/main.c.s
 
 # Help Target
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

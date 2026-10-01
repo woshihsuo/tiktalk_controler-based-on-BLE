@@ -16,5 +16,5 @@ drivers/chips/bs2x/porting/systick/CMakeFiles/systick_port.dir/systick_porting.c
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/bits/alltypes.h
  ../../../../kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/open_source/musl/include/stdint.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/systick_porting.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/systick/systick_porting.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/systick/systick_porting.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/systick/systick_porting.h

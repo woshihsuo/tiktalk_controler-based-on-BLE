@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/dfx/diag_dfx_cmd/diag_audio_proc
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/diag_dfx_cmd/diag_audio_proc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

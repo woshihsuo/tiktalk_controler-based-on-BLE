@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/depend.make
@@ -59,16 +59,16 @@ include utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/flags.make
 
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj: utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/flags.make
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj: ../../../../middleware/utils/dfx/file_operation/dfx_file_operation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/dfx/file_operation/dfx_file_operation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/file_operation/dfx_file_operation.c
 
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/dfx/file_operation/dfx_file_operation.c > CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/file_operation/dfx_file_operation.c > CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.i
 
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/dfx/file_operation/dfx_file_operation.c -o CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=DFX_FILE_OPERATION_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/file_operation/dfx_file_operation.c -o CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.s
 
 # Object files for target dfx_file_operation
 dfx_file_operation_OBJECTS = \
@@ -80,9 +80,9 @@ dfx_file_operation_EXTERNAL_OBJECTS =
 utils/dfx/file_operation/libdfx_file_operation.a: utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/dfx_file_operation.c.obj
 utils/dfx/file_operation/libdfx_file_operation.a: utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build.make
 utils/dfx/file_operation/libdfx_file_operation.a: utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdfx_file_operation.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -P CMakeFiles/dfx_file_operation.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_file_operation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libdfx_file_operation.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -P CMakeFiles/dfx_file_operation.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_file_operation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build: utils/dfx/file_operation/libdfx_file_operation.a
@@ -90,10 +90,10 @@ utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build: utils/dfx/file
 .PHONY : utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/build
 
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -P CMakeFiles/dfx_file_operation.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation && $(CMAKE_COMMAND) -P CMakeFiles/dfx_file_operation.dir/cmake_clean.cmake
 .PHONY : utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/clean
 
 utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/dfx/file_operation /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/file_operation /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/dfx/file_operation/CMakeFiles/dfx_file_operation.dir/depend
 

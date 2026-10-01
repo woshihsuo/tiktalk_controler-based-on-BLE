@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libsio_port.a  CMakeFiles/sio_port.dir/sio_porting.c.obj
+/home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libsio_port.a  CMakeFiles/sio_port.dir/sio_porting.c.obj

@@ -1,1 +1,1 @@
-/home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_pdm.a  CMakeFiles/hal_pdm.dir/hal_pdm.c.obj CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj
+/home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-ar rcD libhal_pdm.a  CMakeFiles/hal_pdm.dir/hal_pdm.c.obj CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150.c.obj CMakeFiles/hal_pdm.dir/v150/hal_pdm_v150_regs_op.c.obj

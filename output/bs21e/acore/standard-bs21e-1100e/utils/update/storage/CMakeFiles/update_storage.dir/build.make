@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/update/storage/CMakeFiles/update_storage.dir/depend.make
@@ -59,16 +59,16 @@ include utils/update/storage/CMakeFiles/update_storage.dir/flags.make
 
 utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj: utils/update/storage/CMakeFiles/update_storage.dir/flags.make
 utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj: ../../../../middleware/utils/update/storage/upg_storage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_storage.dir/upg_storage.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/update/storage/upg_storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/update_storage.dir/upg_storage.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/utils/update/storage/upg_storage.c
 
 utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/update_storage.dir/upg_storage.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/update/storage/upg_storage.c > CMakeFiles/update_storage.dir/upg_storage.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/utils/update/storage/upg_storage.c > CMakeFiles/update_storage.dir/upg_storage.c.i
 
 utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/update_storage.dir/upg_storage.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/update/storage/upg_storage.c -o CMakeFiles/update_storage.dir/upg_storage.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=UPG_STORAGE_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/utils/update/storage/upg_storage.c -o CMakeFiles/update_storage.dir/upg_storage.c.s
 
 # Object files for target update_storage
 update_storage_OBJECTS = \
@@ -80,9 +80,9 @@ update_storage_EXTERNAL_OBJECTS =
 utils/update/storage/libupdate_storage.a: utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj
 utils/update/storage/libupdate_storage.a: utils/update/storage/CMakeFiles/update_storage.dir/build.make
 utils/update/storage/libupdate_storage.a: utils/update/storage/CMakeFiles/update_storage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libupdate_storage.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_storage.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libupdate_storage.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_storage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/update/storage/CMakeFiles/update_storage.dir/build: utils/update/storage/libupdate_storage.a
@@ -90,10 +90,10 @@ utils/update/storage/CMakeFiles/update_storage.dir/build: utils/update/storage/l
 .PHONY : utils/update/storage/CMakeFiles/update_storage.dir/build
 
 utils/update/storage/CMakeFiles/update_storage.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage && $(CMAKE_COMMAND) -P CMakeFiles/update_storage.dir/cmake_clean.cmake
 .PHONY : utils/update/storage/CMakeFiles/update_storage.dir/clean
 
 utils/update/storage/CMakeFiles/update_storage.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/update/storage /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage/CMakeFiles/update_storage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/utils/update/storage /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/update/storage/CMakeFiles/update_storage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/update/storage/CMakeFiles/update_storage.dir/depend
 

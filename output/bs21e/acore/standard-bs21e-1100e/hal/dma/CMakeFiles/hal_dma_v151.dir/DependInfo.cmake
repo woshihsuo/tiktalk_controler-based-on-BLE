@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/dma/hal_dma.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/dma/hal_dma_mem.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/dma/v151/hal_dmac_v151.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/dma/hal_dma.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/dma/hal_dma_mem.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/dma/v151/hal_dmac_v151.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/drivers/hal/dma/v151/hal_dmac_v151_regs_op.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

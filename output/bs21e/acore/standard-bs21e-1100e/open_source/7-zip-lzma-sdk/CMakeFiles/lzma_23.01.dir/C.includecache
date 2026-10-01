@@ -44,7 +44,7 @@ strings.h
 bits/alltypes.h
 -
 
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/7zTypes.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/7zTypes.h
 errno.h
 -
 stddef.h
@@ -56,21 +56,21 @@ stdint.h
 stdint.h
 -
 
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/Compiler.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/Compiler.h
 
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.c
 Precomp.h
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/Precomp.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/Precomp.h
 string.h
 -
 LzmaDec.h
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.h
 
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/LzmaDec.h
 7zTypes.h
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/7zTypes.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/7zTypes.h
 
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/Precomp.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/Precomp.h
 Compiler.h
-/home/bearpi/Desktop/tp/open_source/7-zip-lzma-sdk/lzma_23.01/C/Compiler.h
+/home/bearpi/Desktop/tp4ios/open_source/7-zip-lzma-sdk/lzma_23.01/C/Compiler.h
 

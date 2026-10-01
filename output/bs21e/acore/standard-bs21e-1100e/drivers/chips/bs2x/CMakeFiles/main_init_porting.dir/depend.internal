@@ -205,9 +205,9 @@ drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/app_os_init.c.obj
  ../../../../middleware/utils/dfx/panic/public/panic.h
  ../../../../middleware/utils/dfx/preserve/public/preserve.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/app_os_init.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/app_os_init.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_test.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/app_os_init.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/app_os_init.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_test.h
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -460,9 +460,9 @@ drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_init.c.obj
  ../../../../middleware/utils/pm/pm_veto/pm_veto.h
  ../../../../middleware/utils/update/ota/ota_upgrade.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/app_os_init.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_init.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_test.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/app_os_init.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_init.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_test.h
 drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj
  ../../../../drivers/chips/bs21e/board/linker/standard/memory_config.h
  ../../../../drivers/chips/bs21e/board/memory_config/include/memory_config_common.h
@@ -617,4 +617,4 @@ drivers/chips/bs2x/CMakeFiles/main_init_porting.dir/main_init/main_test.c.obj
  ../../../../middleware/utils/common_headers/std_def.h
  ../../../../middleware/utils/pm/pm_veto/pm_veto.h
  ../../../../open_source/GmSSL3.1.1/include/gmssl/endian.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/main_init/main_test.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/main_init/main_test.c

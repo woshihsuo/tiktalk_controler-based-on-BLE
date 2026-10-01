@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/keyscan
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/keyscan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

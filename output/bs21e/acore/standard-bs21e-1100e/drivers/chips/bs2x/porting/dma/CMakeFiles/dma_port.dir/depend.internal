@@ -25,5 +25,5 @@ drivers/chips/bs2x/porting/dma/CMakeFiles/dma_port.dir/dma_porting.c.obj
  ../../../../kernel/osal/include/interrupt/osal_interrupt.h
  ../../../../middleware/utils/common_headers/chip_definitions.h
  ../../../../middleware/utils/common_headers/chip_io.h
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/dma/dma_porting.c
- /home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/dma/dma_porting.h
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/dma/dma_porting.c
+ /home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/dma/dma_porting.h

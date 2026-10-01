@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/utils/common_headers
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/utils/common_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

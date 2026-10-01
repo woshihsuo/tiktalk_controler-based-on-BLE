@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/ulp_aon
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/ulp_aon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/middleware/chips/bs21e/image_info
+# Install script for directory: /home/bearpi/Desktop/tp4ios/middleware/chips/bs21e/image_info
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

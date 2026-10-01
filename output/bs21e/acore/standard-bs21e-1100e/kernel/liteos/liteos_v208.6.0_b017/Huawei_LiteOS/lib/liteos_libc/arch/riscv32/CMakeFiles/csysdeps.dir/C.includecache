@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memcpy.S
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memcpy.S
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memset.S
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/memset.S
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/setjmp.S
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/setjmp.S
 
-/home/bearpi/Desktop/tp/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/strcmp.S
+/home/bearpi/Desktop/tp4ios/kernel/liteos/liteos_v208.6.0_b017/Huawei_LiteOS/lib/liteos_libc/arch/riscv32/strcmp.S
 

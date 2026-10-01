@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/protocol/bt/controller/bgtp
+# Install script for directory: /home/bearpi/Desktop/tp4ios/protocol/bt/controller/bgtp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

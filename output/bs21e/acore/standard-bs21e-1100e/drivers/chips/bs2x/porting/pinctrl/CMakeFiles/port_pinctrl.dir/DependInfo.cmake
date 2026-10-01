@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pinctrl/pinctrl_config_info_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj"
-  "/home/bearpi/Desktop/tp/drivers/chips/bs2x/porting/pinctrl/pinctrl_porting.c" "/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pinctrl/pinctrl_config_info_porting.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/pinctrl_config_info_porting.c.obj"
+  "/home/bearpi/Desktop/tp4ios/drivers/chips/bs2x/porting/pinctrl/pinctrl_porting.c" "/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/drivers/chips/bs2x/porting/pinctrl/CMakeFiles/port_pinctrl.dir/pinctrl_porting.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

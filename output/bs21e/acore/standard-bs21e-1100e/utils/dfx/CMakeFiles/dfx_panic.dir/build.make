@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp
+CMAKE_SOURCE_DIR = /home/bearpi/Desktop/tp4ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e
+CMAKE_BINARY_DIR = /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e
 
 # Include any dependencies generated for this target.
 include utils/dfx/CMakeFiles/dfx_panic.dir/depend.make
@@ -59,29 +59,29 @@ include utils/dfx/CMakeFiles/dfx_panic.dir/flags.make
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj: utils/dfx/CMakeFiles/dfx_panic.dir/flags.make
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj: ../../../../middleware/utils/dfx/panic/private/panic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic.c
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dfx_panic.dir/panic/private/panic.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic.c > CMakeFiles/dfx_panic.dir/panic/private/panic.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic.c > CMakeFiles/dfx_panic.dir/panic/private/panic.c.i
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dfx_panic.dir/panic/private/panic.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic.c -o CMakeFiles/dfx_panic.dir/panic/private/panic.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic.c -o CMakeFiles/dfx_panic.dir/panic/private/panic.c.s
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj: utils/dfx/CMakeFiles/dfx_panic.dir/flags.make
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj: ../../../../middleware/utils/dfx/panic/private/panic_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj   -c /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj   -c /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic_rom.c
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic_rom.c > CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -E /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic_rom.c > CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.i
 
 utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp/middleware/utils/dfx/panic/private/panic_rom.c -o CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && /home/bearpi/Desktop/tp4ios/tools/bin/compiler/riscv/cc_riscv32_musl_b010/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gcc $(C_DEFINES) -DTHIS_FILE_ID=PANIC_ROM_C -DTHIS_MOD_ID=LOG_PFMODULE $(C_INCLUDES) $(C_FLAGS) -S /home/bearpi/Desktop/tp4ios/middleware/utils/dfx/panic/private/panic_rom.c -o CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.s
 
 # Object files for target dfx_panic
 dfx_panic_OBJECTS = \
@@ -95,9 +95,9 @@ utils/dfx/libdfx_panic.a: utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic
 utils/dfx/libdfx_panic.a: utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
 utils/dfx/libdfx_panic.a: utils/dfx/CMakeFiles/dfx_panic.dir/build.make
 utils/dfx/libdfx_panic.a: utils/dfx/CMakeFiles/dfx_panic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdfx_panic.a"
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/dfx_panic.dir/cmake_clean_target.cmake
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_panic.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libdfx_panic.a"
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/dfx_panic.dir/cmake_clean_target.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dfx_panic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/dfx/CMakeFiles/dfx_panic.dir/build: utils/dfx/libdfx_panic.a
@@ -105,10 +105,10 @@ utils/dfx/CMakeFiles/dfx_panic.dir/build: utils/dfx/libdfx_panic.a
 .PHONY : utils/dfx/CMakeFiles/dfx_panic.dir/build
 
 utils/dfx/CMakeFiles/dfx_panic.dir/clean:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/dfx_panic.dir/cmake_clean.cmake
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx && $(CMAKE_COMMAND) -P CMakeFiles/dfx_panic.dir/cmake_clean.cmake
 .PHONY : utils/dfx/CMakeFiles/dfx_panic.dir/clean
 
 utils/dfx/CMakeFiles/dfx_panic.dir/depend:
-	cd /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp /home/bearpi/Desktop/tp/middleware/utils/dfx /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx /home/bearpi/Desktop/tp/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bearpi/Desktop/tp4ios /home/bearpi/Desktop/tp4ios/middleware/utils/dfx /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx /home/bearpi/Desktop/tp4ios/output/bs21e/acore/standard-bs21e-1100e/utils/dfx/CMakeFiles/dfx_panic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/dfx/CMakeFiles/dfx_panic.dir/depend
 

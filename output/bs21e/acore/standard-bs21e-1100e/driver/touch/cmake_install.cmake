@@ -1,4 +1,4 @@
-# Install script for directory: /home/bearpi/Desktop/tp/drivers/drivers/driver/touch
+# Install script for directory: /home/bearpi/Desktop/tp4ios/drivers/drivers/driver/touch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
